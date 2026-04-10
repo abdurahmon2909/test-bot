@@ -1,0 +1,18 @@
+{
+  "ingliz_tili": [
+    {
+      "id": 1,
+      "text": "Which sentence uses 'in case' correctly?",
+      "options": [
+        "I'll take an umbrella in case it rains.",
+        "I'll take an umbrella in case it will rain.",
+        "I took an umbrella in case it rained yesterday.",
+        "I take an umbrella in case it rained."
+      ],
+      "correct": 0,
+      "hint": "⚠️ 'in case' dan keyin present simple ishlatiladi (future ma'nosida)."
+    }
+  ],
+  "kasbiy_standart": [],
+  "ped_mahorat": []
+}
