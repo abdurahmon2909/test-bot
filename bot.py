@@ -4,24 +4,29 @@ import asyncio
 import json
 import logging
 import os
+import random
+import time
 from datetime import datetime
 from html import escape
 from typing import Any
 
 from aiogram import Bot, Dispatcher, F
+from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
 from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
-from aiogram.client.default import DefaultBotProperties
+
 # =========================
 # KONFIGURATSIYA
 # =========================
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN topilmadi. Railway Variables ga BOT_TOKEN qo'shing.")
+
+TEST_DURATION_SECONDS = 90 * 60  # 1 soat 30 daqiqa
 
 logging.basicConfig(
     level=logging.INFO,
@@ -119,30 +124,51 @@ def save_users(data: dict) -> None:
     safe_write_json(USERS_FILE, data)
 
 
+def validate_question(q: dict) -> bool:
+    return (
+        isinstance(q, dict)
+        and "text" in q
+        and "options" in q
+        and "correct" in q
+        and isinstance(q["options"], list)
+        and len(q["options"]) == 4
+        and isinstance(q["correct"], int)
+        and 0 <= q["correct"] <= 3
+    )
+
+
 def get_all_questions() -> list[dict]:
     questions = load_questions()
 
-    all_questions: list[dict] = []
-    all_questions.extend(questions.get("ingliz_tili", [])[:35])
-    all_questions.extend(questions.get("kasbiy_standart", [])[:5])
-    all_questions.extend(questions.get("ped_mahorat", [])[:10])
+    english_source = [q for q in questions.get("ingliz_tili", []) if validate_question(q)]
+    kasbiy_source = [q for q in questions.get("kasbiy_standart", []) if validate_question(q)]
+    ped_source = [q for q in questions.get("ped_mahorat", []) if validate_question(q)]
 
-    valid_questions: list[dict] = []
+    if len(english_source) < 35 or len(kasbiy_source) < 5 or len(ped_source) < 10:
+        return []
+
+    english = random.sample(english_source, 35)
+    kasbiy = random.sample(kasbiy_source, 5)
+    ped = random.sample(ped_source, 10)
+
+    random.shuffle(english)
+    random.shuffle(kasbiy)
+    random.shuffle(ped)
+
+    all_questions = english + kasbiy + ped
+
     for q in all_questions:
-        if (
-            isinstance(q, dict)
-            and "text" in q
-            and "options" in q
-            and "correct" in q
-            and isinstance(q["options"], list)
-            and len(q["options"]) == 4
-            and isinstance(q["correct"], int)
-            and 0 <= q["correct"] <= 3
-        ):
-            q.setdefault("hint", "Izoh mavjud emas.")
-            valid_questions.append(q)
+        q.setdefault("hint", "Izoh mavjud emas.")
 
-    return valid_questions
+    return all_questions
+
+
+def format_seconds(seconds: int) -> str:
+    if seconds < 0:
+        seconds = 0
+    hours, remainder = divmod(seconds, 3600)
+    minutes, secs = divmod(remainder, 60)
+    return f"{hours:02}:{minutes:02}:{secs:02}"
 
 
 def get_main_menu_keyboard() -> InlineKeyboardMarkup:
@@ -163,9 +189,12 @@ def get_question_keyboard(question: dict, total: int, current_index: int, answer
     option_rows = []
     for i, option in enumerate(question["options"]):
         prefix = "✅ " if selected_answer == i else ""
-        option_rows.append(
-            [InlineKeyboardButton(text=f"{prefix}{chr(65 + i)}) {option}", callback_data=f"ans_{i}")]
-        )
+        option_rows.append([
+            InlineKeyboardButton(
+                text=f"{prefix}{chr(65 + i)}) {option}",
+                callback_data=f"ans_{i}"
+            )
+        ])
 
     nav_buttons = []
     if current_index > 0:
@@ -200,13 +229,36 @@ def short_text(value: str, limit: int) -> str:
     return value if len(value) <= limit else value[:limit] + "..."
 
 
-def build_question_text(question: dict, total: int, current_index: int) -> str:
+def build_question_text(question: dict, total: int, current_index: int, remaining_seconds: int) -> str:
     text = escape(str(question.get("text", "")))
+    time_text = format_seconds(remaining_seconds)
+
     return (
+        f"⏳ <b>Qolgan vaqt:</b> {time_text}\n\n"
         f"📚 <b>Savol {current_index + 1} / {total}</b>\n\n"
         f"{text}\n\n"
         f"👇 <i>Javob variantini tanlang:</i>"
     )
+
+
+async def is_time_over(state: FSMContext) -> bool:
+    data = await state.get_data()
+    end_time = data.get("end_time")
+
+    if end_time is None:
+        return False
+
+    return time.time() >= float(end_time)
+
+
+async def get_remaining_seconds(state: FSMContext) -> int:
+    data = await state.get_data()
+    end_time = data.get("end_time")
+
+    if end_time is None:
+        return TEST_DURATION_SECONDS
+
+    return max(0, int(float(end_time) - time.time()))
 
 
 # =========================
@@ -218,6 +270,10 @@ async def show_question(target_message: Message, state: FSMContext) -> None:
     current_index: int = data.get("current_index", 0)
     answers: list[dict] = data.get("answers", [])
     message_id = data.get("message_id")
+
+    if await is_time_over(state):
+        await finish_test(target_message, state, time_over=True)
+        return
 
     if not questions:
         await target_message.answer("⚠️ Savollar topilmadi yoki questions.json bo'sh.")
@@ -232,8 +288,9 @@ async def show_question(target_message: Message, state: FSMContext) -> None:
         await finish_test(target_message, state)
         return
 
+    remaining_seconds = await get_remaining_seconds(state)
     question = questions[current_index]
-    question_text = build_question_text(question, len(questions), current_index)
+    question_text = build_question_text(question, len(questions), current_index, remaining_seconds)
     reply_markup = get_question_keyboard(question, len(questions), current_index, answers)
 
     if message_id:
@@ -252,7 +309,7 @@ async def show_question(target_message: Message, state: FSMContext) -> None:
     await state.update_data(message_id=msg.message_id)
 
 
-async def finish_test(target_message: Message, state: FSMContext) -> None:
+async def finish_test(target_message: Message, state: FSMContext, time_over: bool = False) -> None:
     data = await state.get_data()
     answers: list[dict] = data.get("answers", [])
 
@@ -276,11 +333,14 @@ async def finish_test(target_message: Message, state: FSMContext) -> None:
             "score": correct_count,
             "total": total,
             "answers": answers,
+            "time_over": time_over,
         }
     )
     save_users(users)
 
+    header = "⛔ <b>VAQT TUGADI!</b>\n\n" if time_over else ""
     result_text = (
+        f"{header}"
         f"🏁 <b>TEST YAKUNLANDI!</b> 🏁\n\n"
         f"📊 <b>Sizning ballingiz:</b> {correct_count} / {total} ({score_percent}%)\n"
         f"━━━━━━━━━━━━━━━━━━━━━━\n"
@@ -348,6 +408,7 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
         "• 35 ta ingliz tili\n"
         "• 5 ta kasbiy standart\n"
         "• 10 ta pedagogik mahorat\n\n"
+        "⏳ Test uchun vaqt: <b>1 soat 30 daqiqa</b>\n\n"
         "✅ Test yakunida ball va xatolar bo'yicha izoh ko'rsatiladi.\n\n"
         "🎯 Quyidagi tugmalardan birini tanlang:"
     )
@@ -374,10 +435,12 @@ async def start_test(callback: CallbackQuery, state: FSMContext) -> None:
 
     if len(questions) < 50:
         await callback.answer(
-            "⚠️ questions.json ichida yetarli savol yo'q. 35+5+10 bo'lishi kerak.",
+            "⚠️ questions.json ichida yetarli savol yo'q. Ingliz 35, kasbiy 5, ped mahorat 10 ta bo'lishi kerak.",
             show_alert=True
         )
         return
+
+    now_ts = time.time()
 
     await state.set_state(TestState.testing)
     await state.update_data(
@@ -386,6 +449,8 @@ async def start_test(callback: CallbackQuery, state: FSMContext) -> None:
         answers=[],
         total=len(questions),
         message_id=callback.message.message_id,
+        start_time=now_ts,
+        end_time=now_ts + TEST_DURATION_SECONDS,
     )
 
     await show_question(callback.message, state)
@@ -394,6 +459,11 @@ async def start_test(callback: CallbackQuery, state: FSMContext) -> None:
 
 @dp.callback_query(TestState.testing, F.data.startswith("ans_"))
 async def handle_answer(callback: CallbackQuery, state: FSMContext) -> None:
+    if await is_time_over(state):
+        await finish_test(callback.message, state, time_over=True)
+        await callback.answer("Vaqt tugadi.", show_alert=True)
+        return
+
     data = await state.get_data()
     questions: list[dict] = data.get("questions", [])
     current_index: int = data.get("current_index", 0)
@@ -437,6 +507,11 @@ async def handle_answer(callback: CallbackQuery, state: FSMContext) -> None:
 
 @dp.callback_query(TestState.testing, F.data == "nav_prev")
 async def nav_prev(callback: CallbackQuery, state: FSMContext) -> None:
+    if await is_time_over(state):
+        await finish_test(callback.message, state, time_over=True)
+        await callback.answer("Vaqt tugadi.", show_alert=True)
+        return
+
     data = await state.get_data()
     current_index: int = data.get("current_index", 0)
 
@@ -449,6 +524,11 @@ async def nav_prev(callback: CallbackQuery, state: FSMContext) -> None:
 
 @dp.callback_query(TestState.testing, F.data == "nav_next")
 async def nav_next(callback: CallbackQuery, state: FSMContext) -> None:
+    if await is_time_over(state):
+        await finish_test(callback.message, state, time_over=True)
+        await callback.answer("Vaqt tugadi.", show_alert=True)
+        return
+
     data = await state.get_data()
     current_index: int = data.get("current_index", 0)
     total: int = data.get("total", 0)
@@ -498,9 +578,10 @@ async def my_results(message: Message) -> None:
         total = int(test.get("total", 0))
         percent = int((score / total) * 100) if total > 0 else 0
         date_text = escape(str(test.get("date", "-")))
+        time_over_text = " | vaqt tugagan" if test.get("time_over") else ""
 
         text += (
-            f"{i}. {date_text}\n"
+            f"{i}. {date_text}{time_over_text}\n"
             f"   Ball: {score} / {total} ({percent}%)\n\n"
         )
 
