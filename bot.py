@@ -344,8 +344,7 @@ def build_question_text(
     time_text = format_seconds(remaining_seconds)
 
     return (
-        f"⏳ <b>Qolgan vaqt:</b> {time_text}\n"
-        f"🟩 javob berilgan | 🟨 ko'rilgan, javobsiz | ⬜ ko'rilmagan\n\n"
+
         f"📚 <b>Savol {current_index + 1} / {total}</b>\n\n"
         f"{text}\n\n"
         f"👇 <i>Javob variantini tanlang:</i>"
