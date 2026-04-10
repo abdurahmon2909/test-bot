@@ -19,9 +19,6 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-# =========================
-# KONFIGURATSIYA
-# =========================
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
     raise ValueError("BOT_TOKEN topilmadi. Railway Variables ga BOT_TOKEN qo'shing.")
@@ -39,25 +36,16 @@ bot = Bot(
 )
 dp = Dispatcher(storage=MemoryStorage())
 
-# =========================
-# FAYL YO'LLARI
-# =========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 QUESTIONS_FILE = os.path.join(DATA_DIR, "questions.json")
 USERS_FILE = os.path.join(DATA_DIR, "users.json")
 
 
-# =========================
-# FSM HOLATLARI
-# =========================
 class TestState(StatesGroup):
     testing = State()
 
 
-# =========================
-# YORDAMCHI FUNKSIYALAR
-# =========================
 def ensure_data_dir() -> None:
     os.makedirs(DATA_DIR, exist_ok=True)
 
@@ -211,7 +199,7 @@ def get_question_keyboard(question: dict, total: int, current_index: int, answer
         inline_keyboard=[
             *option_rows,
             nav_buttons,
-            [InlineKeyboardButton(text="❌ Testni bekor qilish", callback_data="cancel_test")]
+            [InlineKeyboardButton(text="❌ Testni tugatish", callback_data="finish_test_early")]
         ]
     )
 
@@ -261,9 +249,6 @@ async def get_remaining_seconds(state: FSMContext) -> int:
     return max(0, int(float(end_time) - time.time()))
 
 
-# =========================
-# ASOSIY LOGIKA
-# =========================
 async def show_question(target_message: Message, state: FSMContext) -> None:
     data = await state.get_data()
     questions: list[dict] = data.get("questions", [])
@@ -309,7 +294,12 @@ async def show_question(target_message: Message, state: FSMContext) -> None:
     await state.update_data(message_id=msg.message_id)
 
 
-async def finish_test(target_message: Message, state: FSMContext, time_over: bool = False) -> None:
+async def finish_test(
+    target_message: Message,
+    state: FSMContext,
+    time_over: bool = False,
+    finished_early: bool = False,
+) -> None:
     data = await state.get_data()
     answers: list[dict] = data.get("answers", [])
 
@@ -334,11 +324,17 @@ async def finish_test(target_message: Message, state: FSMContext, time_over: boo
             "total": total,
             "answers": answers,
             "time_over": time_over,
+            "finished_early": finished_early,
         }
     )
     save_users(users)
 
-    header = "⛔ <b>VAQT TUGADI!</b>\n\n" if time_over else ""
+    header = ""
+    if time_over:
+        header = "⛔ <b>VAQT TUGADI!</b>\n\n"
+    elif finished_early:
+        header = "✅ <b>TEST FOYDALANUVCHI TOMONIDAN TUGATILDI!</b>\n\n"
+
     result_text = (
         f"{header}"
         f"🏁 <b>TEST YAKUNLANDI!</b> 🏁\n\n"
@@ -394,9 +390,6 @@ async def finish_test(target_message: Message, state: FSMContext, time_over: boo
     await state.clear()
 
 
-# =========================
-# HANDLERLAR
-# =========================
 @dp.message(CommandStart())
 async def cmd_start(message: Message, state: FSMContext) -> None:
     await state.clear()
@@ -540,21 +533,10 @@ async def nav_next(callback: CallbackQuery, state: FSMContext) -> None:
     await callback.answer()
 
 
-@dp.callback_query(TestState.testing, F.data == "cancel_test")
-async def cancel_test(callback: CallbackQuery, state: FSMContext) -> None:
-    await state.clear()
-
-    text = (
-        "❌ <b>Test bekor qilindi.</b>\n\n"
-        "Quyidagi menyudan kerakli bo'limni tanlang:"
-    )
-
-    try:
-        await callback.message.edit_text(text, reply_markup=get_main_menu_keyboard())
-    except Exception:
-        await callback.message.answer(text, reply_markup=get_main_menu_keyboard())
-
-    await callback.answer()
+@dp.callback_query(TestState.testing, F.data == "finish_test_early")
+async def finish_test_early(callback: CallbackQuery, state: FSMContext) -> None:
+    await finish_test(callback.message, state, finished_early=True)
+    await callback.answer("Test yakunlandi.", show_alert=False)
 
 
 @dp.message(Command("natijalarim"))
@@ -578,10 +560,15 @@ async def my_results(message: Message) -> None:
         total = int(test.get("total", 0))
         percent = int((score / total) * 100) if total > 0 else 0
         date_text = escape(str(test.get("date", "-")))
-        time_over_text = " | vaqt tugagan" if test.get("time_over") else ""
+
+        status_note = ""
+        if test.get("time_over"):
+            status_note = " | vaqt tugagan"
+        elif test.get("finished_early"):
+            status_note = " | ertaroq tugatilgan"
 
         text += (
-            f"{i}. {date_text}{time_over_text}\n"
+            f"{i}. {date_text}{status_note}\n"
             f"   Ball: {score} / {total} ({percent}%)\n\n"
         )
 
@@ -645,9 +632,6 @@ async def noop(callback: CallbackQuery) -> None:
     await callback.answer()
 
 
-# =========================
-# ISHGA TUSHIRISH
-# =========================
 async def main() -> None:
     logging.info("Bot ishga tushdi...")
     await dp.start_polling(bot)
