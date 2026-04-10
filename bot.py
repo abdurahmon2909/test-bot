@@ -14,7 +14,7 @@ from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
 # ============ KONFIGURATSIYA ============
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # O‘z tokeningizni qo‘ying
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 bot = Bot(token=BOT_TOKEN)
 storage = MemoryStorage()
