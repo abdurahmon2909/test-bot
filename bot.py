@@ -195,11 +195,6 @@ def format_seconds(seconds: int) -> str:
     return f"{hours:02}:{minutes:02}:{secs:02}"
 
 
-def short_text(value: str, limit: int) -> str:
-    value = str(value)
-    return value if len(value) <= limit else value[:limit] + "..."
-
-
 def get_display_name_from_user_obj(user) -> str:
     if not user:
         return "Foydalanuvchi"
@@ -358,9 +353,8 @@ def get_question_keyboard(
     return InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
 
 
-def get_result_grid_keyboard(test: dict) -> InlineKeyboardMarkup:
+def get_result_grid_keyboard(test_index: int, test: dict) -> InlineKeyboardMarkup:
     answers = test.get("answers", [])
-    total = len(answers)
 
     rows: list[list[InlineKeyboardButton]] = []
     current_row: list[InlineKeyboardButton] = []
@@ -372,7 +366,7 @@ def get_result_grid_keyboard(test: dict) -> InlineKeyboardMarkup:
         current_row.append(
             InlineKeyboardButton(
                 text=f"{prefix}{i + 1}",
-                callback_data=f"result_q_{i}"
+                callback_data=f"result_q_{test_index}_{i}"
             )
         )
 
@@ -387,18 +381,18 @@ def get_result_grid_keyboard(test: dict) -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(inline_keyboard=rows)
 
 
-def get_result_question_keyboard(total_questions: int, index: int) -> InlineKeyboardMarkup:
+def get_result_question_keyboard(test_index: int, total_questions: int, index: int) -> InlineKeyboardMarkup:
     buttons: list[list[InlineKeyboardButton]] = []
 
     nav_row = []
     if index > 0:
-        nav_row.append(InlineKeyboardButton(text="◀️ Oldingi", callback_data=f"result_q_{index - 1}"))
+        nav_row.append(InlineKeyboardButton(text="◀️ Oldingi", callback_data=f"result_q_{test_index}_{index - 1}"))
     nav_row.append(InlineKeyboardButton(text=f"{index + 1}/{total_questions}", callback_data="noop"))
     if index < total_questions - 1:
-        nav_row.append(InlineKeyboardButton(text="Keyingi ▶️", callback_data=f"result_q_{index + 1}"))
+        nav_row.append(InlineKeyboardButton(text="Keyingi ▶️", callback_data=f"result_q_{test_index}_{index + 1}"))
 
     buttons.append(nav_row)
-    buttons.append([InlineKeyboardButton(text="📋 Yakuniy natijaga qaytish", callback_data="result_summary")])
+    buttons.append([InlineKeyboardButton(text="📋 Yakuniy natijaga qaytish", callback_data=f"result_summary_{test_index}")])
     buttons.append([InlineKeyboardButton(text="🏠 Bosh sahifa", callback_data="main_menu")])
 
     return InlineKeyboardMarkup(inline_keyboard=buttons)
@@ -470,9 +464,9 @@ def build_result_question_text(test: dict, display_name: str, index: int) -> str
     question = ans.get("question", {})
     options = question.get("options", [])
     selected = ans.get("selected")
-    correct_index = None
-
     correct_answer_text = ans.get("correct_answer_text")
+
+    correct_index = None
     for i, option in enumerate(options):
         if option == correct_answer_text:
             correct_index = i
@@ -727,9 +721,11 @@ async def finish_test(
     )
     save_users(users)
 
-    latest_test = users[user_id]["tests"][-1]
+    test_index = len(users[user_id]["tests"]) - 1
+    latest_test = users[user_id]["tests"][test_index]
+
     result_text = build_result_summary_text(latest_test, display_name)
-    result_keyboard = get_result_grid_keyboard(latest_test)
+    result_keyboard = get_result_grid_keyboard(test_index, latest_test)
 
     await safe_edit_message(target_message, state, result_text, reply_markup=result_keyboard)
     await state.clear()
@@ -968,7 +964,7 @@ async def finish_test_early(callback: CallbackQuery, state: FSMContext) -> None:
     await callback.answer("Test yakunlandi.")
 
 
-@dp.callback_query(F.data == "result_summary")
+@dp.callback_query(F.data.startswith("result_summary_"))
 async def result_summary(callback: CallbackQuery) -> None:
     upsert_user_profile(callback.from_user)
     users = load_users()
@@ -978,10 +974,21 @@ async def result_summary(callback: CallbackQuery) -> None:
         await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
-    latest_test = users[user_id]["tests"][-1]
+    try:
+        test_index = int(callback.data.split("_")[2])
+    except Exception:
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    tests = users[user_id]["tests"]
+    if not (0 <= test_index < len(tests)):
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    test = tests[test_index]
     display_name = get_display_name_from_saved(users[user_id])
-    text = build_result_summary_text(latest_test, display_name)
-    keyboard = get_result_grid_keyboard(latest_test)
+    text = build_result_summary_text(test, display_name)
+    keyboard = get_result_grid_keyboard(test_index, test)
 
     try:
         await callback.message.edit_text(text, reply_markup=keyboard)
@@ -1002,16 +1009,27 @@ async def result_question(callback: CallbackQuery) -> None:
         return
 
     try:
-        index = int(callback.data.split("_")[2])
+        parts = callback.data.split("_")
+        test_index = int(parts[2])
+        question_index = int(parts[3])
     except Exception:
-        await callback.answer()
+        await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
-    latest_test = users[user_id]["tests"][-1]
+    tests = users[user_id]["tests"]
+    if not (0 <= test_index < len(tests)):
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    test = tests[test_index]
     display_name = get_display_name_from_saved(users[user_id])
 
-    text = build_result_question_text(latest_test, display_name, index)
-    keyboard = get_result_question_keyboard(len(latest_test.get("answers", [])), index)
+    text = build_result_question_text(test, display_name, question_index)
+    keyboard = get_result_question_keyboard(
+        test_index=test_index,
+        total_questions=len(test.get("answers", [])),
+        index=question_index,
+    )
 
     try:
         await callback.message.edit_text(text, reply_markup=keyboard)
