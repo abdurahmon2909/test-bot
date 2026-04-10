@@ -21,7 +21,14 @@ from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
+from aiogram.types import (
+    CallbackQuery,
+    InlineKeyboardButton,
+    InlineKeyboardMarkup,
+    KeyboardButton,
+    Message,
+    ReplyKeyboardMarkup,
+)
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
@@ -225,6 +232,15 @@ def get_display_name_from_saved(data: dict) -> str:
     return "Foydalanuvchi"
 
 
+def get_persistent_reply_keyboard() -> ReplyKeyboardMarkup:
+    return ReplyKeyboardMarkup(
+        keyboard=[[KeyboardButton(text="/start")]],
+        resize_keyboard=True,
+        is_persistent=True,
+        input_field_placeholder="Buyruq tanlang..."
+    )
+
+
 def get_main_menu_keyboard() -> InlineKeyboardMarkup:
     return InlineKeyboardMarkup(
         inline_keyboard=[
@@ -344,7 +360,8 @@ def build_question_text(
     time_text = format_seconds(remaining_seconds)
 
     return (
-
+        f"⏳ <b>Qolgan vaqt:</b> {time_text}\n"
+        f"🟩 javob berilgan | 🟨 ko'rilgan, javobsiz | ⬜ ko'rilmagan\n\n"
         f"📚 <b>Savol {current_index + 1} / {total}</b>\n\n"
         f"{text}\n\n"
         f"👇 <i>Javob variantini tanlang:</i>"
@@ -423,7 +440,6 @@ async def show_question(target_message: Message, state: FSMContext, force: bool 
     visited: list[int] = data.get("visited", [])
     page: int = data.get("grid_page", 0)
     last_render_second_bucket = data.get("last_render_second_bucket")
-    ui_version = data.get("ui_version", 0)
 
     if await is_time_over(state):
         await finish_test(target_message, state, time_over=True)
@@ -470,7 +486,6 @@ async def show_question(target_message: Message, state: FSMContext, force: bool 
         visited=visited,
         grid_page=page,
         last_render_second_bucket=second_bucket,
-        ui_version=ui_version + 1,
     )
     await safe_edit_message(target_message, state, question_text, reply_markup=reply_markup)
 
@@ -506,6 +521,30 @@ async def timer_updater(target_message: Message, state: FSMContext, user_id: str
     finally:
         if TIMER_TASKS.get(user_id) is asyncio.current_task():
             TIMER_TASKS.pop(user_id, None)
+
+
+async def send_result_as_new_message(
+    target_message: Message,
+    state: FSMContext,
+    result_text: str,
+) -> None:
+    data = await state.get_data()
+    old_message_id = data.get("message_id")
+
+    if old_message_id:
+        try:
+            await target_message.bot.delete_message(
+                chat_id=target_message.chat.id,
+                message_id=old_message_id,
+            )
+        except Exception:
+            pass
+
+    msg = await target_message.answer(
+        result_text,
+        reply_markup=get_results_keyboard()
+    )
+    await state.update_data(message_id=msg.message_id)
 
 
 async def finish_test(
@@ -626,7 +665,7 @@ async def finish_test(
         "🏆 /reyting - umumiy reyting\n"
     )
 
-    await safe_edit_message(target_message, state, result_text, reply_markup=get_results_keyboard())
+    await send_result_as_new_message(target_message, state, result_text)
     await state.clear()
 
 
@@ -652,7 +691,14 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
         "🎯 Quyidagi tugmalardan birini tanlang:"
     )
 
-    await message.answer(welcome_text, reply_markup=get_main_menu_keyboard())
+    await message.answer(
+        welcome_text,
+        reply_markup=get_main_menu_keyboard()
+    )
+    await message.answer(
+        "Asosiy buyruq pastda doim turadi.",
+        reply_markup=get_persistent_reply_keyboard()
+    )
 
 
 @dp.callback_query(F.data == "main_menu")
@@ -667,6 +713,10 @@ async def back_to_main_menu(callback: CallbackQuery, state: FSMContext) -> None:
     except Exception:
         await callback.message.answer(text, reply_markup=get_main_menu_keyboard())
 
+    await callback.message.answer(
+        "Asosiy buyruq pastda doim turadi.",
+        reply_markup=get_persistent_reply_keyboard()
+    )
     await callback.answer()
 
 
@@ -700,7 +750,6 @@ async def start_test(callback: CallbackQuery, state: FSMContext) -> None:
         end_time=now_ts + TEST_DURATION_SECONDS,
         grid_page=0,
         last_render_second_bucket=None,
-        ui_version=0,
     )
 
     await show_question(callback.message, state, force=True)
@@ -867,17 +916,19 @@ async def my_results(message: Message) -> None:
     user_id = str(message.from_user.id)
 
     if user_id not in users or not users[user_id].get("tests"):
-        await message.answer("📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.")
+        await message.answer(
+            "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
+            reply_markup=get_persistent_reply_keyboard()
+        )
         return
 
     user_data = users[user_id]
     display_name = escape(get_display_name_from_saved(user_data))
     tests = user_data.get("tests", [])
 
-    text = f"📊 <b>{display_name} ning natijalari</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    text = f"📊 <b>{display_name} ning barcha natijalari</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
-    recent_tests = tests[-5:]
-    for i, test in enumerate(recent_tests, start=1):
+    for i, test in enumerate(tests, start=1):
         score = int(test.get("score", 0))
         total = int(test.get("total", TOTAL_SCORE_POINTS))
         correct_answers = int(test.get("correct_answers", 0))
@@ -897,7 +948,11 @@ async def my_results(message: Message) -> None:
             f"   To'g'ri javob: {correct_answers} / {questions_total} ({percent}%)\n\n"
         )
 
-    await message.answer(text)
+        if len(text) > 3500:
+            text += "...\nYana eski natijalar ham saqlangan.\n"
+            break
+
+    await message.answer(text, reply_markup=get_persistent_reply_keyboard())
 
 
 @dp.message(Command("reyting"))
@@ -905,7 +960,10 @@ async def rating(message: Message) -> None:
     users = load_users()
 
     if not users:
-        await message.answer("📭 Hali hech kim test topshirmagan.")
+        await message.answer(
+            "📭 Hali hech kim test topshirmagan.",
+            reply_markup=get_persistent_reply_keyboard()
+        )
         return
 
     rating_list = []
@@ -914,43 +972,146 @@ async def rating(message: Message) -> None:
         if not tests:
             continue
 
-        last_test = tests[-1]
-        score = int(last_test.get("score", 0))
-        total = int(last_test.get("total", TOTAL_SCORE_POINTS))
-        correct_answers = int(last_test.get("correct_answers", 0))
-        questions_total = int(last_test.get("questions_total", 50))
-        percent = int(last_test.get("percent", 0))
+        best_test = max(
+            tests,
+            key=lambda t: (
+                int(t.get("score", 0)),
+                int(t.get("correct_answers", 0)),
+                int(t.get("percent", 0)),
+            )
+        )
+
+        score = int(best_test.get("score", 0))
+        total = int(best_test.get("total", TOTAL_SCORE_POINTS))
+        correct_answers = int(best_test.get("correct_answers", 0))
+        questions_total = int(best_test.get("questions_total", 50))
+        percent = int(best_test.get("percent", 0))
         name = get_display_name_from_saved(data)
 
         rating_list.append((name, score, total, correct_answers, questions_total, percent))
 
     if not rating_list:
-        await message.answer("📭 Reyting uchun ma'lumot yo'q.")
+        await message.answer(
+            "📭 Reyting uchun ma'lumot yo'q.",
+            reply_markup=get_persistent_reply_keyboard()
+        )
         return
 
     rating_list.sort(key=lambda x: (x[1], x[3], x[5]), reverse=True)
 
-    text = "🏆 <b>REYTING</b> (oxirgi test natijasi bo'yicha)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
+    text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
-    for i, (name, score, total, correct_answers, questions_total, percent) in enumerate(rating_list[:10], start=1):
-        medal = "🥇" if i == 1 else "🥈" if i == 2 else "🥉" if i == 3 else f"{i}."
+    for i, (name, score, total, correct_answers, questions_total, percent) in enumerate(rating_list, start=1):
         text += (
-            f"{medal} {escape(name)}: {score}/{total} | "
+            f"{i}. {escape(name)}: {score}/{total} | "
             f"{correct_answers}/{questions_total} ({percent}%)\n"
         )
 
-    await message.answer(text)
+        if len(text) > 3500:
+            text += "...\nQolgan foydalanuvchilar ham bazada saqlangan.\n"
+            break
+
+    await message.answer(text, reply_markup=get_persistent_reply_keyboard())
 
 
 @dp.callback_query(F.data == "my_results")
 async def callback_my_results(callback: CallbackQuery) -> None:
-    await my_results(callback.message)
+    users = load_users()
+    user_id = str(callback.from_user.id)
+
+    if user_id not in users or not users[user_id].get("tests"):
+        await callback.message.answer(
+            "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
+            reply_markup=get_persistent_reply_keyboard()
+        )
+        await callback.answer()
+        return
+
+    user_data = users[user_id]
+    display_name = escape(get_display_name_from_saved(user_data))
+    tests = user_data.get("tests", [])
+
+    text = f"📊 <b>{display_name} ning barcha natijalari</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
+
+    for i, test in enumerate(tests, start=1):
+        score = int(test.get("score", 0))
+        total = int(test.get("total", TOTAL_SCORE_POINTS))
+        correct_answers = int(test.get("correct_answers", 0))
+        questions_total = int(test.get("questions_total", 50))
+        percent = int(test.get("percent", 0))
+        date_text = escape(str(test.get("date", "-")))
+
+        status_note = ""
+        if test.get("time_over"):
+            status_note = " | vaqt tugagan"
+        elif test.get("finished_early"):
+            status_note = " | ertaroq tugatilgan"
+
+        text += (
+            f"{i}. {date_text}{status_note}\n"
+            f"   Ball: {score} / {total}\n"
+            f"   To'g'ri javob: {correct_answers} / {questions_total} ({percent}%)\n\n"
+        )
+
+        if len(text) > 3500:
+            text += "...\nYana eski natijalar ham saqlangan.\n"
+            break
+
+    await callback.message.answer(text, reply_markup=get_persistent_reply_keyboard())
     await callback.answer()
 
 
 @dp.callback_query(F.data == "rating")
 async def callback_rating(callback: CallbackQuery) -> None:
-    await rating(callback.message)
+    users = load_users()
+
+    if not users:
+        await callback.message.answer(
+            "📭 Hali hech kim test topshirmagan.",
+            reply_markup=get_persistent_reply_keyboard()
+        )
+        await callback.answer()
+        return
+
+    rating_list = []
+    for _, data in users.items():
+        tests = data.get("tests", [])
+        if not tests:
+            continue
+
+        best_test = max(
+            tests,
+            key=lambda t: (
+                int(t.get("score", 0)),
+                int(t.get("correct_answers", 0)),
+                int(t.get("percent", 0)),
+            )
+        )
+
+        score = int(best_test.get("score", 0))
+        total = int(best_test.get("total", TOTAL_SCORE_POINTS))
+        correct_answers = int(best_test.get("correct_answers", 0))
+        questions_total = int(best_test.get("questions_total", 50))
+        percent = int(best_test.get("percent", 0))
+        name = get_display_name_from_saved(data)
+
+        rating_list.append((name, score, total, correct_answers, questions_total, percent))
+
+    rating_list.sort(key=lambda x: (x[1], x[3], x[5]), reverse=True)
+
+    text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
+
+    for i, (name, score, total, correct_answers, questions_total, percent) in enumerate(rating_list, start=1):
+        text += (
+            f"{i}. {escape(name)}: {score}/{total} | "
+            f"{correct_answers}/{questions_total} ({percent}%)\n"
+        )
+
+        if len(text) > 3500:
+            text += "...\nQolgan foydalanuvchilar ham bazada saqlangan.\n"
+            break
+
+    await callback.message.answer(text, reply_markup=get_persistent_reply_keyboard())
     await callback.answer()
 
 
