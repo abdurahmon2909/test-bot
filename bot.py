@@ -13,6 +13,7 @@ from datetime import datetime
 from html import escape
 from typing import Any
 
+import gspread
 from aiogram import Bot, Dispatcher, F
 from aiogram.client.default import DefaultBotProperties
 from aiogram.enums import ParseMode
@@ -22,15 +23,26 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
+from google.oauth2.service_account import Credentials
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+GOOGLE_CREDS = os.getenv("GOOGLE_CREDS", "").strip()
+GOOGLE_SHEET_ID = os.getenv("GOOGLE_SHEET_ID", "").strip()
+
 if not BOT_TOKEN:
-    raise ValueError("BOT_TOKEN topilmadi. Railway Variables ga BOT_TOKEN qo'shing.")
+    raise ValueError("BOT_TOKEN topilmadi")
+if not GOOGLE_CREDS:
+    raise ValueError("GOOGLE_CREDS topilmadi")
+if not GOOGLE_SHEET_ID:
+    raise ValueError("GOOGLE_SHEET_ID topilmadi")
 
 TEST_DURATION_SECONDS = 90 * 60
 TOTAL_SCORE_POINTS = 100
 POINTS_PER_CORRECT = 2
 QUESTIONS_PER_PAGE = 10
+
+USERS_SHEET = "users"
+RESULTS_SHEET = "test_results"
 
 logging.basicConfig(
     level=logging.INFO,
@@ -46,7 +58,6 @@ dp = Dispatcher(storage=MemoryStorage())
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 QUESTIONS_FILE = os.path.join(DATA_DIR, "questions.json")
-USERS_FILE = os.path.join(DATA_DIR, "users.json")
 
 TIMER_TASKS: dict[str, asyncio.Task] = {}
 EDIT_LOCKS: dict[str, asyncio.Lock] = {}
@@ -56,14 +67,18 @@ class TestState(StatesGroup):
     testing = State()
 
 
+def ensure_data_dir() -> None:
+    os.makedirs(DATA_DIR, exist_ok=True)
+
+
 def get_user_lock(user_id: str) -> asyncio.Lock:
     if user_id not in EDIT_LOCKS:
         EDIT_LOCKS[user_id] = asyncio.Lock()
     return EDIT_LOCKS[user_id]
 
 
-def ensure_data_dir() -> None:
-    os.makedirs(DATA_DIR, exist_ok=True)
+def now_str() -> str:
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 
 def safe_read_json(path: str, default: Any) -> Any:
@@ -81,15 +96,6 @@ def safe_read_json(path: str, default: Any) -> Any:
     except Exception:
         logging.exception("Faylni o'qishda xato: %s", path)
         return default
-
-
-def safe_write_json(path: str, data: Any) -> None:
-    ensure_data_dir()
-    try:
-        with open(path, "w", encoding="utf-8") as f:
-            json.dump(data, f, ensure_ascii=False, indent=2)
-    except Exception:
-        logging.exception("Faylga yozishda xato: %s", path)
 
 
 def normalize_questions(data: dict) -> dict[str, list[dict]]:
@@ -117,15 +123,6 @@ def load_questions() -> dict[str, list[dict]]:
         }
     )
     return normalize_questions(raw)
-
-
-def load_users() -> dict:
-    data = safe_read_json(USERS_FILE, {})
-    return data if isinstance(data, dict) else {}
-
-
-def save_users(data: dict) -> None:
-    safe_write_json(USERS_FILE, data)
 
 
 def validate_question(q: dict) -> bool:
@@ -206,10 +203,10 @@ def get_display_name_from_user_obj(user) -> str:
     return username or full_name or first_name or "Foydalanuvchi"
 
 
-def get_display_name_from_saved(data: dict) -> str:
-    username = str(data.get("username", "")).strip()
-    full_name = str(data.get("full_name", "")).strip()
-    first_name = str(data.get("first_name", "")).strip()
+def get_display_name_from_row(row: dict) -> str:
+    username = str(row.get("username", "")).strip()
+    full_name = str(row.get("full_name", "")).strip()
+    first_name = str(row.get("first_name", "")).strip()
 
     if username:
         return username
@@ -218,30 +215,6 @@ def get_display_name_from_saved(data: dict) -> str:
     if first_name:
         return first_name
     return "Foydalanuvchi"
-
-
-def upsert_user_profile(user) -> None:
-    if not user:
-        return
-
-    users = load_users()
-    user_id = str(user.id)
-
-    users.setdefault(
-        user_id,
-        {
-            "username": "",
-            "full_name": "",
-            "first_name": "",
-            "tests": [],
-        }
-    )
-
-    users[user_id]["username"] = getattr(user, "username", None) or users[user_id].get("username", "")
-    users[user_id]["full_name"] = getattr(user, "full_name", None) or users[user_id].get("full_name", "")
-    users[user_id]["first_name"] = getattr(user, "first_name", None) or users[user_id].get("first_name", "")
-
-    save_users(users)
 
 
 def get_main_menu_keyboard() -> InlineKeyboardMarkup:
@@ -506,6 +479,229 @@ def build_result_question_text(test: dict, display_name: str, index: int) -> str
     return "\n".join(lines)
 
 
+def get_gspread_client():
+    creds_info = json.loads(GOOGLE_CREDS)
+    scopes = [
+        "https://www.googleapis.com/auth/spreadsheets",
+        "https://www.googleapis.com/auth/drive",
+    ]
+    credentials = Credentials.from_service_account_info(creds_info, scopes=scopes)
+    return gspread.authorize(credentials)
+
+
+def get_spreadsheet():
+    client = get_gspread_client()
+    return client.open_by_key(GOOGLE_SHEET_ID)
+
+
+def ensure_sheet_headers(ws, headers: list[str]) -> None:
+    values = ws.get_all_values()
+    if not values:
+        ws.append_row(headers)
+        return
+
+    first_row = values[0]
+    if first_row != headers:
+        ws.update("A1", [headers])
+
+
+def ensure_sheets() -> None:
+    sh = get_spreadsheet()
+
+    try:
+        users_ws = sh.worksheet(USERS_SHEET)
+    except Exception:
+        users_ws = sh.add_worksheet(title=USERS_SHEET, rows=1000, cols=20)
+
+    try:
+        results_ws = sh.worksheet(RESULTS_SHEET)
+    except Exception:
+        results_ws = sh.add_worksheet(title=RESULTS_SHEET, rows=5000, cols=30)
+
+    ensure_sheet_headers(
+        users_ws,
+        ["user_id", "username", "full_name", "first_name", "joined_at", "updated_at"]
+    )
+    ensure_sheet_headers(
+        results_ws,
+        [
+            "result_id",
+            "user_id",
+            "username",
+            "full_name",
+            "first_name",
+            "score",
+            "total",
+            "correct_answers",
+            "questions_total",
+            "percent",
+            "category",
+            "time_over",
+            "finished_early",
+            "created_at",
+            "answers_json",
+        ]
+    )
+
+
+def get_users_sheet():
+    ensure_sheets()
+    sh = get_spreadsheet()
+    return sh.worksheet(USERS_SHEET)
+
+
+def get_results_sheet():
+    ensure_sheets()
+    sh = get_spreadsheet()
+    return sh.worksheet(RESULTS_SHEET)
+
+
+def get_all_user_rows() -> list[dict]:
+    ws = get_users_sheet()
+    return ws.get_all_records()
+
+
+def get_all_result_rows() -> list[dict]:
+    ws = get_results_sheet()
+    return ws.get_all_records()
+
+
+def upsert_user_profile(user) -> None:
+    if not user:
+        return
+
+    ws = get_users_sheet()
+    records = ws.get_all_records()
+    user_id = str(user.id)
+    username = getattr(user, "username", None) or ""
+    full_name = getattr(user, "full_name", None) or ""
+    first_name = getattr(user, "first_name", None) or ""
+
+    existing_row_index = None
+    joined_at_existing = ""
+
+    for idx, row in enumerate(records, start=2):
+        if str(row.get("user_id", "")).strip() == user_id:
+            existing_row_index = idx
+            joined_at_existing = str(row.get("joined_at", "")).strip()
+            break
+
+    now_value = now_str()
+
+    if existing_row_index is not None:
+        ws.update(
+            f"A{existing_row_index}:F{existing_row_index}",
+            [[
+                user_id,
+                username,
+                full_name,
+                first_name,
+                joined_at_existing or now_value,
+                now_value,
+            ]]
+        )
+    else:
+        ws.append_row([
+            user_id,
+            username,
+            full_name,
+            first_name,
+            now_value,
+            now_value,
+        ])
+
+
+def get_user_profile(user_id: str) -> dict | None:
+    rows = get_all_user_rows()
+    for row in rows:
+        if str(row.get("user_id", "")).strip() == str(user_id):
+            return row
+    return None
+
+
+def append_test_result(
+    user_id: str,
+    username: str,
+    full_name: str,
+    first_name: str,
+    score: int,
+    total: int,
+    correct_answers: int,
+    questions_total: int,
+    percent: int,
+    category: str,
+    time_over: bool,
+    finished_early: bool,
+    answers: list[dict],
+) -> str:
+    ws = get_results_sheet()
+    result_id = str(uuid.uuid4())
+    ws.append_row([
+        result_id,
+        user_id,
+        username,
+        full_name,
+        first_name,
+        score,
+        total,
+        correct_answers,
+        questions_total,
+        percent,
+        category,
+        str(time_over),
+        str(finished_early),
+        now_str(),
+        json.dumps(answers, ensure_ascii=False),
+    ])
+    return result_id
+
+
+def get_user_results(user_id: str) -> list[dict]:
+    rows = get_all_result_rows()
+    filtered = []
+    for row in rows:
+        if str(row.get("user_id", "")).strip() == str(user_id):
+            row = dict(row)
+            try:
+                row["answers"] = json.loads(row.get("answers_json", "[]") or "[]")
+            except Exception:
+                row["answers"] = []
+            filtered.append(row)
+    return filtered
+
+
+def get_all_results_grouped_best() -> list[tuple[str, int, int, int, int]]:
+    rows = get_all_result_rows()
+    grouped: dict[str, dict] = {}
+
+    for row in rows:
+        user_id = str(row.get("user_id", "")).strip()
+        if not user_id:
+            continue
+
+        score = int(row.get("score", 0) or 0)
+        correct_answers = int(row.get("correct_answers", 0) or 0)
+
+        best = grouped.get(user_id)
+        if best is None or (score, correct_answers) > (
+            int(best.get("score", 0) or 0),
+            int(best.get("correct_answers", 0) or 0),
+        ):
+            grouped[user_id] = row
+
+    rating_list = []
+    for _, row in grouped.items():
+        name = get_display_name_from_row(row)
+        score = int(row.get("score", 0) or 0)
+        total = int(row.get("total", TOTAL_SCORE_POINTS) or TOTAL_SCORE_POINTS)
+        correct_answers = int(row.get("correct_answers", 0) or 0)
+        questions_total = int(row.get("questions_total", 50) or 50)
+        rating_list.append((name, score, total, correct_answers, questions_total))
+
+    rating_list.sort(key=lambda x: (x[1], x[3]), reverse=True)
+    return rating_list
+
+
 async def is_time_over(state: FSMContext) -> bool:
     data = await state.get_data()
     end_time = data.get("end_time")
@@ -685,8 +881,8 @@ async def finish_test(
     await cancel_timer_task(user_id)
     upsert_user_profile(user)
 
-    users = load_users()
-    display_name = get_display_name_from_saved(users.get(user_id, {}))
+    profile = get_user_profile(user_id) or {}
+    display_name = get_display_name_from_row(profile)
 
     serialized_answers = []
     for i, question in enumerate(questions):
@@ -705,25 +901,33 @@ async def finish_test(
                 }
             )
 
-    users.setdefault(user_id, {"username": "", "full_name": "", "first_name": "", "tests": []})
-    users[user_id]["tests"].append(
-        {
-            "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "score": score_points,
-            "total": TOTAL_SCORE_POINTS,
-            "correct_answers": correct_count,
-            "questions_total": total_questions,
-            "percent": score_percent,
-            "answers": serialized_answers,
-            "time_over": time_over,
-            "finished_early": finished_early,
-        }
+    category_text = get_category_text(score_points)
+    category_plain = category_text.replace("<b>", "").replace("</b>", "")
+
+    result_id = append_test_result(
+        user_id=user_id,
+        username=str(profile.get("username", "") or ""),
+        full_name=str(profile.get("full_name", "") or ""),
+        first_name=str(profile.get("first_name", "") or ""),
+        score=score_points,
+        total=TOTAL_SCORE_POINTS,
+        correct_answers=correct_count,
+        questions_total=total_questions,
+        percent=score_percent,
+        category=category_plain,
+        time_over=time_over,
+        finished_early=finished_early,
+        answers=serialized_answers,
     )
-    save_users(users)
 
-    test_index = len(users[user_id]["tests"]) - 1
-    latest_test = users[user_id]["tests"][test_index]
+    user_results = get_user_results(user_id)
+    test_index = 0
+    for i, row in enumerate(user_results):
+        if str(row.get("result_id", "")) == result_id:
+            test_index = i
+            break
 
+    latest_test = user_results[test_index]
     result_text = build_result_summary_text(latest_test, display_name)
     result_keyboard = get_result_grid_keyboard(test_index, latest_test)
 
@@ -967,12 +1171,7 @@ async def finish_test_early(callback: CallbackQuery, state: FSMContext) -> None:
 @dp.callback_query(F.data.startswith("result_summary_"))
 async def result_summary(callback: CallbackQuery) -> None:
     upsert_user_profile(callback.from_user)
-    users = load_users()
     user_id = str(callback.from_user.id)
-
-    if user_id not in users or not users[user_id].get("tests"):
-        await callback.answer("Natija topilmadi.", show_alert=True)
-        return
 
     try:
         test_index = int(callback.data.split("_")[2])
@@ -980,13 +1179,18 @@ async def result_summary(callback: CallbackQuery) -> None:
         await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
-    tests = users[user_id]["tests"]
+    profile = get_user_profile(user_id)
+    if not profile:
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    tests = get_user_results(user_id)
     if not (0 <= test_index < len(tests)):
         await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
     test = tests[test_index]
-    display_name = get_display_name_from_saved(users[user_id])
+    display_name = get_display_name_from_row(profile)
     text = build_result_summary_text(test, display_name)
     keyboard = get_result_grid_keyboard(test_index, test)
 
@@ -1001,12 +1205,7 @@ async def result_summary(callback: CallbackQuery) -> None:
 @dp.callback_query(F.data.startswith("result_q_"))
 async def result_question(callback: CallbackQuery) -> None:
     upsert_user_profile(callback.from_user)
-    users = load_users()
     user_id = str(callback.from_user.id)
-
-    if user_id not in users or not users[user_id].get("tests"):
-        await callback.answer("Natija topilmadi.", show_alert=True)
-        return
 
     try:
         parts = callback.data.split("_")
@@ -1016,13 +1215,18 @@ async def result_question(callback: CallbackQuery) -> None:
         await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
-    tests = users[user_id]["tests"]
+    profile = get_user_profile(user_id)
+    if not profile:
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    tests = get_user_results(user_id)
     if not (0 <= test_index < len(tests)):
         await callback.answer("Natija topilmadi.", show_alert=True)
         return
 
     test = tests[test_index]
-    display_name = get_display_name_from_saved(users[user_id])
+    display_name = get_display_name_from_row(profile)
 
     text = build_result_question_text(test, display_name, question_index)
     keyboard = get_result_question_keyboard(
@@ -1042,28 +1246,27 @@ async def result_question(callback: CallbackQuery) -> None:
 @dp.message(Command("natijalarim"))
 async def my_results(message: Message) -> None:
     upsert_user_profile(message.from_user)
-    users = load_users()
     user_id = str(message.from_user.id)
 
-    if user_id not in users or not users[user_id].get("tests"):
+    profile = get_user_profile(user_id)
+    tests = get_user_results(user_id)
+
+    if not profile or not tests:
         await message.answer(
             "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
             reply_markup=get_home_inline_keyboard()
         )
         return
 
-    user_data = users[user_id]
-    display_name = escape(get_display_name_from_saved(user_data))
-    tests = user_data.get("tests", [])
-
+    display_name = escape(get_display_name_from_row(profile))
     text = f"📊 <b>{display_name} ning barcha natijalari</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
     for i, test in enumerate(tests, start=1):
-        score = int(test.get("score", 0))
-        total = int(test.get("total", TOTAL_SCORE_POINTS))
-        correct_answers = int(test.get("correct_answers", 0))
-        questions_total = int(test.get("questions_total", 50))
-        date_text = escape(str(test.get("date", "-")))
+        score = int(test.get("score", 0) or 0)
+        total = int(test.get("total", TOTAL_SCORE_POINTS) or TOTAL_SCORE_POINTS)
+        correct_answers = int(test.get("correct_answers", 0) or 0)
+        questions_total = int(test.get("questions_total", 50) or 50)
+        date_text = escape(str(test.get("created_at", "-")))
 
         text += (
             f"{i}. {date_text}\n"
@@ -1081,38 +1284,14 @@ async def my_results(message: Message) -> None:
 @dp.message(Command("reyting"))
 async def rating(message: Message) -> None:
     upsert_user_profile(message.from_user)
-    users = load_users()
+    rating_list = get_all_results_grouped_best()
 
-    if not users:
+    if not rating_list:
         await message.answer(
             "📭 Hali hech kim test topshirmagan.",
             reply_markup=get_home_inline_keyboard()
         )
         return
-
-    rating_list = []
-    for _, data in users.items():
-        tests = data.get("tests", [])
-        if not tests:
-            continue
-
-        best_test = max(
-            tests,
-            key=lambda t: (
-                int(t.get("score", 0)),
-                int(t.get("correct_answers", 0)),
-            )
-        )
-
-        score = int(best_test.get("score", 0))
-        total = int(best_test.get("total", TOTAL_SCORE_POINTS))
-        correct_answers = int(best_test.get("correct_answers", 0))
-        questions_total = int(best_test.get("questions_total", 50))
-        name = get_display_name_from_saved(data)
-
-        rating_list.append((name, score, total, correct_answers, questions_total))
-
-    rating_list.sort(key=lambda x: (x[1], x[3]), reverse=True)
 
     text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
@@ -1132,10 +1311,12 @@ async def rating(message: Message) -> None:
 @dp.callback_query(F.data == "my_results")
 async def callback_my_results(callback: CallbackQuery) -> None:
     upsert_user_profile(callback.from_user)
-    users = load_users()
     user_id = str(callback.from_user.id)
 
-    if user_id not in users or not users[user_id].get("tests"):
+    profile = get_user_profile(user_id)
+    tests = get_user_results(user_id)
+
+    if not profile or not tests:
         try:
             await callback.message.edit_text(
                 "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
@@ -1146,18 +1327,15 @@ async def callback_my_results(callback: CallbackQuery) -> None:
         await callback.answer()
         return
 
-    user_data = users[user_id]
-    display_name = escape(get_display_name_from_saved(user_data))
-    tests = user_data.get("tests", [])
-
+    display_name = escape(get_display_name_from_row(profile))
     text = f"📊 <b>{display_name} ning barcha natijalari</b>\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
     for i, test in enumerate(tests, start=1):
-        score = int(test.get("score", 0))
-        total = int(test.get("total", TOTAL_SCORE_POINTS))
-        correct_answers = int(test.get("correct_answers", 0))
-        questions_total = int(test.get("questions_total", 50))
-        date_text = escape(str(test.get("date", "-")))
+        score = int(test.get("score", 0) or 0)
+        total = int(test.get("total", TOTAL_SCORE_POINTS) or TOTAL_SCORE_POINTS)
+        correct_answers = int(test.get("correct_answers", 0) or 0)
+        questions_total = int(test.get("questions_total", 50) or 50)
+        date_text = escape(str(test.get("created_at", "-")))
 
         text += (
             f"{i}. {date_text}\n"
@@ -1180,9 +1358,9 @@ async def callback_my_results(callback: CallbackQuery) -> None:
 @dp.callback_query(F.data == "rating")
 async def callback_rating(callback: CallbackQuery) -> None:
     upsert_user_profile(callback.from_user)
-    users = load_users()
+    rating_list = get_all_results_grouped_best()
 
-    if not users:
+    if not rating_list:
         try:
             await callback.message.edit_text(
                 "📭 Hali hech kim test topshirmagan.",
@@ -1192,30 +1370,6 @@ async def callback_rating(callback: CallbackQuery) -> None:
             pass
         await callback.answer()
         return
-
-    rating_list = []
-    for _, data in users.items():
-        tests = data.get("tests", [])
-        if not tests:
-            continue
-
-        best_test = max(
-            tests,
-            key=lambda t: (
-                int(t.get("score", 0)),
-                int(t.get("correct_answers", 0)),
-            )
-        )
-
-        score = int(best_test.get("score", 0))
-        total = int(best_test.get("total", TOTAL_SCORE_POINTS))
-        correct_answers = int(best_test.get("correct_answers", 0))
-        questions_total = int(best_test.get("questions_total", 50))
-        name = get_display_name_from_saved(data)
-
-        rating_list.append((name, score, total, correct_answers, questions_total))
-
-    rating_list.sort(key=lambda x: (x[1], x[3]), reverse=True)
 
     text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
@@ -1243,6 +1397,7 @@ async def noop(callback: CallbackQuery) -> None:
 
 
 async def main() -> None:
+    ensure_sheets()
     logging.info("Bot ishga tushdi...")
     await dp.start_polling(bot)
 
