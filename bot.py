@@ -199,7 +199,7 @@ def get_question_keyboard(question: dict, total: int, current_index: int, answer
         inline_keyboard=[
             *option_rows,
             nav_buttons,
-            [InlineKeyboardButton(text="❌ Testni tugatish", callback_data="finish_test_early")]
+            [InlineKeyboardButton(text="✅ Testni yakunlash ✅", callback_data="finish_test_early")]
         ]
     )
 
