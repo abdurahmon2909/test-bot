@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 801,
+    "text": "O‘qituvchi o‘quvchilarning individual ehtiyojlarini aniqlash uchun qanday usulni qo‘llashi eng samarali hisoblanadi?",
+    "options": [
+      "Faqat yozma testlar o‘tkazish",
+      "Kuzatuv, suhbat va anketalarni kompleks qo‘llash",
+      "Faqat ota-onalarning fikriga tayanish",
+      "O‘quvchilarni bir-biriga baholashga undash"
+    ],
+    "correct": 1,
+    "hint": "C1: Individual ehtiyojlarni aniqlashda kompleks yondashuv (kuzatuv, suhbat, anketa) eng samarali."
+  },
+  {
+    "id": 802,
+    "text": "Formativ baholashning asosiy maqsadi nima?",
+    "options": [
+      "Chorak yakunida umumiy ball chiqarish",
+      "Dars jarayonida o‘qitish usullarini moslashtirish",
+      "O‘quvchilarni sinfdan sinfga o‘tkazish",
+      "Faqat ota-onalarga hisobot berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Formativ baholash o‘quv jarayonini takomillashtirish uchun xizmat qiladi."
+  },
+  {
+    "id": 803,
+    "text": "Xavfsiz va rivojlantiruvchi ta’lim muhiti yaratishda o‘qituvchi eng avvalo nimalarga e’tibor qaratishi kerak?",
+    "options": [
+      "Sinf jihozlarining zamonaviyligi",
+      "O‘quvchilarning psixologik va hissiy xavfsizligini ta’minlash",
+      "O‘quvchilarning bir-biriga raqobatini kuchaytirish",
+      "Darsliklarning to‘liqligi"
+    ],
+    "correct": 1,
+    "hint": "C1: Psixologik xavfsizlik o‘rganish uchun asosiy shartdir."
+  },
+  {
+    "id": 804,
+    "text": "O‘qituvchi o‘z kasbiy rivojlanishi uchun qanday faoliyatni amalga oshirishi eng samarali?",
+    "options": [
+      "Faqat dars o‘tish va uyga ketish",
+      "Muntazam ravishda malaka oshirish kurslarida qatnashish va o‘zaro tajriba almashish",
+      "Faqat darslikka tayanish",
+      "O‘qituvchilar kengashida faqat tinglovchi bo‘lish"
+    ],
+    "correct": 1,
+    "hint": "C1: Uzluksiz kasbiy rivojlanish pedagogik mahoratning asosidir."
+  },
+  {
+    "id": 805,
+    "text": "O‘quvchilarning ijtimoiy va hissiy rivojlanishi uchun o‘qituvchi qanday yondashuvni qo‘llashi maqsadga muvofiq?",
+    "options": [
+      "Faqat akademik natijalarga e’tibor qaratish",
+      "Sinfda hamkorlik, hurmat va empatiyani rivojlantiruvchi faoliyatlarni tashkil etish",
+      "O‘quvchilarni doimiy ravishda bir-biri bilan solishtirish",
+      "Har bir xato uchun jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijtimoiy-emotsional o‘rganish (SEL) akademik muvaffaqiyatga ham ta’sir qiladi."
+  },
+  {
+    "id": 806,
+    "text": "Ota-onalar bilan hamkorlik qilishda o‘qituvchining asosiy vazifasi nima?",
+    "options": [
+      "Faqat yomon xabarlarni yetkazish",
+      "Ota-onalarni faqat chaqiruv orqali jalb qilish",
+      "O‘quvchining rivojlanishi haqida muntazam va konstruktiv fikr-mulohaza almashish",
+      "Barcha mas’uliyatni ota-onalarga yuklash"
+    ],
+    "correct": 2,
+    "hint": "C1: Ota-onalar bilan hamkorlik muntazam va ikki tomonlama bo‘lishi kerak."
+  },
+  {
+    "id": 807,
+    "text": "Differentsial ta’limni amalga oshirish uchun o‘qituvchi qanday strategiyani qo‘llashi kerak?",
+    "options": [
+      "Barcha o‘quvchilarga bir xil topshiriq berish",
+      "O‘quvchilarning tayyorgarlik darajasiga mos ravishda turli darajadagi topshiriqlar tayyorlash",
+      "Faqat kuchli o‘quvchilar bilan ishlash",
+      "Zaif o‘quvchilarni e’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Differentsiatsiya mazmun, jarayon, mahsulot va muhitni o‘z ichiga oladi."
+  },
+  {
+    "id": 808,
+    "text": "Refleksiya tushunchasi nimani anglatadi?",
+    "options": [
+      "O‘qituvchining o‘z faoliyatini tahlil qilish va takomillashtirish qobiliyati",
+      "O‘quvchilarni baholash usuli",
+      "Darsni rejalashtirish bosqichi",
+      "Ota-onalar bilan uchrashuv"
+    ],
+    "correct": 0,
+    "hint": "C1: Refleksiya professional o‘sishning asosiy mexanizmidir."
+  },
+  {
+    "id": 809,
+    "text": "Sinfda inklyuziv ta’lim tamoyillarini qo‘llash uchun o‘qituvchi qanday choralarni ko‘rishi kerak?",
+    "options": [
+      "Barcha o‘quvchilarga bir xil munosabatda bo‘lish, hech qanday farqlarni hisobga olmaslik",
+      "Maxsus ehtiyojli o‘quvchilarni alohida o‘qitish",
+      "Har bir o‘quvchining individual ehtiyojlariga moslashtirilgan yondashuvni qo‘llash",
+      "Faqat oddiy o‘quvchilar bilan ishlash"
+    ],
+    "correct": 2,
+    "hint": "C1: Inklyuziv ta’lim barcha o‘quvchilarning teng huquqlarini ta’minlaydi."
+  },
+  {
+    "id": 810,
+    "text": "Tanqidiy fikrlashni rivojlantirish uchun qanday topshiriq eng samarali?",
+    "options": [
+      "Faktlarni yodlash",
+      "Matnni tahlil qilish va xulosa chiqarish",
+      "Tayyor javoblarni ko‘chirish",
+      "Diktant yozish"
+    ],
+    "correct": 1,
+    "hint": "C1: Tanqidiy fikrlash tahlil, sintez va baholashni talab qiladi."
+  },
+  {
+    "id": 811,
+    "text": "O‘quvchilarning kreativlik qobiliyatlarini rivojlantirish uchun qanday usul eng samarali?",
+    "options": [
+      "Faqat standart testlardan foydalanish",
+      "Ochiq topshiriqlar va loyiha ishlarini berish",
+      "Faqat darslikka asoslanish",
+      "Barcha topshiriqlarni individual bajarishni talab qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Kreativlik ochiq, ko‘p javobli topshiriqlarda rivojlanadi."
+  },
+  {
+    "id": 812,
+    "text": "O‘quvchilarni baholashda adolatli va xolis bo‘lish uchun o‘qituvchi nimalarga e’tibor berishi kerak?",
+    "options": [
+      "Faqat yozma ishlarni tekshirish",
+      "Aniq mezonlar va rubrikalardan foydalanish",
+      "Faqat og‘zaki javoblarni baholash",
+      "O‘zining shaxsiy munosabatiga asoslanish"
+    ],
+    "correct": 1,
+    "hint": "C1: Rubrikalar baholashning ob’ektivligini ta’minlaydi."
+  },
+  {
+    "id": 813,
+    "text": "O‘quvchilarda o‘z-o‘zini baholash ko‘nikmasini shakllantirish uchun qanday usul samarali?",
+    "options": [
+      "Faqat o‘qituvchi baholashi",
+      "O‘quvchilarga baholash mezonlarini tushuntirish va o‘z ishlarini tahlil qilish imkonini berish",
+      "Faqat sinfdoshlar baholashi",
+      "Baholashdan butunlay voz kechish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘z-o‘zini baholash metakognitiv ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 814,
+    "text": "Guruhli ishlashni tashkil qilishda o‘qituvchi qanday tamoyilga amal qilishi kerak?",
+    "options": [
+      "Kuchli o‘quvchilarni zaif o‘quvchilar bilan bir guruhga qo‘yish",
+      "Guruhlar bir-biriga nisbatan raqobatlashishini ta’minlash",
+      "Guruh ichida rollarni aniq taqsimlash va hamkorlikni rag‘batlantirish",
+      "Barcha guruhlarga bir xil topshiriq berish"
+    ],
+    "correct": 2,
+    "hint": "C1: Samarali guruh ishi aniq rollar va hamkorlikni talab qiladi."
+  },
+  {
+    "id": 815,
+    "text": "Muammoli vaziyatlarni hal qilishda o‘quvchilarning qobiliyatini rivojlantirish uchun qanday metod samarali?",
+    "options": [
+      "Tayyor javoblarni berish",
+      "Muammoli vaziyatlarni o‘z ichiga olgan topshiriqlar berish va yo‘l-yo‘riq ko‘rsatish",
+      "Faqat nazariy bilimlarni o‘rgatish",
+      "Muammolarni butunlay e’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Muammoli ta’lim real hayotdagi ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 816,
+    "text": "O‘quvchilarning mustaqil ta’lim olish ko‘nikmalarini rivojlantirish uchun qanday strategiya samarali?",
+    "options": [
+      "Doimiy ravishda o‘qituvchi nazorati",
+      "O‘quvchilarga o‘z ta’lim maqsadlarini belgilash va resurslardan mustaqil foydalanish imkoniyatini berish",
+      "Faqat darslikdan foydalanish",
+      "Barcha topshiriqlarni sinfda bajarish"
+    ],
+    "correct": 1,
+    "hint": "C1: Mustaqil ta’lim o‘quvchilarning avtonomiyasini rivojlantiradi."
+  },
+  {
+    "id": 817,
+    "text": "O‘quvchilarning e’tiborini jalb qilish va saqlash uchun qanday usullar samarali?",
+    "options": [
+      "Uzoq monoton ma’ruzalar",
+      "Faol o‘qitish metodlari (savol-javob, muhokama, interaktiv topshiriqlar)",
+      "Faqat yozma mashqlar",
+      "O‘quvchilarni jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Faol o‘qitish usullari e’tiborni saqlashda samarali."
+  },
+  {
+    "id": 818,
+    "text": "O‘quvchilarning xotira va eslab qolish qobiliyatini oshirish uchun qanday usul samarali?",
+    "options": [
+      "Faqat bir marta takrorlash",
+      "Takrorlash, assotsiatsiyalar va amaliyotdan foydalanish",
+      "Faqat yodlashga majburlash",
+      "Hech qanday takrorlamaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Interval takrorlash va faol eslab qolish strategiyalari samarali."
+  },
+  {
+    "id": 819,
+    "text": "O‘quvchilarning tushunchalar o‘rtasidagi bog‘lanishni ko‘rish qobiliyatini rivojlantirish uchun qanday metod samarali?",
+    "options": [
+      "Faktlarni alohida-alohida o‘rgatish",
+      "Konseptual xaritalar va diagrammalardan foydalanish",
+      "Faqat darslik o‘qish",
+      "Test topshiriqlari"
+    ],
+    "correct": 1,
+    "hint": "C1: Konseptual xaritalar tushunchalar orasidagi bog‘lanishni ko‘rsatadi."
+  },
+  {
+    "id": 820,
+    "text": "O‘quvchilarning nutqiy ko‘nikmalarini rivojlantirish uchun qanday faoliyat eng samarali?",
+    "options": [
+      "Faqat grammatika mashqlari",
+      "Bahs-munozaralar, prezentatsiyalar va guruhli muhokamalar",
+      "Faqat diktant yozish",
+      "Faqat o‘qish va tarjima qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Kommunikativ faoliyatlar nutqiy ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 821,
+    "text": "O‘quvchilarning yozma nutqini rivojlantirish uchun qanday yondashuv samarali?",
+    "options": [
+      "Faqat grammatika qoidalarini o‘rgatish",
+      "Yozish jarayoni (rejalashtirish, yozish, tahrirlash, nashr qilish) modelidan foydalanish",
+      "Faqat diktantlar",
+      "Faqat ko‘chirib yozish"
+    ],
+    "correct": 1,
+    "hint": "C1: Yozish jarayoni modeli yozuvchilik ko‘nikmalarini rivojlantiradi."
+  },
+  {
+    "id": 822,
+    "text": "O‘quvchilarning tinglab tushunish ko‘nikmasini rivojlantirish uchun qanday usul samarali?",
+    "options": [
+      "Matnni bir marta o‘qib berish",
+      "Oldindan maqsad qo‘yish, bir necha marta tinglash va tahlil qilish",
+      "Faqat yozma matnlar berish",
+      "Tinglab tushunishni umuman o‘tkazmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Tinglab tushunish uchun pre-listening, while-listening va post-listening bosqichlari muhim."
+  },
+  {
+    "id": 823,
+    "text": "O‘quvchilarning o‘qish ko‘nikmasini rivojlantirish uchun qanday strategiyalar samarali?",
+    "options": [
+      "Faqat batafsil o‘qish",
+      "Skimming, scanning, inferencing, predicting kabi strategiyalarni o‘rgatish",
+      "Faqat ovoz chiqarib o‘qish",
+      "Hech qanday strategiya o‘rgatmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qish strategiyalari matnni tushunish samaradorligini oshiradi."
+  },
+  {
+    "id": 824,
+    "text": "O‘quvchilarning so‘z boyligini kengaytirish uchun qanday usul eng samarali?",
+    "options": [
+      "Faqat lug‘at yodlash",
+      "Kontekst ichida so‘zlarni o‘rganish, kollokatsiyalar va faol foydalanish",
+      "Faqat tarjima qilish",
+      "So‘z boyligini rivojlantirishga e’tibor bermaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: So‘z boyligi kontekstda va faol foydalanish orqali yaxshi o‘zlashtiriladi."
+  },
+  {
+    "id": 825,
+    "text": "Grammatikani o‘rgatishda qanday yondashuv samarali?",
+    "options": [
+      "Faqat qoidalarni yodlatish",
+      "Kontekst ichida, induktiv yoki deduktiv yondashuv bilan, ko‘p amaliyot berish",
+      "Grammatikani umuman o‘rgatmaslik",
+      "Faqat test yechish"
+    ],
+    "correct": 1,
+    "hint": "C1: Grammatika kontekstda va mazmunli amaliyot orqali o‘rganiladi."
+  },
+  {
+    "id": 826,
+    "text": "Talaffuzni o‘rgatishda qanday usul samarali?",
+    "options": [
+      "Faqat nazariy tushuntirish",
+      "Eshitish, takrorlash, minimal juftliklar va vizual yordamlar (diagrammalar) dan foydalanish",
+      "Talaffuzni umuman o‘rgatmaslik",
+      "Faqat yozma mashqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Talaffuzni o‘rgatishda modellashtirish va ko‘p takrorlash muhim."
+  },
+  {
+    "id": 827,
+    "text": "O‘quvchilarning xatolarini tuzatishda qanday yondashuv eng samarali?",
+    "options": [
+      "Har bir xatoni darhol va keskin tuzatish",
+      "Xatolarning turiga qarab (global/local, fluency/accuracy) mos strategiya tanlash",
+      "Hech qanday xatoni tuzatmaslik",
+      "Faqat yozma xatolarni tuzatish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xato tuzatishda maqsadga muvofiq va konstruktiv bo‘lish kerak."
+  },
+  {
+    "id": 828,
+    "text": "O‘quvchilarning o‘quv motivatsiyasini oshirish uchun qanday usullar samarali?",
+    "options": [
+      "Jazolash va tanbeh berish",
+      "Muvaffaqiyatni e’tirof etish, qiziqarli topshiriqlar va real maqsadlar qo‘yish",
+      "Faqat baho qo‘yish",
+      "Raqobatni kuchaytirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ichki motivatsiyani rivojlantirish uzoq muddatli o‘rganish uchun muhim."
+  },
+  {
+    "id": 829,
+    "text": "O‘quvchilar o‘rtasidagi nizolarni hal qilishda o‘qituvchi qanday rol o‘ynashi kerak?",
+    "options": [
+      "Bir tomonni qo‘llab-quvvatlash",
+      "Nizoga aralashmaslik",
+      "Vositachi sifatida har ikki tomonni tinglash va kelishuvga yordam berish",
+      "Har ikkala tomonni jazolash"
+    ],
+    "correct": 2,
+    "hint": "C1: Nizolarni hal qilishda vositachilik ko‘nikmalari muhim."
+  },
+  {
+    "id": 830,
+    "text": "Sinfda inklyuziv muhit yaratish uchun o‘qituvchi qanday choralarni ko‘rishi kerak?",
+    "options": [
+      "Barcha o‘quvchilarni bir xil muomala qilish, farqlarni sezmaslik",
+      "Har bir o‘quvchining o‘ziga xos ehtiyojlarini inobatga olgan holda differentsial yondashuv",
+      "Faqat kuchli o‘quvchilarga e’tibor qaratish",
+      "Zaif o‘quvchilarni alohida guruhga ajratish"
+    ],
+    "correct": 1,
+    "hint": "C1: Inklyuziv muhit barcha o‘quvchilarning qatnashishini ta’minlaydi."
+  },
+  {
+    "id": 831,
+    "text": "Darsni rejalashtirishda qanday tamoyillarga amal qilish kerak?",
+    "options": [
+      "Faqat darslikka asoslanish",
+      "Aniq maqsadlar, mos metodlar, vaqtni to‘g‘ri taqsimlash va moslashuvchanlik",
+      "Hech qanday rejalashtirmaslik",
+      "Faqat o‘qituvchining qulayligiga qarab rejalashtirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Samarali dars rejasi o‘quvchilarning ehtiyojlariga asoslangan bo‘lishi kerak."
+  },
+  {
+    "id": 832,
+    "text": "Dars maqsadlarini belgilashda qanday tamoyilga amal qilish kerak?",
+    "options": [
+      "Maqsadlar umumiy va mavhum bo‘lishi kerak",
+      "Maqsadlar aniq, o‘lchanadigan, erishish mumkin, dolzarb va vaqt bilan cheklangan (SMART) bo‘lishi kerak",
+      "Maqsadlar faqat o‘qituvchiga kerak",
+      "Maqsadlar faqat darslikda yozilgan bo‘lishi kerak"
+    ],
+    "correct": 1,
+    "hint": "C1: SMART maqsadlar o‘qitish samaradorligini oshiradi."
+  },
+  {
+    "id": 833,
+    "text": "O‘quv materiallarini tanlashda qanday mezonlarga e’tibor berish kerak?",
+    "options": [
+      "Faqat narxiga qarab",
+      "O‘quvchilarning darajasi, qiziqishlari, maqsadlari va madaniy mosligiga qarab",
+      "Faqat rang-barangligiga qarab",
+      "Hech qanday mezonga e’tibor bermaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Materiallar o‘quvchilarning ehtiyojlari va kontekstiga mos bo‘lishi kerak."
+  },
+  {
+    "id": 834,
+    "text": "Darsni boshlashda (lead-in) qanday maqsadni ko‘zda tutish kerak?",
+    "options": [
+      "Darhol yangi mavzuni tushuntirish",
+      "O‘quvchilarning e’tiborini jalb qilish va mavzuga qiziqish uyg‘otish",
+      "Test o‘tkazish",
+      "Uy vazifasini tekshirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Lead-in qiziqish uyg‘otadi va kontekst yaratadi."
+  },
+  {
+    "id": 835,
+    "text": "Dars yakunida (cooler) qanday faoliyatni o‘tkazish maqsadga muvofiq?",
+    "options": [
+      "Yangi mavzu boshlash",
+      "O‘tilganlarni takrorlash va ijobiy kayfiyat bilan tugatish",
+      "Test o‘tkazish",
+      "Uy vazifasini bermaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Cooler o‘rganilganlarni mustahkamlaydi va darsni ijobiy yakunlaydi."
+  },
+  {
+    "id": 836,
+    "text": "Uy vazifasini berishda qanday tamoyillarga amal qilish kerak?",
+    "options": [
+      "Ko‘p va qiyin vazifa berish",
+      "Maqsadli, o‘rganilganni mustahkamlovchi va o‘quvchilarning imkoniyatlariga mos vazifa berish",
+      "Hech qachon uy vazifasi bermaslik",
+      "Faqat hafta oxirida berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Samarali uy vazifasi o‘rganilganni mustahkamlaydi va ortiqcha yuklamaydi."
+  },
+  {
+    "id": 837,
+    "text": "O‘quvchilarga fikr-mulohaza (feedback) berishda qanday usul samarali?",
+    "options": [
+      "Faqat yomon tomonlarini aytish",
+      "Konstruktiv, aniq, o‘z vaqtida va rivojlantiruvchi fikr-mulohaza berish",
+      "Hech qanday fikr-mulohaza bermaslik",
+      "Faqat baho qo‘yish"
+    ],
+    "correct": 1,
+    "hint": "C1: Konstruktiv fikr-mulohaza o‘quvchilarning rivojlanishiga yordam beradi."
+  },
+  {
+    "id": 838,
+    "text": "O‘quvchilarning o‘zlashtirishini kuzatish va qayd etishda qanday usullardan foydalanish mumkin?",
+    "options": [
+      "Faqat testlar",
+      "Kuzatuv, portfel, loyiha ishlari, o‘z-o‘zini baholash, testlar",
+      "Faqat og‘zaki so‘rov",
+      "Hech qanday qayd etmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli baholash usullari o‘quvchilarning har tomonlama rivojlanishini ko‘rsatadi."
+  },
+  {
+    "id": 839,
+    "text": "Sinfda texnologiyalardan foydalanishning qanday afzalliklari bor?",
+    "options": [
+      "Faqat vaqtni tejaydi",
+      "O‘quvchilarni qiziqtiradi, interaktivlikni oshiradi va resurslarga kirishni kengaytiradi",
+      "Faqat o‘qituvchiga qulay",
+      "Hech qanday afzalligi yo‘q"
+    ],
+    "correct": 1,
+    "hint": "C1: Texnologiyalar ta’lim sifatini oshirishi mumkin, lekin maqsadga muvofiq ishlatilishi kerak."
+  },
+  {
+    "id": 840,
+    "text": "O‘quvchilarning turli o‘quv uslublariga (visual, auditory, kinesthetic) qanday e’tibor berish kerak?",
+    "options": [
+      "Faqat bir usuldan foydalanish",
+      "Turli usullarni qo‘llash (ko‘rgazmali, eshitish, harakatli topshiriqlar)",
+      "Hech qanday e’tibor bermaslik",
+      "Faqat kinestetik usuldan foydalanish"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli o‘quv uslublariga moslashuv barcha o‘quvchilarning qatnashishini oshiradi."
+  },
+  {
+    "id": 841,
+    "text": "O‘quvchilarning yuqori darajadagi fikrlash qobiliyatlarini (analiz, sintez, baholash) rivojlantirish uchun qanday topshiriqlar berish kerak?",
+    "options": [
+      "Faktlarni eslab qolish topshiriqlari",
+      "Loyiha ishlari, tadqiqotlar, muammoli topshiriqlar va bahs-munozaralar",
+      "Faqat testlar",
+      "Diktantlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Yuqori darajadagi fikrlash murakkab, tahliliy topshiriqlarni talab qiladi."
+  },
+  {
+    "id": 842,
+    "text": "O‘quvchilarning ijodiy qobiliyatlarini rivojlantirish uchun qanday muhit yaratish kerak?",
+    "options": [
+      "Qat’iy qoidalar va jazo tizimi",
+      "Erkin, qo‘llab-quvvatlovchi, xato qilishga ruxsat beruvchi va yangi g‘oyalarni rag‘batlantiruvchi muhit",
+      "Faqat individual ishlash",
+      "Raqobatni kuchaytirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijodkorlik xavfsiz va qo‘llab-quvvatlovchi muhitda rivojlanadi."
+  },
+  {
+    "id": 843,
+    "text": "O‘quvchilar o‘rtasidagi hamkorlikni rivojlantirish uchun qanday faoliyatlar samarali?",
+    "options": [
+      "Faqat individual topshiriqlar",
+      "Juftlik va guruhli ishlar, loyihalar, jigsaw, muammoli topshiriqlar",
+      "Raqobatli o‘yinlar",
+      "Faqat o‘qituvchi bilan ishlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Hamkorlikli o‘rganish ijtimoiy va kognitiv ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 844,
+    "text": "O‘quvchilarning mustaqil o‘rganish ko‘nikmalarini rivojlantirish uchun qanday resurslardan foydalanish mumkin?",
+    "options": [
+      "Faqat darslik",
+      "Lug‘atlar, internet, qo‘shimcha o‘qish materiallari, video va audio darslar",
+      "Hech qanday qo‘shimcha resurs",
+      "Faqat o‘qituvchi yozgan materiallar"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli resurslar o‘quvchilarning mustaqil o‘rganish imkoniyatlarini kengaytiradi."
+  },
+  {
+    "id": 845,
+    "text": "O‘quvchilarning o‘zlashtirishidagi tafovutlarni (gap) kamaytirish uchun qanday choralar ko‘rish kerak?",
+    "options": [
+      "Hech narsa qilmaslik",
+      "Differentsial yondashuv, qo‘shimcha yordam, qobiliyatiga mos topshiriqlar",
+      "Faqat kuchli o‘quvchilarni rivojlantirish",
+      "Barcha o‘quvchilarni bir xil talab qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Differentsiatsiya va qo‘shimcha yordam tafovutlarni kamaytirishga yordam beradi."
+  },
+  {
+    "id": 846,
+    "text": "O‘quvchilarda o‘z-o‘zini nazorat qilish ko‘nikmasini shakllantirish uchun qanday usullar samarali?",
+    "options": [
+      "Doimiy tashqi nazorat",
+      "O‘z faoliyatini rejalashtirish, kuzatish va baholashni o‘rgatish (metakognitiv strategiyalar)",
+      "Hech qanday nazorat qilmaslik",
+      "Faqat o‘qituvchi baholashi"
+    ],
+    "correct": 1,
+    "hint": "C1: Metakognitiv strategiyalar o‘z-o‘zini nazorat qilishni rivojlantiradi."
+  },
+  {
+    "id": 847,
+    "text": "Sinfda ijobiy psixologik muhit yaratish uchun o‘qituvchi qanday xatti-harakatlarni amalga oshirishi kerak?",
+    "options": [
+      "Doimiy tanqid qilish va jazolash",
+      "Hurmat, qo‘llab-quvvatlash, tinglash va ochiq muloqot qilish",
+      "Faqat o‘z fikrini aytish",
+      "O‘quvchilarni bir-biriga qarshi qo‘yish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijobiy muhit hurmat va ishonchga asoslangan."
+  },
+  {
+    "id": 848,
+    "text": "O‘quvchilarning nutqiy faolligini oshirish uchun qanday texnikalardan foydalanish mumkin?",
+    "options": [
+      "Faqat o‘qituvchi gapirishi",
+      "Juftlik va guruhli muhokamalar, rolli o‘yinlar, debatlar, savol-javob",
+      "Faqat yozma topshiriqlar",
+      "O‘quvchilarni jim turishga undash"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘quvchilarga ko‘p gapirish imkoniyatini yaratish kerak (STT)."
+  },
+  {
+    "id": 849,
+    "text": "O‘quvchilarning e’tiborini dars davomida saqlash uchun qanday usullar samarali?",
+    "options": [
+      "Uzoq monoton ma’ruza",
+      "Faoliyatlarni tez-tez o‘zgartirish, qiziqarli topshiriqlar, vizual yordamlar",
+      "Faqat jazolash",
+      "O‘quvchilarni bir joyda qimirlamay o‘tirishga majburlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Faoliyatlarning xilma-xilligi va qiziqarliligi e’tiborni saqlaydi."
+  },
+  {
+    "id": 850,
+    "text": "O‘quvchilarning mavzuga qiziqishini oshirish uchun qanday usullardan foydalanish mumkin?",
+    "options": [
+      "Mavzuni quruq nazariy qilib tushuntirish",
+      "Mavzuni hayot bilan bog‘lash, amaliy misollar, qiziqarli faktlar va o‘yinlar",
+      "Faqat darslik o‘qish",
+      "Mavzuni qisqartirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Mavzuning hayotiy bog‘liqligi qiziqishni oshiradi."
+  },
+  {
+    "id": 851,
+    "text": "O‘quvchilarning o‘rganilgan mavzuni uzoq muddat eslab qolishini ta’minlash uchun qanday usul samarali?",
+    "options": [
+      "Bir marta o‘rgatib qo‘yish",
+      "Muntazam takrorlash, amaliyot va eslab qolish strategiyalari",
+      "Hech qanday takrorlamaslik",
+      "Faqat test o‘tkazish"
+    ],
+    "correct": 1,
+    "hint": "C1: Intervalli takrorlash uzoq muddatli xotirada saqlashga yordam beradi."
+  },
+  {
+    "id": 852,
+    "text": "O‘quvchilarning xatolariga qanday munosabatda bo‘lish kerak?",
+    "options": [
+      "Har bir xato uchun jazolash",
+      "Xatolarni o‘rganish imkoniyati sifatida qarash, konstruktiv tuzatish va o‘z-o‘zini tuzatishga undash",
+      "Xatolarni umuman sezmaslik",
+      "Faqat katta xatolarni tuzatish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xatolar o‘rganishning tabiiy va foydali qismidir."
+  },
+  {
+    "id": 853,
+    "text": "O‘quvchilarning o‘zlashtirish darajasini aniqlashda summativ baholashning roli nima?",
+    "options": [
+      "Dars davomida tuzatishlar kiritish",
+      "O‘quv davri yakunida umumiy natijani aniqlash",
+      "O‘quvchilarni guruhlarga ajratish",
+      "Motivatsiyani oshirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Summativ baholash o‘qish dasturining samaradorligini ko‘rsatadi."
+  },
+  {
+    "id": 854,
+    "text": "O‘quvchilarning individual rivojlanish traektoriyasini kuzatish uchun qanday usul samarali?",
+    "options": [
+      "Faqat yakuniy test",
+      "Portfel (portfolio) – o‘quvchining ishlari va yutuqlari to‘plami",
+      "Faqat og‘zaki so‘rov",
+      "Hech qanday kuzatmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Portfel o‘quvchining vaqt davomidagi rivojlanishini ko‘rsatadi."
+  },
+  {
+    "id": 855,
+    "text": "O‘quvchilarning bir-biriga baho berish (peer assessment) ko‘nikmasini shakllantirish uchun nima qilish kerak?",
+    "options": [
+      "Baholash mezonlarini tushuntirmasdan topshiriq berish",
+      "Aniq mezonlar, rubrikalar berish va o‘rgatish, keyin amaliyot o‘tkazish",
+      "Hech qachon peer assessment qo‘llamaslik",
+      "Faqat kuchli o‘quvchilarga ruxsat berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Peer assessment uchun o‘quvchilarni tayyorlash va yo‘l-yo‘riq ko‘rsatish kerak."
+  },
+  {
+    "id": 856,
+    "text": "Sinfdagi o‘quvchilarning turli darajalariga mos ta’lim berish (differentiation) qanday amalga oshiriladi?",
+    "options": [
+      "Barchaga bir xil topshiriq",
+      "Turli darajadagi topshiriqlar, mos yordam, qo‘shimcha vaqt yoki kengaytirilgan materiallar berish",
+      "Faqat kuchli o‘quvchilarga e’tibor qaratish",
+      "Zaif o‘quvchilarni chetlatish"
+    ],
+    "correct": 1,
+    "hint": "C1: Differentsiatsiya har bir o‘quvchining potensialini ro‘yobga chiqarishga yordam beradi."
+  },
+  {
+    "id": 857,
+    "text": "O‘quvchilarning nutqidagi xatolarni tuzatishda 'recasting' usuli nima?",
+    "options": [
+      "Xatoni to‘g‘ridan-to‘g‘ri ko‘rsatib tuzatish",
+      "O‘quvchining xatosini to‘g‘ri shaklda takrorlash, xatoni ochiq ko‘rsatmasdan",
+      "Xatoni e’tiborsiz qoldirish",
+      "Xatoni yozib olish va keyin tahlil qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Recasting – o‘quvchi gapini to‘g‘rilab takrorlash, xatoni sezdirish."
+  },
+  {
+    "id": 858,
+    "text": "O‘quvchilarning nutqiy xatolarida 'self-correction' (o‘z-o‘zini tuzatish) ni rag‘batlantirish uchun qanday usul samarali?",
+    "options": [
+      "Darhol to‘g‘ri javobni aytish",
+      "Xatoni sezdiruvchi imo-ishora yoki pauza qilish, o‘quvchiga o‘zi tuzatish imkoniyatini berish",
+      "Xatoni e’tiborsiz qoldirish",
+      "Boshqa o‘quvchilardan tuzatishni so‘rash"
+    ],
+    "correct": 1,
+    "hint": "C1: Self-correction o‘quvchining mustaqilligini oshiradi."
+  },
+  {
+    "id": 859,
+    "text": "O‘quvchilarning bilimlarini baholashda 'rubrika' (rubric) nima uchun kerak?",
+    "options": [
+      "Baholashni murakkablashtirish uchun",
+      "Aniq mezonlar bilan adolatli va xolis baholash uchun",
+      "Faqat o‘qituvchiga qulaylik uchun",
+      "Hech qanday foydasi yo‘q"
+    ],
+    "correct": 1,
+    "hint": "C1: Rubrikalar baholashning shaffofligi va adolatliligini ta’minlaydi."
+  },
+  {
+    "id": 860,
+    "text": "O‘quvchilarning nutqiy ko‘nikmalarini baholashda qanday usul samarali?",
+    "options": [
+      "Faqat grammatik xatolarni sanash",
+      "Foydalanish (fluency, accuracy, pronunciation, vocabulary, interaction) mezonlari bo‘yicha baholash",
+      "Faqat sub’ektiv fikr",
+      "Hech qanday baholamaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Nutqiy ko‘nikmalarni baholashda ko‘p qirrali yondashuv kerak."
+  },
+  {
+    "id": 861,
+    "text": "O‘quvchilarni baholashda testlardan tashqari qanday alternativ usullar mavjud?",
+    "options": [
+      "Hech qanday",
+      "Portfolio, loyiha, prezentatsiya, o‘z-o‘zini baholash, kuzatuv",
+      "Faqat og‘zaki so‘rov",
+      "Faqat yozma ish"
+    ],
+    "correct": 1,
+    "hint": "C1: Alternativ baholash o‘quvchilarning real ko‘nikmalarini to‘liqroq ko‘rsatadi."
+  },
+  {
+    "id": 862,
+    "text": "O‘quvchilarning mustaqil ishlashini tashkil qilishda o‘qituvchi qanday vazifani bajaradi?",
+    "options": [
+      "Hech qanday vazifa",
+      "Yo‘l-yo‘riq ko‘rsatish, resurslar berish va qo‘llab-quvvatlash",
+      "Faqat nazorat qilish",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Mustaqil ishda o‘qituvchi fasilitator rolida bo‘ladi."
+  },
+  {
+    "id": 863,
+    "text": "Darsda vaqtni samarali boshqarish uchun o‘qituvchi nima qilishi kerak?",
+    "options": [
+      "Vaqtni umuman nazorat qilmaslik",
+      "Darsni rejalashtirish, har bir bosqichga vaqt ajratish va moslashuvchan bo‘lish",
+      "Faqat darslikka amal qilish",
+      "Faqat tez o‘quvchilarga e’tibor qaratish"
+    ],
+    "correct": 1,
+    "hint": "C1: Vaqtni boshqarish dars samaradorligining muhim omili."
+  },
+  {
+    "id": 864,
+    "text": "O‘quvchilarning sinfda qatnashishini oshirish uchun qanday usullar samarali?",
+    "options": [
+      "Faqat kuchli o‘quvchilarga so‘z berish",
+      "Barcha o‘quvchilarga so‘z berish, juftlik va guruhli ishlar, yozma javoblar, o‘yinlar",
+      "Faqat o‘qituvchi gapirishi",
+      "O‘quvchilarni jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Barcha o‘quvchilarning faol ishtiroki uchun turli usullarni qo‘llash kerak."
+  },
+  {
+    "id": 865,
+    "text": "Darsda ko‘rgazmali qurollardan (visual aids) foydalanishning qanday afzalliklari bor?",
+    "options": [
+      "Hech qanday afzalligi yo‘q",
+      "Ma’lumotni tushunishni osonlashtiradi, eslab qolishni kuchaytiradi, e’tiborni tortadi",
+      "Faqat vaqtni oladi",
+      "Faqat bolalar uchun foydali"
+    ],
+    "correct": 1,
+    "hint": "C1: Vizual qurollar barcha yoshdagi o‘quvchilar uchun samarali."
+  },
+  {
+    "id": 866,
+    "text": "O‘quvchilarga vazifalarni tushuntirishda (instructions) qanday tamoyillarga amal qilish kerak?",
+    "options": [
+      "Uzoq va murakkab qilib tushuntirish",
+      "Qisqa, aniq, bosqichma-bosqich va misollar bilan tushuntirish, tekshirish (ICQ)",
+      "Hech qanday tushuntirmaslik",
+      "Faqat yozma ko‘rsatma berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Tushunarli ko‘rsatmalar vazifaning muvaffaqiyatli bajarilishini ta’minlaydi."
+  },
+  {
+    "id": 867,
+    "text": "O‘quvchilarning bilimlarini tekshirish uchun 'concept checking questions' (CCQ) nima?",
+    "options": [
+      "Murakkab grammatik savollar",
+      "O‘quvchilarning tushunchasini oddiy til bilan tekshiradigan savollar",
+      "Test savollari",
+      "Uy vazifasi savollari"
+    ],
+    "correct": 1,
+    "hint": "C1: CCQlar tushunchani tekshirish uchun sodda va aniq bo‘lishi kerak."
+  },
+  {
+    "id": 868,
+    "text": "O‘quvchilarning xotirasida ma’lumotni mustahkamlash uchun 'review' (takrorlash) qanday chastotada o‘tkazilishi kerak?",
+    "options": [
+      "Faqat yil oxirida",
+      "Muntazam ravishda, interval bilan (kunning, haftaning, oyning yakunida)",
+      "Hech qachon",
+      "Faqat test oldidan"
+    ],
+    "correct": 1,
+    "hint": "C1: Intervalli takrorlash ma’lumotni uzoq muddatli xotiraga o‘tkazadi."
+  },
+  {
+    "id": 869,
+    "text": "O‘quvchilarning o‘quv yuklamasini aniqlashda qanday tamoyillarga amal qilish kerak?",
+    "options": [
+      "Iloji boricha ko‘proq vazifa berish",
+      "Yosh, daraja, vaqt va maqsadlarga mos keladigan, ortiqcha yuklamaydigan vazifa berish",
+      "Hech qanday vazifa bermaslik",
+      "Faqat kuchli o‘quvchilarga vazifa berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ortiqcha yuklama samaradorlikni pasaytiradi va motivatsiyani tushiradi."
+  },
+  {
+    "id": 870,
+    "text": "Sinfda o‘quvchilar o‘rtasida hurmat va hamkorlik muhitini qanday yaratish mumkin?",
+    "options": [
+      "Raqobatni kuchaytirish",
+      "Guruhli ishlar, bir-birini tinglash, hurmat qilish qoidalarini o‘rgatish va namuna bo‘lish",
+      "Faqat individual ishlash",
+      "O‘quvchilarni bir-biriga qarshi qo‘yish"
+    ],
+    "correct": 1,
+    "hint": "C1: Hamkorlik muhiti o‘quvchilarning ijtimoiy va akademik rivojiga ijobiy ta’sir qiladi."
+  },
+  {
+    "id": 871,
+    "text": "O‘quvchilarning o‘ziga bo‘lgan ishonchini oshirish uchun o‘qituvchi qanday xatti-harakatlarni amalga oshirishi kerak?",
+    "options": [
+      "Doimiy tanqid qilish",
+      "Muvaffaqiyatni e’tirof etish, qo‘llab-quvvatlash, kichik maqsadlar qo‘yish va erishgan yutuqlarni qayd etish",
+      "Hech qanday e’tibor bermaslik",
+      "Faqat xatolarni ko‘rsatish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘ziga ishonch muvaffaqiyatli o‘rganishning muhim omili."
+  },
+  {
+    "id": 872,
+    "text": "O‘quvchilarning turli madaniy va ijtimoiy kelib chiqishini inobatga olgan holda qanday yondashuv samarali?",
+    "options": [
+      "Barchaga bir xil muomala",
+      "Interkultural kompetensiyani rivojlantirish, turli xillikni qadrlash va hurmat qilish",
+      "Faqat dominant madaniyatga e’tibor qaratish",
+      "Madaniy farqlarni e’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Interkultural ta’lim o‘quvchilarni global dunyoga tayyorlaydi."
+  },
+  {
+    "id": 873,
+    "text": "O‘quvchilarning mavzu yuzasidan oldingi bilimlarini (prior knowledge) faollashtirish uchun qanday usul samarali?",
+    "options": [
+      "To‘g‘ridan-to‘g‘ri yangi mavzuga o‘tish",
+      "Brainstorming, savol-javob, K-W-L charti (What I Know, What I Want to know, What I Learned) kabi usullar",
+      "Faqat test o‘tkazish",
+      "Hech qanday faollashtirmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Oldingi bilimlarni faollashtirish yangi ma’lumotni o‘zlashtirishni osonlashtiradi."
+  },
+  {
+    "id": 874,
+    "text": "O‘quvchilarning mavzuga bo‘lgan qiziqishini saqlab qolish uchun darsda qanday usullarni qo‘llash kerak?",
+    "options": [
+      "Monoton usullar",
+      "Turli xil faoliyatlar, o‘yinlar, guruhli ishlar, real hayot bilan bog‘lash, texnologiyalar",
+      "Faqat ma’ruza",
+      "Faqat yozma mashqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Faoliyatlarning xilma-xilligi qiziqishni saqlaydi."
+  },
+  {
+    "id": 875,
+    "text": "O‘quvchilarning yozma ishlariga fikr-mulohaza (feedback) berishda qanday usul samarali?",
+    "options": [
+      "Faqat xatolarni belgilash va baho qo‘yish",
+      "Kuchli tomonlarini e’tirof etish, rivojlantirish sohalarini ko‘rsatish, aniq takliflar berish",
+      "Hech qanday fikr-mulohaza bermaslik",
+      "Faqat umumiy izoh yozish"
+    ],
+    "correct": 1,
+    "hint": "C1: Konstruktiv fikr-mulohaza yozma ko‘nikmalarni rivojlantirishga yordam beradi."
+  },
+  {
+    "id": 876,
+    "text": "O‘quvchilarning o‘qish tezligini oshirish va tushunishni yaxshilash uchun qanday usullar samarali?",
+    "options": [
+      "Sekin o‘qishga majburlash",
+      "Skimming, scanning, chunking, ko‘z harakatlarini mashq qildirish",
+      "Faqat ovoz chiqarib o‘qish",
+      "Hech qanday mashq qildirmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qish strategiyalari tezlik va tushunishni oshiradi."
+  },
+  {
+    "id": 877,
+    "text": "O‘quvchilarning tinglab tushunishida asosiy ma’lumotni ajratib olish (gist listening) qobiliyatini rivojlantirish uchun qanday topshiriq berish kerak?",
+    "options": [
+      "Har bir so‘zni tushunishni talab qilish",
+      "Matnning asosiy mazmunini aniqlash topshirig‘i (masalan, eng yaxshi sarlavhani tanlash)",
+      "Diktant yozish",
+      "Tinglab matnni to‘liq yozish"
+    ],
+    "correct": 1,
+    "hint": "C1: Gist listening asosiy fikrni tushunishga qaratilgan."
+  },
+  {
+    "id": 878,
+    "text": "O‘quvchilarning tinglab tushunishida aniq ma’lumotlarni topish (specific information listening) qobiliyatini rivojlantirish uchun qanday topshiriq berish kerak?",
+    "options": [
+      "Asosiy mazmunni aytib berish",
+      "Aniq raqamlar, sanalar, ismlar kabi ma’lumotlarni topish topshirig‘i",
+      "Matnni to‘liq yozish",
+      "Matnning tarjimasini qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Specific listening aniq detallarni aniqlashga qaratilgan."
+  },
+  {
+    "id": 879,
+    "text": "O‘quvchilarning so‘z boyligini oshirishda 'lexical chunks' (so‘z birikmalari) ni o‘rgatish qanday afzalliklarga ega?",
+    "options": [
+      "Hech qanday afzalligi yo‘q",
+      "Tabiiy va tezroq gapirishga yordam beradi, grammatik xatolarni kamaytiradi",
+      "Faqat yozma nutq uchun foydali",
+      "Faqat boshlang‘ich daraja uchun foydali"
+    ],
+    "correct": 1,
+    "hint": "C1: Lexical chunks real vaqtda til ishlab chiqarishni osonlashtiradi."
+  },
+  {
+    "id": 880,
+    "text": "O‘quvchilarning so‘z boyligini faol (active vocabulary) va passiv (passive vocabulary) qismga ajratish qanday ahamiyatga ega?",
+    "options": [
+      "Hech qanday ahamiyati yo‘q",
+      "O‘qitishda qaysi so‘zlarni faol qo‘llashni o‘rgatish va qaysilarini tanib olishni o‘rgatish farqini tushunishga yordam beradi",
+      "Faqat test tayyorlash uchun",
+      "Faqat grammatika uchun"
+    ],
+    "correct": 1,
+    "hint": "C1: So‘z boyligining faol va passiv tarkibini bilish o‘qitish strategiyasini belgilaydi."
+  },
+  {
+    "id": 881,
+    "text": "O‘quvchilarning grammatik xatolarida 'overgeneralization' (haddan oshirib qo‘llash) nimani anglatadi?",
+    "options": [
+      "Grammatik qoidani umuman qo‘llamaslik",
+      "Qoidani keragidan kengroq qo‘llash (masalan, 'goed' instead of 'went')",
+      "Qoidani to‘g‘ri qo‘llash",
+      "Qoidani faqat yozma nutqda qo‘llash"
+    ],
+    "correct": 1,
+    "hint": "C1: Overgeneralization til o‘zlashtirishning tabiiy bosqichidir."
+  },
+  {
+    "id": 882,
+    "text": "O‘quvchilarning noto‘g‘ri talaffuzini tuzatishda minimal pairs (minimal juftliklar) dan foydalanish qanday samara beradi?",
+    "options": [
+      "Hech qanday samara bermaydi",
+      "O‘quvchilarga farqni eshitish va to‘g‘ri talaffuz qilishga yordam beradi",
+      "Faqat yozuv uchun foydali",
+      "Faqat katta yoshlilar uchun foydali"
+    ],
+    "correct": 1,
+    "hint": "C1: Minimal pairs (ship/sheep) talaffuzdagi nozik farqlarni o‘rgatishda samarali."
+  },
+  {
+    "id": 883,
+    "text": "O‘quvchilarning stress va intonatsiyani to‘g‘ri qo‘llashiga qanday erishish mumkin?",
+    "options": [
+      "Faqat nazariy tushuntirish",
+      "Eshitish, takrorlash, ovoz balandligini o‘zgartirish, jismoniy harakatlar (gestures) bilan ko‘rsatish",
+      "Hech qanday o‘rgatmaslik",
+      "Faqat yozma mashqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Suprasegmental xususiyatlar (stress, intonatsiya) muloqotda muhim."
+  },
+  {
+    "id": 884,
+    "text": "O‘quvchilarning muloqotda noverbal vositalardan (imo-ishora, mimika) foydalanish qobiliyatini rivojlantirish uchun qanday faoliyat samarali?",
+    "options": [
+      "Faqat so‘zlarga e’tibor qaratish",
+      "Rolli o‘yinlar, dramalar, videolarni tahlil qilish va taqlid qilish",
+      "Hech qanday faoliyat",
+      "Faqat yozma topshiriqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Noverbal muloqot real hayotdagi muloqotning muhim qismidir."
+  },
+  {
+    "id": 885,
+    "text": "O‘quvchilarning pragmatik kompetensiyasini (turli vaziyatlarda tilni mos qo‘llash) rivojlantirish uchun qanday faoliyat samarali?",
+    "options": [
+      "Faqat grammatika qoidalari",
+      "Rolli o‘yinlar, vaziyatli dialoglar, real hayotdagi vaziyatlarni modellashtirish",
+      "Faqat lug‘at yodlash",
+      "Faqat test yechish"
+    ],
+    "correct": 1,
+    "hint": "C1: Pragmatik kompetensiya tilni ijtimoiy kontekstda to‘g‘ri qo‘llashdir."
+  },
+  {
+    "id": 886,
+    "text": "O‘quvchilarning o‘zaro munosabatda (interaction) noaniqlikni bartaraf etish (clarification) va tuzatish (repair) strategiyalarini qo‘llashiga qanday yordam berish mumkin?",
+    "options": [
+      "Hech qanday yordam bermaslik",
+      "Model ko‘rsatish (Can you repeat that?, Do you mean...?), amaliyot o‘tkazish",
+      "Faqat grammatika o‘rgatish",
+      "Faqat yozma mashqlar"
+    ],
+    "correct": 1,
+    "hint": "C2: Repair strategies real muloqotdagi tushunmovchiliklarni hal qilishga yordam beradi."
+  },
+  {
+    "id": 887,
+    "text": "O‘quvchilarning o‘qigan matniga munosabat bildirish (critical response) qobiliyatini rivojlantirish uchun qanday topshiriq samarali?",
+    "options": [
+      "Faqat faktlarni ko‘chirish",
+      "Matnni tahlil qilish, muallifning pozitsiyasini baholash, o‘z fikrini asoslash",
+      "Faqat matnni tarjima qilish",
+      "Faqat matn yuzasidan test topshiriqlari"
+    ],
+    "correct": 1,
+    "hint": "C1: Critical response yuqori darajadagi fikrlashni talab qiladi."
+  },
+  {
+    "id": 888,
+    "text": "O‘quvchilarning argumentativ insho yozish qobiliyatini rivojlantirish uchun qanday usul samarali?",
+    "options": [
+      "Faqat grammatik qoidalarni o‘rgatish",
+      "Argument tuzilishini (tezis, dalillar, qarshi dalillar, xulosa) o‘rgatish, modellar va amaliyot",
+      "Faqat lug‘at boyligini oshirish",
+      "Faqat test yechish"
+    ],
+    "correct": 1,
+    "hint": "C1: Argumentativ insho aniq tuzilma va asoslangan dalillarni talab qiladi."
+  },
+  {
+    "id": 889,
+    "text": "O‘quvchilarning ilmiy maqola yoki hisobot yozish qobiliyatini rivojlantirish uchun qanday yondashuv samarali?",
+    "options": [
+      "Faqat umumiy yozuv ko‘nikmalari",
+      "Akademik yozuv uslubi, format, iqtibos keltirish, manbalardan foydalanishni o‘rgatish",
+      "Faqat grammatika",
+      "Faqat lug‘at"
+    ],
+    "correct": 1,
+    "hint": "C2: Akademik yozuv o‘ziga xos konventsiyalar va uslubni talab qiladi."
+  },
+  {
+    "id": 890,
+    "text": "O‘quvchilarning prezentatsiya qilish (presentation skills) qobiliyatini rivojlantirish uchun qanday faoliyat samarali?",
+    "options": [
+      "Faqat matn yozish",
+      "Tuzilish, vizual qurollar, ovoz, tan tili, savollarga javob berishni o‘rgatish va amaliyot",
+      "Faqat grammatikani tekshirish",
+      "Hech qanday tayyorgarliksiz prezentatsiya qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Samarali prezentatsiya texnik va nafis ko‘nikmalarni talab qiladi."
+  },
+  {
+    "id": 891,
+    "text": "O‘quvchilarning guruhli muhokamada (group discussion) qatnashish qobiliyatini rivojlantirish uchun qanday yondashuv samarali?",
+    "options": [
+      "Faqat individual ishlash",
+      "Muhokama qoidalari, o‘z navbatida gapirish, fikrni asoslash, boshqalarni tinglashni o‘rgatish va amaliyot",
+      "Faqat o‘qituvchi boshqaruvi",
+      "Hech qanday tayyorgarlik"
+    ],
+    "correct": 1,
+    "hint": "C1: Samarali muhokama ishtirokchilarning faol va hurmatli ishtirokini talab qiladi."
+  },
+  {
+    "id": 892,
+    "text": "O‘quvchilarning intervyu (interview) o‘tkazish qobiliyatini rivojlantirish uchun qanday faoliyat samarali?",
+    "options": [
+      "Faqat nazariy tushuntirish",
+      "Savollar tayyorlash, tinglash, keyingi savolni moslashtirish, ma’lumotlarni qayd qilishni amaliyot qilish",
+      "Faqat yozma topshiriqlar",
+      "Hech qanday tayyorgarlik"
+    ],
+    "correct": 1,
+    "hint": "C1: Intervyu o‘tkazish faol tinglash va moslashuvchanlikni talab qiladi."
+  },
+  {
+    "id": 893,
+    "text": "O‘quvchilarning jamoaviy loyiha (project work) bajarish qobiliyatini rivojlantirish uchun qanday yondashuv samarali?",
+    "options": [
+      "Faqat individual ishlash",
+      "Rejalashtirish, rollarni taqsimlash, tadqiqot, tayyorlash, taqdim etish va refleksiyani o‘z ichiga olgan bosqichli yondashuv",
+      "Faqat yakuniy mahsulotni baholash",
+      "Hech qanday tashkiliy yordam"
+    ],
+    "correct": 1,
+    "hint": "C1: Loyiha asosida o‘qitish (PBL) real ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 894,
+    "text": "O‘quvchilarning tanqidiy fikrlashini baholash uchun qanday topshiriq turlari mos keladi?",
+    "options": [
+      "Faktlarni eslab qolish topshiriqlari",
+      "Tahlil, sintez, baholash, argumentatsiyani talab qiladigan topshiriqlar (insho, loyiha, bahs)",
+      "Faqat testlar",
+      "Faqat diktantlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Tanqidiy fikrlashni baholash uchun yuqori darajadagi topshiriqlar kerak."
+  },
+  {
+    "id": 895,
+    "text": "O‘quvchilarning ijodiy qobiliyatlarini baholash uchun qanday topshiriq turlari mos keladi?",
+    "options": [
+      "Standart testlar",
+      "Ochiq topshiriqlar, loyihalar, portfel, prezentatsiyalar",
+      "Faqat grammatik mashqlar",
+      "Faqat tarjima"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijodkorlikni baholashda ochiq va turli xil javoblarga imkon beradigan topshiriqlar kerak."
+  },
+  {
+    "id": 896,
+    "text": "O‘quvchilarning o‘z-o‘zini baholash (self-assessment) natijalaridan o‘qituvchi qanday foydalanishi mumkin?",
+    "options": [
+      "Hech qanday foydalanish mumkin emas",
+      "O‘quvchilarning o‘z kuchli va zaif tomonlarini tushunishiga yordam berish, o‘qitishni moslashtirish",
+      "Faqat yakuniy baho sifatida",
+      "Faqat ota-onalarga ko‘rsatish uchun"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘z-o‘zini baholash o‘quvchilarning metakognitiv rivojlanishi va o‘qitishning takomillashuvi uchun muhim."
+  },
+  {
+    "id": 897,
+    "text": "O‘quvchilarning bir-biriga baho berishi (peer assessment) qanday ko‘nikmalarni rivojlantiradi?",
+    "options": [
+      "Hech qanday ko‘nikma rivojlantirmaydi",
+      "Tanqidiy fikrlash, konstruktiv fikr-mulohaza berish, standartlarni tushunish va hamkorlik",
+      "Faqat baholash ko‘nikmasi",
+      "Faqat yozish ko‘nikmasi"
+    ],
+    "correct": 1,
+    "hint": "C1: Peer assessment baholovchi sifatida ham o‘rganish imkoniyatini beradi."
+  },
+  {
+    "id": 898,
+    "text": "Sinfda kuzatuv (observation) asosida baholashning qanday afzalliklari bor?",
+    "options": [
+      "Hech qanday afzalligi yo‘q",
+      "O‘quvchilarning tabiiy muhitdagi xatti-harakati, ishtiroki va tushunchasini bevosita ko‘rish imkonini beradi",
+      "Faqat vaqtni oladi",
+      "Faqat sub’ektiv fikr"
+    ],
+    "correct": 1,
+    "hint": "C1: Kuzatuv asosida baholash standart testlar o‘lchay olmaydigan jihatlarni aniqlaydi."
+  },
+  {
+    "id": 899,
+    "text": "O‘quvchilarning rivojlanishini kuzatish uchun 'learning journal' (o‘quv kundaligi) dan qanday foydalanish mumkin?",
+    "options": [
+      "Hech qanday foydasi yo‘q",
+      "O‘quvchilar o‘z o‘rganish jarayonini, qiyinchiliklarini va yutuqlarini yozib boradi, o‘qituvchi fikr-mulohaza beradi",
+      "Faqat uy vazifasini tekshirish uchun",
+      "Faqat kundalik yozish uchun"
+    ],
+    "correct": 1,
+    "hint": "C1: Learning journal o‘quvchilarning metakognitsiyasini va o‘qituvchiga tushuncha beradi."
+  },
+  {
+    "id": 900,
+    "text": "O‘quvchilarning erishgan natijalarini ota-onalarga taqdim etishda qanday usul samarali?",
+    "options": [
+      "Faqat baho qo‘yib qo‘yish",
+      "Rivojlanish haqida aniq, konstruktiv, tushunarli va ijobiy tarzda, misollar bilan tushuntirish",
+      "Faqat yomon tomonlarini aytish",
+      "Hech qanday ma’lumot bermaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Ota-onalar bilan samarali muloqot o‘quvchining rivojlanishiga yordam beradi."
+  }
+]

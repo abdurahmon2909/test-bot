@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 401,
+    "text": "A: 'Did you finish the report?' B: 'I've been sick all week.' Which Gricean maxim does B violate?",
+    "options": [
+      "Maxim of quality",
+      "Maxim of quantity",
+      "Maxim of manner",
+      "Maxim of relevance"
+    ],
+    "correct": 3,
+    "hint": "C1: Relevance maxim – B's answer doesn't directly address whether the report was finished."
+  },
+  {
+    "id": 402,
+    "text": "Which utterance is an example of a speech act of promising?",
+    "options": [
+      "I'll think about it.",
+      "I promise to pay you back.",
+      "Maybe I can help.",
+      "Are you coming?"
+    ],
+    "correct": 1,
+    "hint": "C1: 'I promise' explicitly performs the act of promising (performative verb)."
+  },
+  {
+    "id": 403,
+    "text": "Which sentence contains a presupposition?",
+    "options": [
+      "The king of France is bald.",
+      "Is the king of France bald?",
+      "Don't be bald like the king of France.",
+      "If the king of France is bald, he should wear a hat."
+    ],
+    "correct": 0,
+    "hint": "C1: Presupposes 'There is a king of France' (existential presupposition)."
+  },
+  {
+    "id": 404,
+    "text": "What is deixis?",
+    "options": [
+      "Words that refer to shared knowledge",
+      "Words that point to time, place, or person in context",
+      "Words that imply opposite meaning",
+      "Words that are always literal"
+    ],
+    "correct": 1,
+    "hint": "C1: Deictic words: here, there, now, then, I, you, this, that."
+  },
+  {
+    "id": 405,
+    "text": "Which is an example of negative politeness strategy?",
+    "options": [
+      "Close the door!",
+      "I'm sorry to bother you, but could you possibly close the door?",
+      "Let's close the door.",
+      "Door!"
+    ],
+    "correct": 1,
+    "hint": "C1: Negative politeness respects hearer's need to be unimpeded (apologetic, indirect)."
+  },
+  {
+    "id": 406,
+    "text": "Which utterance shows an indirect speech act?",
+    "options": [
+      "Can you pass the salt?",
+      "Pass the salt.",
+      "I need salt.",
+      "Salt, please."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Can you pass the salt?' is a question about ability, but functions as a request."
+  },
+  {
+    "id": 407,
+    "text": "What is implicature?",
+    "options": [
+      "Direct meaning of words",
+      "What is implied but not said",
+      "Grammatical structure",
+      "Pronunciation of sounds"
+    ],
+    "correct": 1,
+    "hint": "C1: Implicature is additional meaning inferred from context, not literally expressed."
+  },
+  {
+    "id": 408,
+    "text": "Which is an example of a face-threatening act (FTA)?",
+    "options": [
+      "I'm sorry I'm late.",
+      "You are wrong.",
+      "Could you help me?",
+      "Thank you."
+    ],
+    "correct": 1,
+    "hint": "C1: 'You are wrong' threatens the hearer's positive face (desire to be approved of)."
+  },
+  {
+    "id": 409,
+    "text": "What does entailment mean in pragmatics?",
+    "options": [
+      "One sentence logically follows from another",
+      "Speaker's attitude toward the message",
+      "Cultural background knowledge",
+      "Tone of voice"
+    ],
+    "correct": 0,
+    "hint": "C1: If A entails B, then if A is true, B must also be true."
+  },
+  {
+    "id": 410,
+    "text": "Which sentence has a performative verb?",
+    "options": [
+      "I run every day.",
+      "I promise to come.",
+      "He runs fast.",
+      "Running is fun."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Promise' is a performative verb – saying it performs the action."
+  },
+  {
+    "id": 411,
+    "text": "What is the cooperative principle?",
+    "options": [
+      "Speakers should always tell the truth",
+      "Speakers should contribute appropriately to the conversation",
+      "Speakers should avoid using deixis",
+      "Speakers should use only literal meanings"
+    ],
+    "correct": 1,
+    "hint": "C1: Grice's cooperative principle: make your contribution as required by the conversation."
+  },
+  {
+    "id": 412,
+    "text": "Which violates the maxim of quality?",
+    "options": [
+      "The earth is flat.",
+      "It's raining outside (when it is).",
+      "I have two brothers (when you have three).",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C1: Maxim of quality: be truthful. A and C are false statements."
+  },
+  {
+    "id": 413,
+    "text": "Which violates the maxim of quantity?",
+    "options": [
+      "A: 'What time is it?' B: 'It's daytime.'",
+      "A: 'How old are you?' B: 'I'm 25.'",
+      "A: 'Where do you live?' B: 'In London.'",
+      "A: 'Do you like coffee?' B: 'Yes.'"
+    ],
+    "correct": 0,
+    "hint": "C1: Maxim of quantity: be as informative as needed. B gave less information than required."
+  },
+  {
+    "id": 414,
+    "text": "What is a felicity condition?",
+    "options": [
+      "Conditions for a sentence to be grammatical",
+      "Conditions for a speech act to be appropriate and successful",
+      "Conditions for a word to be pronounced correctly",
+      "Conditions for a text to be coherent"
+    ],
+    "correct": 1,
+    "hint": "C1: Felicity conditions: e.g., to promise, the speaker must intend to do the action."
+  },
+  {
+    "id": 415,
+    "text": "Which is an example of positive politeness?",
+    "options": [
+      "Could you possibly open the window?",
+      "You're so kind. Would you mind opening the window?",
+      "Open the window!",
+      "I'm afraid I have to ask you to open the window."
+    ],
+    "correct": 1,
+    "hint": "C1: Positive politeness attends to hearer's positive face (compliment, solidarity)."
+  },
+  {
+    "id": 416,
+    "text": "What is anaphora?",
+    "options": [
+      "Referring back to something previously mentioned",
+      "Referring forward to something not yet mentioned",
+      "Pointing to the physical context",
+      "Using vague language"
+    ],
+    "correct": 0,
+    "hint": "C1: Anaphora: 'John came late. He was tired.' – 'he' refers back to 'John'."
+  },
+  {
+    "id": 417,
+    "text": "What is cataphora?",
+    "options": [
+      "Referring back to something previously mentioned",
+      "Referring forward to something not yet mentioned",
+      "Using pronouns incorrectly",
+      "Deleting repeated information"
+    ],
+    "correct": 1,
+    "hint": "C1: Cataphora: 'After he arrived, John sat down.' – 'he' refers forward to 'John'."
+  },
+  {
+    "id": 418,
+    "text": "Which sentence contains a bridging inference (indirect anaphora)?",
+    "options": [
+      "John bought a car. The engine was powerful.",
+      "John bought a car. It was red.",
+      "John and Mary arrived. They were tired.",
+      "John saw a dog. The dog was barking."
+    ],
+    "correct": 0,
+    "hint": "C2: 'The engine' – no direct mention, but hearer infers cars have engines."
+  },
+  {
+    "id": 419,
+    "text": "What is a scalar implicature?",
+    "options": [
+      "Some of the students passed the exam. (implies not all)",
+      "The sun rises in the east.",
+      "If it rains, the ground gets wet.",
+      "Hello, how are you?"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Some' implicates 'not all' on the scale <all, most, many, some>."
+  },
+  {
+    "id": 420,
+    "text": "Which is an example of a conventional implicature?",
+    "options": [
+      "He is rich but honest.",
+      "She passed the exam.",
+      "The sky is blue.",
+      "I like coffee."
+    ],
+    "correct": 0,
+    "hint": "C2: 'But' conventionally implicates contrast between being rich and being honest."
+  },
+  {
+    "id": 421,
+    "text": "What is the difference between implicature and entailment?",
+    "options": [
+      "Implicature is cancellable, entailment is not",
+      "Entailment is cancellable, implicature is not",
+      "Both are always true",
+      "Both depend on context"
+    ],
+    "correct": 0,
+    "hint": "C2: Implicature can be cancelled ('Some passed, in fact all did'), entailment cannot."
+  },
+  {
+    "id": 422,
+    "text": "Which is an example of an expressive speech act?",
+    "options": [
+      "I promise to come.",
+      "I apologize for being late.",
+      "I declare the meeting open.",
+      "I warn you about the danger."
+    ],
+    "correct": 1,
+    "hint": "C1: Expressives express psychological states (apologizing, thanking, congratulating)."
+  },
+  {
+    "id": 423,
+    "text": "Which is an example of a directive speech act?",
+    "options": [
+      "You are fired.",
+      "Please close the door.",
+      "I promise to help.",
+      "The sky is blue."
+    ],
+    "correct": 1,
+    "hint": "C1: Directives try to get the hearer to do something (requests, commands, suggestions)."
+  },
+  {
+    "id": 424,
+    "text": "What is a declarative speech act?",
+    "options": [
+      "Stating a fact",
+      "Changing reality by saying something",
+      "Asking a question",
+      "Expressing a feeling"
+    ],
+    "correct": 1,
+    "hint": "C1: Declarations change reality (e.g., 'I now pronounce you husband and wife')."
+  },
+  {
+    "id": 425,
+    "text": "What is the illocutionary act?",
+    "options": [
+      "The literal act of uttering words",
+      "The intended meaning or force of an utterance",
+      "The effect of an utterance on the hearer",
+      "The grammatical structure of a sentence"
+    ],
+    "correct": 1,
+    "hint": "C1: Illocutionary act: what the speaker intends to do (e.g., warn, request, promise)."
+  },
+  {
+    "id": 426,
+    "text": "What is the perlocutionary act?",
+    "options": [
+      "The literal act of uttering words",
+      "The intended meaning of an utterance",
+      "The effect of an utterance on the hearer",
+      "The grammatical form of a sentence"
+    ],
+    "correct": 2,
+    "hint": "C1: Perlocutionary act: the actual effect (e.g., persuading, frightening, convincing)."
+  },
+  {
+    "id": 427,
+    "text": "Which is an example of a locutionary act?",
+    "options": [
+      "Saying 'It's cold in here'",
+      "Intending to request closing the window",
+      "Actually causing someone to close the window",
+      "All of the above"
+    ],
+    "correct": 0,
+    "hint": "C1: Locutionary act: the literal utterance of words with meaning."
+  },
+  {
+    "id": 428,
+    "text": "What is the difference between direct and indirect speech acts?",
+    "options": [
+      "Direct uses imperative, indirect uses declarative or interrogative",
+      "Direct is always polite, indirect is always rude",
+      "Direct is longer than indirect",
+      "Direct uses past tense, indirect uses present"
+    ],
+    "correct": 0,
+    "hint": "C1: Direct: 'Close the door.' Indirect: 'Could you close the door?'"
+  },
+  {
+    "id": 429,
+    "text": "What is common ground in pragmatics?",
+    "options": [
+      "Shared knowledge between speaker and hearer",
+      "The physical location of the conversation",
+      "The grammatical structure of sentences",
+      "The volume of speech"
+    ],
+    "correct": 0,
+    "hint": "C1: Common ground is mutual knowledge, beliefs, and assumptions."
+  },
+  {
+    "id": 430,
+    "text": "What is accommodation in pragmatics?",
+    "options": [
+      "Changing one's speech to match the hearer",
+      "Adding new information to common ground without objection",
+      "Politely ending a conversation",
+      "Using formal language"
+    ],
+    "correct": 1,
+    "hint": "C2: Accommodation: when a speaker introduces a new presupposition, hearer accepts it."
+  },
+  {
+    "id": 431,
+    "text": "Which is an example of a presupposition trigger?",
+    "options": [
+      "He stopped smoking.",
+      "She runs quickly.",
+      "The sky is blue.",
+      "I like coffee."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Stop' presupposes that he used to smoke."
+  },
+  {
+    "id": 432,
+    "text": "What is a factive presupposition?",
+    "options": [
+      "Presupposition triggered by factive verbs (know, regret, realize)",
+      "Presupposition about time",
+      "Presupposition about place",
+      "Presupposition about person"
+    ],
+    "correct": 0,
+    "hint": "C1: 'He knows that she left' presupposes 'She left'."
+  },
+  {
+    "id": 433,
+    "text": "Which verb triggers a factive presupposition?",
+    "options": [
+      "Think",
+      "Believe",
+      "Regret",
+      "Assume"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Regret' presupposes the complement is true."
+  },
+  {
+    "id": 434,
+    "text": "What is a counterfactual presupposition?",
+    "options": [
+      "If I had studied, I would have passed (implies I didn't study)",
+      "The sun rises in the east",
+      "Water is wet",
+      "I think it will rain"
+    ],
+    "correct": 0,
+    "hint": "C1: Counterfactual conditionals presuppose the antecedent is false."
+  },
+  {
+    "id": 435,
+    "text": "What is a structural presupposition?",
+    "options": [
+      "Presupposition triggered by question forms",
+      "Presupposition about word meaning",
+      "Presupposition about pronunciation",
+      "Presupposition about spelling"
+    ],
+    "correct": 0,
+    "hint": "C1: 'When did she leave?' presupposes 'She left'."
+  },
+  {
+    "id": 436,
+    "text": "What is the difference between presupposition and entailment?",
+    "options": [
+      "Presupposition survives negation, entailment may not",
+      "Entailment survives negation, presupposition may not",
+      "Both always survive negation",
+      "Neither survives negation"
+    ],
+    "correct": 0,
+    "hint": "C2: 'He stopped smoking' negated → 'He didn't stop smoking' still presupposes he smoked."
+  },
+  {
+    "id": 437,
+    "text": "What is a politeness strategy?",
+    "options": [
+      "Using direct commands",
+      "Mitigating face-threatening acts",
+      "Speaking very loudly",
+      "Using complex vocabulary"
+    ],
+    "correct": 1,
+    "hint": "C1: Politeness strategies minimize threats to face."
+  },
+  {
+    "id": 438,
+    "text": "What is positive face?",
+    "options": [
+      "The desire to be unimpeded",
+      "The desire to be liked and approved of",
+      "The desire to be left alone",
+      "The desire to be correct"
+    ],
+    "correct": 1,
+    "hint": "C1: Positive face: need for connection, appreciation, approval."
+  },
+  {
+    "id": 439,
+    "text": "What is negative face?",
+    "options": [
+      "The desire to be liked",
+      "The desire to be unimpeded and free",
+      "The desire to be praised",
+      "The desire to be correct"
+    ],
+    "correct": 1,
+    "hint": "C1: Negative face: need for autonomy, freedom from imposition."
+  },
+  {
+    "id": 440,
+    "text": "Which is an example of off-record politeness?",
+    "options": [
+      "Please close the door.",
+      "Could you close the door?",
+      "It's cold in here.",
+      "Close the door!"
+    ],
+    "correct": 2,
+    "hint": "C2: Off-record: hints where hearer infers the intended meaning."
+  },
+  {
+    "id": 441,
+    "text": "What is the face-saving act?",
+    "options": [
+      "An act that damages face",
+      "An act that protects or restores face",
+      "An act that ignores face",
+      "An act that is always rude"
+    ],
+    "correct": 1,
+    "hint": "C1: Face-saving acts minimize threats to face."
+  },
+  {
+    "id": 442,
+    "text": "What is a face-threatening act (FTA)?",
+    "options": [
+      "An act that damages someone's public self-image",
+      "An act that is always polite",
+      "An act that is grammatical",
+      "An act that is true"
+    ],
+    "correct": 0,
+    "hint": "C1: FTAs include criticism, requests, apologies, disagreements."
+  },
+  {
+    "id": 443,
+    "text": "Which is an example of bald on-record politeness?",
+    "options": [
+      "Could you possibly help me?",
+      "Help me!",
+      "I'm sorry to ask, but could you help me?",
+      "I wonder if you might help me."
+    ],
+    "correct": 1,
+    "hint": "C1: Bald on-record: direct imperative, no mitigation."
+  },
+  {
+    "id": 444,
+    "text": "What is relevance theory?",
+    "options": [
+      "Communication aims to be maximally relevant with minimal effort",
+      "Communication aims to be maximally polite",
+      "Communication aims to be grammatically correct",
+      "Communication aims to be loud"
+    ],
+    "correct": 0,
+    "hint": "C2: Sperber & Wilson's relevance theory: utterances are optimal relevance."
+  },
+  {
+    "id": 445,
+    "text": "What is procedural meaning?",
+    "options": [
+      "Meaning that encodes conceptual content",
+      "Meaning that guides how to interpret an utterance",
+      "Meaning that is always literal",
+      "Meaning that is always false"
+    ],
+    "correct": 1,
+    "hint": "C2: Words like 'but', 'however', 'so' have procedural meaning."
+  },
+  {
+    "id": 446,
+    "text": "What is conceptual meaning?",
+    "options": [
+      "Meaning that encodes a concept (nouns, verbs, adjectives)",
+      "Meaning that guides interpretation",
+      "Meaning that is always polite",
+      "Meaning that depends on tone"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Cat', 'run', 'red' have conceptual meaning."
+  },
+  {
+    "id": 447,
+    "text": "What is the difference between explicit and implicit communication?",
+    "options": [
+      "Explicit is said directly, implicit is inferred",
+      "Explicit is polite, implicit is rude",
+      "Explicit is longer, implicit is shorter",
+      "Explicit is written, implicit is spoken"
+    ],
+    "correct": 0,
+    "hint": "C1: Explicit: literal meaning. Implicit: implicature, presupposition."
+  },
+  {
+    "id": 448,
+    "text": "What is a hedge?",
+    "options": [
+      "A word or phrase that softens a claim",
+      "A word that strengthens a claim",
+      "A word that is always false",
+      "A word that is always true"
+    ],
+    "correct": 0,
+    "hint": "C1: Hedges: 'sort of', 'kind of', 'I think', 'maybe'."
+  },
+  {
+    "id": 449,
+    "text": "Which is an example of a hedge?",
+    "options": [
+      "Definitely",
+      "Certainly",
+      "Sort of",
+      "Absolutely"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Sort of' softens the claim, reduces commitment."
+  },
+  {
+    "id": 450,
+    "text": "What is a booster?",
+    "options": [
+      "A word or phrase that strengthens a claim",
+      "A word that softens a claim",
+      "A word that is ambiguous",
+      "A word that is vague"
+    ],
+    "correct": 0,
+    "hint": "C1: Boosters: 'definitely', 'certainly', 'absolutely', 'without doubt'."
+  },
+  {
+    "id": 451,
+    "text": "What is a discourse marker?",
+    "options": [
+      "A word or phrase that organizes discourse",
+      "A word that describes nouns",
+      "A word that shows action",
+      "A word that is always formal"
+    ],
+    "correct": 0,
+    "hint": "C1: Discourse markers: 'however', 'therefore', 'well', 'so', 'actually'."
+  },
+  {
+    "id": 452,
+    "text": "Which is an example of a discourse marker of contrast?",
+    "options": [
+      "So",
+      "Therefore",
+      "However",
+      "Moreover"
+    ],
+    "correct": 2,
+    "hint": "C1: 'However' signals contrast with previous statement."
+  },
+  {
+    "id": 453,
+    "text": "What is repair in conversation?",
+    "options": [
+      "Fixing a problem in speaking or understanding",
+      "Ending a conversation",
+      "Starting a conversation",
+      "Changing the topic"
+    ],
+    "correct": 0,
+    "hint": "C1: Repair includes self-correction, clarification requests, repetition."
+  },
+  {
+    "id": 454,
+    "text": "What is a preference organization in conversation?",
+    "options": [
+      "Preferred responses are more direct and socially expected",
+      "Preferred responses are always 'no'",
+      "Preferred responses are always long",
+      "Preferred responses are always questions"
+    ],
+    "correct": 0,
+    "hint": "C2: Preferred: agreement, acceptance. Dispreferred: disagreement, refusal (delayed)."
+  },
+  {
+    "id": 455,
+    "text": "What is an adjacency pair?",
+    "options": [
+      "Two unrelated utterances",
+      "Two utterances that naturally go together (question-answer, greeting-greeting)",
+      "Two identical utterances",
+      "Two utterances that are always polite"
+    ],
+    "correct": 1,
+    "hint": "C1: Adjacency pairs: question-answer, offer-acceptance, complaint-apology."
+  },
+  {
+    "id": 456,
+    "text": "Which is an example of an adjacency pair?",
+    "options": [
+      "Hello – Goodbye",
+      "Question – Answer",
+      "Statement – Question",
+      "Command – Apology"
+    ],
+    "correct": 1,
+    "hint": "C1: Question expects answer, greeting expects greeting."
+  },
+  {
+    "id": 457,
+    "text": "What is turn-taking?",
+    "options": [
+      "The organization of who speaks when in conversation",
+      "Always speaking at the same time",
+      "Never speaking",
+      "Speaking only when called upon"
+    ],
+    "correct": 0,
+    "hint": "C1: Turn-taking involves transition-relevance places and overlap avoidance."
+  },
+  {
+    "id": 458,
+    "text": "What is a transition-relevance place (TRP)?",
+    "options": [
+      "A point where speaker change can occur",
+      "The beginning of a conversation",
+      "The end of a conversation",
+      "The middle of a sentence"
+    ],
+    "correct": 0,
+    "hint": "C2: TRPs are points where current speaker can stop and next can start."
+  },
+  {
+    "id": 459,
+    "text": "What is overlap in conversation?",
+    "options": [
+      "Two or more speakers speaking at the same time",
+      "Speaking after the other has finished",
+      "Speaking very quietly",
+      "Speaking very loudly"
+    ],
+    "correct": 0,
+    "hint": "C1: Overlap is generally brief and avoided in cooperative conversation."
+  },
+  {
+    "id": 460,
+    "text": "What is a backchannel?",
+    "options": [
+      "A listener response indicating attention (uh-huh, yeah, hmm)",
+      "A speaker interrupting",
+      "The end of a conversation",
+      "A formal greeting"
+    ],
+    "correct": 0,
+    "hint": "C1: Backchannels show active listening without taking the turn."
+  },
+  {
+    "id": 461,
+    "text": "Which is an example of a backchannel?",
+    "options": [
+      "I disagree.",
+      "Uh-huh.",
+      "What time is it?",
+      "Goodbye."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Uh-huh', 'mhm', 'yeah', 'right' are backchannels."
+  },
+  {
+    "id": 462,
+    "text": "What is a conversational implicature?",
+    "options": [
+      "Meaning inferred from violating or exploiting a maxim",
+      "Literal meaning of words",
+      "Grammatical meaning",
+      "Phonological meaning"
+    ],
+    "correct": 0,
+    "hint": "C1: Conversational implicature arises from Gricean maxims."
+  },
+  {
+    "id": 463,
+    "text": "What is a generalized conversational implicature?",
+    "options": [
+      "Implicature that arises without special context",
+      "Implicature that depends entirely on context",
+      "Implicature that is always false",
+      "Implicature that is always literal"
+    ],
+    "correct": 0,
+    "hint": "C2: 'A house' often implicates 'not my house' (generalized)."
+  },
+  {
+    "id": 464,
+    "text": "What is a particularized conversational implicature?",
+    "options": [
+      "Implicature that depends on specific context",
+      "Implicature that arises without context",
+      "Implicature that is always true",
+      "Implicature that is always false"
+    ],
+    "correct": 0,
+    "hint": "C2: Particularized implicature requires shared knowledge of the situation."
+  },
+  {
+    "id": 465,
+    "text": "What is a conventional implicature?",
+    "options": [
+      "Implicature attached to specific words (but, therefore, even)",
+      "Implicature that depends on context",
+      "Implicature that is always false",
+      "Implicature that is always literal"
+    ],
+    "correct": 0,
+    "hint": "C2: 'He is poor but happy' conventionally implicates contrast."
+  },
+  {
+    "id": 466,
+    "text": "What is the difference between semantic meaning and pragmatic meaning?",
+    "options": [
+      "Semantic = literal, pragmatic = contextual",
+      "Semantic = contextual, pragmatic = literal",
+      "Both are always the same",
+      "Both are always different"
+    ],
+    "correct": 0,
+    "hint": "C1: Semantics studies literal meaning, pragmatics studies meaning in context."
+  },
+  {
+    "id": 467,
+    "text": "What is a speech act?",
+    "options": [
+      "An utterance that performs an action",
+      "A grammatical sentence",
+      "A written text",
+      "A long monologue"
+    ],
+    "correct": 0,
+    "hint": "C1: Speech acts include requests, promises, apologies, warnings, declarations."
+  },
+  {
+    "id": 468,
+    "text": "What is an indirect speech act?",
+    "options": [
+      "An utterance where form and function don't match",
+      "An utterance that is always direct",
+      "An utterance that is always imperative",
+      "An utterance that is always interrogative"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Can you reach the salt?' (interrogative form, request function)."
+  },
+  {
+    "id": 469,
+    "text": "What is a direct speech act?",
+    "options": [
+      "An utterance where form matches function",
+      "An utterance where form and function don't match",
+      "An utterance that is always polite",
+      "An utterance that is always rude"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Pass the salt' (imperative form, command function)."
+  },
+  {
+    "id": 470,
+    "text": "What is a performative utterance?",
+    "options": [
+      "An utterance that performs an action by being said",
+      "An utterance that describes a state of affairs",
+      "An utterance that asks a question",
+      "An utterance that is always false"
+    ],
+    "correct": 0,
+    "hint": "C1: 'I apologize' performs an apology; 'I promise' performs a promise."
+  },
+  {
+    "id": 471,
+    "text": "What is a constative utterance?",
+    "options": [
+      "An utterance that describes or states something (true/false)",
+      "An utterance that performs an action",
+      "An utterance that commands",
+      "An utterance that questions"
+    ],
+    "correct": 0,
+    "hint": "C1: 'The sky is blue' is constative (can be true or false)."
+  },
+  {
+    "id": 472,
+    "text": "What is the difference between explicit and implicit performatives?",
+    "options": [
+      "Explicit uses performative verb, implicit does not",
+      "Explicit is longer, implicit is shorter",
+      "Explicit is formal, implicit is informal",
+      "Explicit is written, implicit is spoken"
+    ],
+    "correct": 0,
+    "hint": "C2: Explicit: 'I promise to come.' Implicit: 'I'll come.' (still a promise)."
+  },
+  {
+    "id": 473,
+    "text": "What is the preparatory condition for a promise?",
+    "options": [
+      "The speaker can do the action and hearer wants it",
+      "The speaker cannot do the action",
+      "The hearer does not want the action",
+      "The action is impossible"
+    ],
+    "correct": 0,
+    "hint": "C1: Preparatory conditions ensure the speech act is appropriate."
+  },
+  {
+    "id": 474,
+    "text": "What is the sincerity condition for an apology?",
+    "options": [
+      "The speaker actually regrets the action",
+      "The speaker is happy about the action",
+      "The speaker is indifferent",
+      "The speaker does not understand"
+    ],
+    "correct": 0,
+    "hint": "C1: Sincerity condition: speaker must have the appropriate psychological state."
+  },
+  {
+    "id": 475,
+    "text": "What is the essential condition for a warning?",
+    "options": [
+      "The speaker intends the hearer to avoid danger",
+      "The speaker intends to harm the hearer",
+      "The speaker is indifferent",
+      "The speaker is joking"
+    ],
+    "correct": 0,
+    "hint": "C1: Essential condition defines the act itself (counts as a warning)."
+  },
+  {
+    "id": 476,
+    "text": "What is the propositional content condition for a promise?",
+    "options": [
+      "The proposition is about a future act of the speaker",
+      "The proposition is about a past act",
+      "The proposition is about a present act",
+      "The proposition is about the hearer's act"
+    ],
+    "correct": 0,
+    "hint": "C1: Promise must be about a future action by the speaker."
+  },
+  {
+    "id": 477,
+    "text": "What is a felicitous speech act?",
+    "options": [
+      "A speech act that meets all felicity conditions",
+      "A speech act that is grammatically incorrect",
+      "A speech act that is rude",
+      "A speech act that is false"
+    ],
+    "correct": 0,
+    "hint": "C1: Felicitous = appropriate, successful speech act."
+  },
+  {
+    "id": 478,
+    "text": "What is an infelicitous speech act?",
+    "options": [
+      "A speech act that fails due to violated conditions",
+      "A speech act that is grammatically correct",
+      "A speech act that is polite",
+      "A speech act that is true"
+    ],
+    "correct": 0,
+    "hint": "C1: Infelicitous: e.g., promising something you can't do."
+  },
+  {
+    "id": 479,
+    "text": "What is a misfire in speech act theory?",
+    "options": [
+      "A speech act that fails because conditions not met",
+      "A speech act that succeeds",
+      "A speech act that is very polite",
+      "A speech act that is very rude"
+    ],
+    "correct": 0,
+    "hint": "C2: Misfire: e.g., a non-official saying 'I pronounce you husband and wife'."
+  },
+  {
+    "id": 480,
+    "text": "What is an abuse in speech act theory?",
+    "options": [
+      "A speech act that succeeds but is insincere",
+      "A speech act that fails completely",
+      "A speech act that is grammatical",
+      "A speech act that is polite"
+    ],
+    "correct": 0,
+    "hint": "C2: Abuse: e.g., insincere promise (sincerity condition violated)."
+  },
+  {
+    "id": 481,
+    "text": "What is deixis of place?",
+    "options": [
+      "Words like 'here', 'there'",
+      "Words like 'now', 'then'",
+      "Words like 'I', 'you'",
+      "Words like 'this', 'that'"
+    ],
+    "correct": 0,
+    "hint": "C1: Spatial deixis: here, there, above, below, left, right."
+  },
+  {
+    "id": 482,
+    "text": "What is deixis of time?",
+    "options": [
+      "Words like 'now', 'then', 'today', 'yesterday'",
+      "Words like 'here', 'there'",
+      "Words like 'I', 'you'",
+      "Words like 'this', 'that'"
+    ],
+    "correct": 0,
+    "hint": "C1: Temporal deixis: now, then, soon, later, today, yesterday."
+  },
+  {
+    "id": 483,
+    "text": "What is person deixis?",
+    "options": [
+      "Words like 'I', 'you', 'he', 'she', 'we', 'they'",
+      "Words like 'here', 'there'",
+      "Words like 'now', 'then'",
+      "Words like 'this', 'that'"
+    ],
+    "correct": 0,
+    "hint": "C1: Person deixis: pronouns and person markers."
+  },
+  {
+    "id": 484,
+    "text": "What is discourse deixis?",
+    "options": [
+      "Words that refer to parts of the discourse itself",
+      "Words that refer to physical objects",
+      "Words that refer to time",
+      "Words that refer to people"
+    ],
+    "correct": 0,
+    "hint": "C2: 'As I said before', 'in the next chapter', 'the following example'."
+  },
+  {
+    "id": 485,
+    "text": "What is social deixis?",
+    "options": [
+      "Words that encode social relationships (tu/vous, titles)",
+      "Words that encode time",
+      "Words that encode place",
+      "Words that encode person"
+    ],
+    "correct": 0,
+    "hint": "C2: Social deixis: honorifics, formal pronouns, titles (Mr., Dr., Your Honor)."
+  },
+  {
+    "id": 486,
+    "text": "What is anaphoric deixis?",
+    "options": [
+      "Referring back to something already mentioned",
+      "Referring forward to something not yet mentioned",
+      "Referring to the physical context",
+      "Referring to shared knowledge"
+    ],
+    "correct": 0,
+    "hint": "C1: 'John arrived. He sat down.' – 'he' refers back to 'John'."
+  },
+  {
+    "id": 487,
+    "text": "What is cataphoric deixis?",
+    "options": [
+      "Referring forward to something not yet mentioned",
+      "Referring back to something already mentioned",
+      "Referring to the speaker",
+      "Referring to the hearer"
+    ],
+    "correct": 0,
+    "hint": "C1: 'After he arrived, John sat down.' – 'he' refers forward to 'John'."
+  },
+  {
+    "id": 488,
+    "text": "What is the given-new contract?",
+    "options": [
+      "Given information is old, new information is introduced",
+      "All information is new",
+      "All information is old",
+      "Given information is ignored"
+    ],
+    "correct": 0,
+    "hint": "C2: Speakers present given (old) information before new information."
+  },
+  {
+    "id": 489,
+    "text": "What is topic in pragmatics?",
+    "options": [
+      "What the conversation is about",
+      "The grammatical subject",
+      "The verb of the sentence",
+      "The object of the sentence"
+    ],
+    "correct": 0,
+    "hint": "C1: Topic is the 'aboutness' of an utterance or conversation."
+  },
+  {
+    "id": 490,
+    "text": "What is focus in pragmatics?",
+    "options": [
+      "The new or most important information",
+      "The topic of conversation",
+      "The grammatical subject",
+      "The verb phrase"
+    ],
+    "correct": 0,
+    "hint": "C1: Focus is marked by stress or syntactic position (cleft sentences)."
+  },
+  {
+    "id": 491,
+    "text": "What is a cleft sentence used for?",
+    "options": [
+      "To focus on a specific element",
+      "To make a sentence longer",
+      "To change the tense",
+      "To change the voice"
+    ],
+    "correct": 0,
+    "hint": "C1: 'It was John who broke the window' focuses on 'John'."
+  },
+  {
+    "id": 492,
+    "text": "What is a pseudo-cleft sentence?",
+    "options": [
+      "What John did was break the window.",
+      "It was John who broke the window.",
+      "John broke the window.",
+      "The window was broken by John."
+    ],
+    "correct": 0,
+    "hint": "C2: Pseudo-cleft: 'What + clause + be + focused element'."
+  },
+  {
+    "id": 493,
+    "text": "What is the difference between topic and focus?",
+    "options": [
+      "Topic is given, focus is new/contrastive",
+      "Topic is new, focus is given",
+      "Both are given",
+      "Both are new"
+    ],
+    "correct": 0,
+    "hint": "C2: Topic = old information, focus = new or emphasized information."
+  },
+  {
+    "id": 494,
+    "text": "What is a presupposition projection?",
+    "options": [
+      "How presuppositions survive in complex sentences",
+      "How presuppositions disappear",
+      "How presuppositions are always false",
+      "How presuppositions are always true"
+    ],
+    "correct": 0,
+    "hint": "C2: Presuppositions project out of negation, questions, conditionals."
+  },
+  {
+    "id": 495,
+    "text": "What is a hole in presupposition projection?",
+    "options": [
+      "A context where presuppositions project through",
+      "A context where presuppositions are cancelled",
+      "A context where presuppositions are never true",
+      "A context where presuppositions are always false"
+    ],
+    "correct": 0,
+    "hint": "C2: Negation, questions, conditionals are 'holes' – presuppositions project."
+  },
+  {
+    "id": 496,
+    "text": "What is a plug in presupposition projection?",
+    "options": [
+      "A context where presuppositions are blocked (verbs like 'say')",
+      "A context where presuppositions project",
+      "A context where presuppositions are always true",
+      "A context where presuppositions are always false"
+    ],
+    "correct": 0,
+    "hint": "C2: 'He said that he stopped smoking' – presupposition may not project."
+  },
+  {
+    "id": 497,
+    "text": "What is a filter in presupposition projection?",
+    "options": [
+      "A context where presuppositions are cancelled if implied",
+      "A context where presuppositions always project",
+      "A context where presuppositions are always false",
+      "A context where presuppositions are always true"
+    ],
+    "correct": 0,
+    "hint": "C2: 'If there is a king of France, the king of France is bald' – presupposition filtered."
+  },
+  {
+    "id": 498,
+    "text": "What is accommodation in presupposition?",
+    "options": [
+      "Hearer adds missing presupposition to common ground",
+      "Speaker removes presupposition",
+      "Presupposition is always false",
+      "Presupposition is ignored"
+    ],
+    "correct": 0,
+    "hint": "C2: If speaker says 'My car is red', hearer accommodates that speaker has a car."
+  },
+  {
+    "id": 499,
+    "text": "What is a presupposition trigger?",
+    "options": [
+      "A word or construction that creates a presupposition",
+      "A word that cancels a presupposition",
+      "A word that is always true",
+      "A word that is always false"
+    ],
+    "correct": 0,
+    "hint": "C1: Triggers: definite descriptions, factive verbs, change-of-state verbs, iteratives."
+  },
+  {
+    "id": 500,
+    "text": "Which is NOT a presupposition trigger?",
+    "options": [
+      "Definite description (the king)",
+      "Factive verb (regret)",
+      "Change-of-state verb (stop)",
+      "Simple present tense (runs)"
+    ],
+    "correct": 3,
+    "hint": "C1: Simple present tense does not inherently trigger presuppositions."
+  }
+]

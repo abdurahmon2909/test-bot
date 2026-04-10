@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 501,
+    "text": "Which sentence uses 'affect' correctly as a verb?",
+    "options": [
+      "The new policy had a positive affect on sales.",
+      "The weather can seriously affect crop production.",
+      "What will be the long-term affect of this decision?",
+      "She showed no emotional affect during the trial."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Affect' as verb = to influence. 'Effect' as noun = result."
+  },
+  {
+    "id": 502,
+    "text": "Which sentence uses 'effect' correctly as a noun?",
+    "options": [
+      "The new law will effect significant changes.",
+      "The medicine had an immediate effect.",
+      "How will this effect our plans?",
+      "They hope to effect a peaceful resolution."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Effect' as noun = result. 'Effect' as verb = to bring about."
+  },
+  {
+    "id": 503,
+    "text": "Choose the correct word: 'He is ____ to the manager.'",
+    "options": [
+      "responsible",
+      "accountable",
+      "answerable",
+      "liable"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Accountable to someone' = responsible to them."
+  },
+  {
+    "id": 504,
+    "text": "Which sentence uses 'compare to' correctly (meaning similarity)?",
+    "options": [
+      "Shakespeare compared life to a stage.",
+      "Compare this report with the previous one.",
+      "Compared to last year, sales are up.",
+      "Compare these two documents."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Compare to' emphasizes similarity between different things."
+  },
+  {
+    "id": 505,
+    "text": "Which sentence uses 'compare with' correctly (meaning differences)?",
+    "options": [
+      "She compared him to a lion.",
+      "If you compare this with that, you'll see the difference.",
+      "Life is often compared to a journey.",
+      "He compared her to an angel."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Compare with' emphasizes differences between similar things."
+  },
+  {
+    "id": 506,
+    "text": "Choose the correct form: 'She is ____ than her sister.'",
+    "options": [
+      "taller",
+      "more tall",
+      "most tall",
+      "tallest"
+    ],
+    "correct": 0,
+    "hint": "C1: One-syllable adjectives take -er in comparative."
+  },
+  {
+    "id": 507,
+    "text": "Which sentence uses 'different from' correctly in standard English?",
+    "options": [
+      "This is different than that.",
+      "This is different to that.",
+      "This is different from that.",
+      "This is different of that."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Different from' is standard; 'different than' is American informal."
+  },
+  {
+    "id": 508,
+    "text": "Choose the correct word: 'Please ____ the document before signing.'",
+    "options": [
+      "read",
+      "read through",
+      "read over",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are acceptable, with slight nuance differences."
+  },
+  {
+    "id": 509,
+    "text": "Which sentence uses 'each' and 'every' correctly?",
+    "options": [
+      "Each student have a book.",
+      "Every students have a book.",
+      "Each student has a book.",
+      "Every student have a book."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Each' and 'every' are singular; verb must be singular."
+  },
+  {
+    "id": 510,
+    "text": "Choose the correct spelling:",
+    "options": [
+      "seperate",
+      "separate",
+      "seperete",
+      "separite"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Separate' – remember 'there is a rat in separate'."
+  },
+  {
+    "id": 511,
+    "text": "Which sentence uses 'due to' correctly after a form of 'to be'?",
+    "options": [
+      "The cancellation was due to the rain.",
+      "Due to the rain, the game was cancelled.",
+      "The game was cancelled due to the rain.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Due to' is now acceptable in all positions."
+  },
+  {
+    "id": 512,
+    "text": "Choose the correct word: 'She ____ the opportunity to study abroad.'",
+    "options": [
+      "took",
+      "seized",
+      "grasped",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'opportunity' with similar meaning."
+  },
+  {
+    "id": 513,
+    "text": "Which sentence uses 'whether' correctly?",
+    "options": [
+      "I don't know if whether he will come.",
+      "Whether or not it rains, we will go.",
+      "I wonder whether if he is ready.",
+      "Whether he will come or not is uncertain."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Whether or not' introduces a condition; avoid 'if whether'."
+  },
+  {
+    "id": 514,
+    "text": "Which sentence uses 'if' correctly (not 'whether')?",
+    "options": [
+      "I don't know if he is coming.",
+      "If it rains, we will stay home.",
+      "I wonder if he is ready.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'If' for conditionals; both 'if' and 'whether' for indirect questions."
+  },
+  {
+    "id": 515,
+    "text": "Choose the correct word: 'He is ____ in the hospital.'",
+    "options": [
+      "in",
+      "at",
+      "to",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'In the hospital' (patient), 'at the hospital' (visitor or worker)."
+  },
+  {
+    "id": 516,
+    "text": "Which sentence uses 'historic' and 'historical' correctly?",
+    "options": [
+      "This is a historic moment for our country.",
+      "The museum has many historical artifacts.",
+      "Both are correct.",
+      "Neither is correct."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Historic' = important; 'historical' = relating to history."
+  },
+  {
+    "id": 517,
+    "text": "Choose the correct word: 'She is ____ to succeed.'",
+    "options": [
+      "liable",
+      "likely",
+      "apt",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Liable' (negative), 'likely' (neutral), 'apt' (characteristic)."
+  },
+  {
+    "id": 518,
+    "text": "Which sentence uses 'comprise' correctly?",
+    "options": [
+      "The team comprises of ten players.",
+      "The team comprises ten players.",
+      "The team is comprised of ten players.",
+      "Both B and C."
+    ],
+    "correct": 3,
+    "hint": "C2: 'Comprise' = contain; 'is comprised of' is controversial but common."
+  },
+  {
+    "id": 519,
+    "text": "Which sentence uses 'compose' correctly?",
+    "options": [
+      "The team is composed of ten players.",
+      "Ten players compose the team.",
+      "The team composes of ten players.",
+      "Both A and B."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Be composed of' or 'compose' (active)."
+  },
+  {
+    "id": 520,
+    "text": "Choose the correct word: 'He is ____ to criticism.'",
+    "options": [
+      "sensitive",
+      "sensible",
+      "sensory",
+      "sensual"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Sensitive' = easily affected; 'sensible' = practical."
+  },
+  {
+    "id": 521,
+    "text": "Which sentence uses 'continual' and 'continuous' correctly?",
+    "options": [
+      "The continual rain lasted all day without stopping.",
+      "The continuous interruptions made work impossible.",
+      "The continuous noise from the factory never stops.",
+      "Both B and C."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Continuous' = without interruption; 'continual' = frequently repeated."
+  },
+  {
+    "id": 522,
+    "text": "Choose the correct word: 'She gave me some ____ advice.'",
+    "options": [
+      "priceless",
+      "valueless",
+      "worthless",
+      "invaluable"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Invaluable' = extremely useful; 'priceless' = precious."
+  },
+  {
+    "id": 523,
+    "text": "Which sentence uses 'fewer' and 'less' correctly?",
+    "options": [
+      "There are less people here today.",
+      "I have fewer money than you.",
+      "There are fewer cars on the road.",
+      "I have less apples than you."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Fewer' for countable nouns; 'less' for uncountable."
+  },
+  {
+    "id": 524,
+    "text": "Choose the correct word: 'He made a ____ mistake.'",
+    "options": [
+      "grave",
+      "serious",
+      "severe",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'mistake' with similar meaning."
+  },
+  {
+    "id": 525,
+    "text": "Which sentence uses 'principal' and 'principle' correctly?",
+    "options": [
+      "The principal reason is cost.",
+      "He has strong moral principles.",
+      "The school principal spoke to us.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Principal' = main or head; 'principle' = rule or belief."
+  },
+  {
+    "id": 526,
+    "text": "Choose the correct word: 'The contract is ____.'",
+    "options": [
+      "null and void",
+      "void and null",
+      "null or void",
+      "void or null"
+    ],
+    "correct": 0,
+    "hint": "C1: Fixed legal collocation: 'null and void'."
+  },
+  {
+    "id": 527,
+    "text": "Which sentence uses 'alternate' and 'alternative' correctly?",
+    "options": [
+      "We took an alternate route.",
+      "We have no alternative but to leave.",
+      "The days alternate between sun and rain.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Alternate' = every other or rotate; 'alternative' = choice."
+  },
+  {
+    "id": 528,
+    "text": "Choose the correct word: 'She is ____ to colds.'",
+    "options": [
+      "prone",
+      "liable",
+      "susceptible",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'likely to be affected by'."
+  },
+  {
+    "id": 529,
+    "text": "Which sentence uses 'anticipate' correctly?",
+    "options": [
+      "I anticipate that it will rain.",
+      "I anticipate problems.",
+      "We anticipate their arrival.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Anticipate' = expect or prepare for."
+  },
+  {
+    "id": 530,
+    "text": "Choose the correct word: 'He is a ____ of the arts.'",
+    "options": [
+      "patron",
+      "sponsor",
+      "benefactor",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'supporter' with different nuances."
+  },
+  {
+    "id": 531,
+    "text": "Which sentence uses 'enormity' correctly?",
+    "options": [
+      "The enormity of the task overwhelmed us.",
+      "The enormity of the crime shocked everyone.",
+      "The enormity of the building was impressive.",
+      "Both A and B."
+    ],
+    "correct": 3,
+    "hint": "C2: 'Enormity' = great evil or scale; for size, 'enormousness' is safer."
+  },
+  {
+    "id": 532,
+    "text": "Choose the correct word: 'The ____ of the situation was clear.'",
+    "options": [
+      "gravity",
+      "seriousness",
+      "severity",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'importance/danger'."
+  },
+  {
+    "id": 533,
+    "text": "Which sentence uses 'infer' and 'imply' correctly?",
+    "options": [
+      "He implied that I was lying.",
+      "I inferred from his words that he was angry.",
+      "The results imply a connection.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Imply' = suggest; 'infer' = deduce from evidence."
+  },
+  {
+    "id": 534,
+    "text": "Choose the correct word: 'The two events are ____.'",
+    "options": [
+      "related",
+      "connected",
+      "linked",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are synonyms."
+  },
+  {
+    "id": 535,
+    "text": "Which sentence uses 'disinterested' and 'uninterested' correctly?",
+    "options": [
+      "A judge must be disinterested.",
+      "He was uninterested in the boring lecture.",
+      "She remained disinterested in the outcome.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Disinterested' = impartial; 'uninterested' = bored."
+  },
+  {
+    "id": 536,
+    "text": "Choose the correct word: 'The plan was ____ to fail.'",
+    "options": [
+      "destined",
+      "doomed",
+      "fated",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'certain to' with different connotations."
+  },
+  {
+    "id": 537,
+    "text": "Which sentence uses 'flaunt' and 'flout' correctly?",
+    "options": [
+      "He flaunted his wealth openly.",
+      "She flouted the rules without concern.",
+      "They flaunted their success.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C2: 'Flaunt' = show off; 'flout' = disregard rules."
+  },
+  {
+    "id": 538,
+    "text": "Choose the correct word: 'The ____ of the mountain was breathtaking.'",
+    "options": [
+      "peak",
+      "peek",
+      "pique",
+      "peke"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Peak' = summit; 'peek' = quick look; 'pique' = irritation or interest."
+  },
+  {
+    "id": 539,
+    "text": "Which sentence uses 'allusion' and 'illusion' correctly?",
+    "options": [
+      "He made an allusion to Shakespeare.",
+      "The magician created an illusion.",
+      "The painting gives an illusion of depth.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Allusion' = reference; 'illusion' = false perception."
+  },
+  {
+    "id": 540,
+    "text": "Choose the correct word: 'The theory is based on a ____.'",
+    "options": [
+      "fallacy",
+      "fallacious",
+      "fallible",
+      "fall"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Fallacy' = mistaken belief; 'fallacious' = adjective."
+  },
+  {
+    "id": 541,
+    "text": "Which sentence uses 'compliment' and 'complement' correctly?",
+    "options": [
+      "She complimented him on his work.",
+      "The wine complements the cheese perfectly.",
+      "The colors complement each other.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Compliment' = praise; 'complement' = complete or go well with."
+  },
+  {
+    "id": 542,
+    "text": "Choose the correct word: 'He was ____ of the crime.'",
+    "options": [
+      "innocent",
+      "not guilty",
+      "blameless",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'not responsible'."
+  },
+  {
+    "id": 543,
+    "text": "Which sentence uses 'council' and 'counsel' correctly?",
+    "options": [
+      "The city council approved the budget.",
+      "He sought legal counsel.",
+      "She counseled him to be careful.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Council' = governing body; 'counsel' = advice or lawyer."
+  },
+  {
+    "id": 544,
+    "text": "Choose the correct word: 'The ____ of the story is unclear.'",
+    "options": [
+      "moral",
+      "lesson",
+      "message",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 545,
+    "text": "Which sentence uses 'ensure', 'insure', and 'assure' correctly?",
+    "options": [
+      "Please ensure that the door is locked.",
+      "I assure you that everything is fine.",
+      "The car is insured against theft.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Ensure' = make certain; 'assure' = convince; 'insure' = insurance."
+  },
+  {
+    "id": 546,
+    "text": "Choose the correct word: 'He is a ____ of the truth.'",
+    "options": [
+      "believer",
+      "seeker",
+      "lover",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible collocations."
+  },
+  {
+    "id": 547,
+    "text": "Which sentence uses 'stationary' and 'stationery' correctly?",
+    "options": [
+      "The car remained stationary.",
+      "She bought new stationery for school.",
+      "The train was stationary for an hour.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Stationary' = not moving; 'stationery' = writing materials."
+  },
+  {
+    "id": 548,
+    "text": "Choose the correct word: 'The ____ of the meeting was productive.'",
+    "options": [
+      "outcome",
+      "result",
+      "conclusion",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are synonyms."
+  },
+  {
+    "id": 549,
+    "text": "Which sentence uses 'emigrate' and 'immigrate' correctly?",
+    "options": [
+      "He emigrated from Italy to Canada.",
+      "She immigrated to the United States.",
+      "They are emigrating to Australia.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Emigrate from' = leave; 'immigrate to' = enter."
+  },
+  {
+    "id": 550,
+    "text": "Choose the correct word: 'The evidence was ____.'",
+    "options": [
+      "inconclusive",
+      "ambiguous",
+      "unclear",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'not decisive'."
+  },
+  {
+    "id": 551,
+    "text": "Which sentence uses 'who' and 'whom' correctly?",
+    "options": [
+      "Who is coming to dinner?",
+      "Whom did you see?",
+      "To whom should I address the letter?",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Who' for subject; 'whom' for object (especially formal)."
+  },
+  {
+    "id": 552,
+    "text": "Choose the correct word: 'She is the person ____ I spoke.'",
+    "options": [
+      "who",
+      "whom",
+      "that",
+      "Both B and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Whom' (formal) or 'that' (informal) after preposition omitted."
+  },
+  {
+    "id": 553,
+    "text": "Which sentence uses 'that' and 'which' correctly in restrictive clauses?",
+    "options": [
+      "The book that I read was excellent.",
+      "The book, which I read, was excellent.",
+      "The book which I read was excellent.",
+      "Both A and B."
+    ],
+    "correct": 0,
+    "hint": "C1: Restrictive clause = no commas, 'that' preferred; non-restrictive = commas, 'which'."
+  },
+  {
+    "id": 554,
+    "text": "Choose the correct word: '____ of the candidates is qualified.'",
+    "options": [
+      "None",
+      "Not one",
+      "No one",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'None' can be singular or plural; 'not one' is singular."
+  },
+  {
+    "id": 555,
+    "text": "Which sentence uses 'between' and 'among' correctly?",
+    "options": [
+      "Divide the money between the two children.",
+      "Divide the money among the three children.",
+      "The secret was between you and me.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Between' for two; 'among' for three or more."
+  },
+  {
+    "id": 556,
+    "text": "Choose the correct word: 'He was ____ of the team.'",
+    "options": [
+      "a member",
+      "part",
+      "an integral part",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 557,
+    "text": "Which sentence uses 'bring' and 'take' correctly?",
+    "options": [
+      "Bring the file here.",
+      "Take the file to her office.",
+      "Please bring your passport when you come.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Bring' toward speaker; 'take' away from speaker."
+  },
+  {
+    "id": 558,
+    "text": "Choose the correct word: 'The meeting was ____.'",
+    "options": [
+      "postponed",
+      "delayed",
+      "put off",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'moved to later time'."
+  },
+  {
+    "id": 559,
+    "text": "Which sentence uses 'can' and 'may' correctly for permission?",
+    "options": [
+      "May I leave early?",
+      "Can I leave early? (informal)",
+      "Students may use the library.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'May' formal permission; 'can' informal/ability."
+  },
+  {
+    "id": 560,
+    "text": "Choose the correct word: 'The project was ____.'",
+    "options": [
+      "completed",
+      "finished",
+      "concluded",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are synonyms."
+  },
+  {
+    "id": 561,
+    "text": "Which sentence uses 'lend' and 'borrow' correctly?",
+    "options": [
+      "Can you lend me $10?",
+      "Can I borrow $10 from you?",
+      "I lent him my car.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Lend' = give temporarily; 'borrow' = take temporarily."
+  },
+  {
+    "id": 562,
+    "text": "Choose the correct word: 'She ____ a lot of time on social media.'",
+    "options": [
+      "spends",
+      "passes",
+      "uses",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Spend time' and 'pass time' are common."
+  },
+  {
+    "id": 563,
+    "text": "Which sentence uses 'rise' and 'raise' correctly?",
+    "options": [
+      "The sun rises in the east.",
+      "She raised her hand.",
+      "Prices are rising.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Rise' = go up (no object); 'raise' = lift (needs object)."
+  },
+  {
+    "id": 564,
+    "text": "Choose the correct word: 'He ____ a decision.'",
+    "options": [
+      "made",
+      "took",
+      "reached",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a decision', 'take a decision' (British), 'reach a decision'."
+  },
+  {
+    "id": 565,
+    "text": "Which sentence uses 'lie' and 'lay' correctly?",
+    "options": [
+      "I lie down every afternoon.",
+      "She laid the book on the table.",
+      "He lay on the bed yesterday.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C2: 'Lie' (recline): lie, lay, lain; 'lay' (place): lay, laid, laid."
+  },
+  {
+    "id": 566,
+    "text": "Choose the correct word: 'The report was ____ in detail.'",
+    "options": [
+      "discussed",
+      "examined",
+      "analyzed",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 567,
+    "text": "Which sentence uses 'hang' correctly in past tense?",
+    "options": [
+      "He hung the picture on the wall.",
+      "They hanged the criminal.",
+      "The coat was hanging on the hook.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C2: 'Hung' for objects; 'hanged' for execution."
+  },
+  {
+    "id": 568,
+    "text": "Choose the correct word: 'She ____ a promise.'",
+    "options": [
+      "made",
+      "gave",
+      "kept",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a promise', 'give a promise', 'keep a promise'."
+  },
+  {
+    "id": 569,
+    "text": "Which sentence uses 'sink' and 'drown' correctly?",
+    "options": [
+      "The ship sank in the ocean.",
+      "He drowned in the river.",
+      "The boat was sinking slowly.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Sink' for objects; 'drown' for living things (die from water)."
+  },
+  {
+    "id": 570,
+    "text": "Choose the correct word: 'The company ____ a new CEO.'",
+    "options": [
+      "appointed",
+      "named",
+      "hired",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 571,
+    "text": "Which sentence uses 'hear' and 'listen' correctly?",
+    "options": [
+      "I heard a noise outside.",
+      "Please listen to me carefully.",
+      "Can you hear the music?",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Hear' = perceive sound; 'listen' = pay attention."
+  },
+  {
+    "id": 572,
+    "text": "Choose the correct word: 'She ____ the opportunity.'",
+    "options": [
+      "seized",
+      "took",
+      "grabbed",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'opportunity'."
+  },
+  {
+    "id": 573,
+    "text": "Which sentence uses 'watch', 'see', and 'look' correctly?",
+    "options": [
+      "I saw a bird in the tree.",
+      "Look at that beautiful sunset!",
+      "I watched the movie last night.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'See' = perceive; 'look' = direct gaze; 'watch' = observe over time."
+  },
+  {
+    "id": 574,
+    "text": "Choose the correct word: 'The evidence ____ his guilt.'",
+    "options": [
+      "proves",
+      "demonstrates",
+      "shows",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 575,
+    "text": "Which sentence uses 'say' and 'tell' correctly?",
+    "options": [
+      "He said that he was tired.",
+      "He told me that he was tired.",
+      "She said hello.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Say' = report words; 'tell' = inform someone."
+  },
+  {
+    "id": 576,
+    "text": "Choose the correct word: 'The project was a ____.'",
+    "options": [
+      "success",
+      "failure",
+      "disaster",
+      "All are possible"
+    ],
+    "correct": 3,
+    "hint": "C1: All possible depending on context."
+  },
+  {
+    "id": 577,
+    "text": "Which sentence uses 'rob' and 'steal' correctly?",
+    "options": [
+      "He robbed the bank.",
+      "He stole money from the bank.",
+      "They robbed him of his wallet.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Rob' = take from person/place; 'steal' = take object."
+  },
+  {
+    "id": 578,
+    "text": "Choose the correct word: 'She ____ a good impression.'",
+    "options": [
+      "made",
+      "created",
+      "gave",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make an impression' or 'create an impression'."
+  },
+  {
+    "id": 579,
+    "text": "Which sentence uses 'remember' and 'remind' correctly?",
+    "options": [
+      "I remember meeting her before.",
+      "Please remind me to call her.",
+      "He reminded me of my father.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Remember' = recall; 'remind' = cause to remember."
+  },
+  {
+    "id": 580,
+    "text": "Choose the correct word: 'The ____ of the argument was weak.'",
+    "options": [
+      "basis",
+      "foundation",
+      "premise",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'underlying support'."
+  },
+  {
+    "id": 581,
+    "text": "Which sentence uses 'win' and 'beat' correctly?",
+    "options": [
+      "She won the game.",
+      "She beat her opponent.",
+      "Our team won the championship.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Win' = prize/game; 'beat' = defeat opponent."
+  },
+  {
+    "id": 582,
+    "text": "Choose the correct word: 'He ____ a lot of money.'",
+    "options": [
+      "earned",
+      "made",
+      "won",
+      "All are possible"
+    ],
+    "correct": 3,
+    "hint": "C1: All possible depending on context."
+  },
+  {
+    "id": 583,
+    "text": "Which sentence uses 'hope' and 'wish' correctly?",
+    "options": [
+      "I hope to see you soon.",
+      "I wish I were rich.",
+      "I wish you a happy birthday.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Hope' for possible future; 'wish' for unreal/desire."
+  },
+  {
+    "id": 584,
+    "text": "Choose the correct word: 'The ____ of the situation is critical.'",
+    "options": [
+      "nature",
+      "character",
+      "seriousness",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 585,
+    "text": "Which sentence uses 'refuse' and 'deny' correctly?",
+    "options": [
+      "He refused to answer.",
+      "She denied the accusation.",
+      "They refused our request.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Refuse' = say no; 'deny' = say something is false."
+  },
+  {
+    "id": 586,
+    "text": "Choose the correct word: 'She ____ the challenge.'",
+    "options": [
+      "accepted",
+      "took on",
+      "faced",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'challenge'."
+  },
+  {
+    "id": 587,
+    "text": "Which sentence uses 'wait' and 'expect' correctly?",
+    "options": [
+      "I'm waiting for the bus.",
+      "I expect him to arrive at 5 PM.",
+      "She is waiting for a response.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Wait' = pass time; 'expect' = anticipate."
+  },
+  {
+    "id": 588,
+    "text": "Choose the correct word: 'The ____ of the plan was flawed.'",
+    "options": [
+      "logic",
+      "reasoning",
+      "assumption",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 589,
+    "text": "Which sentence uses 'care' correctly?",
+    "options": [
+      "I care about the environment.",
+      "She cares for her elderly mother.",
+      "I don't care what you think.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Care about' = concerned; 'care for' = look after or like."
+  },
+  {
+    "id": 590,
+    "text": "Choose the correct word: 'He ____ a strong argument.'",
+    "options": [
+      "made",
+      "presented",
+      "put forward",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'argument'."
+  },
+  {
+    "id": 591,
+    "text": "Which sentence uses 'persuade' and 'convince' correctly?",
+    "options": [
+      "I persuaded him to come.",
+      "I convinced him that I was right.",
+      "She persuaded me to apply for the job.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Persuade to do', 'convince that' – though often used interchangeably."
+  },
+  {
+    "id": 592,
+    "text": "Choose the correct word: 'The ____ of the meeting was positive.'",
+    "options": [
+      "atmosphere",
+      "mood",
+      "tone",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 593,
+    "text": "Which sentence uses 'avoid' and 'prevent' correctly?",
+    "options": [
+      "He avoided the accident by braking.",
+      "Seat belts prevent injuries.",
+      "She avoided answering the question.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Avoid' = stay away from; 'prevent' = stop from happening."
+  },
+  {
+    "id": 594,
+    "text": "Choose the correct word: 'She ____ a good relationship with her colleagues.'",
+    "options": [
+      "built",
+      "maintained",
+      "developed",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'relationship'."
+  },
+  {
+    "id": 595,
+    "text": "Which sentence uses 'desire' and 'want' correctly?",
+    "options": [
+      "I want a cup of coffee.",
+      "He desires a more meaningful life.",
+      "She desires to travel the world.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Desire' is more formal/stronger than 'want'."
+  },
+  {
+    "id": 596,
+    "text": "Choose the correct word: 'The ____ of the research was groundbreaking.'",
+    "options": [
+      "findings",
+      "results",
+      "conclusions",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 597,
+    "text": "Which sentence uses 'require' and 'request' correctly?",
+    "options": [
+      "The job requires a degree.",
+      "I request your presence at the meeting.",
+      "The rules require all students to attend.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Require' = need/obligation; 'request' = ask for politely."
+  },
+  {
+    "id": 598,
+    "text": "Choose the correct word: 'He ____ the consequences.'",
+    "options": [
+      "faced",
+      "accepted",
+      "suffered",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All collocate with 'consequences'."
+  },
+  {
+    "id": 599,
+    "text": "Which sentence uses 'remind' and 'remember' correctly?",
+    "options": [
+      "Please remind me to call my mother.",
+      "I remember my first day of school.",
+      "The smell reminds me of my grandmother.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Remind' = cause to remember; 'remember' = recall."
+  },
+  {
+    "id": 600,
+    "text": "Choose the correct word: 'The ____ of the matter is simple.'",
+    "options": [
+      "truth",
+      "fact",
+      "reality",
+      "All are correct"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  }
+]

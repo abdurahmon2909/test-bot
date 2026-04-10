@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 601,
+    "text": "A student says: 'He go to school yesterday.' The teacher says: 'Oh, he went to school yesterday?' This technique is called:",
+    "options": [
+      "Explicit correction",
+      "Recasting",
+      "Metalinguistic feedback",
+      "Elicitation"
+    ],
+    "correct": 1,
+    "hint": "C1: Recasting – teacher repeats correctly without interrupting fluency."
+  },
+  {
+    "id": 602,
+    "text": "Which activity best develops fluency rather than accuracy?",
+    "options": [
+      "Gap-fill exercises",
+      "Free discussion on a topic",
+      "Sentence transformation",
+      "Grammar drills"
+    ],
+    "correct": 1,
+    "hint": "C1: Fluency activities focus on meaning and communication, not form."
+  },
+  {
+    "id": 603,
+    "text": "What is the main purpose of formative assessment?",
+    "options": [
+      "To assign final grades",
+      "To monitor student learning and provide feedback",
+      "To compare students with each other",
+      "To select students for advanced classes"
+    ],
+    "correct": 1,
+    "hint": "C1: Formative assessment is ongoing, diagnostic, and low-stakes."
+  },
+  {
+    "id": 604,
+    "text": "Which is an example of authentic material?",
+    "options": [
+      "A textbook grammar exercise",
+      "A newspaper article",
+      "A teacher-written dialogue",
+      "A gap-fill worksheet"
+    ],
+    "correct": 1,
+    "hint": "C1: Authentic materials are not designed for teaching – real-world texts."
+  },
+  {
+    "id": 605,
+    "text": "What does scaffolding mean in language teaching?",
+    "options": [
+      "Giving students the answers directly",
+      "Providing temporary support to help students complete a task",
+      "Testing students every lesson",
+      "Ignoring errors"
+    ],
+    "correct": 1,
+    "hint": "C1: Scaffolding is gradually removed as students become independent."
+  },
+  {
+    "id": 606,
+    "text": "Which stage of the PPP model focuses on freer language use?",
+    "options": [
+      "Presentation",
+      "Practice",
+      "Production",
+      "Warm-up"
+    ],
+    "correct": 2,
+    "hint": "C1: Production stage – students use language creatively with less control."
+  },
+  {
+    "id": 607,
+    "text": "What is the teacher's role in a learner-centered classroom?",
+    "options": [
+      "To lecture most of the time",
+      "To facilitate and guide student learning",
+      "To correct every single error",
+      "To read from the textbook"
+    ],
+    "correct": 1,
+    "hint": "C1: Learner-centered = teacher as facilitator, not authority."
+  },
+  {
+    "id": 608,
+    "text": "Which is a top-down listening strategy?",
+    "options": [
+      "Listening for every single word",
+      "Using background knowledge to predict content",
+      "Focusing on grammar structures",
+      "Transcribing the entire text"
+    ],
+    "correct": 1,
+    "hint": "C1: Top-down uses schema, context, prior knowledge to understand."
+  },
+  {
+    "id": 609,
+    "text": "What is interlanguage?",
+    "options": [
+      "The learner's native language",
+      "The target language",
+      "The learner's developing language system between L1 and L2",
+      "A method of translation"
+    ],
+    "correct": 2,
+    "hint": "C1: Interlanguage is systematic, dynamic, and has its own rules."
+  },
+  {
+    "id": 610,
+    "text": "Which activity promotes inductive learning of grammar?",
+    "options": [
+      "The teacher explains the rule, then students practice",
+      "Students read sentences and discover the rule themselves",
+      "Students memorize grammar tables",
+      "Students translate sentences from L1 to L2"
+    ],
+    "correct": 1,
+    "hint": "C1: Inductive = examples → rule discovery; deductive = rule → examples."
+  },
+  {
+    "id": 611,
+    "text": "What is the purpose of concept checking questions (CCQs)?",
+    "options": [
+      "To test vocabulary spelling",
+      "To check students' understanding of meaning without using the target language",
+      "To give students a break",
+      "To introduce new grammar"
+    ],
+    "correct": 1,
+    "hint": "C1: CCQs use simple language to check comprehension of new concepts."
+  },
+  {
+    "id": 612,
+    "text": "Which is an example of a closed task?",
+    "options": [
+      "Write a story about your weekend",
+      "Discuss your opinion on climate change",
+      "Complete the sentence with the correct word",
+      "Role-play a job interview"
+    ],
+    "correct": 2,
+    "hint": "C1: Closed tasks have one correct answer; open tasks have multiple possibilities."
+  },
+  {
+    "id": 613,
+    "text": "What does a timeline help to teach?",
+    "options": [
+      "Pronunciation",
+      "Vocabulary",
+      "Verb tenses and time concepts",
+      "Writing skills"
+    ],
+    "correct": 2,
+    "hint": "C1: Timelines visually represent time relationships between actions."
+  },
+  {
+    "id": 614,
+    "text": "Which is the best way to give instructions for a complex task?",
+    "options": [
+      "Read the instructions aloud once quickly",
+      "Give step-by-step instructions, demonstrate, and check understanding",
+      "Write instructions on the board and ignore questions",
+      "Ask students to read silently"
+    ],
+    "correct": 1,
+    "hint": "C1: ICQs (Instruction Checking Questions) ensure understanding."
+  },
+  {
+    "id": 615,
+    "text": "What is drilling used for?",
+    "options": [
+      "Testing grammar knowledge",
+      "Practicing pronunciation and accuracy",
+      "Developing writing fluency",
+      "Teaching reading comprehension"
+    ],
+    "correct": 1,
+    "hint": "C1: Drilling includes choral and individual repetition for accuracy."
+  },
+  {
+    "id": 616,
+    "text": "Which is an example of error correction that promotes self-correction?",
+    "options": [
+      "The teacher says the correct form immediately",
+      "The teacher says 'Not correct' and moves on",
+      "The teacher repeats the error with rising intonation and pauses",
+      "The teacher ignores the error"
+    ],
+    "correct": 2,
+    "hint": "C1: Echoing with rising intonation signals an error without giving the answer."
+  },
+  {
+    "id": 617,
+    "text": "What is task-based learning (TBL)?",
+    "options": [
+      "Students learn grammar rules first, then practice",
+      "Students complete a meaningful task using language, then focus on form",
+      "Students only listen to lectures",
+      "Students memorize vocabulary lists"
+    ],
+    "correct": 1,
+    "hint": "C1: TBL framework: pre-task → task cycle → language focus."
+  },
+  {
+    "id": 618,
+    "text": "Which is a feature of a teacher-centered classroom?",
+    "options": [
+      "Students work in groups most of the time",
+      "The teacher talks most of the lesson",
+      "Students choose their own activities",
+      "Students evaluate each other's work"
+    ],
+    "correct": 1,
+    "hint": "C1: Teacher-centered = transmission model; learner-centered = construction model."
+  },
+  {
+    "id": 619,
+    "text": "What is elicitation?",
+    "options": [
+      "Giving students the answer directly",
+      "Asking students to repeat after the teacher",
+      "Drawing out language or ideas from students rather than giving them",
+      "Writing everything on the board"
+    ],
+    "correct": 2,
+    "hint": "C1: Elicitation activates prior knowledge and increases student involvement."
+  },
+  {
+    "id": 620,
+    "text": "What is the difference between accuracy and fluency?",
+    "options": [
+      "Accuracy is about speed; fluency is about correctness",
+      "Accuracy is about correct form; fluency is about smooth communication",
+      "Accuracy is for writing; fluency is for speaking",
+      "Accuracy is for beginners; fluency is for advanced"
+    ],
+    "correct": 1,
+    "hint": "C1: Both are important; different stages focus on different goals."
+  },
+  {
+    "id": 621,
+    "text": "What is a diagnostic test used for?",
+    "options": [
+      "To measure final achievement",
+      "To identify learners' strengths and weaknesses before a course",
+      "To compare learners to each other",
+      "To assign grades"
+    ],
+    "correct": 1,
+    "hint": "C1: Diagnostic assessment informs planning and differentiation."
+  },
+  {
+    "id": 622,
+    "text": "What is a placement test used for?",
+    "options": [
+      "To assign learners to appropriate levels or classes",
+      "To measure learning at the end of a course",
+      "To check homework",
+      "To practice exam techniques"
+    ],
+    "correct": 0,
+    "hint": "C1: Placement tests ensure students are in suitable groups."
+  },
+  {
+    "id": 623,
+    "text": "What is a progress test used for?",
+    "options": [
+      "To measure learning at the end of a course",
+      "To check what has been learned during a course",
+      "To place students in levels",
+      "To diagnose initial ability"
+    ],
+    "correct": 1,
+    "hint": "C1: Progress tests are formative and occur during instruction."
+  },
+  {
+    "id": 624,
+    "text": "What is an achievement test used for?",
+    "options": [
+      "To measure what has been learned at the end of a course",
+      "To place students at the beginning",
+      "To diagnose problems",
+      "To practice specific skills"
+    ],
+    "correct": 0,
+    "hint": "C1: Achievement tests are summative (final exams, unit tests)."
+  },
+  {
+    "id": 625,
+    "text": "What is a proficiency test used for?",
+    "options": [
+      "To measure general language ability regardless of course content",
+      "To test specific course material",
+      "To diagnose grammar weaknesses",
+      "To check homework"
+    ],
+    "correct": 0,
+    "hint": "C1: Proficiency tests (IELTS, TOEFL) are not based on a specific syllabus."
+  },
+  {
+    "id": 626,
+    "text": "What is the difference between norm-referenced and criterion-referenced assessment?",
+    "options": [
+      "Norm-referenced compares to others; criterion-referenced compares to standards",
+      "Norm-referenced is easier; criterion-referenced is harder",
+      "Norm-referenced is for speaking; criterion-referenced is for writing",
+      "Norm-referenced is formative; criterion-referenced is summative"
+    ],
+    "correct": 0,
+    "hint": "C1: Norm-referenced = ranking; criterion-referenced = mastery."
+  },
+  {
+    "id": 627,
+    "text": "What is the purpose of a needs analysis?",
+    "options": [
+      "To identify what learners need to learn",
+      "To test learners at the end of a course",
+      "To assign final grades",
+      "To compare teachers"
+    ],
+    "correct": 0,
+    "hint": "C1: Needs analysis informs course design and materials selection."
+  },
+  {
+    "id": 628,
+    "text": "What is a learning objective?",
+    "options": [
+      "A statement of what learners will be able to do after a lesson",
+      "A list of activities for the lesson",
+      "The teacher's personal goal",
+      "The textbook chapter"
+    ],
+    "correct": 0,
+    "hint": "C1: Objectives should be specific, measurable, achievable, relevant, time-bound."
+  },
+  {
+    "id": 629,
+    "text": "What is the difference between aim and procedure?",
+    "options": [
+      "Aim is why; procedure is how",
+      "Aim is how; procedure is why",
+      "Aim is the activity; procedure is the goal",
+      "They are the same"
+    ],
+    "correct": 0,
+    "hint": "C1: Aim = purpose; procedure = step-by-step actions."
+  },
+  {
+    "id": 630,
+    "text": "What is a lesson plan?",
+    "options": [
+      "A detailed outline of what will happen in a lesson",
+      "A list of students' names",
+      "The textbook pages to cover",
+      "The homework assignment"
+    ],
+    "correct": 0,
+    "hint": "C1: Lesson plans include objectives, procedures, materials, timing, and assessment."
+  },
+  {
+    "id": 631,
+    "text": "What is a stage aim?",
+    "options": [
+      "The overall goal of the entire lesson",
+      "The purpose of a specific part of the lesson",
+      "The homework objective",
+      "The teacher's personal goal"
+    ],
+    "correct": 1,
+    "hint": "C1: Stage aims help sequence and justify activities."
+  },
+  {
+    "id": 632,
+    "text": "What is a personal aim?",
+    "options": [
+      "A goal for the teacher's own development",
+      "A goal for student learning",
+      "The lesson objective",
+      "The course objective"
+    ],
+    "correct": 0,
+    "hint": "C1: Personal aims focus on improving teaching skills (e.g., reduce TTT)."
+  },
+  {
+    "id": 633,
+    "text": "What does TTT stand for in teaching methodology?",
+    "options": [
+      "Teacher Talking Time",
+      "Total Teaching Time",
+      "Textbook Teaching Time",
+      "Test Taking Time"
+    ],
+    "correct": 0,
+    "hint": "C1: Reducing TTT increases STT (Student Talking Time)."
+  },
+  {
+    "id": 634,
+    "text": "What does STT stand for?",
+    "options": [
+      "Student Talking Time",
+      "Standard Teaching Time",
+      "Simple Test Time",
+      "Speaking Training Time"
+    ],
+    "correct": 0,
+    "hint": "C1: Maximizing STT promotes language acquisition."
+  },
+  {
+    "id": 635,
+    "text": "What is a warm-up activity?",
+    "options": [
+      "An activity at the end of a lesson",
+      "An activity at the beginning to engage students and activate prior knowledge",
+      "A homework assignment",
+      "A test"
+    ],
+    "correct": 1,
+    "hint": "C1: Warm-ups transition students into the lesson and create interest."
+  },
+  {
+    "id": 636,
+    "text": "What is a lead-in?",
+    "options": [
+      "An activity that introduces the topic",
+      "An activity that ends the lesson",
+      "A test",
+      "A homework task"
+    ],
+    "correct": 0,
+    "hint": "C1: Lead-ins create context and prepare learners for the main task."
+  },
+  {
+    "id": 637,
+    "text": "What is a cooler activity?",
+    "options": [
+      "An activity at the beginning of a lesson",
+      "An activity at the end to consolidate and end positively",
+      "A test",
+      "A grammar exercise"
+    ],
+    "correct": 1,
+    "hint": "C1: Coolers review learning and leave a positive final impression."
+  },
+  {
+    "id": 638,
+    "text": "What is a filler activity?",
+    "options": [
+      "A short activity used when there is extra time",
+      "The main activity of the lesson",
+      "The homework",
+      "The test"
+    ],
+    "correct": 0,
+    "hint": "C1: Fillers are flexible, low-prep, and engaging."
+  },
+  {
+    "id": 639,
+    "text": "What is a back-up activity?",
+    "options": [
+      "An activity prepared in case the main activity fails",
+      "The main activity",
+      "The homework",
+      "The test"
+    ],
+    "correct": 0,
+    "hint": "C1: Back-ups ensure the lesson doesn't fail due to technical or engagement issues."
+  },
+  {
+    "id": 640,
+    "text": "What is the difference between a worksheet and a handout?",
+    "options": [
+      "Worksheet has tasks to complete; handout has information only",
+      "Worksheet is digital; handout is paper",
+      "Worksheet is for homework; handout is for class",
+      "They are the same"
+    ],
+    "correct": 0,
+    "hint": "C1: Handouts provide reference; worksheets require active response."
+  },
+  {
+    "id": 641,
+    "text": "What is a visual aid?",
+    "options": [
+      "Any image, chart, or object used to support teaching",
+      "A textbook",
+      "A worksheet",
+      "A test"
+    ],
+    "correct": 0,
+    "hint": "C1: Visual aids support comprehension, memory, and engagement."
+  },
+  {
+    "id": 642,
+    "text": "What is a realia?",
+    "options": [
+      "Real-life objects brought to the classroom for teaching",
+      "Pictures of objects",
+      "Textbook exercises",
+      "Online videos"
+    ],
+    "correct": 0,
+    "hint": "C1: Realia makes learning concrete and memorable."
+  },
+  {
+    "id": 643,
+    "text": "What is a flashcard?",
+    "options": [
+      "A card with a word or picture used for drilling vocabulary",
+      "A digital game",
+      "A textbook page",
+      "A test question"
+    ],
+    "correct": 0,
+    "hint": "C1: Flashcards support vocabulary, grammar, and quick recall activities."
+  },
+  {
+    "id": 644,
+    "text": "What is a board race?",
+    "options": [
+      "A competitive game where students write answers on the board",
+      "A running activity outside",
+      "A reading test",
+      "A listening exercise"
+    ],
+    "correct": 0,
+    "hint": "C1: Board races are kinesthetic, competitive, and engaging."
+  },
+  {
+    "id": 645,
+    "text": "What is a mingle activity?",
+    "options": [
+      "Students walk around and talk to multiple partners",
+      "Students sit quietly and read",
+      "Students listen to the teacher",
+      "Students write an essay"
+    ],
+    "correct": 0,
+    "hint": "C1: Mingles maximize student interaction and speaking practice."
+  },
+  {
+    "id": 646,
+    "text": "What is a jigsaw activity?",
+    "options": [
+      "Each student has part of the information; they must share to complete the task",
+      "A puzzle game",
+      "A listening test",
+      "A writing exercise"
+    ],
+    "correct": 0,
+    "hint": "C1: Jigsaws promote cooperation and information-gap communication."
+  },
+  {
+    "id": 647,
+    "text": "What is a role-play?",
+    "options": [
+      "Students act out imaginary situations in assigned roles",
+      "Students read aloud from a textbook",
+      "Students listen to a dialogue",
+      "Students write a dialogue"
+    ],
+    "correct": 0,
+    "hint": "C1: Role-plays develop pragmatic competence and fluency in realistic contexts."
+  },
+  {
+    "id": 648,
+    "text": "What is a simulation?",
+    "options": [
+      "An extended, realistic role-play with complex scenarios",
+      "A short grammar exercise",
+      "A vocabulary test",
+      "A listening task"
+    ],
+    "correct": 0,
+    "hint": "C1: Simulations (e.g., business meeting) involve multiple skills and preparation."
+  },
+  {
+    "id": 649,
+    "text": "What is a debate?",
+    "options": [
+      "A structured argument where students defend opposing positions",
+      "A casual conversation",
+      "A grammar drill",
+      "A reading comprehension task"
+    ],
+    "correct": 0,
+    "hint": "C1: Debates develop critical thinking, persuasion, and formal language."
+  },
+  {
+    "id": 650,
+    "text": "What is a discussion?",
+    "options": [
+      "An exchange of ideas on a topic without formal rules",
+      "A lecture",
+      "A test",
+      "A writing task"
+    ],
+    "correct": 0,
+    "hint": "C1: Discussions can be structured (groups, pairs) or whole-class."
+  },
+  {
+    "id": 651,
+    "text": "What is a dictation?",
+    "options": [
+      "Students write down what the teacher reads aloud",
+      "Students speak from memory",
+      "Students read aloud",
+      "Students translate"
+    ],
+    "correct": 0,
+    "hint": "C1: Dictation develops listening, spelling, and punctuation."
+  },
+  {
+    "id": 652,
+    "text": "What is a running dictation?",
+    "options": [
+      "Students run to a text, remember a phrase, and dictate to a partner",
+      "Students run while listening",
+      "A fast writing test",
+      "A speaking race"
+    ],
+    "correct": 0,
+    "hint": "C1: Running dictation combines kinesthetic, reading, writing, and memory skills."
+  },
+  {
+    "id": 653,
+    "text": "What is a cloze test?",
+    "options": [
+      "A text with words removed for students to fill in",
+      "A multiple-choice test",
+      "An essay",
+      "An interview"
+    ],
+    "correct": 0,
+    "hint": "C1: Cloze tests measure reading comprehension and grammar knowledge."
+  },
+  {
+    "id": 654,
+    "text": "What is a gap-fill exercise?",
+    "options": [
+      "A sentence or text with missing words to complete",
+      "A multiple-choice question",
+      "A true/false question",
+      "An essay"
+    ],
+    "correct": 0,
+    "hint": "C1: Gap-fills can be open (no options) or closed (word bank)."
+  },
+  {
+    "id": 655,
+    "text": "What is a multiple-choice question?",
+    "options": [
+      "A question with several possible answers, one correct",
+      "A question with one answer",
+      "An essay question",
+      "A true/false question"
+    ],
+    "correct": 0,
+    "hint": "C1: MCQs are efficient for testing recognition knowledge."
+  },
+  {
+    "id": 656,
+    "text": "What is a true/false question?",
+    "options": [
+      "A statement that students judge as true or false",
+      "A multiple-choice question",
+      "An essay",
+      "A gap-fill"
+    ],
+    "correct": 0,
+    "hint": "C1: True/false questions are quick to answer and mark."
+  },
+  {
+    "id": 657,
+    "text": "What is an essay question?",
+    "options": [
+      "A question requiring a written paragraph or composition",
+      "A multiple-choice question",
+      "A true/false question",
+      "A gap-fill"
+    ],
+    "correct": 0,
+    "hint": "C1: Essays assess higher-order thinking and writing skills."
+  },
+  {
+    "id": 658,
+    "text": "What is peer assessment?",
+    "options": [
+      "Students assess each other's work",
+      "The teacher assesses students",
+      "Self-assessment",
+      "External testing"
+    ],
+    "correct": 0,
+    "hint": "C1: Peer assessment develops critical thinking and collaboration."
+  },
+  {
+    "id": 659,
+    "text": "What is self-assessment?",
+    "options": [
+      "Students evaluate their own learning",
+      "The teacher evaluates students",
+      "Peer evaluation",
+      "Standardized testing"
+    ],
+    "correct": 0,
+    "hint": "C1: Self-assessment promotes metacognition and learner autonomy."
+  },
+  {
+    "id": 660,
+    "text": "What is a portfolio?",
+    "options": [
+      "A collection of student work demonstrating progress",
+      "A single test",
+      "A homework assignment",
+      "A textbook"
+    ],
+    "correct": 0,
+    "hint": "C1: Portfolios show development over time and multiple skills."
+  },
+  {
+    "id": 661,
+    "text": "What is differentiation?",
+    "options": [
+      "Adapting teaching to meet diverse learner needs",
+      "Teaching all students the same way",
+      "Testing all students the same",
+      "Using only one textbook"
+    ],
+    "correct": 0,
+    "hint": "C1: Differentiation includes content, process, product, and environment."
+  },
+  {
+    "id": 662,
+    "text": "What is mixed-ability teaching?",
+    "options": [
+      "Teaching classes where students have different proficiency levels",
+      "Teaching only advanced students",
+      "Teaching only beginners",
+      "One-to-one teaching"
+    ],
+    "correct": 0,
+    "hint": "C1: Mixed-ability requires flexible grouping and varied tasks."
+  },
+  {
+    "id": 663,
+    "text": "What is a learning style?",
+    "options": [
+      "A preferred way of learning (visual, auditory, kinesthetic, etc.)",
+      "A teaching method",
+      "A test format",
+      "A textbook type"
+    ],
+    "correct": 0,
+    "hint": "C1: Addressing learning styles increases engagement and retention."
+  },
+  {
+    "id": 664,
+    "text": "What is a VAK learner?",
+    "options": [
+      "Visual, Auditory, Kinesthetic learner",
+      "Very Advanced Knowledge learner",
+      "Vocabulary and Grammar learner",
+      "Verbal Academic learner"
+    ],
+    "correct": 0,
+    "hint": "C1: VAK is a learning style model, though research is mixed."
+  },
+  {
+    "id": 665,
+    "text": "What is a visual learner?",
+    "options": [
+      "A learner who learns best through seeing (pictures, reading, diagrams)",
+      "A learner who learns best through listening",
+      "A learner who learns best through movement",
+      "A learner who learns best through touch"
+    ],
+    "correct": 0,
+    "hint": "C1: Visual learners benefit from charts, mind maps, and written instructions."
+  },
+  {
+    "id": 666,
+    "text": "What is an auditory learner?",
+    "options": [
+      "A learner who learns best through listening (lectures, discussions, audio)",
+      "A learner who learns best through seeing",
+      "A learner who learns best through movement",
+      "A learner who learns best through reading"
+    ],
+    "correct": 0,
+    "hint": "C1: Auditory learners benefit from explanations, songs, and oral repetition."
+  },
+  {
+    "id": 667,
+    "text": "What is a kinesthetic learner?",
+    "options": [
+      "A learner who learns best through movement and hands-on activities",
+      "A learner who learns best through listening",
+      "A learner who learns best through reading",
+      "A learner who learns best through writing"
+    ],
+    "correct": 0,
+    "hint": "C1: Kinesthetic learners benefit from role-plays, games, and TPR."
+  },
+  {
+    "id": 668,
+    "text": "What is intrinsic motivation?",
+    "options": [
+      "Motivation from within (interest, enjoyment, satisfaction)",
+      "Motivation from external rewards (grades, praise, money)",
+      "Motivation from punishment",
+      "Motivation from competition"
+    ],
+    "correct": 0,
+    "hint": "C1: Intrinsic motivation leads to deeper, more durable learning."
+  },
+  {
+    "id": 669,
+    "text": "What is extrinsic motivation?",
+    "options": [
+      "Motivation from external rewards or consequences",
+      "Motivation from within",
+      "Motivation from curiosity",
+      "Motivation from personal growth"
+    ],
+    "correct": 0,
+    "hint": "C1: Extrinsic motivation can be effective but less sustainable."
+  },
+  {
+    "id": 670,
+    "text": "What is a token economy?",
+    "options": [
+      "A system where students earn rewards for desired behaviors",
+      "An economic lesson",
+      "A banking simulation",
+      "A test about money"
+    ],
+    "correct": 0,
+    "hint": "C1: Token economies use points, stickers, or tokens as reinforcers."
+  },
+  {
+    "id": 671,
+    "text": "What is classroom management?",
+    "options": [
+      "The techniques teachers use to maintain order and engagement",
+      "The lesson plan",
+      "The textbook selection",
+      "The assessment method"
+    ],
+    "correct": 0,
+    "hint": "C1: Good management maximizes learning time and minimizes disruption."
+  },
+  {
+    "id": 672,
+    "text": "What is a seating plan?",
+    "options": [
+      "An arrangement of where students sit in the classroom",
+      "The lesson schedule",
+      "The textbook layout",
+      "The test format"
+    ],
+    "correct": 0,
+    "hint": "C1: Seating plans can manage behavior and support pair/group work."
+  },
+  {
+    "id": 673,
+    "text": "What is a disruptive student?",
+    "options": [
+      "A student who interrupts learning with inappropriate behavior",
+      "A student who asks questions",
+      "A student who is quiet",
+      "A student who participates"
+    ],
+    "correct": 0,
+    "hint": "C1: Disruptions require calm, consistent, and fair responses."
+  },
+  {
+    "id": 674,
+    "text": "What is a code of conduct?",
+    "options": [
+      "A set of rules for behavior in the classroom",
+      "A grammar book",
+      "A vocabulary list",
+      "A test"
+    ],
+    "correct": 0,
+    "hint": "C1: Clear codes of conduct prevent problems and ensure fairness."
+  },
+  {
+    "id": 675,
+    "text": "What is a positive reinforcer?",
+    "options": [
+      "A reward given to increase desired behavior",
+      "A punishment to decrease undesired behavior",
+      "A test score",
+      "A homework assignment"
+    ],
+    "correct": 0,
+    "hint": "C1: Praise, stickers, and privileges are positive reinforcers."
+  },
+  {
+    "id": 676,
+    "text": "What is a negative reinforcer?",
+    "options": [
+      "Removing an unpleasant stimulus to increase desired behavior",
+      "Adding a punishment",
+      "Giving a reward",
+      "Ignoring behavior"
+    ],
+    "correct": 0,
+    "hint": "C1: Example: stopping a loud noise when students work quietly."
+  },
+  {
+    "id": 677,
+    "text": "What is a sanction?",
+    "options": [
+      "A penalty for breaking rules",
+      "A reward for good behavior",
+      "A test",
+      "A homework assignment"
+    ],
+    "correct": 0,
+    "hint": "C1: Sanctions should be proportionate, consistent, and educative."
+  },
+  {
+    "id": 678,
+    "text": "What is a restorative practice?",
+    "options": [
+      "An approach that focuses on repairing harm and rebuilding relationships",
+      "A punishment system",
+      "A reward system",
+      "A testing method"
+    ],
+    "correct": 0,
+    "hint": "C2: Restorative practices emphasize accountability and community."
+  },
+  {
+    "id": 679,
+    "text": "What is a safe learning environment?",
+    "options": [
+      "A classroom where students feel physically and emotionally secure",
+      "A classroom with no rules",
+      "A classroom with only desks",
+      "A classroom with no windows"
+    ],
+    "correct": 0,
+    "hint": "C1: Safety includes freedom from bullying, ridicule, and discrimination."
+  },
+  {
+    "id": 680,
+    "text": "What is an inclusive classroom?",
+    "options": [
+      "A classroom where all students, regardless of ability, learn together",
+      "A classroom for advanced students only",
+      "A classroom for beginners only",
+      "A classroom with no diversity"
+    ],
+    "correct": 0,
+    "hint": "C1: Inclusion requires differentiation, accommodation, and respect."
+  },
+  {
+    "id": 681,
+    "text": "What is a special educational need (SEN)?",
+    "options": [
+      "A learning difficulty or disability requiring additional support",
+      "A gifted student",
+      "A behavior problem",
+      "A language barrier"
+    ],
+    "correct": 0,
+    "hint": "C1: SEN includes dyslexia, ADHD, autism, and other conditions."
+  },
+  {
+    "id": 682,
+    "text": "What is a gifted and talented learner?",
+    "options": [
+      "A student with exceptional ability in one or more areas",
+      "A student with learning difficulties",
+      "A student who behaves well",
+      "A student who works hard"
+    ],
+    "correct": 0,
+    "hint": "C1: Gifted learners need enrichment, extension, and challenge."
+  },
+  {
+    "id": 683,
+    "text": "What is a language acquisition device (LAD)?",
+    "options": [
+      "Chomsky's theory of an innate capacity for language",
+      "A classroom tool",
+      "A textbook",
+      "A test"
+    ],
+    "correct": 0,
+    "hint": "C2: LAD explains why children learn language rapidly and universally."
+  },
+  {
+    "id": 684,
+    "text": "What is the critical period hypothesis?",
+    "options": [
+      "There is an optimal window for native-like language acquisition",
+      "Language can be learned at any age equally",
+      "Adults learn faster than children",
+      "Grammar is innate"
+    ],
+    "correct": 0,
+    "hint": "C2: The critical period ends around puberty (Lenneberg)."
+  },
+  {
+    "id": 685,
+    "text": "What is the interaction hypothesis?",
+    "options": [
+      "Language acquisition is enhanced through conversation and negotiation of meaning",
+      "Language is learned through memorization",
+      "Grammar is innate",
+      "Only input matters"
+    ],
+    "correct": 0,
+    "hint": "C2: Long's interaction hypothesis emphasizes modified interaction."
+  },
+  {
+    "id": 686,
+    "text": "What is the output hypothesis?",
+    "options": [
+      "Producing language (speaking/writing) is necessary for acquisition",
+      "Only listening leads to acquisition",
+      "Only reading leads to acquisition",
+      "Grammar rules must be taught explicitly"
+    ],
+    "correct": 0,
+    "hint": "C2: Swain's output hypothesis claims output forces syntactic processing."
+  },
+  {
+    "id": 687,
+    "text": "What is the input hypothesis?",
+    "options": [
+      "Learners acquire language by understanding input slightly above their level (i+1)",
+      "Learners acquire by producing language",
+      "Grammar must be taught explicitly",
+      "Only formal instruction works"
+    ],
+    "correct": 0,
+    "hint": "C2: Krashen's input hypothesis emphasizes comprehensible input."
+  },
+  {
+    "id": 688,
+    "text": "What is the affective filter hypothesis?",
+    "options": [
+      "Anxiety, low confidence, and motivation block language acquisition",
+      "Emotion helps learning",
+      "Only cognitive factors matter",
+      "Age is the only factor"
+    ],
+    "correct": 0,
+    "hint": "C2: Krashen: low anxiety, high motivation lower the filter."
+  },
+  {
+    "id": 689,
+    "text": "What is the monitor hypothesis?",
+    "options": [
+      "Learners use conscious grammar rules to edit output after it is produced",
+      "Learners never use grammar rules",
+      "Grammar is innate",
+      "Only speaking matters"
+    ],
+    "correct": 0,
+    "hint": "C2: Krashen: monitor use requires time, focus on form, and rule knowledge."
+  },
+  {
+    "id": 690,
+    "text": "What is the natural order hypothesis?",
+    "options": [
+      "Grammar rules are acquired in a predictable sequence",
+      "Grammar can be taught in any order",
+      "All learners acquire at the same speed",
+      "First language has no effect"
+    ],
+    "correct": 0,
+    "hint": "C2: Krashen: e.g., -ing before past tense."
+  },
+  {
+    "id": 691,
+    "text": "What is the difference between acquisition and learning?",
+    "options": [
+      "Acquisition is subconscious; learning is conscious rule knowledge",
+      "Acquisition is conscious; learning is subconscious",
+      "They are the same",
+      "Acquisition is for children; learning is for adults"
+    ],
+    "correct": 0,
+    "hint": "C2: Krashen's acquisition-learning distinction."
+  },
+  {
+    "id": 692,
+    "text": "What is the noticing hypothesis?",
+    "options": [
+      "Learners must notice a language feature to acquire it",
+      "Learning is automatic",
+      "Only output matters",
+      "Only input matters"
+    ],
+    "correct": 0,
+    "hint": "C2: Schmidt: noticing is necessary but not sufficient for acquisition."
+  },
+  {
+    "id": 693,
+    "text": "What is the sociocultural theory?",
+    "options": [
+      "Learning occurs through social interaction and scaffolding",
+      "Learning is individual and isolated",
+      "Only formal instruction works",
+      "Grammar is innate"
+    ],
+    "correct": 0,
+    "hint": "C2: Vygotsky: ZPD (Zone of Proximal Development) and mediation."
+  },
+  {
+    "id": 694,
+    "text": "What is the Zone of Proximal Development (ZPD)?",
+    "options": [
+      "The gap between what a learner can do alone and with help",
+      "The final level of learning",
+      "The beginner level",
+      "The advanced level"
+    ],
+    "correct": 0,
+    "hint": "C2: Vygotsky: teaching should target the ZPD."
+  },
+  {
+    "id": 695,
+    "text": "What is mediation in sociocultural theory?",
+    "options": [
+      "Learning through tools, signs, and social interaction",
+      "Learning alone",
+      "Learning by memorization",
+      "Learning by testing"
+    ],
+    "correct": 0,
+    "hint": "C2: Mediation includes teacher guidance, peer help, and physical tools."
+  },
+  {
+    "id": 696,
+    "text": "What is the difference between deductive and inductive teaching?",
+    "options": [
+      "Deductive: rule → examples; Inductive: examples → rule",
+      "Deductive: examples → rule; Inductive: rule → examples",
+      "They are the same",
+      "Deductive is for grammar; inductive is for vocabulary"
+    ],
+    "correct": 0,
+    "hint": "C1: Deductive = teacher-centered; inductive = learner-centered."
+  },
+  {
+    "id": 697,
+    "text": "What is a grammar-translation method?",
+    "options": [
+      "Teaching through explicit grammar rules and translation exercises",
+      "Teaching through conversation only",
+      "Teaching through pictures",
+      "Teaching through games"
+    ],
+    "correct": 0,
+    "hint": "C1: GTM focuses on reading, writing, and L1-L2 translation."
+  },
+  {
+    "id": 698,
+    "text": "What is the direct method?",
+    "options": [
+      "Teaching exclusively in the target language, no translation",
+      "Teaching through grammar rules",
+      "Teaching through translation",
+      "Teaching through memorization"
+    ],
+    "correct": 0,
+    "hint": "C1: Direct method uses demonstration, questioning, and correction."
+  },
+  {
+    "id": 699,
+    "text": "What is the audiolingual method?",
+    "options": [
+      "Teaching through repetition, drills, and habit formation",
+      "Teaching through grammar rules",
+      "Teaching through translation",
+      "Teaching through free conversation"
+    ],
+    "correct": 0,
+    "hint": "C1: Audiolingualism emphasizes mimicry, memorization, and error prevention."
+  },
+  {
+    "id": 700,
+    "text": "What is communicative language teaching (CLT)?",
+    "options": [
+      "Teaching focused on real communication and meaning rather than form",
+      "Teaching through grammar drills",
+      "Teaching through translation",
+      "Teaching through memorization"
+    ],
+    "correct": 0,
+    "hint": "C1: CLT emphasizes fluency, authenticity, and learner interaction."
+  }
+]

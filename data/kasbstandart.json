@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 901,
+    "text": "O‘qituvchining kasbiy standart bo‘yicha asosiy majburiyatlaridan biri bu:",
+    "options": [
+      "Faqat dars o‘tish",
+      "O‘quvchilarning individual rivojlanishini ta’minlash va ularning salomatligini muhofaza qilish",
+      "Faqat ota-onalar bilan ishlash",
+      "Faqat hujjat yuritish"
+    ],
+    "correct": 1,
+    "hint": "C1: Kasbiy standart o‘qituvchining o‘quvchilar oldidagi mas’uliyatini belgilaydi."
+  },
+  {
+    "id": 902,
+    "text": "O‘qituvchi o‘z kasbiy faoliyatida qanday tamoyillarga amal qilishi kerak?",
+    "options": [
+      "Faqat o‘z fikriga tayanish",
+      "Adolat, kasbiy odob, mas’uliyat va doimiy rivojlanish",
+      "Faqat darslikka tayanish",
+      "Faqat rahbariyatning ko‘rsatmalariga amal qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Kasbiy etika va tamoyillar o‘qituvchi faoliyatining asosidir."
+  },
+  {
+    "id": 903,
+    "text": "O‘qituvchi o‘quvchilarning huquqlarini himoya qilish bo‘yicha qanday majburiyatlarga ega?",
+    "options": [
+      "Hech qanday majburiyati yo‘q",
+      "Kamsitish, zo‘ravonlik va har qanday shakldagi huquqbuzarliklarning oldini olish",
+      "Faqat dars davomida himoya qilish",
+      "Faqat ota-onalar murojaat qilganda"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qituvchi o‘quvchilarning huquqlarini himoya qilishi shart."
+  },
+  {
+    "id": 904,
+    "text": "O‘qituvchi o‘z kasbiy mahoratini oshirish uchun qanday faoliyatlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech qanday faoliyat",
+      "Muntazam ravishda malaka oshirish kurslarida qatnashish, tajriba almashish va o‘z-o‘zini rivojlantirish",
+      "Faqat dars o‘tish",
+      "Faqat metodik birlashmalarda qatnashish"
+    ],
+    "correct": 1,
+    "hint": "C1: Uzluksiz kasbiy rivojlanish o‘qituvchining majburiyatidir."
+  },
+  {
+    "id": 905,
+    "text": "O‘qituvchi o‘quvchilarning turli ehtiyojlarini qondirish uchun qanday yondashuvni qo‘llashi kerak?",
+    "options": [
+      "Barcha o‘quvchilarga bir xil yondashuv",
+      "Differentsial va inklyuziv yondashuv",
+      "Faqat kuchli o‘quvchilarga e’tibor qaratish",
+      "Faqat zaif o‘quvchilar bilan ishlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Differentsial yondashuv barcha o‘quvchilarning rivojlanishini ta’minlaydi."
+  },
+  {
+    "id": 906,
+    "text": "O‘qituvchi o‘quvchilarning bilimini baholashda qanday tamoyillarga amal qilishi kerak?",
+    "options": [
+      "Sub’ektiv baholash",
+      "Adolatli, xolis, aniq mezonlar asosida va o‘quvchilarni rivojlantiruvchi baholash",
+      "Faqat test natijalariga asoslanish",
+      "Faqat og‘zaki javoblarga asoslanish"
+    ],
+    "correct": 1,
+    "hint": "C1: Baholashning adolatliligi va shaffofligi muhim."
+  },
+  {
+    "id": 907,
+    "text": "O‘qituvchi ota-onalar bilan hamkorlikda qanday maqsadlarni ko‘zda tutishi kerak?",
+    "options": [
+      "Faqat o‘quvchining yomon xatti-harakatlari haqida xabar berish",
+      "O‘quvchining ta’lim va tarbiyasida uyg‘unlikni ta’minlash va qo‘llab-quvvatlash",
+      "Faqat tadbirlarga taklif qilish",
+      "Faqat to‘lovlarni nazorat qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ota-onalar bilan hamkorlik o‘quvchi rivojlanishining muhim omili."
+  },
+  {
+    "id": 908,
+    "text": "O‘qituvchi sinfda xavfsiz va qulay muhit yaratish uchun qanday choralarni ko‘rishi kerak?",
+    "options": [
+      "Hech qanday chora ko‘rmasligi mumkin",
+      "Psixologik va jismoniy xavfsizlikni ta’minlash, zo‘ravonlik va kamsitishning oldini olish",
+      "Faqat tartib qoidalarini o‘rnatish",
+      "Faqat jihozlarni tekshirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xavfsiz muhit o‘rganishning asosiy shartidir."
+  },
+  {
+    "id": 909,
+    "text": "O‘qituvchi o‘quvchilarning maxsus ta’lim ehtiyojlarini qanday aniqlaydi?",
+    "options": [
+      "Faqat test natijalari bo‘yicha",
+      "Kuzatuv, suhbat, diagnostik baholash va mutaxassislar bilan hamkorlik qilish",
+      "Faqat ota-onalarning arizasi bo‘yicha",
+      "Faqat o‘quvchining o‘ziga murojaat qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Maxsus ehtiyojlarni aniqlash kompleks yondashuvni talab qiladi."
+  },
+  {
+    "id": 910,
+    "text": "O‘qituvchi o‘z faoliyatida qanday hujjatlashtirish ishlarini olib borishi kerak?",
+    "options": [
+      "Hech qanday hujjat yuritmasligi mumkin",
+      "Dars rejalari, kundalik, o‘quvchilarning natijalari, metodik materiallar va hisobotlar",
+      "Faqat davomat jurnali",
+      "Faqat test natijalari"
+    ],
+    "correct": 1,
+    "hint": "C1: Hujjatlashtirish tizimli ish va hisobot berish uchun zarur."
+  },
+  {
+    "id": 911,
+    "text": "O‘qituvchi o‘z faoliyatida qanday axloqiy me’yorlarga rioya qilishi kerak?",
+    "options": [
+      "Hech qanday me’yor yo‘q",
+      "Halollik, adolat, mas’uliyat, o‘quvchilarga hurmat va kasbiy sirni saqlash",
+      "Faqat rahbariyatga bo‘ysunish",
+      "Faqat qonunlarga amal qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Pedagogik etika kasbiy standartning muhim qismidir."
+  },
+  {
+    "id": 912,
+    "text": "O‘qituvchi o‘z bilim va ko‘nikmalarini yangilab borish uchun qanday manbalardan foydalanishi kerak?",
+    "options": [
+      "Faqat darsliklar",
+      "Ilmiy-metodik adabiyotlar, seminarlar, onlayn kurslar, tajriba almashish",
+      "Faqat internet",
+      "Faqat kollegalar"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli manbalardan foydalanish kasbiy rivojlanishni kengaytiradi."
+  },
+  {
+    "id": 913,
+    "text": "O‘qituvchi o‘quvchilarni baholashda qanday hujjatlarni yuritishi kerak?",
+    "options": [
+      "Hech qanday hujjat",
+      "Baholash varaqalari, rubrikalar, test natijalari, o‘quvchilarning ishlari to‘plami",
+      "Faqat elektron jurnal",
+      "Faqat davomat jurnali"
+    ],
+    "correct": 1,
+    "hint": "C1: Baholash hujjatlari tizimli va ob’ektiv bo‘lishi kerak."
+  },
+  {
+    "id": 914,
+    "text": "O‘qituvchi o‘quvchilarning o‘zlashtirishidagi tafovutlarni kamaytirish uchun qanday choralarni ko‘rishi kerak?",
+    "options": [
+      "Hech qanday chora ko‘rmasligi mumkin",
+      "Qo‘shimcha darslar, differentsial topshiriqlar, individual yondashuv va qo‘llab-quvvatlash",
+      "Faqat kuchli o‘quvchilarni rivojlantirish",
+      "Zaif o‘quvchilarni chetlatish"
+    ],
+    "correct": 1,
+    "hint": "C1: Har bir o‘quvchining rivojlanishi uchun qulay sharoit yaratish kerak."
+  },
+  {
+    "id": 915,
+    "text": "O‘qituvchi o‘quvchilarning psixologik salomatligini mustahkamlash uchun qanday ishlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech narsa qilmasligi mumkin",
+      "Qulay psixologik muhit yaratish, stressni kamaytirish, o‘zaro hurmatni rivojlantirish",
+      "Faqat psixolog bilan ishlash",
+      "Faqat ota-onalarga murojaat qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Psixologik salomatlik akademik muvaffaqiyatga ta’sir qiladi."
+  },
+  {
+    "id": 916,
+    "text": "O‘qituvchi o‘z kasbiy faoliyatida qanday metodik yordam va resurslardan foydalanishi mumkin?",
+    "options": [
+      "Faqat darslik",
+      "Metodik qo‘llanmalar, onlayn platformalar, multimedia resurslar, didaktik materiallar",
+      "Faqat internet",
+      "Faqat o‘z bilimi"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli resurslar darsni boyitadi va samaradorlikni oshiradi."
+  },
+  {
+    "id": 917,
+    "text": "O‘qituvchi o‘quvchilarning huquqlari va majburiyatlarini qanday usulda yetkazishi kerak?",
+    "options": [
+      "Faqat og‘zaki aytish",
+      "Aniq, tushunarli, yoshiga mos tarzda va takroran eslatib borish",
+      "Faqat yozma ko‘rsatma berish",
+      "Hech qanday yetkazmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘quvchilarning huquq va majburiyatlari ularga tushunarli bo‘lishi kerak."
+  },
+  {
+    "id": 918,
+    "text": "O‘qituvchi o‘quvchilarning o‘zaro munosabatlarida nizolarni hal qilishda qanday rol o‘ynaydi?",
+    "options": [
+      "Aralashmaslik",
+      "Vositachi sifatida har ikki tomonni tinglash, sabablarni tushunish va adolatli yechim topishga yordam berish",
+      "Faqat jazolash",
+      "Bir tomonni qo‘llab-quvvatlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Nizolarni hal qilish o‘qituvchining vositachilik mahoratini talab qiladi."
+  },
+  {
+    "id": 919,
+    "text": "O‘qituvchi o‘quvchilarning intellektual qobiliyatlarini rivojlantirish uchun qanday metodlarni qo‘llashi kerak?",
+    "options": [
+      "Faqat ma’ruza",
+      "Muammoli ta’lim, tadqiqot, loyihalar, tanqidiy fikrlashni rivojlantiruvchi topshiriqlar",
+      "Faqat testlar",
+      "Faqat yodlatish"
+    ],
+    "correct": 1,
+    "hint": "C1: Faol o‘qitish metodlari intellektual qobiliyatlarni rivojlantiradi."
+  },
+  {
+    "id": 920,
+    "text": "O‘qituvchi o‘quvchilarning ijtimoiy ko‘nikmalarini rivojlantirish uchun qanday faoliyatlarni tashkil qilishi kerak?",
+    "options": [
+      "Faqat individual ishlar",
+      "Guruhli loyihalar, jamoaviy o‘yinlar, debatlar, voluntaryorlik loyihalari",
+      "Faqat sinfdan tashqari ishlar",
+      "Faqat sport tadbirlari"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijtimoiy ko‘nikmalar real hayotiy vaziyatlarda rivojlanadi."
+  },
+  {
+    "id": 921,
+    "text": "O‘qituvchi o‘quvchilarning axborot texnologiyalaridan foydalanish ko‘nikmasini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat nazariy tushuntirish",
+      "Amaliy topshiriqlar, onlayn resurslardan foydalanish, loyihalar tayyorlash",
+      "Hech qanday rivojlantirmaslik",
+      "Faqat qo‘shimcha darslarda"
+    ],
+    "correct": 1,
+    "hint": "C1: Raqamli savodxonlik zamonaviy ta’limning muhim qismidir."
+  },
+  {
+    "id": 922,
+    "text": "O‘qituvchi o‘quvchilarning ijodiy qobiliyatlarini rag‘batlantirish uchun qanday muhit yaratishi kerak?",
+    "options": [
+      "Qat’iy qoidalar",
+      "Erkin, qo‘llab-quvvatlovchi, xato qilishga ruxsat beruvchi va yangi g‘oyalarni rag‘batlantiruvchi muhit",
+      "Faqat raqobat",
+      "Faqat individual ishlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijodkorlik erkin va xavfsiz muhitda gullaydi."
+  },
+  {
+    "id": 923,
+    "text": "O‘qituvchi o‘quvchilarning mustaqil ta’lim olish ko‘nikmalarini shakllantirish uchun qanday vazifalarni berishi kerak?",
+    "options": [
+      "Faqat sinfda bajariladigan vazifalar",
+      "Tadqiqot topshiriqlari, loyihalar, o‘z-o‘zini tekshirish va refleksiya qilishni talab qiladigan vazifalar",
+      "Faqat uy vazifalari",
+      "Faqat guruhli topshiriqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Mustaqil ta’lim o‘quvchilarning avtonomiyasini rivojlantiradi."
+  },
+  {
+    "id": 924,
+    "text": "O‘qituvchi o‘quvchilarning o‘qishga bo‘lgan qiziqishini oshirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat majburlash",
+      "Mavzuni hayot bilan bog‘lash, qiziqarli misollar, amaliy topshiriqlar va tanlash imkoniyatini berish",
+      "Faqat baho qo‘yish",
+      "Faqat raqobat"
+    ],
+    "correct": 1,
+    "hint": "C1: Ichki motivatsiyani rivojlantirish uzoq muddatli qiziqishni ta’minlaydi."
+  },
+  {
+    "id": 925,
+    "text": "O‘qituvchi o‘quvchilarning milliy va umuminsoniy qadriyatlarni o‘zlashtirishida qanday rol o‘ynaydi?",
+    "options": [
+      "Hech qanday rol o‘ynamaydi",
+      "Namuna bo‘lish, tushuntirish, muhokamalar tashkil qilish va hurmatni shakllantirish",
+      "Faqat darslikda berilgan ma’lumotlarni o‘qish",
+      "Faqat tadbirlar o‘tkazish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qituvchi tarbiyaviy jarayonning asosiy sub’ektidir."
+  },
+  {
+    "id": 926,
+    "text": "O‘qituvchi o‘quvchilarning jismoniy tarbiya va salomatligi masalalariga qanday munosabatda bo‘lishi kerak?",
+    "options": [
+      "Hech qanday munosabatda bo‘lmasligi mumkin",
+      "Tanaffus vaqtida harakat qilishga undash, sog‘lom turmush tarzi haqida tushuncha berish, jismoniy faollikni rag‘batlantirish",
+      "Faqat jismoniy tarbiya darslariga e’tibor qaratish",
+      "Faqat ovqatlanish masalalariga e’tibor qaratish"
+    ],
+    "correct": 1,
+    "hint": "C1: Salomatlikni saqlash ta’limning ajralmas qismidir."
+  },
+  {
+    "id": 927,
+    "text": "O‘qituvchi o‘z kasbiy faoliyatida qanday muloqot uslubiga amal qilishi kerak?",
+    "options": [
+      "Avtoritar",
+      "Demokratik, hurmatli, ochiq va konstruktiv",
+      "Liberal (hech narsaga aralashmaslik)",
+      "Faqat buyruqbozlik"
+    ],
+    "correct": 1,
+    "hint": "C1: Demokratik muloqot uslubi eng samarali hisoblanadi."
+  },
+  {
+    "id": 928,
+    "text": "O‘qituvchi o‘quvchilarning yutuqlarini qanday rag‘batlantirishi kerak?",
+    "options": [
+      "Faqat baho qo‘yish",
+      "Maqtov, e’tirof, sertifikatlar, kichik sovg‘alar, ommaviy e’tirof etish va rivojlantiruvchi fikr-mulohaza",
+      "Hech qanday rag‘batlantirmaslik",
+      "Faqat moddiy rag‘batlantirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Rag‘batlantirish motivatsiyani oshiradi."
+  },
+  {
+    "id": 929,
+    "text": "O‘qituvchi o‘quvchilarning xatolariga qanday munosabatda bo‘lishi kerak?",
+    "options": [
+      "Jazolash",
+      "Xatolarni o‘rganish imkoniyati sifatida qabul qilish, konstruktiv tuzatish va o‘z-o‘zini tuzatishga undash",
+      "E’tiborsiz qoldirish",
+      "Ommaviy masxara qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xatolar o‘rganishning tabiiy qismidir, qo‘llab-quvvatlash muhim."
+  },
+  {
+    "id": 930,
+    "text": "O‘qituvchi o‘quvchilarning teng huquqliligini ta’minlash uchun qanday choralarni ko‘rishi kerak?",
+    "options": [
+      "Hech qanday chora",
+      "Kamsitishning har qanday shakliga yo‘l qo‘ymaslik, barcha o‘quvchilarga teng imkoniyat yaratish",
+      "Faqat qonunlarga asoslanish",
+      "Faqat kuchli o‘quvchilarga imkoniyat yaratish"
+    ],
+    "correct": 1,
+    "hint": "C1: Teng huquqlilik inklyuziv ta’limning asosidir."
+  },
+  {
+    "id": 931,
+    "text": "O‘qituvchi o‘quvchilarning oilasi bilan muloqotda qanday tamoyillarga amal qilishi kerak?",
+    "options": [
+      "Faqat murojaat bo‘yicha",
+      "Hurmat, ochiqlik, konstruktivlik, maxfiylik va hamkorlik",
+      "Faqat talab qo‘yish",
+      "Faqat ma’lumot berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ota-onalar bilan samarali muloqot o‘quvchi rivojlanishiga ijobiy ta’sir qiladi."
+  },
+  {
+    "id": 932,
+    "text": "O‘qituvchi o‘quvchilarning o‘z-o‘zini boshqarish va mas’uliyat hissini rivojlantirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat nazorat",
+      "Tanlash imkoniyatini berish, maqsad qo‘yishni o‘rgatish, vazifalarni mustaqil bajarishga undash",
+      "Hech qanday usul",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Mas’uliyat va o‘z-o‘zini boshqarish hayotiy ko‘nikmalardir."
+  },
+  {
+    "id": 933,
+    "text": "O‘qituvchi o‘quvchilarning turli madaniy va ijtimoiy kelib chiqishini inobatga olib, qanday yondashuvni qo‘llashi kerak?",
+    "options": [
+      "Barchaga bir xil yondashuv",
+      "Interkultural kompetensiyani rivojlantirish, turli xillikni qadrlash va hurmat qilish",
+      "Faqat dominant madaniyatga e’tibor qaratish",
+      "Madaniy farqlarni e’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Interkultural ta’lim o‘quvchilarni global dunyoga tayyorlaydi."
+  },
+  {
+    "id": 934,
+    "text": "O‘qituvchi o‘quvchilarning xulq-atvoridagi og‘ishlarni tuzatishda qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat jazolash",
+      "Sabablarini tushunish, profilaktik choralar, ijobiy xulq-atvorni rag‘batlantirish, kelishuv va tushuntirish",
+      "E’tiborsiz qoldirish",
+      "Ommaviy tanbeh berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xulq-atvorni tuzatishda tarbiyaviy yondashuv jazolashdan samarali."
+  },
+  {
+    "id": 935,
+    "text": "O‘qituvchi o‘z faoliyatini qanday mezonlar asosida baholashi kerak?",
+    "options": [
+      "Faqat o‘quvchilarning baholari",
+      "O‘quvchilarning yutuqlari, o‘z refleksiyasi, kollegalarning fikri, metodik tahlil",
+      "Faqat rahbariyatning bahosi",
+      "Faqat ota-onalarning fikri"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘z faoliyatini har tomonlama baholash kasbiy rivojlanish uchun muhim."
+  },
+  {
+    "id": 936,
+    "text": "O‘qituvchi o‘quvchilarning kasb-hunar tanlashiga tayyorlashda qanday yordam berishi kerak?",
+    "options": [
+      "Hech qanday yordam",
+      "Kasblar haqida ma’lumot berish, qiziqish va qobiliyatlarini aniqlashga yordam berish, yo‘naltirish",
+      "Faqat o‘z fikrini aytish",
+      "Faqat ota-onalarga murojaat qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qituvchi kariyera yo‘nalishida maslahatchi rolini o‘ynaydi."
+  },
+  {
+    "id": 937,
+    "text": "O‘qituvchi o‘quvchilarning o‘qishga bo‘lgan munosabatini qanday ijobiy tomonga o‘zgartirishi mumkin?",
+    "options": [
+      "Faqat majburlash",
+      "Qiziqarli va mazmunli darslar, muvaffaqiyatni ta’minlash, qo‘llab-quvvatlash va rag‘batlantirish",
+      "Hech narsa qilmaslik",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijobiy munosabat o‘rganishga bo‘lgan ichki motivatsiyani oshiradi."
+  },
+  {
+    "id": 938,
+    "text": "O‘qituvchi o‘quvchilarning o‘ziga bo‘lgan ishonchini oshirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Doimiy tanqid",
+      "Muvaffaqiyatni e’tirof etish, qo‘llab-quvvatlash, kichik maqsadlar qo‘yish va erishgan yutuqlarni qayd etish",
+      "Hech narsa qilmaslik",
+      "Faqat qiyin topshiriqlar berish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘ziga ishonch muvaffaqiyatli o‘rganishning asosiy omillaridan biridir."
+  },
+  {
+    "id": 939,
+    "text": "O‘qituvchi o‘quvchilarning ijtimoiy faolligini oshirish uchun qanday tadbirlarni tashkil qilishi kerak?",
+    "options": [
+      "Faqat sinf ichida",
+      "Maktab tadbirlari, klublar, voluntaryorlik loyihalari, musobaqalar, konferensiyalar",
+      "Faqat sport tadbirlari",
+      "Hech qanday tadbir"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijtimoiy faollik o‘quvchilarning fuqarolik pozitsiyasini shakllantiradi."
+  },
+  {
+    "id": 940,
+    "text": "O‘qituvchi o‘quvchilarning ekologik madaniyatini shakllantirish uchun qanday ishlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech qanday ish",
+      "Ekologik mavzularda darslar, loyihalar, tabiatni muhofaza qilish tadbirlari, misol ko‘rsatish",
+      "Faqat nazariy ma’lumot berish",
+      "Faqat tadbirlar o‘tkazish"
+    ],
+    "correct": 1,
+    "hint": "C1: Ekologik tarbiya barqaror rivojlanishning muhim qismidir."
+  },
+  {
+    "id": 941,
+    "text": "O‘qituvchi o‘z kasbiy mahoratini oshirishda qanday zamonaviy texnologiyalardan foydalanishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Onlayn kurslar, vebinarlar, raqamli platformalar, ijtimoiy tarmoqlardagi professional guruhlar",
+      "Faqat an’anaviy kurslar",
+      "Faqat kitoblar"
+    ],
+    "correct": 1,
+    "hint": "C1: Raqamli texnologiyalar kasbiy rivojlanish imkoniyatlarini kengaytiradi."
+  },
+  {
+    "id": 942,
+    "text": "O‘qituvchi o‘quvchilarning huquqiy madaniyatini shakllantirish uchun qanday ishlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech qanday ish",
+      "Huquqiy bilimlarni o‘rgatish, huquqlari va majburiyatlari haqida tushuntirish, qonunlarga hurmatni shakllantirish",
+      "Faqat huquq darslarida",
+      "Faqat tadbirlarda"
+    ],
+    "correct": 1,
+    "hint": "C1: Huquqiy madaniyat fuqarolik jamiyatining asosidir."
+  },
+  {
+    "id": 943,
+    "text": "O‘qituvchi o‘quvchilarning moliyaviy savodxonligini oshirish uchun qanday ishlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech qanday ish",
+      "Byudjet rejalashtirish, tejash, xarajatlar haqida tushuncha berish, amaliy topshiriqlar",
+      "Faqat matematika darslarida",
+      "Faqat tadbirlarda"
+    ],
+    "correct": 1,
+    "hint": "C1: Moliyaviy savodxonlik zamonaviy hayotda muhim ko‘nikmadir."
+  },
+  {
+    "id": 944,
+    "text": "O‘qituvchi o‘quvchilarning tadbirkorlik qobiliyatlarini rivojlantirish uchun qanday loyihalarni tashkil qilishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Mini-biznes loyihalar, yarmarkalar, startap g‘oyalar tanlovlari, byudjetlashtirish amaliyotlari",
+      "Faqat nazariy ma’lumot",
+      "Faqat katta yoshli o‘quvchilar uchun"
+    ],
+    "correct": 1,
+    "hint": "C1: Tadbirkorlik ko‘nikmalari amaliy faoliyatda rivojlanadi."
+  },
+  {
+    "id": 945,
+    "text": "O‘qituvchi o‘quvchilarning vatanparvarlik hissini shakllantirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat majburlash",
+      "Tarix, madaniyat, an’analarni o‘rgatish, muhim sanalar va shaxslarni hurmat qilish, fuqarolik tadbirlari",
+      "Hech qanday usul",
+      "Faqat darslikda berilgan ma’lumotlarni o‘qish"
+    ],
+    "correct": 1,
+    "hint": "C1: Vatanparvarlik bilim, hurmat va faol fuqarolik pozitsiyasini o‘z ichiga oladi."
+  },
+  {
+    "id": 946,
+    "text": "O‘qituvchi o‘quvchilarning bag‘rikenglik va boshqalarni hurmat qilish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday rivojlantirmaslik",
+      "Turli madaniyatlar, dinlar, qarashlar haqida ma’lumot berish, muhokamalar, hamkorlikli loyihalar",
+      "Faqat o‘z fikrini majburlash",
+      "Faqat darslikda berilgan ma’lumotlarni o‘qish"
+    ],
+    "correct": 1,
+    "hint": "C1: Bag‘rikenglik va hurmat global dunyoda yashash uchun muhim."
+  },
+  {
+    "id": 947,
+    "text": "O‘qituvchi o‘quvchilarning liderlik qobiliyatlarini rivojlantirish uchun qanday imkoniyatlar yaratishi kerak?",
+    "options": [
+      "Hech qanday",
+      "Guruh loyihalarida mas’uliyat berish, tadbirlar tashkil qilish, qaror qabul qilishda ishtirok etish imkonini berish",
+      "Faqat kuchli o‘quvchilarga",
+      "Faqat sinf rahbari saylash"
+    ],
+    "correct": 1,
+    "hint": "C1: Liderlik ko‘nikmalari amaliyot va mas’uliyat orqali rivojlanadi."
+  },
+  {
+    "id": 948,
+    "text": "O‘qituvchi o‘quvchilarning stressga chidamliligini oshirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Hech qanday",
+      "Stressni boshqarish usullarini o‘rgatish, qulay muhit yaratish, yuklamani me’yorlash, qo‘llab-quvvatlash",
+      "Faqat testlar o‘tkazish",
+      "Faqat talablarni oshirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Stressga chidamlilik psixologik salomatlikning muhim qismidir."
+  },
+  {
+    "id": 949,
+    "text": "O‘qituvchi o‘quvchilarning vaqtni boshqarish ko‘nikmalarini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Maqsad qo‘yish, rejalashtirish, ustuvorliklarni belgilash, vazifalarni bosqichlarga bo‘lishni o‘rgatish",
+      "Faqat ko‘p vazifa berish",
+      "Faqat qat’iy muddatlar belgilash"
+    ],
+    "correct": 1,
+    "hint": "C1: Vaqtni boshqarish akademik va hayotiy muvaffaqiyat uchun muhim."
+  },
+  {
+    "id": 950,
+    "text": "O‘qituvchi o‘quvchilarning muloqot qobiliyatlarini rivojlantirish uchun qanday faoliyatlarni tashkil qilishi kerak?",
+    "options": [
+      "Faqat individual ishlar",
+      "Juftlik va guruhli muhokamalar, prezentatsiyalar, rolli o‘yinlar, debatlar, intervyular",
+      "Faqat yozma topshiriqlar",
+      "Faqat o‘qituvchi bilan muloqot"
+    ],
+    "correct": 1,
+    "hint": "C1: Muloqot qobiliyatlari amaliyot orqali rivojlanadi."
+  },
+  {
+    "id": 951,
+    "text": "O‘qituvchi o‘quvchilarning tengdoshlari bilan samarali ishlash qobiliyatini rivojlantirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat individual ishlar",
+      "Guruhli loyihalar, jigsaw, muammoli topshiriqlar, rollarni taqsimlash va hamkorlikni rag‘batlantirish",
+      "Faqat musobaqalar",
+      "Faqat juftlik ishlari"
+    ],
+    "correct": 1,
+    "hint": "C1: Hamkorlikli o‘rganish ijtimoiy va kognitiv ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 952,
+    "text": "O‘qituvchi o‘quvchilarning o‘z faoliyatini rejalashtirish va tashkil qilish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Loyiha ishlari, tadbirlarni rejalashtirish, vaqt jadvallari tuzish, maqsad qo‘yish va natijalarni kuzatishni o‘rgatish",
+      "Faqat uy vazifalari",
+      "Faqat sinfda bajariladigan topshiriqlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Rejalashtirish va tashkil qilish muhim hayotiy ko‘nikmalardir."
+  },
+  {
+    "id": 953,
+    "text": "O‘qituvchi o‘quvchilarning axborotni izlash, tanlash va tahlil qilish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Tadqiqot topshiriqlari, turli manbalardan ma’lumot yig‘ish, ishonchliligini baholash, tahlil qilish va taqdim etish",
+      "Faqat kitob berish",
+      "Faqat internetdan foydalanishga ruxsat berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Axborot savodxonligi raqamli asrda muhim."
+  },
+  {
+    "id": 954,
+    "text": "O‘qituvchi o‘quvchilarning yangi bilimlarni o‘zlashtirishda o‘z oldingi bilimlariga tayanish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Brainstorming, K-W-L charti, oldingi mavzular bilan bog‘lash, misollar keltirish, analogiyalar",
+      "Faqat yangi mavzuni tushuntirish",
+      "Faqat test o‘tkazish"
+    ],
+    "correct": 1,
+    "hint": "C1: Oldingi bilimlarni faollashtirish yangi ma’lumotni o‘zlashtirishni osonlashtiradi."
+  },
+  {
+    "id": 955,
+    "text": "O‘qituvchi o‘quvchilarning muammolarni aniqlash va shakllantirish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Muammoli vaziyatlar, ochiq topshiriqlar, tadqiqot loyihalari, muammoni turli tomondan ko‘rishni o‘rgatish",
+      "Faqat tayyor javob berish",
+      "Faqat nazariy tushuntirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Muammoni aniqlash va shakllantirish muammoli ta’limning birinchi bosqichidir."
+  },
+  {
+    "id": 956,
+    "text": "O‘qituvchi o‘quvchilarning gipoteza tuzish va tekshirish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Tadqiqot loyihalari, eksperimentlar, 'What if?' savollari, farazlarni tekshirish topshiriqlari",
+      "Faqat nazariy bilim berish",
+      "Faqat test o‘tkazish"
+    ],
+    "correct": 1,
+    "hint": "C2: Gipoteza tuzish ilmiy fikrlashning asosidir."
+  },
+  {
+    "id": 957,
+    "text": "O‘qituvchi o‘quvchilarning ma’lumotlarni vizualizatsiya qilish (grafik, diagramma, jadval) qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Ma’lumotlarni turli ko‘rinishlarda ifodalash topshiriqlari, diagramma va grafiklarni tahlil qilish va tuzish",
+      "Faqat matn ko‘rinishida berish",
+      "Faqat kompyuter dasturlaridan foydalanish"
+    ],
+    "correct": 1,
+    "hint": "C1: Vizualizatsiya ma’lumotni tushunish va taqdim etishni osonlashtiradi."
+  },
+  {
+    "id": 958,
+    "text": "O‘qituvchi o‘quvchilarning mantiqiy fikrlash qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Mantiqiy topshiriqlar, krossvordlar, rebuslar, sabab-oqibat munosabatlarini tahlil qilish, deduktiv va induktiv fikrlash mashqlari",
+      "Faqat matematik misollar",
+      "Faqat testlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Mantiqiy fikrlash barcha fanlar uchun asosdir."
+  },
+  {
+    "id": 959,
+    "text": "O‘qituvchi o‘quvchilarning raqamli savodxonligini oshirish uchun qanday ishlarni amalga oshirishi kerak?",
+    "options": [
+      "Hech qanday",
+      "Axborot xavfsizligi, internetdan xavfsiz foydalanish, ma’lumotlarni qidirish va baholash, raqamli vositalardan foydalanishni o‘rgatish",
+      "Faqat kompyuter sinfida",
+      "Faqat informatika darslarida"
+    ],
+    "correct": 1,
+    "hint": "C1: Raqamli savodxonlik zamonaviy ta’limning ajralmas qismidir."
+  },
+  {
+    "id": 960,
+    "text": "O‘qituvchi o‘quvchilarning o‘z ta’limini baholash va refleksiya qilish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "O‘z-o‘zini baholash, portfel, learning journal, muvaffaqiyat va qiyinchiliklarni tahlil qilish, maqsad qo‘yish",
+      "Faqat o‘qituvchi baholashi",
+      "Faqat test natijalariga qarash"
+    ],
+    "correct": 1,
+    "hint": "C1: Refleksiya metakognitiv ko‘nikmalarni rivojlantiradi."
+  },
+  {
+    "id": 961,
+    "text": "O‘qituvchi o‘quvchilarning o‘quv maqsadlarini qo‘yish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "SMART maqsadlar haqida tushuntirish, qisqa, o‘rta va uzoq muddatli maqsadlar qo‘yishni o‘rgatish, rejalashtirish",
+      "Faqat o‘qituvchi maqsad qo‘yishi",
+      "Faqat dars boshida maqsad aytish"
+    ],
+    "correct": 1,
+    "hint": "C1: Maqsad qo‘yish o‘z-o‘zini boshqarishning asosidir."
+  },
+  {
+    "id": 962,
+    "text": "O‘qituvchi o‘quvchilarning kitob o‘qishga bo‘lgan qiziqishini oshirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat majburlash",
+      "Qiziqarli kitoblarni taklif qilish, o‘qish klublari, kitob ko‘rgazmalari, mualliflar bilan uchrashuvlar, o‘qish marafonlari",
+      "Hech qanday usul",
+      "Faqat darslikni o‘qish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qishga qiziqish hayot davomida o‘rganishni ta’minlaydi."
+  },
+  {
+    "id": 963,
+    "text": "O‘qituvchi o‘quvchilarning so‘z boyligini oshirishda kontekstning rolini qanday tushuntirishi va qo‘llashi kerak?",
+    "options": [
+      "Faqat lug‘atdan yodlatish",
+      "Matn ichida yangi so‘zlarning ma’nosini kontekstdan aniqlashni o‘rgatish, gap va matnlar tuzish",
+      "Faqat tarjima qilish",
+      "Faqat so‘z ro‘yxati berish"
+    ],
+    "correct": 1,
+    "hint": "C1: Kontekst so‘z ma’nosini tushunish va eslab qolishni osonlashtiradi."
+  },
+  {
+    "id": 964,
+    "text": "O‘qituvchi o‘quvchilarning grammatik tuzilmalarni kontekstda tushunish va qo‘llash qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat qoidalarni yodlatish",
+      "Matnlar, dialoglar, hikoyalar orqali grammatik tuzilmalarni kontekstda ko‘rsatish va shu kontekstda qo‘llashni o‘rgatish",
+      "Faqat testlar",
+      "Faqat alohida gap misollari"
+    ],
+    "correct": 1,
+    "hint": "C1: Grammatika kontekstda mazmunli o‘rganiladi."
+  },
+  {
+    "id": 965,
+    "text": "O‘qituvchi o‘quvchilarning turli tipdagi matnlarni (hikoya, maqola, hisobot, xat) tushunish va yozish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat bitta tipdagi matn",
+      "Har bir tipning xususiyatlari, tuzilishi, til xususiyatlarini o‘rgatish va turli tipdagi matnlar yozish amaliyoti",
+      "Faqat o‘qish",
+      "Faqat yozish"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli janr va matn tiplarini bilish real hayotiy vazifalar uchun muhim."
+  },
+  {
+    "id": 966,
+    "text": "O‘qituvchi o‘quvchilarning notiqlik mahoratini (public speaking) rivojlantirish uchun qanday usullarni qo‘llashi kerak?",
+    "options": [
+      "Faqat matn yozish",
+      "Tuzilish, vizual qurollar, ovoz, tan tili, tinglovchilar bilan muloqot, improvizatsiya mashqlari va amaliyot",
+      "Faqat o‘qish",
+      "Faqat yodlash"
+    ],
+    "correct": 1,
+    "hint": "C1: Notiqlik mahorati ishonch va samarali muloqotni talab qiladi."
+  },
+  {
+    "id": 967,
+    "text": "O‘qituvchi o‘quvchilarning muloqotda noaniq vaziyatlarda o‘zini to‘g‘ri tutish qobiliyatini (pragmatic competence) qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat grammatika",
+      "Turli ijtimoiy vaziyatlarda tilni qanday qo‘llashni o‘rgatish, rolli o‘yinlar, vaziyatli dialoglar, madaniyatlararo farqlarni tushuntirish",
+      "Faqat lug‘at",
+      "Faqat test"
+    ],
+    "correct": 1,
+    "hint": "C2: Pragmatik kompetensiya tilni ijtimoiy kontekstda to‘g‘ri qo‘llashdir."
+  },
+  {
+    "id": 968,
+    "text": "O‘qituvchi o‘quvchilarning xalqaro imtihonlarga (IELTS, TOEFL, CEFR) tayyorlashda qanday yondashuvni qo‘llashi kerak?",
+    "options": [
+      "Faqat test yechish",
+      "Imtihon formatini, topshiriq turlarini, strategiyalarni o‘rgatish, ko‘nikmalarni rivojlantirish va vaqtni boshqarish",
+      "Faqat grammatika",
+      "Faqat lug‘at"
+    ],
+    "correct": 1,
+    "hint": "C1: Xalqaro imtihonlar maxsus tayyorgarlikni talab qiladi."
+  },
+  {
+    "id": 969,
+    "text": "O‘qituvchi o‘quvchilarning o‘rganilgan materialni real hayotda qo‘llash qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat sinf ichida",
+      "Real hayotiy topshiriqlar, loyihalar, amaliyot, muammoli vaziyatlar, hayotiy misollar",
+      "Faqat test",
+      "Faqat nazariya"
+    ],
+    "correct": 1,
+    "hint": "C1: Bilim va ko‘nikmalarning real hayotga transferi ta’limning asosiy maqsadidir."
+  },
+  {
+    "id": 970,
+    "text": "O‘qituvchi o‘quvchilarning o‘zlashtirishidagi tafovutlarni kamaytirishda qo‘shimcha yordam (remedial teaching) ni qanday tashkil qilishi kerak?",
+    "options": [
+      "Hech qanday",
+      "Zaif o‘quvchilar bilan qo‘shimcha mashg‘ulotlar, tushunilmagan mavzularni takrorlash, individual yondashuv, qo‘llab-quvvatlash",
+      "Faqat kuchli o‘quvchilarga e’tibor qaratish",
+      "Faqat guruhli ish"
+    ],
+    "correct": 1,
+    "hint": "C1: Remedial teaching tafovutlarni kamaytirishga yordam beradi."
+  },
+  {
+    "id": 971,
+    "text": "O‘qituvchi o‘quvchilarning yuqori natijalarga erishganlarini qanday rivojlantirishi (enrichment) kerak?",
+    "options": [
+      "Hech qanday",
+      "Qo‘shimcha qiyin topshiriqlar, kengaytirilgan loyihalar, mustaqil tadqiqotlar, musobaqalar, mentirlik",
+      "Faqat oddiy topshiriqlar",
+      "Faqat guruhli ish"
+    ],
+    "correct": 1,
+    "hint": "C1: Yuqori natijali o‘quvchilar qo‘shimcha qiyinchilik va rivojlanishni talab qiladi."
+  },
+  {
+    "id": 972,
+    "text": "O‘qituvchi o‘quvchilarning o‘qishdagi qiyinchiliklarini (masalan, disleksiya) qanday aniqlashi va yordam berishi kerak?",
+    "options": [
+      "Hech qanday",
+      "Kuzatuv, diagnostik testlar, mutaxassislar bilan hamkorlik, moslashtirilgan topshiriqlar, qo‘shimcha vaqt, texnik yordam",
+      "Faqat ota-onalarga aytish",
+      "E’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Maxsus ta’lim ehtiyojlarini erta aniqlash va qo‘llab-quvvatlash muhim."
+  },
+  {
+    "id": 973,
+    "text": "O‘qituvchi o‘quvchilarning o‘ziga bo‘lgan ishonchini mustahkamlashda qanday xato qilishdan saqlanishi kerak?",
+    "options": [
+      "Ko‘p maqtash",
+      "Doimiy tanqid qilish, ommaviy kamsitish, boshqalar bilan solishtirish, muvaffaqiyatni e’tiborsiz qoldirish",
+      "Kam baho berish",
+      "Hech qanday baho bermaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘ziga ishonchni pasaytiradigan xatti-harakatlardan saqlanish kerak."
+  },
+  {
+    "id": 974,
+    "text": "O‘qituvchi o‘quvchilarning sinfdan tashqari vaqtlarida ham ta’lim olishlarini qanday rag‘batlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Qiziqarli uy vazifalari, onlayn resurslar tavsiya qilish, klublar, tanlovlar, qo‘shimcha loyihalar",
+      "Faqat majburlash",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Sinfdan tashqari o‘rganish o‘quvchilarning mustaqilligini oshiradi."
+  },
+  {
+    "id": 975,
+    "text": "O‘qituvchi o‘quvchilarning o‘zaro yordam va hamkorlik madaniyatini qanday shakllantirishi mumkin?",
+    "options": [
+      "Faqat individual ishlar",
+      "Juftlik va guruhli ishlar, mentirlik dasturlari, bir-biriga yordam berishni rag‘batlantirish, umumiy maqsadli loyihalar",
+      "Faqat raqobat",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Hamkorlik madaniyati ijtimoiy va akademik rivojlanishga ijobiy ta’sir qiladi."
+  },
+  {
+    "id": 976,
+    "text": "O‘qituvchi o‘quvchilarning ekologik tushunchalar va muammolar haqidagi bilimlarini qanday kengaytirishi mumkin?",
+    "options": [
+      "Faqat darslik",
+      "Loyihalar, ekskursiyalar, ekologik tadbirlar, video va interaktiv resurslar, muammolarni tahlil qilish va yechim taklif qilish",
+      "Faqat nazariya",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Ekologik bilimlar barqaror kelajak uchun muhim."
+  },
+  {
+    "id": 977,
+    "text": "O‘qituvchi o‘quvchilarning sog‘lom turmush tarzi haqidagi tushunchalarini qanday shakllantirishi mumkin?",
+    "options": [
+      "Faqat nazariy ma’lumot",
+      "Amaliy mashg‘ulotlar, sport tadbirlari, sog‘lom ovqatlanish haqida ma’lumotlar, loyihalar, misol bo‘lish",
+      "Faqat darslik",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Sog‘lom turmush tarzi jismoniy va ruhiy salomatlikni mustahkamlaydi."
+  },
+  {
+    "id": 978,
+    "text": "O‘qituvchi o‘quvchilarning huquqiy bilimlarini oshirishda amaliy usullardan qanday foydalanishi mumkin?",
+    "options": [
+      "Faqat nazariya",
+      "Sud rolli o‘yinlari, huquqiy vaziyatlarni tahlil qilish, huquqshunoslar bilan uchrashuvlar, sud majlislariga tashrif",
+      "Faqat darslik",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Amaliy usullar huquqiy bilimlarni mustahkamlaydi."
+  },
+  {
+    "id": 979,
+    "text": "O‘qituvchi o‘quvchilarning moliyaviy savodxonligini oshirishda qanday amaliy topshiriqlarni berishi mumkin?",
+    "options": [
+      "Faqat nazariya",
+      "Byudjet rejalashtirish, xarid qilish simulatsiyasi, jamg‘arma hisoblash, kredit va foizlar haqida hisob-kitoblar",
+      "Faqat darslik",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Amaliy moliyaviy topshiriqlar real hayotga tayyorlaydi."
+  },
+  {
+    "id": 980,
+    "text": "O‘qituvchi o‘quvchilarning tadbirkorlik qobiliyatlarini rivojlantirishda qanday loyihalarni tashkil qilishi mumkin?",
+    "options": [
+      "Faqat nazariya",
+      "Mini-biznes reja tuzish, mahsulot yoki xizmat taklif qilish, marketing strategiyasi ishlab chiqish, yarmarkalar",
+      "Faqat darslik",
+      "Hech qanday"
+    ],
+    "correct": 1,
+    "hint": "C1: Tadbirkorlik loyihalari real hayotiy tajriba beradi."
+  },
+  {
+    "id": 981,
+    "text": "O‘qituvchi o‘quvchilarning ijodiy qobiliyatlarini rivojlantirishda qanday muhit yaratishi kerak?",
+    "options": [
+      "Qat’iy qoidalar",
+      "Erkin, qo‘llab-quvvatlovchi, xato qilishga ruxsat beruvchi, turli g‘oyalarni rag‘batlantiruvchi muhit",
+      "Faqat raqobat",
+      "Faqat jazo"
+    ],
+    "correct": 1,
+    "hint": "C1: Ijodkorlik xavfsiz va ochiq muhitda rivojlanadi."
+  },
+  {
+    "id": 982,
+    "text": "O‘qituvchi o‘quvchilarning tanqidiy fikrlashini rivojlantirishda qanday savollardan foydalanishi kerak?",
+    "options": [
+      "Faktga asoslangan savollar",
+      "Nima uchun? Qanday qilib? Agar... bo‘lsa? Sizning fikringiz? Dalilingiz? Boshqa nuqtai nazar? kabi ochiq va tahliliy savollar",
+      "Yopiq savollar",
+      "Retorik savollar"
+    ],
+    "correct": 1,
+    "hint": "C1: Yuqori darajadagi savollar tanqidiy fikrlashni rag‘batlantiradi."
+  },
+  {
+    "id": 983,
+    "text": "O‘qituvchi o‘quvchilarning o‘z-o‘zini tartibga solish (self-regulation) qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Hech qanday",
+      "Maqsad qo‘yish, o‘z faoliyatini kuzatish, refleksiya qilish, vaqtni boshqarish, impulsivlikni nazorat qilishni o‘rgatish",
+      "Faqat tashqi nazorat",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C2: Self-regulation o‘z-o‘zini boshqarishning muhim jihatidir."
+  },
+  {
+    "id": 984,
+    "text": "O‘qituvchi o‘quvchilarning muvaffaqiyatsizlikka munosabatini qanday ijobiy tomonga o‘zgartirishi mumkin?",
+    "options": [
+      "Jazolash",
+      "Muvaffaqiyatsizlikni o‘rganish imkoniyati sifatida ko‘rsatish, qo‘llab-quvvatlash, sabablarni tahlil qilish va keyingi urinishlarni rejalashtirish",
+      "E’tiborsiz qoldirish",
+      "Boshqalar bilan solishtirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Muvaffaqiyatsizlikka ijobiy munosabat o‘sish va rivojlanishni ta’minlaydi."
+  },
+  {
+    "id": 985,
+    "text": "O‘qituvchi o‘quvchilarning o‘qishga bo‘lgan ichki motivatsiyasini oshirish uchun qanday omillarni ta’minlashi kerak?",
+    "options": [
+      "Tashqi mukofotlar",
+      "Avtonomiya (tanlash imkoniyati), kompetensiya (muvaffaqiyat hissi), bog‘liqlik (aloqa va hamkorlik)",
+      "Jazolash",
+      "Raqobat"
+    ],
+    "correct": 1,
+    "hint": "C1: Self-determination theory (Deci & Ryan) bo‘yicha ichki motivatsiya omillari."
+  },
+  {
+    "id": 986,
+    "text": "O‘qituvchi o‘quvchilarning o‘zaro hurmat va bag‘rikenglik munosabatlarini qanday modellashtirishi mumkin?",
+    "options": [
+      "Faqat aytish",
+      "O‘z xatti-harakatlari bilan namuna bo‘lish, barcha o‘quvchilarni hurmat qilish, turli fikrlarni qadrlash, kamsitishga yo‘l qo‘ymaslik",
+      "Faqat qoidalar o‘rnatish",
+      "Hech narsa qilmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qituvchining o‘zi bag‘rikenglik va hurmatning eng yaxchi namunasidir."
+  },
+  {
+    "id": 987,
+    "text": "O‘qituvchi o‘quvchilarning sinfda faol ishtirok etishini ta’minlash uchun qanday strategiyalarni qo‘llashi kerak?",
+    "options": [
+      "Faqat kuchli o‘quvchilarga so‘z berish",
+      "Barcha o‘quvchilarga so‘z berish, juftlik va guruhli ishlar, yozma javoblar, texnologiyalar (poll, chat), o‘yinlar",
+      "Faqat o‘qituvchi gapirishi",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: Faol ishtirok barcha o‘quvchilarni qamrab olgan strategiyalarni talab qiladi."
+  },
+  {
+    "id": 988,
+    "text": "O‘qituvchi o‘quvchilarning o‘zaro nizolarini hal qilishda qanday tamoyillarga amal qilishi kerak?",
+    "options": [
+      "Bir tomonni qo‘llab-quvvatlash",
+      "Adolatli, xolis, har ikki tomonni tinglash, sabablarni tushunish, kelishuvga erishishga yordam berish, kelajak uchun profilaktika",
+      "Jazolash",
+      "E’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: Nizolarni adolatli va tarbiyaviy hal qilish muhim."
+  },
+  {
+    "id": 989,
+    "text": "O‘qituvchi o‘quvchilarning sinfda o‘zini xavfsiz his qilishlari uchun qanday muhit yaratishi kerak?",
+    "options": [
+      "Qat’iy qoidalar",
+      "Psixologik va jismoniy xavfsizlik, kamsitish va zo‘ravonlikka yo‘l qo‘ymaslik, ochiq muloqot, qo‘llab-quvvatlash",
+      "Faqat nazorat",
+      "Hech narsa qilmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Xavfsiz muhit o‘rganishning asosiy shartidir."
+  },
+  {
+    "id": 990,
+    "text": "O‘qituvchi o‘quvchilarning o‘rganishga bo‘lgan munosabatiga qanday ta’sir ko‘rsatishi mumkin?",
+    "options": [
+      "Hech qanday ta’sir",
+      "O‘z munosabati, darslarni qiziqarli tashkil qilishi, qo‘llab-quvvatlashi, muvaffaqiyatni ta’minlashi, namuna bo‘lishi orqali",
+      "Faqat baho qo‘yish",
+      "Faqat jazolash"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘qituvchining munosabati va usullari o‘quvchilarning o‘rganishga bo‘lgan munosabatiga kuchli ta’sir qiladi."
+  },
+  {
+    "id": 991,
+    "text": "O‘qituvchi o‘quvchilarning o‘zaro hamkorligini rivojlantirishda guruhlarni qanday shakllantirishi kerak?",
+    "options": [
+      "Tasodifiy",
+      "Turli darajadagi, qobiliyat va xususiyatlardagi o‘quvchilarni bir guruhga qo‘yish, rollarni taqsimlash, aniq maqsad va vazifalar belgilash",
+      "Faqat kuchli o‘quvchilarni birga",
+      "Faqat zaif o‘quvchilarni birga"
+    ],
+    "correct": 1,
+    "hint": "C1: Samarali guruh ishi aralash va rollar taqsimlangan guruhlarni talab qiladi."
+  },
+  {
+    "id": 992,
+    "text": "O‘qituvchi o‘quvchilarning o‘rganish jarayonida qilgan xatolariga qanday munosabatda bo‘lishi kerak?",
+    "options": [
+      "Jazolash",
+      "Xatolarni o‘rganish imkoniyati deb qarash, konstruktiv tuzatish, o‘z-o‘zini tuzatishga undash, qo‘llab-quvvatlash",
+      "E’tiborsiz qoldirish",
+      "Ommaviy tanqid qilish"
+    ],
+    "correct": 1,
+    "hint": "C1: Xatolarga ijobiy munosabat o‘rganish muhitini yaxshilaydi."
+  },
+  {
+    "id": 993,
+    "text": "O‘qituvchi o‘quvchilarning muvaffaqiyat hissini oshirish uchun qanday vazifalarni berishi kerak?",
+    "options": [
+      "Juda qiyin vazifalar",
+      "O‘quvchilarning darajasiga mos, ammo biroz qiyinroq (i+1) va muvaffaqiyatga erishish mumkin bo‘lgan vazifalar",
+      "Juda oson vazifalar",
+      "Faqat testlar"
+    ],
+    "correct": 1,
+    "hint": "C1: Muvaffaqiyat hissi o‘ziga ishonch va motivatsiyani oshiradi."
+  },
+  {
+    "id": 994,
+    "text": "O‘qituvchi o‘quvchilarning mustaqil fikrlash qobiliyatini rivojlantirishda qanday savollardan foydalanishi kerak?",
+    "options": [
+      "Faktga asoslangan savollar",
+      "Ochiq, tahliliy, baholash va sintezni talab qiladigan, bir nechta to‘g‘ri javobga ega bo‘lgan savollar",
+      "Yopiq savollar",
+      "Retorik savollar"
+    ],
+    "correct": 1,
+    "hint": "C1: Ochiq savollar mustaqil fikrlashni rag‘batlantiradi."
+  },
+  {
+    "id": 995,
+    "text": "O‘qituvchi o‘quvchilarning turli nuqtai nazarlarni tushunish va hurmat qilish qobiliyatini qanday rivojlantirishi mumkin?",
+    "options": [
+      "Faqat o‘z nuqtai nazarini aytish",
+      "Turli nuqtai nazarlarni taqdim etish, muhokamalar, debatlar, rolli o‘yinlar, turli manbalardan foydalanish",
+      "Hech narsa qilmaslik",
+      "Faqat bitta nuqtai nazarni ma’qullash"
+    ],
+    "correct": 1,
+    "hint": "C1: Turli nuqtai nazarlarni tushunish bag‘rikenglik va tanqidiy fikrlashni rivojlantiradi."
+  },
+  {
+    "id": 996,
+    "text": "O‘qituvchi o‘quvchilarning o‘qish motivatsiyasini oshirishda qanday ichki omillarga e’tibor qaratishi kerak?",
+    "options": [
+      "Baholar va mukofotlar",
+      "Qiziqish, maqsad, tanlash imkoniyati, kompetensiya hissi, bog‘liqlik, qiyinchilik darajasi",
+      "Jazolash",
+      "Raqobat"
+    ],
+    "correct": 1,
+    "hint": "C1: Ichki motivatsiya tashqi motivatsiyadan uzoq muddatli va samarali."
+  },
+  {
+    "id": 997,
+    "text": "O‘qituvchi o‘quvchilarning o‘z ta’limiga egalik qilish (ownership) hissini qanday oshirishi mumkin?",
+    "options": [
+      "Hamma narsani o‘zi belgilash",
+      "Tanlash imkoniyatini berish, maqsad qo‘yishda ishtirok ettirish, o‘z faoliyatini baholash va refleksiya qilishni o‘rgatish",
+      "Faqat talab qo‘yish",
+      "Hech narsa qilmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘quvchilarning ta’limga egalik hissi ularning mas’uliyati va motivatsiyasini oshiradi."
+  },
+  {
+    "id": 998,
+    "text": "O‘qituvchi o‘quvchilarning o‘rganish jarayonida o‘zaro qo‘llab-quvvatlash madaniyatini qanday shakllantirishi mumkin?",
+    "options": [
+      "Faqat individual ishlar",
+      "Bir-biriga yordam berishni rag‘batlantirish, juftlik va guruhli ishlar, mentirlik, muvaffaqiyatlarni birgalikda nishonlash",
+      "Faqat raqobat",
+      "Hech narsa qilmaslik"
+    ],
+    "correct": 1,
+    "hint": "C1: Qo‘llab-quvvatlash madaniyati hamkorlik va ijobiy munosabatlarni rivojlantiradi."
+  },
+  {
+    "id": 999,
+    "text": "O‘qituvchi o‘quvchilarning o‘rganish uslublarini (learning styles) qanday aniqlashi va inobatga olishi kerak?",
+    "options": [
+      "Hech qanday",
+      "Kuzatuv, anketa, suhbat orqali aniqlash, darslarda turli usullarni (visual, auditory, kinesthetic) qo‘llash",
+      "Faqat bir usuldan foydalanish",
+      "E’tiborsiz qoldirish"
+    ],
+    "correct": 1,
+    "hint": "C1: O‘quvchilarning o‘rganish uslublarini bilish va ularga moslashuv samaradorlikni oshiradi."
+  },
+  {
+    "id": 1000,
+    "text": "O‘qituvchi o‘quvchilarning maktabda va undan tashqarida o‘rganishlari o‘rtasidagi bog‘lanishni qanday ta’minlashi kerak?",
+    "options": [
+      "Hech qanday",
+      "Real hayotiy misollar, loyihalar, tadqiqotlar, oila va jamoatchilik bilan hamkorlik, amaliy topshiriqlar",
+      "Faqat darslik",
+      "Faqat nazariya"
+    ],
+    "correct": 1,
+    "hint": "C1: Maktab va hayot o‘rtasidagi bog‘lanish o‘rganishning ahamiyatini oshiradi."
+  }
+]

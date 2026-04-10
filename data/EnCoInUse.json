@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 301,
+    "text": "Which verb collocates with 'research' in academic writing?",
+    "options": [
+      "Make a research",
+      "Do a research",
+      "Conduct research",
+      "Create research"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Conduct research' – eng keng tarqalgan akademik kollokatsiya."
+  },
+  {
+    "id": 302,
+    "text": "Choose the correct collocation: 'She ____ a speech at the conference.'",
+    "options": [
+      "made",
+      "did",
+      "gave",
+      "took"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Give a speech' – nutq so'zlamoq."
+  },
+  {
+    "id": 303,
+    "text": "Which adjective collocates with 'chance' meaning 'very small possibility'?",
+    "options": [
+      "slim",
+      "thin",
+      "narrow",
+      "tight"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Slim chance' – ozgina imkoniyat."
+  },
+  {
+    "id": 304,
+    "text": "Choose the correct collocation: 'He ____ a serious crime.'",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "performed"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Commit a crime' – jinoyat qilmoq."
+  },
+  {
+    "id": 305,
+    "text": "Which verb collocates with 'attention' in formal writing?",
+    "options": [
+      "Pay",
+      "Give",
+      "Draw",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Pay attention', 'give attention', 'draw attention' – all correct."
+  },
+  {
+    "id": 306,
+    "text": "Choose the correct collocation: 'The company ____ a profit this year.'",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "got"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Make a profit' – foyda qilmoq."
+  },
+  {
+    "id": 307,
+    "text": "Which noun collocates with 'heavy'?",
+    "options": [
+      "Rain",
+      "Traffic",
+      "Smoker",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Heavy rain', 'heavy traffic', 'heavy smoker'."
+  },
+  {
+    "id": 308,
+    "text": "Choose the correct collocation: 'She ____ no attention to the warning.'",
+    "options": [
+      "gave",
+      "paid",
+      "took",
+      "made"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Pay attention to' – e'tibor bermoq."
+  },
+  {
+    "id": 309,
+    "text": "Which verb collocates with 'a complaint'?",
+    "options": [
+      "Make",
+      "Lodge",
+      "File",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a complaint', 'lodge a complaint', 'file a complaint'."
+  },
+  {
+    "id": 310,
+    "text": "Choose the correct collocation: 'He ____ a good reputation.'",
+    "options": [
+      "built",
+      "established",
+      "earned",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Build a reputation', 'establish a reputation', 'earn a reputation'."
+  },
+  {
+    "id": 311,
+    "text": "Which adjective collocates with 'decision' meaning 'very important'?",
+    "options": [
+      "Critical",
+      "Crucial",
+      "Momentous",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'very important' with 'decision'."
+  },
+  {
+    "id": 312,
+    "text": "Choose the correct collocation: 'She ____ a strong impression on me.'",
+    "options": [
+      "made",
+      "did",
+      "created",
+      "formed"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Make an impression' – taassurot qoldirmoq."
+  },
+  {
+    "id": 313,
+    "text": "Which verb collocates with 'a fortune'?",
+    "options": [
+      "Make",
+      "Earn",
+      "Amass",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a fortune', 'earn a fortune', 'amass a fortune'."
+  },
+  {
+    "id": 314,
+    "text": "Choose the correct collocation: 'The price ____ from $10 to $20.'",
+    "options": [
+      "increased",
+      "rose",
+      "went up",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to become higher'."
+  },
+  {
+    "id": 315,
+    "text": "Which noun collocates with 'heavy' meaning 'alcoholic'?",
+    "options": [
+      "Drinker",
+      "Eater",
+      "Sleeper",
+      "Worker"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Heavy drinker' – spirtli ichimliklarni ko'p iste'mol qiluvchi."
+  },
+  {
+    "id": 316,
+    "text": "Choose the correct collocation: 'He ____ a valid point during the discussion.'",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "gave"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Make a point' – fikr bildirmoq."
+  },
+  {
+    "id": 317,
+    "text": "Which verb collocates with 'a goal'?",
+    "options": [
+      "Achieve",
+      "Reach",
+      "Attain",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Achieve a goal', 'reach a goal', 'attain a goal'."
+  },
+  {
+    "id": 318,
+    "text": "Choose the correct collocation: 'She ____ a strong relationship with her clients.'",
+    "options": [
+      "built",
+      "established",
+      "developed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'relationship'."
+  },
+  {
+    "id": 319,
+    "text": "Which adjective collocates with 'failure' meaning 'complete'?",
+    "options": [
+      "Total",
+      "Complete",
+      "Utter",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Total failure', 'complete failure', 'utter failure'."
+  },
+  {
+    "id": 320,
+    "text": "Choose the correct collocation: 'He ____ a new record.'",
+    "options": [
+      "set",
+      "made",
+      "broke",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Set a record', 'break a record', 'make a record'."
+  },
+  {
+    "id": 321,
+    "text": "Which verb collocates with 'an excuse'?",
+    "options": [
+      "Make",
+      "Give",
+      "Provide",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make an excuse', 'give an excuse', 'provide an excuse'."
+  },
+  {
+    "id": 322,
+    "text": "Choose the correct collocation: 'The results are ____ with previous studies.'",
+    "options": [
+      "consistent",
+      "compatible",
+      "in line",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Consistent with', 'compatible with', 'in line with'."
+  },
+  {
+    "id": 323,
+    "text": "Which noun collocates with 'bitter'?",
+    "options": [
+      "Disappointment",
+      "Cold",
+      "Enemy",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C2: 'Bitter disappointment', 'bitter cold', 'bitter enemy'."
+  },
+  {
+    "id": 324,
+    "text": "Choose the correct collocation: 'She ____ a high standard of work.'",
+    "options": [
+      "sets",
+      "puts",
+      "places",
+      "makes"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Set a standard' – standart belgilamoq."
+  },
+  {
+    "id": 325,
+    "text": "Which verb collocates with 'a risk'?",
+    "options": [
+      "Take",
+      "Run",
+      "Assume",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Take a risk', 'run a risk', 'assume a risk'."
+  },
+  {
+    "id": 326,
+    "text": "Choose the correct collocation: 'The company ____ bankruptcy.'",
+    "options": [
+      "declared",
+      "announced",
+      "filed for",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Declare bankruptcy', 'file for bankruptcy'."
+  },
+  {
+    "id": 327,
+    "text": "Which adjective collocates with 'opportunity'?",
+    "options": [
+      "Golden",
+      "Rare",
+      "Unique",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Golden opportunity', 'rare opportunity', 'unique opportunity'."
+  },
+  {
+    "id": 328,
+    "text": "Choose the correct collocation: 'He ____ a strong case for the defense.'",
+    "options": [
+      "made",
+      "presented",
+      "built",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a case', 'present a case', 'build a case'."
+  },
+  {
+    "id": 329,
+    "text": "Which verb collocates with 'a contribution'?",
+    "options": [
+      "Make",
+      "Give",
+      "Provide",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a contribution', 'give a contribution', 'provide a contribution'."
+  },
+  {
+    "id": 330,
+    "text": "Choose the correct collocation: 'She ____ a logical conclusion.'",
+    "options": [
+      "reached",
+      "drew",
+      "came to",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Reach a conclusion', 'draw a conclusion', 'come to a conclusion'."
+  },
+  {
+    "id": 331,
+    "text": "Which noun collocates with 'deep'?",
+    "options": [
+      "Sleep",
+      "Thought",
+      "Regret",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Deep sleep', 'deep thought', 'deep regret'."
+  },
+  {
+    "id": 332,
+    "text": "Choose the correct collocation: 'The plan ____ into action.'",
+    "options": [
+      "was put",
+      "was set",
+      "was put into motion",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Put into action', 'set into action', 'put into motion'."
+  },
+  {
+    "id": 333,
+    "text": "Which verb collocates with 'a promise'?",
+    "options": [
+      "Make",
+      "Keep",
+      "Break",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a promise', 'keep a promise', 'break a promise'."
+  },
+  {
+    "id": 334,
+    "text": "Choose the correct collocation: 'He ____ a new theory.'",
+    "options": [
+      "proposed",
+      "suggested",
+      "put forward",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Propose a theory', 'suggest a theory', 'put forward a theory'."
+  },
+  {
+    "id": 335,
+    "text": "Which adjective collocates with 'difference'?",
+    "options": [
+      "Significant",
+      "Substantial",
+      "Noticeable",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'large/important difference'."
+  },
+  {
+    "id": 336,
+    "text": "Choose the correct collocation: 'She ____ a difficult time.'",
+    "options": [
+      "went through",
+      "experienced",
+      "endured",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Go through a difficult time', 'experience a difficult time', 'endure a difficult time'."
+  },
+  {
+    "id": 337,
+    "text": "Which verb collocates with 'a conversation'?",
+    "options": [
+      "Have",
+      "Hold",
+      "Conduct",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Have a conversation', 'hold a conversation', 'conduct a conversation'."
+  },
+  {
+    "id": 338,
+    "text": "Choose the correct collocation: 'The evidence is ____.'",
+    "options": [
+      "compelling",
+      "convincing",
+      "persuasive",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'believable' with 'evidence'."
+  },
+  {
+    "id": 339,
+    "text": "Which noun collocates with 'heavy' meaning 'serious'?",
+    "options": [
+      "Responsibility",
+      "Burdens",
+      "Losses",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Heavy responsibility', 'heavy burdens', 'heavy losses'."
+  },
+  {
+    "id": 340,
+    "text": "Choose the correct collocation: 'He ____ a strong opinion.'",
+    "options": [
+      "holds",
+      "has",
+      "maintains",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Hold an opinion', 'have an opinion', 'maintain an opinion'."
+  },
+  {
+    "id": 341,
+    "text": "Which verb collocates with 'an attempt'?",
+    "options": [
+      "Make",
+      "Mount",
+      "Launch",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make an attempt', 'mount an attempt', 'launch an attempt'."
+  },
+  {
+    "id": 342,
+    "text": "Choose the correct collocation: 'The project was a ____ success.'",
+    "options": [
+      "resounding",
+      "great",
+      "remarkable",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Resounding success', 'great success', 'remarkable success'."
+  },
+  {
+    "id": 343,
+    "text": "Which adjective collocates with 'need'?",
+    "options": [
+      "Pressing",
+      "Urgent",
+      "Critical",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Pressing need', 'urgent need', 'critical need'."
+  },
+  {
+    "id": 344,
+    "text": "Choose the correct collocation: 'She ____ her anger.'",
+    "options": [
+      "controlled",
+      "suppressed",
+      "managed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Control anger', 'suppress anger', 'manage anger'."
+  },
+  {
+    "id": 345,
+    "text": "Which verb collocates with 'a problem'?",
+    "options": [
+      "Address",
+      "Tackle",
+      "Solve",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Address a problem', 'tackle a problem', 'solve a problem'."
+  },
+  {
+    "id": 346,
+    "text": "Choose the correct collocation: 'He ____ a new record.'",
+    "options": [
+      "set",
+      "established",
+      "created",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Set a record', 'establish a record', 'create a record'."
+  },
+  {
+    "id": 347,
+    "text": "Which noun collocates with 'deep' meaning 'strong'?",
+    "options": [
+      "Affection",
+      "Respect",
+      "Concern",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Deep affection', 'deep respect', 'deep concern'."
+  },
+  {
+    "id": 348,
+    "text": "Choose the correct collocation: 'The government ____ new taxes.'",
+    "options": [
+      "imposed",
+      "levied",
+      "introduced",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Impose taxes', 'levy taxes', 'introduce taxes'."
+  },
+  {
+    "id": 349,
+    "text": "Which verb collocates with 'a decision'?",
+    "options": [
+      "Make",
+      "Take",
+      "Reach",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a decision', 'take a decision' (British), 'reach a decision'."
+  },
+  {
+    "id": 350,
+    "text": "Choose the correct collocation: 'She ____ a high price.'",
+    "options": [
+      "paid",
+      "charged",
+      "demanded",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Pay a price', 'charge a price', 'demand a price'."
+  },
+  {
+    "id": 351,
+    "text": "Which adjective collocates with 'mistake'?",
+    "options": [
+      "Serious",
+      "Grave",
+      "Costly",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Serious mistake', 'grave mistake', 'costly mistake'."
+  },
+  {
+    "id": 352,
+    "text": "Choose the correct collocation: 'The situation is ____.'",
+    "options": [
+      "critical",
+      "urgent",
+      "serious",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Critical situation', 'urgent situation', 'serious situation'."
+  },
+  {
+    "id": 353,
+    "text": "Which verb collocates with 'an opportunity'?",
+    "options": [
+      "Seize",
+      "Take",
+      "Grasp",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Seize an opportunity', 'take an opportunity', 'grasp an opportunity'."
+  },
+  {
+    "id": 354,
+    "text": "Choose the correct collocation: 'He ____ a significant contribution.'",
+    "options": [
+      "made",
+      "did",
+      "gave",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a contribution' or 'give a contribution'."
+  },
+  {
+    "id": 355,
+    "text": "Which noun collocates with 'bitter' meaning 'intense'?",
+    "options": [
+      "Struggle",
+      "Conflict",
+      "Feud",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C2: 'Bitter struggle', 'bitter conflict', 'bitter feud'."
+  },
+  {
+    "id": 356,
+    "text": "Choose the correct collocation: 'The report ____ the main issues.'",
+    "options": [
+      "highlights",
+      "emphasizes",
+      "stresses",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Highlight issues', 'emphasize issues', 'stress issues'."
+  },
+  {
+    "id": 357,
+    "text": "Which verb collocates with 'a proposal'?",
+    "options": [
+      "Make",
+      "Submit",
+      "Reject",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a proposal', 'submit a proposal', 'reject a proposal'."
+  },
+  {
+    "id": 358,
+    "text": "Choose the correct collocation: 'She ____ a new skill.'",
+    "options": [
+      "acquired",
+      "developed",
+      "mastered",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Acquire a skill', 'develop a skill', 'master a skill'."
+  },
+  {
+    "id": 359,
+    "text": "Which adjective collocates with 'damage'?",
+    "options": [
+      "Severe",
+      "Extensive",
+      "Irreparable",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Severe damage', 'extensive damage', 'irreparable damage'."
+  },
+  {
+    "id": 360,
+    "text": "Choose the correct collocation: 'He ____ a valid excuse.'",
+    "options": [
+      "gave",
+      "provided",
+      "offered",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Give an excuse', 'provide an excuse', 'offer an excuse'."
+  },
+  {
+    "id": 361,
+    "text": "Which verb collocates with 'a law'?",
+    "options": [
+      "Pass",
+      "Enact",
+      "Violate",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Pass a law', 'enact a law', 'violate a law'."
+  },
+  {
+    "id": 362,
+    "text": "Choose the correct collocation: 'The company ____ a new CEO.'",
+    "options": [
+      "appointed",
+      "named",
+      "hired",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Appoint a CEO', 'name a CEO', 'hire a CEO'."
+  },
+  {
+    "id": 363,
+    "text": "Which noun collocates with 'deep' meaning 'extreme'?",
+    "options": [
+      "Depression",
+      "Sorrow",
+      "Crisis",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Deep depression', 'deep sorrow', 'deep crisis'."
+  },
+  {
+    "id": 364,
+    "text": "Choose the correct collocation: 'She ____ a good salary.'",
+    "options": [
+      "earns",
+      "makes",
+      "receives",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Earn a salary', 'make a salary', 'receive a salary'."
+  },
+  {
+    "id": 365,
+    "text": "Which verb collocates with 'a challenge'?",
+    "options": [
+      "Face",
+      "Meet",
+      "Overcome",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Face a challenge', 'meet a challenge', 'overcome a challenge'."
+  },
+  {
+    "id": 366,
+    "text": "Choose the correct collocation: 'The policy ____ controversy.'",
+    "options": [
+      "caused",
+      "generated",
+      "sparked",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Cause controversy', 'generate controversy', 'spark controversy'."
+  },
+  {
+    "id": 367,
+    "text": "Which adjective collocates with 'evidence'?",
+    "options": [
+      "Clear",
+      "Strong",
+      "Overwhelming",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Clear evidence', 'strong evidence', 'overwhelming evidence'."
+  },
+  {
+    "id": 368,
+    "text": "Choose the correct collocation: 'He ____ a good impression.'",
+    "options": [
+      "made",
+      "created",
+      "gave",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make an impression' or 'create an impression'."
+  },
+  {
+    "id": 369,
+    "text": "Which verb collocates with 'a plan'?",
+    "options": [
+      "Devise",
+      "Formulate",
+      "Implement",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Devise a plan', 'formulate a plan', 'implement a plan'."
+  },
+  {
+    "id": 370,
+    "text": "Choose the correct collocation: 'She ____ a lot of support.'",
+    "options": [
+      "received",
+      "gained",
+      "garnered",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Receive support', 'gain support', 'garner support'."
+  },
+  {
+    "id": 371,
+    "text": "Which noun collocates with 'heavy' meaning 'large amount'?",
+    "options": [
+      "Rainfall",
+      "Snowfall",
+      "Casualties",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Heavy rainfall', 'heavy snowfall', 'heavy casualties'."
+  },
+  {
+    "id": 372,
+    "text": "Choose the correct collocation: 'The project ____ funding.'",
+    "options": [
+      "received",
+      "secured",
+      "obtained",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Receive funding', 'secure funding', 'obtain funding'."
+  },
+  {
+    "id": 373,
+    "text": "Which verb collocates with 'a meeting'?",
+    "options": [
+      "Hold",
+      "Attend",
+      "Schedule",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Hold a meeting', 'attend a meeting', 'schedule a meeting'."
+  },
+  {
+    "id": 374,
+    "text": "Choose the correct collocation: 'He ____ a difficult decision.'",
+    "options": [
+      "made",
+      "faced",
+      "took",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a decision', 'face a decision', 'take a decision'."
+  },
+  {
+    "id": 375,
+    "text": "Which adjective collocates with 'increase'?",
+    "options": [
+      "Significant",
+      "Substantial",
+      "Dramatic",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Significant increase', 'substantial increase', 'dramatic increase'."
+  },
+  {
+    "id": 376,
+    "text": "Choose the correct collocation: 'She ____ a business.'",
+    "options": [
+      "started",
+      "set up",
+      "established",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Start a business', 'set up a business', 'establish a business'."
+  },
+  {
+    "id": 377,
+    "text": "Which verb collocates with 'a question'?",
+    "options": [
+      "Ask",
+      "Raise",
+      "Pose",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Ask a question', 'raise a question', 'pose a question'."
+  },
+  {
+    "id": 378,
+    "text": "Choose the correct collocation: 'The two companies ____ a merger.'",
+    "options": [
+      "announced",
+      "declared",
+      "proposed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Announce a merger', 'declare a merger', 'propose a merger'."
+  },
+  {
+    "id": 379,
+    "text": "Which noun collocates with 'deep' meaning 'profound'?",
+    "options": [
+      "Understanding",
+      "Knowledge",
+      "Insight",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Deep understanding', 'deep knowledge', 'deep insight'."
+  },
+  {
+    "id": 380,
+    "text": "Choose the correct collocation: 'He ____ a lot of money.'",
+    "options": [
+      "made",
+      "earned",
+      "invested",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make money', 'earn money', 'invest money'."
+  },
+  {
+    "id": 381,
+    "text": "Which verb collocates with 'a test'?",
+    "options": [
+      "Take",
+      "Pass",
+      "Fail",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Take a test', 'pass a test', 'fail a test'."
+  },
+  {
+    "id": 382,
+    "text": "Choose the correct collocation: 'She ____ her career.'",
+    "options": [
+      "built",
+      "developed",
+      "advanced",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Build a career', 'develop a career', 'advance a career'."
+  },
+  {
+    "id": 383,
+    "text": "Which adjective collocates with 'risk'?",
+    "options": [
+      "High",
+      "Considerable",
+      "Significant",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'High risk', 'considerable risk', 'significant risk'."
+  },
+  {
+    "id": 384,
+    "text": "Choose the correct collocation: 'The news ____ a shock.'",
+    "options": [
+      "came as",
+      "was",
+      "caused",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Come as a shock' or 'cause a shock'."
+  },
+  {
+    "id": 385,
+    "text": "Which verb collocates with 'a fire'?",
+    "options": [
+      "Start",
+      "Extinguish",
+      "Put out",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Start a fire', 'extinguish a fire', 'put out a fire'."
+  },
+  {
+    "id": 386,
+    "text": "Choose the correct collocation: 'He ____ a good example.'",
+    "options": [
+      "set",
+      "showed",
+      "provided",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Set an example', 'show an example', 'provide an example'."
+  },
+  {
+    "id": 387,
+    "text": "Which noun collocates with 'heavy' meaning 'intense'?",
+    "options": [
+      "Fighting",
+      "Criticism",
+      "Competition",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Heavy fighting', 'heavy criticism', 'heavy competition'."
+  },
+  {
+    "id": 388,
+    "text": "Choose the correct collocation: 'She ____ a degree.'",
+    "options": [
+      "earned",
+      "obtained",
+      "received",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Earn a degree', 'obtain a degree', 'receive a degree'."
+  },
+  {
+    "id": 389,
+    "text": "Which verb collocates with 'a holiday'?",
+    "options": [
+      "Take",
+      "Spend",
+      "Book",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Take a holiday', 'spend a holiday', 'book a holiday'."
+  },
+  {
+    "id": 390,
+    "text": "Choose the correct collocation: 'The project ____ a delay.'",
+    "options": [
+      "experienced",
+      "suffered",
+      "faced",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Experience a delay', 'suffer a delay', 'face a delay'."
+  },
+  {
+    "id": 391,
+    "text": "Which adjective collocates with 'need' meaning 'urgent'?",
+    "options": [
+      "Desperate",
+      "Crying",
+      "Pressing",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Desperate need', 'crying need', 'pressing need'."
+  },
+  {
+    "id": 392,
+    "text": "Choose the correct collocation: 'He ____ a mistake.'",
+    "options": [
+      "made",
+      "committed",
+      "did",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a mistake' or 'commit a mistake'."
+  },
+  {
+    "id": 393,
+    "text": "Which verb collocates with 'a request'?",
+    "options": [
+      "Make",
+      "Submit",
+      "Grant",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a request', 'submit a request', 'grant a request'."
+  },
+  {
+    "id": 394,
+    "text": "Choose the correct collocation: 'She ____ a new product.'",
+    "options": [
+      "launched",
+      "developed",
+      "introduced",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Launch a product', 'develop a product', 'introduce a product'."
+  },
+  {
+    "id": 395,
+    "text": "Which noun collocates with 'deep' meaning 'serious'?",
+    "options": [
+      "Trouble",
+      "Problem",
+      "Crisis",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Deep trouble', 'deep problem', 'deep crisis'."
+  },
+  {
+    "id": 396,
+    "text": "Choose the correct collocation: 'The team ____ a goal.'",
+    "options": [
+      "scored",
+      "achieved",
+      "reached",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Score a goal' (sports), 'achieve a goal', 'reach a goal'."
+  },
+  {
+    "id": 397,
+    "text": "Which verb collocates with 'a relationship'?",
+    "options": [
+      "Build",
+      "Maintain",
+      "End",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Build a relationship', 'maintain a relationship', 'end a relationship'."
+  },
+  {
+    "id": 398,
+    "text": "Choose the correct collocation: 'He ____ a fortune in real estate.'",
+    "options": [
+      "made",
+      "amassed",
+      "accumulated",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a fortune', 'amass a fortune', 'accumulate a fortune'."
+  },
+  {
+    "id": 399,
+    "text": "Which adjective collocates with 'change'?",
+    "options": [
+      "Dramatic",
+      "Radical",
+      "Fundamental",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Dramatic change', 'radical change', 'fundamental change'."
+  },
+  {
+    "id": 400,
+    "text": "Choose the correct collocation: 'She ____ a lot of experience.'",
+    "options": [
+      "gained",
+      "acquired",
+      "developed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Gain experience', 'acquire experience', 'develop experience'."
+  }
+]

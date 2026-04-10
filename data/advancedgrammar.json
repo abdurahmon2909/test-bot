@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 111,
+    "text": "Choose the correct passive form: 'They are building a new hospital.'",
+    "options": [
+      "A new hospital is being built.",
+      "A new hospital is built.",
+      "A new hospital was being built.",
+      "A new hospital has been built."
+    ],
+    "correct": 0,
+    "hint": "C1: Present continuous passive: is being + V3."
+  },
+  {
+    "id": 112,
+    "text": "Which sentence uses 'had better' correctly?",
+    "options": [
+      "You had better to see a doctor.",
+      "You had better seeing a doctor.",
+      "You had better see a doctor.",
+      "You had better saw a doctor."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Had better + infinitive without to'."
+  },
+  {
+    "id": 113,
+    "text": "Choose the sentence with correct use of 'prefer' and 'would rather'.",
+    "options": [
+      "I prefer coffee than tea.",
+      "I would rather coffee than tea.",
+      "I prefer coffee to tea.",
+      "I would rather to drink coffee."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Prefer something to something'."
+  },
+  {
+    "id": 114,
+    "text": "Which sentence uses 'as if' correctly for unreal present?",
+    "options": [
+      "He talks as if he knows everything.",
+      "He talks as if he knew everything.",
+      "He talks as if he has known everything.",
+      "He talks as if he is knowing everything."
+    ],
+    "correct": 1,
+    "hint": "C1: 'As if + past subjunctive' for unreal present."
+  },
+  {
+    "id": 115,
+    "text": "Choose the sentence with correct inversion with 'not only...but also'.",
+    "options": [
+      "Not only he is intelligent, but also hardworking.",
+      "Not only is he intelligent, but also hardworking.",
+      "Not only he intelligent is, but also hardworking.",
+      "Not only he is intelligent, but also he is hardworking."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Not only + auxiliary + subject + verb' – inversion."
+  },
+  {
+    "id": 116,
+    "text": "Which sentence uses 'by the time' correctly with past perfect?",
+    "options": [
+      "By the time we arrived, they left.",
+      "By the time we arrived, they have left.",
+      "By the time we arrived, they had left.",
+      "By the time we arrived, they were leaving."
+    ],
+    "correct": 2,
+    "hint": "C1: 'By the time + past simple, past perfect'."
+  },
+  {
+    "id": 117,
+    "text": "Choose the sentence with correct use of 'so that' for purpose.",
+    "options": [
+      "He saved money so that he can buy a car.",
+      "He saved money so that he could buy a car.",
+      "He saved money so that he buys a car.",
+      "He saved money so that he will buy a car."
+    ],
+    "correct": 1,
+    "hint": "C1: 'So that + could/would' for past purpose."
+  },
+  {
+    "id": 118,
+    "text": "Which sentence uses 'given that' correctly?",
+    "options": [
+      "Given that he is tired, he finished the work.",
+      "Given that he was tired, he finished the work.",
+      "Given that he tired, he finished the work.",
+      "Given that he has tired, he finished the work."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Given that + past tense' for known past fact."
+  },
+  {
+    "id": 119,
+    "text": "Choose the sentence with correct use of 'what' as a fused relative pronoun.",
+    "options": [
+      "What he said was interesting.",
+      "That what he said was interesting.",
+      "The thing what he said was interesting.",
+      "He said what was interesting."
+    ],
+    "correct": 0,
+    "hint": "C2: 'What' = 'the thing(s) that' – fused relative."
+  },
+  {
+    "id": 120,
+    "text": "Which sentence uses 'however' correctly as a conjunction?",
+    "options": [
+      "He is rich, however he is unhappy.",
+      "He is rich however, he is unhappy.",
+      "He is rich; however, he is unhappy.",
+      "He is rich however he is unhappy."
+    ],
+    "correct": 2,
+    "hint": "C1: '; however,' connects two clauses."
+  },
+  {
+    "id": 121,
+    "text": "Choose the sentence with correct use of 'no matter'.",
+    "options": [
+      "No matter how hard he tries, he never succeeds.",
+      "No matter how hard he try, he never succeeds.",
+      "No matter how hard he trying, he never succeeds.",
+      "No matter hard he tries, he never succeeds."
+    ],
+    "correct": 0,
+    "hint": "C1: 'No matter how + adjective/adverb + subject + verb'."
+  },
+  {
+    "id": 122,
+    "text": "Which sentence uses 'seeing that' correctly?",
+    "options": [
+      "Seeing that it's raining, we should stay home.",
+      "Seeing that it rains, we should stay home.",
+      "Seeing that it rained, we should stay home.",
+      "Seeing that it will rain, we should stay home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Seeing that + present' = because (obvious reason)."
+  },
+  {
+    "id": 123,
+    "text": "Choose the sentence with correct use of 'such that'.",
+    "options": [
+      "His anger was such that everyone was scared.",
+      "His anger was such so that everyone was scared.",
+      "His anger was such as that everyone was scared.",
+      "His anger was such to that everyone was scared."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Such that' = to such a degree that."
+  },
+  {
+    "id": 124,
+    "text": "Which sentence uses 'in that' correctly?",
+    "options": [
+      "This book is useful in that it explains grammar clearly.",
+      "This book is useful in that it will explain grammar clearly.",
+      "This book is useful in that it explained grammar clearly.",
+      "This book is useful in that it has explained grammar clearly."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In that + present' = because (formal, specific reason)."
+  },
+  {
+    "id": 125,
+    "text": "Choose the sentence with correct use of 'were it not for'.",
+    "options": [
+      "Were it not for your help, I would fail.",
+      "Were it not for your help, I will fail.",
+      "Were it not for your help, I failed.",
+      "Were it not for your help, I have failed."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Were it not for + noun, would + infinitive' – present unreal."
+  },
+  {
+    "id": 126,
+    "text": "Which sentence uses 'had it not been for' correctly?",
+    "options": [
+      "Had it not been for the rain, we would have arrived on time.",
+      "Had it not been for the rain, we will arrive on time.",
+      "Had it not been for the rain, we arrived on time.",
+      "Had it not been for the rain, we have arrived on time."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Had it not been for + noun, would have + V3' – past unreal."
+  },
+  {
+    "id": 127,
+    "text": "Choose the sentence with correct use of 'on the contrary'.",
+    "options": [
+      "He is not lazy. On the contrary, he works very hard.",
+      "He is not lazy. On the contrary he works very hard.",
+      "He is not lazy on the contrary, he works very hard.",
+      "He is not lazy on the contrary he works very hard."
+    ],
+    "correct": 0,
+    "hint": "C1: 'On the contrary' after a negative statement."
+  },
+  {
+    "id": 128,
+    "text": "Which sentence uses 'in contrast' with 'to' correctly?",
+    "options": [
+      "In contrast to his brother, he is tall.",
+      "In contrast with his brother, he is tall.",
+      "In contrast of his brother, he is tall.",
+      "In contrast for his brother, he is tall."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In contrast to + noun'."
+  },
+  {
+    "id": 129,
+    "text": "Choose the sentence with correct use of 'whereas'.",
+    "options": [
+      "He likes coffee, whereas she prefers tea.",
+      "He likes coffee whereas she prefers tea.",
+      "He likes coffee whereas, she prefers tea.",
+      "He likes coffee, whereas she prefers tea."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Whereas' connects two contrasting clauses."
+  },
+  {
+    "id": 130,
+    "text": "Which sentence uses 'albeit' correctly?",
+    "options": [
+      "He accepted the job, albeit with some hesitation.",
+      "He accepted the job albeit with some hesitation.",
+      "He accepted the job, albeit he hesitated.",
+      "He accepted the job albeit he hesitated."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Albeit + phrase' – formal concession."
+  },
+  {
+    "id": 131,
+    "text": "Choose the sentence with correct use of 'for all'.",
+    "options": [
+      "For all his wealth, he is unhappy.",
+      "For all his wealth he is unhappy.",
+      "For all his wealth, but he is unhappy.",
+      "For all his wealth, so he is unhappy."
+    ],
+    "correct": 0,
+    "hint": "C2: 'For all + noun' = despite."
+  },
+  {
+    "id": 132,
+    "text": "Which sentence uses 'much as' correctly?",
+    "options": [
+      "Much as I admire him, I cannot agree with him.",
+      "Much as I admire him I cannot agree with him.",
+      "Much as I admire him, but I cannot agree.",
+      "Much as I admire him, so I cannot agree."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Much as + clause' = although."
+  },
+  {
+    "id": 133,
+    "text": "Choose the sentence with correct use of 'be that as it may'.",
+    "options": [
+      "Be that as it may, we must continue.",
+      "Be that as it may we must continue.",
+      "Be that as it may, but we must continue.",
+      "Be that as it may, so we must continue."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Be that as it may' – formal concession."
+  },
+  {
+    "id": 134,
+    "text": "Which sentence uses 'insofar as' correctly?",
+    "options": [
+      "He is correct insofar as I can judge.",
+      "He is correct insofar as I can judge?",
+      "He is correct insofar as I can judge!",
+      "He is correct insofar as I can judge;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Insofar as' = to the extent that."
+  },
+  {
+    "id": 135,
+    "text": "Choose the sentence with correct use of 'with a view to'.",
+    "options": [
+      "He is saving money with a view to buying a house.",
+      "He is saving money with a view to buy a house.",
+      "He is saving money with a view to bought a house.",
+      "He is saving money with a view to will buy a house."
+    ],
+    "correct": 0,
+    "hint": "C1: 'With a view to + V-ing'."
+  },
+  {
+    "id": 136,
+    "text": "Which sentence uses 'for fear that' correctly?",
+    "options": [
+      "He left early for fear that he might miss the train.",
+      "He left early for fear that he will miss the train.",
+      "He left early for fear that he misses the train.",
+      "He left early for fear that he missed the train."
+    ],
+    "correct": 0,
+    "hint": "C1: 'For fear that + might' – past concern."
+  },
+  {
+    "id": 137,
+    "text": "Choose the sentence with correct use of 'lest'.",
+    "options": [
+      "He ran lest he be late.",
+      "He ran lest he is late.",
+      "He ran lest he was late.",
+      "He ran lest he will be late."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Lest + subjunctive (be)' – formal negative purpose."
+  },
+  {
+    "id": 138,
+    "text": "Which sentence uses 'in the event that' correctly?",
+    "options": [
+      "In the event that it rains, the ceremony will be indoors.",
+      "In the event that it will rain, the ceremony will be indoors.",
+      "In the event that it rained, the ceremony will be indoors.",
+      "In the event that it has rained, the ceremony will be indoors."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In the event that + present simple'."
+  },
+  {
+    "id": 139,
+    "text": "Choose the sentence with correct use of 'provided that'.",
+    "options": [
+      "You can go out provided that you finish your homework.",
+      "You can go out provided that you will finish your homework.",
+      "You can go out provided that you finished your homework.",
+      "You can go out provided that you have finished your homework."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Provided that + present simple'."
+  },
+  {
+    "id": 140,
+    "text": "Which sentence uses 'as long as' correctly?",
+    "options": [
+      "You can stay as long as you are quiet.",
+      "You can stay as long as you will be quiet.",
+      "You can stay as long as you were quiet.",
+      "You can stay as long as you have been quiet."
+    ],
+    "correct": 0,
+    "hint": "C1: 'As long as + present simple' for condition."
+  },
+  {
+    "id": 141,
+    "text": "Choose the sentence with correct use of 'on the grounds that'.",
+    "options": [
+      "He was fired on the grounds that he was dishonest.",
+      "He was fired on the grounds that he is dishonest.",
+      "He was fired on the grounds that he will be dishonest.",
+      "He was fired on the grounds that he has been dishonest."
+    ],
+    "correct": 0,
+    "hint": "C1: 'On the grounds that + past tense'."
+  },
+  {
+    "id": 142,
+    "text": "Which sentence uses 'in light of' correctly?",
+    "options": [
+      "In light of recent events, we have changed our plans.",
+      "In light of recent events we have changed our plans.",
+      "In light of recent events, we changed our plans.",
+      "In light of recent events we changed our plans."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In light of + noun' = because of."
+  },
+  {
+    "id": 143,
+    "text": "Choose the sentence with correct use of 'owing to'.",
+    "options": [
+      "Owing to the rain, the match was cancelled.",
+      "Owing to the rain the match was cancelled.",
+      "Owing to the rain, the match is cancelled.",
+      "Owing to the rain the match is cancelled."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Owing to + noun' = because of (formal)."
+  },
+  {
+    "id": 144,
+    "text": "Which sentence uses 'thanks to' correctly?",
+    "options": [
+      "Thanks to your help, we succeeded.",
+      "Thanks to your help we succeeded.",
+      "Thanks to your help, we succeed.",
+      "Thanks to your help we succeed."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Thanks to + noun' – positive cause."
+  },
+  {
+    "id": 145,
+    "text": "Choose the sentence with correct use of 'by virtue of'.",
+    "options": [
+      "He holds power by virtue of his position.",
+      "He holds power by virtue of his position?",
+      "He holds power by virtue of his position!",
+      "He holds power by virtue of his position;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'By virtue of + noun' = because of (legal/formal)."
+  },
+  {
+    "id": 146,
+    "text": "Which sentence uses 'in view of' correctly?",
+    "options": [
+      "In view of the weather, we stayed home.",
+      "In view of the weather we stayed home.",
+      "In view of the weather, we stay home.",
+      "In view of the weather we stay home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In view of + noun' = considering."
+  },
+  {
+    "id": 147,
+    "text": "Choose the sentence with correct use of 'on account of'.",
+    "options": [
+      "He was late on account of traffic.",
+      "He was late on account of traffic?",
+      "He was late on account of traffic!",
+      "He was late on account of traffic;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'On account of + noun' = because of."
+  },
+  {
+    "id": 148,
+    "text": "Which sentence uses 'in consequence of' correctly?",
+    "options": [
+      "In consequence of his actions, he was fired.",
+      "In consequence of his actions he was fired.",
+      "In consequence of his actions, he is fired.",
+      "In consequence of his actions he is fired."
+    ],
+    "correct": 0,
+    "hint": "C2: 'In consequence of + noun' = as a result of."
+  },
+  {
+    "id": 149,
+    "text": "Choose the sentence with correct use of 'as a result of'.",
+    "options": [
+      "As a result of the storm, many trees fell.",
+      "As a result of the storm many trees fell.",
+      "As a result of the storm, many trees fall.",
+      "As a result of the storm many trees fall."
+    ],
+    "correct": 0,
+    "hint": "C1: 'As a result of + noun' – cause-effect."
+  },
+  {
+    "id": 150,
+    "text": "Which sentence uses 'due to' correctly?",
+    "options": [
+      "The cancellation was due to the rain.",
+      "Due to the rain, the game was cancelled.",
+      "The game was cancelled due to the rain.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Due to' – now acceptable in all positions."
+  },
+  {
+    "id": 151,
+    "text": "Choose the sentence with correct use of 'in order that'.",
+    "options": [
+      "He left early in order that he might catch the train.",
+      "He left early in order that he will catch the train.",
+      "He left early in order that he catches the train.",
+      "He left early in order that he caught the train."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In order that + might/could' – formal purpose."
+  },
+  {
+    "id": 152,
+    "text": "Which sentence uses 'so as to' correctly?",
+    "options": [
+      "He left early so as to catch the train.",
+      "He left early so as to catching the train.",
+      "He left early so as to caught the train.",
+      "He left early so as to will catch the train."
+    ],
+    "correct": 0,
+    "hint": "C1: 'So as to + infinitive' – purpose."
+  },
+  {
+    "id": 153,
+    "text": "Choose the sentence with correct use of 'with the intention of'.",
+    "options": [
+      "He went to London with the intention of finding a job.",
+      "He went to London with the intention to find a job.",
+      "He went to London with the intention for finding a job.",
+      "He went to London with the intention that find a job."
+    ],
+    "correct": 0,
+    "hint": "C1: 'With the intention of + V-ing'."
+  },
+  {
+    "id": 154,
+    "text": "Which sentence uses 'for the purpose of' correctly?",
+    "options": [
+      "This tool is used for the purpose of cutting metal.",
+      "This tool is used for the purpose to cut metal.",
+      "This tool is used for the purpose that cut metal.",
+      "This tool is used for the purpose of cut metal."
+    ],
+    "correct": 0,
+    "hint": "C1: 'For the purpose of + V-ing'."
+  },
+  {
+    "id": 155,
+    "text": "Which sentence uses 'in the hope of' correctly?",
+    "options": [
+      "He studied hard in the hope of passing the exam.",
+      "He studied hard in the hope to pass the exam.",
+      "He studied hard in the hope for passing the exam.",
+      "He studied hard in the hope that pass the exam."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In the hope of + V-ing'."
+  },
+  {
+    "id": 156,
+    "text": "Choose the sentence with correct use of 'for fear of'.",
+    "options": [
+      "He didn't speak for fear of making a mistake.",
+      "He didn't speak for fear to make a mistake.",
+      "He didn't speak for fear for making a mistake.",
+      "He didn't speak for fear that make a mistake."
+    ],
+    "correct": 0,
+    "hint": "C1: 'For fear of + V-ing'."
+  },
+  {
+    "id": 157,
+    "text": "Which sentence uses 'in case of' correctly?",
+    "options": [
+      "In case of fire, leave the building.",
+      "In case of fire, you will leave the building.",
+      "In case of fire, you leave the building.",
+      "In case of fire, leaving the building."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In case of + noun' – emergency instructions."
+  },
+  {
+    "id": 158,
+    "text": "Choose the sentence with correct use of 'in the event of'.",
+    "options": [
+      "In the event of an emergency, call 911.",
+      "In the event of an emergency, you will call 911.",
+      "In the event of an emergency, calling 911.",
+      "In the event of an emergency, called 911."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In the event of + noun' – formal contingency."
+  },
+  {
+    "id": 159,
+    "text": "Which sentence uses 'but for' correctly?",
+    "options": [
+      "But for your help, I would have failed.",
+      "But for your help, I will fail.",
+      "But for your help, I failed.",
+      "But for your help, I have failed."
+    ],
+    "correct": 0,
+    "hint": "C2: 'But for + noun, would have + V3' – past conditional."
+  },
+  {
+    "id": 160,
+    "text": "Choose the sentence with correct use of 'if only'.",
+    "options": [
+      "If only I had studied harder.",
+      "If only I studied harder.",
+      "If only I study harder.",
+      "If only I will study harder."
+    ],
+    "correct": 0,
+    "hint": "C1: 'If only + had + V3' – past regret."
+  },
+  {
+    "id": 161,
+    "text": "Which sentence uses 'it's time' correctly?",
+    "options": [
+      "It's time we went home.",
+      "It's time we go home.",
+      "It's time we will go home.",
+      "It's time we have gone home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'It's time + past subjunctive' – suggestion."
+  },
+  {
+    "id": 162,
+    "text": "Choose the sentence with correct use of 'would rather'.",
+    "options": [
+      "I would rather you didn't smoke.",
+      "I would rather you don't smoke.",
+      "I would rather you won't smoke.",
+      "I would rather you haven't smoked."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Would rather + subject + past tense' – preference about others."
+  },
+  {
+    "id": 163,
+    "text": "Which sentence uses 'had better' correctly?",
+    "options": [
+      "You had better not be late.",
+      "You had better not to be late.",
+      "You had better not being late.",
+      "You had better not been late."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Had better + infinitive without to'."
+  },
+  {
+    "id": 164,
+    "text": "Choose the sentence with correct use of 'as it were'.",
+    "options": [
+      "He is, as it were, a walking dictionary.",
+      "He is as it were a walking dictionary.",
+      "He is, as it were a walking dictionary.",
+      "He is as it were, a walking dictionary."
+    ],
+    "correct": 0,
+    "hint": "C2: 'As it were' – hedging (formal)."
+  },
+  {
+    "id": 165,
+    "text": "Which sentence uses 'so to speak' correctly?",
+    "options": [
+      "He is, so to speak, a lone wolf.",
+      "He is so to speak a lone wolf.",
+      "He is, so to speak a lone wolf.",
+      "He is so to speak, a lone wolf."
+    ],
+    "correct": 0,
+    "hint": "C2: 'So to speak' – figurative marker."
+  },
+  {
+    "id": 166,
+    "text": "Choose the sentence with correct use of 'in a manner of speaking'.",
+    "options": [
+      "He is, in a manner of speaking, the leader.",
+      "He is in a manner of speaking the leader.",
+      "He is, in a manner of speaking the leader.",
+      "He is in a manner of speaking, the leader."
+    ],
+    "correct": 0,
+    "hint": "C2: 'In a manner of speaking' – loosely speaking."
+  },
+  {
+    "id": 167,
+    "text": "Which sentence uses 'to say the least' correctly?",
+    "options": [
+      "His behavior was inappropriate, to say the least.",
+      "His behavior was inappropriate to say the least.",
+      "His behavior was inappropriate, to say the least",
+      "His behavior was inappropriate to say the least."
+    ],
+    "correct": 0,
+    "hint": "C2: 'To say the least' – understatement."
+  },
+  {
+    "id": 168,
+    "text": "Choose the sentence with correct use of 'needless to say'.",
+    "options": [
+      "Needless to say, he was late again.",
+      "Needless to say he was late again.",
+      "Needless to say, he was late again",
+      "Needless to say he was late again."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Needless to say' – obvious statement."
+  },
+  {
+    "id": 169,
+    "text": "Which sentence uses 'strange as it may seem' correctly?",
+    "options": [
+      "Strange as it may seem, he passed the test.",
+      "Strange as it may seem he passed the test.",
+      "Strange as it may seem, he passed the test",
+      "Strange as it may seem he passed the test."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Strange as it may seem' – concession."
+  },
+  {
+    "id": 170,
+    "text": "Choose the sentence with correct use of 'believe it or not'.",
+    "options": [
+      "Believe it or not, I have never seen snow.",
+      "Believe it or not I have never seen snow.",
+      "Believe it or not, I have never seen snow",
+      "Believe it or not I have never seen snow."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Believe it or not' – surprising truth."
+  },
+  {
+    "id": 171,
+    "text": "Which sentence uses 'if you ask me' correctly?",
+    "options": [
+      "If you ask me, he is making a mistake.",
+      "If you ask me he is making a mistake.",
+      "If you ask me, he is making a mistake",
+      "If you ask me he is making a mistake."
+    ],
+    "correct": 0,
+    "hint": "C1: 'If you ask me' – personal opinion."
+  },
+  {
+    "id": 172,
+    "text": "Choose the sentence with correct use of 'mind you'.",
+    "options": [
+      "He is very smart. Mind you, he can be lazy.",
+      "He is very smart. Mind you he can be lazy.",
+      "He is very smart mind you, he can be lazy.",
+      "He is very smart mind you he can be lazy."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Mind you' – contrast marker."
+  },
+  {
+    "id": 173,
+    "text": "Which sentence uses 'still' as a discourse marker correctly?",
+    "options": [
+      "He is rich. Still, he is unhappy.",
+      "He is rich still, he is unhappy.",
+      "He is rich still he is unhappy.",
+      "He is rich, still he is unhappy."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Still' – contrast marker (nonetheless)."
+  },
+  {
+    "id": 174,
+    "text": "Choose the sentence with correct use of 'nevertheless'.",
+    "options": [
+      "It was raining; nevertheless, we went out.",
+      "It was raining nevertheless, we went out.",
+      "It was raining, nevertheless we went out.",
+      "It was raining nevertheless we went out."
+    ],
+    "correct": 0,
+    "hint": "C1: '; nevertheless,' – formal contrast."
+  },
+  {
+    "id": 175,
+    "text": "Which sentence uses 'nonetheless' correctly?",
+    "options": [
+      "It was difficult; nonetheless, we succeeded.",
+      "It was difficult nonetheless, we succeeded.",
+      "It was difficult, nonetheless we succeeded.",
+      "It was difficult nonetheless we succeeded."
+    ],
+    "correct": 0,
+    "hint": "C1: '; nonetheless,' – formal contrast."
+  },
+  {
+    "id": 176,
+    "text": "Choose the sentence with correct use of 'notwithstanding'.",
+    "options": [
+      "Notwithstanding the rain, we went out.",
+      "Notwithstanding the rain we went out.",
+      "Notwithstanding the rain, we went out",
+      "Notwithstanding the rain we went out."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Notwithstanding + noun' = despite (formal)."
+  },
+  {
+    "id": 177,
+    "text": "Which sentence uses 'regardless of' correctly?",
+    "options": [
+      "Regardless of the cost, we must do it.",
+      "Regardless of the cost we must do it.",
+      "Regardless of the cost, we must do it",
+      "Regardless of the cost we must do it."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Regardless of + noun'."
+  },
+  {
+    "id": 178,
+    "text": "Choose the sentence with correct use of 'irrespective of'.",
+    "options": [
+      "Irrespective of age, everyone can apply.",
+      "Irrespective of age everyone can apply.",
+      "Irrespective of age, everyone can apply",
+      "Irrespective of age everyone can apply."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Irrespective of + noun' = regardless of."
+  },
+  {
+    "id": 179,
+    "text": "Which sentence uses 'in spite of' correctly?",
+    "options": [
+      "In spite of the rain, we enjoyed the day.",
+      "In spite of the rain we enjoyed the day.",
+      "In spite of the rain, we enjoyed the day",
+      "In spite of the rain we enjoyed the day."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In spite of + noun/gerund'."
+  },
+  {
+    "id": 180,
+    "text": "Choose the sentence with correct use of 'despite'.",
+    "options": [
+      "Despite being tired, he finished the work.",
+      "Despite being tired he finished the work.",
+      "Despite being tired, he finished the work",
+      "Despite being tired he finished the work."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Despite + noun/gerund'."
+  },
+  {
+    "id": 181,
+    "text": "Which sentence uses 'whereas' correctly?",
+    "options": [
+      "He likes coffee, whereas she likes tea.",
+      "He likes coffee whereas she likes tea.",
+      "He likes coffee whereas, she likes tea.",
+      "He likes coffee, whereas she likes tea."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Whereas' connects two contrasting clauses."
+  },
+  {
+    "id": 182,
+    "text": "Choose the sentence with correct use of 'while' for contrast.",
+    "options": [
+      "While he is rich, she is poor.",
+      "While he is rich she is poor.",
+      "While he is rich, she is poor",
+      "While he is rich she is poor."
+    ],
+    "correct": 0,
+    "hint": "C1: 'While' for contrast – comma."
+  },
+  {
+    "id": 183,
+    "text": "Which sentence uses 'whereas' with inversion?",
+    "options": [
+      "He likes coffee, whereas she does tea.",
+      "He likes coffee, whereas tea she likes.",
+      "He likes coffee, whereas she tea likes.",
+      "He likes coffee, whereas likes she tea."
+    ],
+    "correct": 1,
+    "hint": "C2: 'Whereas' with inversion: object + subject + verb."
+  },
+  {
+    "id": 184,
+    "text": "Choose the sentence with correct use of 'as opposed to'.",
+    "options": [
+      "He prefers coffee as opposed to tea.",
+      "He prefers coffee as opposed to tea?",
+      "He prefers coffee as opposed to tea!",
+      "He prefers coffee as opposed to tea;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'As opposed to' = in contrast to."
+  },
+  {
+    "id": 185,
+    "text": "Which sentence uses 'rather than' correctly?",
+    "options": [
+      "He chose coffee rather than tea.",
+      "He chose coffee rather than tea?",
+      "He chose coffee rather than tea!",
+      "He chose coffee rather than tea;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Rather than' – comparison of alternatives."
+  },
+  {
+    "id": 186,
+    "text": "Choose the sentence with correct use of 'more than'.",
+    "options": [
+      "He is more than happy to help.",
+      "He is more than happy to help?",
+      "He is more than happy to help!",
+      "He is more than happy to help;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'More than + adjective' = very."
+  },
+  {
+    "id": 187,
+    "text": "Which sentence uses 'no less than' correctly?",
+    "options": [
+      "He gave no less than $100.",
+      "He gave no less than $100?",
+      "He gave no less than $100!",
+      "He gave no less than $100;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'No less than' = as much as (emphatic)."
+  },
+  {
+    "id": 188,
+    "text": "Choose the sentence with correct use of 'nothing less than'.",
+    "options": [
+      "His behavior was nothing less than outrageous.",
+      "His behavior was nothing less than outrageous?",
+      "His behavior was nothing less than outrageous!",
+      "His behavior was nothing less than outrageous;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Nothing less than' = completely (strong)."
+  },
+  {
+    "id": 189,
+    "text": "Which sentence uses 'all but' correctly?",
+    "options": [
+      "He was all but dead when they found him.",
+      "He was all but dead when they found him?",
+      "He was all but dead when they found him!",
+      "He was all but dead when they found him;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'All but + adjective' = almost."
+  },
+  {
+    "id": 190,
+    "text": "Choose the sentence with correct use of 'anything but'.",
+    "options": [
+      "He was anything but happy.",
+      "He was anything but happy?",
+      "He was anything but happy!",
+      "He was anything but happy;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Anything but + adjective' = not at all."
+  },
+  {
+    "id": 191,
+    "text": "Which sentence uses 'nothing but' correctly?",
+    "options": [
+      "He wanted nothing but success.",
+      "He wanted nothing but success?",
+      "He wanted nothing but success!",
+      "He wanted nothing but success;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Nothing but + noun' = only."
+  },
+  {
+    "id": 192,
+    "text": "Choose the sentence with correct use of 'the same as'.",
+    "options": [
+      "His car is the same as mine.",
+      "His car is the same as mine?",
+      "His car is the same as mine!",
+      "His car is the same as mine;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'The same as' – comparison."
+  },
+  {
+    "id": 193,
+    "text": "Which sentence uses 'different from' correctly?",
+    "options": [
+      "His car is different from mine.",
+      "His car is different from mine?",
+      "His car is different from mine!",
+      "His car is different from mine;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Different from' – standard English."
+  },
+  {
+    "id": 194,
+    "text": "Choose the sentence with correct use of 'similar to'.",
+    "options": [
+      "His car is similar to mine.",
+      "His car is similar to mine?",
+      "His car is similar to mine!",
+      "His car is similar to mine;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Similar to + noun'."
+  },
+  {
+    "id": 195,
+    "text": "Which sentence uses 'such as' correctly?",
+    "options": [
+      "He likes sports such as football and tennis.",
+      "He likes sports such as football and tennis?",
+      "He likes sports such as football and tennis!",
+      "He likes sports such as football and tennis;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Such as' – examples."
+  },
+  {
+    "id": 196,
+    "text": "Choose the sentence with correct use of 'like' (informal comparison).",
+    "options": [
+      "He plays like a professional.",
+      "He plays like a professional?",
+      "He plays like a professional!",
+      "He plays like a professional;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Like + noun' – informal comparison."
+  },
+  {
+    "id": 197,
+    "text": "Which sentence uses 'as' for comparison correctly?",
+    "options": [
+      "He plays as a professional does.",
+      "He plays as a professional does?",
+      "He plays as a professional does!",
+      "He plays as a professional does;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'As + clause' – formal comparison."
+  },
+  {
+    "id": 198,
+    "text": "Choose the sentence with correct use of 'the more...the more'.",
+    "options": [
+      "The more you practice, the better you get.",
+      "The more you practice the better you get.",
+      "The more you practice, the better you get",
+      "The more you practice the better you get."
+    ],
+    "correct": 0,
+    "hint": "C1: 'The + comparative..., the + comparative'."
+  },
+  {
+    "id": 199,
+    "text": "Which sentence uses 'sooner or later' correctly?",
+    "options": [
+      "Sooner or later, everyone makes mistakes.",
+      "Sooner or later everyone makes mistakes.",
+      "Sooner or later, everyone makes mistakes",
+      "Sooner or later everyone makes mistakes."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Sooner or later' = eventually."
+  },
+  {
+    "id": 200,
+    "text": "Choose the sentence with correct use of 'in the long run'.",
+    "options": [
+      "In the long run, hard work pays off.",
+      "In the long run hard work pays off.",
+      "In the long run, hard work pays off",
+      "In the long run hard work pays off."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In the long run' – over time."
+  }
+]

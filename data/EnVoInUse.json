@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 201,
+    "text": "Which word means 'to make something seem less important than it really is'?",
+    "options": [
+      "Exaggerate",
+      "Understate",
+      "Overstate",
+      "Emphasize"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Understate' – kamaytirib ko'rsatmoq."
+  },
+  {
+    "id": 202,
+    "text": "Choose the correct collocation: 'She ____ a lot of criticism for her decision.'",
+    "options": [
+      "made",
+      "did",
+      "faced",
+      "took"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Face criticism' – tanqidga duch kelmoq."
+  },
+  {
+    "id": 203,
+    "text": "Which idiom means 'to start something from the beginning'?",
+    "options": [
+      "To go back to the drawing board",
+      "To hit the ground running",
+      "To think outside the box",
+      "To cut corners"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Go back to the drawing board' – boshidan boshlamoq."
+  },
+  {
+    "id": 204,
+    "text": "Choose the correct word: 'The new policy will have a significant ____ on the economy.'",
+    "options": [
+      "affect",
+      "effect",
+      "impact",
+      "result"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Have an impact on' – ta'sir ko'rsatmoq."
+  },
+  {
+    "id": 205,
+    "text": "Which word is a synonym for 'exaggerate'?",
+    "options": [
+      "Understate",
+      "Overstate",
+      "Estimate",
+      "Calculate"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Overstate' – bo'rtirib ko'rsatmoq."
+  },
+  {
+    "id": 206,
+    "text": "Choose the correct collocation: 'He ____ a valid point during the discussion.'",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "gave"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Make a point' – fikr bildirmoq."
+  },
+  {
+    "id": 207,
+    "text": "Which word means 'to make something less severe'?",
+    "options": [
+      "Aggravate",
+      "Alleviate",
+      "Accumulate",
+      "Accelerate"
+    ],
+    "correct": 1,
+    "hint": "C2: 'Alleviate' – yengillashtirmoq."
+  },
+  {
+    "id": 208,
+    "text": "Choose the correct word: 'His argument was completely ____.'",
+    "options": [
+      "flawed",
+      "faulty",
+      "wronged",
+      "broken"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Flawed argument' – nuqsonli dalil."
+  },
+  {
+    "id": 209,
+    "text": "Which idiom means 'to have control over a situation'?",
+    "options": [
+      "To wash one's hands of something",
+      "To have the upper hand",
+      "To live hand to mouth",
+      "To hand it to someone"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Have the upper hand' – ustunlikka ega bo'lmoq."
+  },
+  {
+    "id": 210,
+    "text": "Choose the correct word: 'The two theories are ____ different.'",
+    "options": [
+      "fundamentally",
+      "fundamental",
+      "foundationally",
+      "founded"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Fundamentally different' – tubdan farqli."
+  },
+  {
+    "id": 211,
+    "text": "Which word is most appropriate in an academic context meaning 'to make something clear'?",
+    "options": [
+      "Obscure",
+      "Clarify",
+      "Complicate",
+      "Confuse"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Clarify' – tushuntirmoq, aniqlashtirmoq."
+  },
+  {
+    "id": 212,
+    "text": "Choose the correct collocation: 'She ____ a speech at the conference.'",
+    "options": [
+      "made",
+      "did",
+      "gave",
+      "took"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Give a speech' – nutq so'zlamoq."
+  },
+  {
+    "id": 213,
+    "text": "Which collocation means 'to completely fail'?",
+    "options": [
+      "Make a mistake",
+      "Fall flat on your face",
+      "Take a risk",
+      "Give a try"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Fall flat on your face' – muvaffaqiyatsizlikka uchramoq."
+  },
+  {
+    "id": 214,
+    "text": "Choose the correct word: 'He has a wealth of ____ in this field.'",
+    "options": [
+      "experience",
+      "experiences",
+      "experiencing",
+      "experiential"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Wealth of experience' – boy tajriba."
+  },
+  {
+    "id": 215,
+    "text": "Which verb collocates with 'attention' in formal writing?",
+    "options": [
+      "Pay",
+      "Give",
+      "Draw",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Pay attention', 'give attention', 'draw attention' – all correct."
+  },
+  {
+    "id": 216,
+    "text": "Choose the correct collocation: 'The company ____ a profit this year.'",
+    "options": [
+      "did",
+      "made",
+      "took",
+      "got"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Make a profit' – foyda qilmoq."
+  },
+  {
+    "id": 217,
+    "text": "Which adjective collocates with 'chance'?",
+    "options": [
+      "slim",
+      "thin",
+      "narrow",
+      "small"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Slim chance' – ozgina imkoniyat."
+  },
+  {
+    "id": 218,
+    "text": "Choose the correct word: 'She ____ no attention to the warning.'",
+    "options": [
+      "gave",
+      "paid",
+      "took",
+      "made"
+    ],
+    "correct": 1,
+    "hint": "C1: 'Pay attention to' – e'tibor bermoq."
+  },
+  {
+    "id": 219,
+    "text": "Which word means 'to make a problem worse'?",
+    "options": [
+      "Alleviate",
+      "Mitigate",
+      "Exacerbate",
+      "Remedy"
+    ],
+    "correct": 2,
+    "hint": "C2: 'Exacerbate' – yomonlashtirmoq."
+  },
+  {
+    "id": 220,
+    "text": "Choose the correct collocation: 'He ____ a serious crime.'",
+    "options": [
+      "made",
+      "did",
+      "committed",
+      "performed"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Commit a crime' – jinoyat qilmoq."
+  },
+  {
+    "id": 221,
+    "text": "Which idiom means 'to be very expensive'?",
+    "options": [
+      "Cost an arm and a leg",
+      "Break the bank",
+      "Pay through the nose",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All three idioms mean 'very expensive'."
+  },
+  {
+    "id": 222,
+    "text": "Choose the correct word: 'The project was ____ due to lack of funds.'",
+    "options": [
+      "abandoned",
+      "cancelled",
+      "terminated",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible depending on context."
+  },
+  {
+    "id": 223,
+    "text": "Which word is an antonym of 'permanent'?",
+    "options": [
+      "Temporary",
+      "Constant",
+      "Eternal",
+      "Perpetual"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Temporary' – vaqtinchalik."
+  },
+  {
+    "id": 224,
+    "text": "Choose the correct collocation: 'She ____ a strong impression on me.'",
+    "options": [
+      "made",
+      "did",
+      "created",
+      "formed"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Make an impression' – taassurot qoldirmoq."
+  },
+  {
+    "id": 225,
+    "text": "Which word means 'to gradually become less'?",
+    "options": [
+      "Diminish",
+      "Increase",
+      "Expand",
+      "Amplify"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Diminish' – kamaymoq."
+  },
+  {
+    "id": 226,
+    "text": "Choose the correct word: 'He is ____ to succeed.'",
+    "options": [
+      "destined",
+      "determined",
+      "decided",
+      "devoted"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Destined to succeed' – muvaffaqiyatga mahkum."
+  },
+  {
+    "id": 227,
+    "text": "Which collocation means 'to start a journey'?",
+    "options": [
+      "Make a journey",
+      "Do a journey",
+      "Take a journey",
+      "Set out on a journey"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Set out on a journey' – safarga chiqmoq."
+  },
+  {
+    "id": 228,
+    "text": "Choose the correct word: 'This is a ____ decision for the company.'",
+    "options": [
+      "critical",
+      "critic",
+      "critique",
+      "criticism"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Critical decision' – muhim qaror."
+  },
+  {
+    "id": 229,
+    "text": "Which word means 'to agree without protest'?",
+    "options": [
+      "Resist",
+      "Oppose",
+      "Acquiesce",
+      "Defy"
+    ],
+    "correct": 2,
+    "hint": "C2: 'Acquiesce' – rozi bo'lmoq, qarshilik qilmaslik."
+  },
+  {
+    "id": 230,
+    "text": "Choose the correct collocation: 'He ____ a fortune in the stock market.'",
+    "options": [
+      "made",
+      "did",
+      "earned",
+      "gained"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Make a fortune' – boylik orttirmoq."
+  },
+  {
+    "id": 231,
+    "text": "Which idiom means 'to reveal a secret'?",
+    "options": [
+      "Spill the beans",
+      "Let the cat out of the bag",
+      "Blow the whistle",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All three mean 'to reveal a secret'."
+  },
+  {
+    "id": 232,
+    "text": "Choose the correct word: 'The company is in ____ debt.'",
+    "options": [
+      "huge",
+      "massive",
+      "crippling",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible collocations with 'debt'."
+  },
+  {
+    "id": 233,
+    "text": "Which word means 'to make something worse'?",
+    "options": [
+      "Aggravate",
+      "Alleviate",
+      "Mitigate",
+      "Relieve"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Aggravate' – yomonlashtirmoq."
+  },
+  {
+    "id": 234,
+    "text": "Choose the correct collocation: 'She ____ a complaint to the manager.'",
+    "options": [
+      "made",
+      "did",
+      "lodged",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a complaint' or 'lodge a complaint'."
+  },
+  {
+    "id": 235,
+    "text": "Which word is a synonym for 'quickly'?",
+    "options": [
+      "Rapidly",
+      "Slowly",
+      "Gradually",
+      "Leisurely"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Rapidly' – tez."
+  },
+  {
+    "id": 236,
+    "text": "Choose the correct word: 'He is ____ to be the best candidate.'",
+    "options": [
+      "considered",
+      "regarded",
+      "seen",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'to be'."
+  },
+  {
+    "id": 237,
+    "text": "Which collocation means 'to take a risk'?",
+    "options": [
+      "Make a risk",
+      "Do a risk",
+      "Take a risk",
+      "Have a risk"
+    ],
+    "correct": 2,
+    "hint": "C1: 'Take a risk' – tavakkal qilmoq."
+  },
+  {
+    "id": 238,
+    "text": "Choose the correct word: 'The two companies ____ a merger.'",
+    "options": [
+      "announced",
+      "declared",
+      "proposed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible depending on context."
+  },
+  {
+    "id": 239,
+    "text": "Which word means 'to make a secret plan'?",
+    "options": [
+      "Plot",
+      "Plan",
+      "Scheme",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C2: 'Plot' and 'scheme' have negative connotations."
+  },
+  {
+    "id": 240,
+    "text": "Choose the correct collocation: 'He ____ a good reputation.'",
+    "options": [
+      "built",
+      "established",
+      "earned",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'reputation'."
+  },
+  {
+    "id": 241,
+    "text": "Which idiom means 'to be very happy'?",
+    "options": [
+      "Over the moon",
+      "On cloud nine",
+      "Walking on air",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All three mean 'very happy'."
+  },
+  {
+    "id": 242,
+    "text": "Choose the correct word: 'The evidence is ____.'",
+    "options": [
+      "convincing",
+      "persuasive",
+      "compelling",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are synonyms for 'believable'."
+  },
+  {
+    "id": 243,
+    "text": "Which word means 'to give up power'?",
+    "options": [
+      "Resign",
+      "Abdicate",
+      "Relinquish",
+      "Both B and C"
+    ],
+    "correct": 3,
+    "hint": "C2: 'Abdicate' and 'relinquish' – hokimiyatdan voz kechmoq."
+  },
+  {
+    "id": 244,
+    "text": "Choose the correct collocation: 'She ____ a high standard of work.'",
+    "options": [
+      "sets",
+      "puts",
+      "places",
+      "makes"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Set a standard' – standart belgilamoq."
+  },
+  {
+    "id": 245,
+    "text": "Which word is an antonym of 'increase'?",
+    "options": [
+      "Decrease",
+      "Diminish",
+      "Reduce",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are antonyms of 'increase'."
+  },
+  {
+    "id": 246,
+    "text": "Choose the correct word: 'He is a ____ of the arts.'",
+    "options": [
+      "patron",
+      "sponsor",
+      "supporter",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible, 'patron' is most formal."
+  },
+  {
+    "id": 247,
+    "text": "Which collocation means 'to end a relationship'?",
+    "options": [
+      "Break up",
+      "Split up",
+      "Separate",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to end a relationship'."
+  },
+  {
+    "id": 248,
+    "text": "Choose the correct word: 'The meeting was ____ due to illness.'",
+    "options": [
+      "postponed",
+      "delayed",
+      "cancelled",
+      "Both A and B"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Postponed' and 'delayed' – kechiktirildi."
+  },
+  {
+    "id": 249,
+    "text": "Which word means 'to make a formal request'?",
+    "options": [
+      "Ask",
+      "Request",
+      "Petition",
+      "Both B and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Request' and 'petition' – formal."
+  },
+  {
+    "id": 250,
+    "text": "Choose the correct collocation: 'He ____ a new record.'",
+    "options": [
+      "set",
+      "made",
+      "broke",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Set a record', 'break a record', 'make a record'."
+  },
+  {
+    "id": 251,
+    "text": "Which idiom means 'to be very angry'?",
+    "options": [
+      "See red",
+      "Hit the roof",
+      "Go ballistic",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All three mean 'to be very angry'."
+  },
+  {
+    "id": 252,
+    "text": "Choose the correct word: 'The company ____ bankruptcy.'",
+    "options": [
+      "declared",
+      "announced",
+      "filed for",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Declare bankruptcy', 'file for bankruptcy'."
+  },
+  {
+    "id": 253,
+    "text": "Which word means 'to criticize severely'?",
+    "options": [
+      "Praise",
+      "Compliment",
+      "Censure",
+      "Applaud"
+    ],
+    "correct": 2,
+    "hint": "C2: 'Censure' – qattiq tanqid qilmoq."
+  },
+  {
+    "id": 254,
+    "text": "Choose the correct collocation: 'She ____ a strong relationship with her clients.'",
+    "options": [
+      "built",
+      "established",
+      "developed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'relationship'."
+  },
+  {
+    "id": 255,
+    "text": "Which word is a synonym for 'obstacle'?",
+    "options": [
+      "Hindrance",
+      "Advantage",
+      "Benefit",
+      "Opportunity"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Hindrance' – to'siq."
+  },
+  {
+    "id": 256,
+    "text": "Choose the correct word: 'The report ____ the main issues.'",
+    "options": [
+      "highlights",
+      "emphasizes",
+      "stresses",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to give importance to'."
+  },
+  {
+    "id": 257,
+    "text": "Which collocation means 'to do something badly'?",
+    "options": [
+      "Make a mess of",
+      "Bungle",
+      "Botch",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to do something badly'."
+  },
+  {
+    "id": 258,
+    "text": "Choose the correct word: 'He has a ____ for languages.'",
+    "options": [
+      "gift",
+      "talent",
+      "flair",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'natural ability'."
+  },
+  {
+    "id": 259,
+    "text": "Which word means 'to make something clearer'?",
+    "options": [
+      "Elucidate",
+      "Confuse",
+      "Obscure",
+      "Complicate"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Elucidate' – tushuntirmoq, aniqlashtirmoq."
+  },
+  {
+    "id": 260,
+    "text": "Choose the correct collocation: 'She ____ the opportunity to study abroad.'",
+    "options": [
+      "took",
+      "seized",
+      "grabbed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'opportunity'."
+  },
+  {
+    "id": 261,
+    "text": "Which idiom means 'to be very tired'?",
+    "options": [
+      "Run out of steam",
+      "Hit the wall",
+      "Burn out",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to be very tired'."
+  },
+  {
+    "id": 262,
+    "text": "Choose the correct word: 'The government ____ new taxes.'",
+    "options": [
+      "imposed",
+      "levied",
+      "introduced",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'taxes'."
+  },
+  {
+    "id": 263,
+    "text": "Which word means 'to make a judgment'?",
+    "options": [
+      "Assess",
+      "Evaluate",
+      "Appraise",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are synonyms."
+  },
+  {
+    "id": 264,
+    "text": "Choose the correct collocation: 'He ____ a valid excuse.'",
+    "options": [
+      "gave",
+      "provided",
+      "offered",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'excuse'."
+  },
+  {
+    "id": 265,
+    "text": "Which word is an antonym of 'advantage'?",
+    "options": [
+      "Disadvantage",
+      "Drawback",
+      "Downside",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are antonyms of 'advantage'."
+  },
+  {
+    "id": 266,
+    "text": "Choose the correct word: 'The results are ____ with previous studies.'",
+    "options": [
+      "consistent",
+      "compatible",
+      "in line",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'in agreement with'."
+  },
+  {
+    "id": 267,
+    "text": "Which collocation means 'to cause trouble'?",
+    "options": [
+      "Make waves",
+      "Rock the boat",
+      "Stir things up",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to cause trouble'."
+  },
+  {
+    "id": 268,
+    "text": "Choose the correct word: 'She has a ____ understanding of the subject.'",
+    "options": [
+      "deep",
+      "profound",
+      "thorough",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'comprehensive'."
+  },
+  {
+    "id": 269,
+    "text": "Which word means 'to make something less harmful'?",
+    "options": [
+      "Mitigate",
+      "Exacerbate",
+      "Aggravate",
+      "Worsen"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Mitigate' – yengillashtirmoq."
+  },
+  {
+    "id": 270,
+    "text": "Choose the correct collocation: 'He ____ a strong case for the defense.'",
+    "options": [
+      "made",
+      "presented",
+      "built",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'case'."
+  },
+  {
+    "id": 271,
+    "text": "Which idiom means 'to be very busy'?",
+    "options": [
+      "Snowed under",
+      "Up to one's ears",
+      "Run off one's feet",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to be very busy'."
+  },
+  {
+    "id": 272,
+    "text": "Choose the correct word: 'The company ____ a new CEO.'",
+    "options": [
+      "appointed",
+      "named",
+      "hired",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'CEO'."
+  },
+  {
+    "id": 273,
+    "text": "Which word means 'to make a small change'?",
+    "options": [
+      "Adjust",
+      "Modify",
+      "Alter",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to make a change'."
+  },
+  {
+    "id": 274,
+    "text": "Choose the correct collocation: 'She ____ a good salary.'",
+    "options": [
+      "earns",
+      "makes",
+      "receives",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'salary'."
+  },
+  {
+    "id": 275,
+    "text": "Which word is a synonym for 'abundant'?",
+    "options": [
+      "Plentiful",
+      "Scarce",
+      "Rare",
+      "Limited"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Plentiful' – mo'l-ko'l."
+  },
+  {
+    "id": 276,
+    "text": "Choose the correct word: 'The project was a ____ success.'",
+    "options": [
+      "resounding",
+      "great",
+      "remarkable",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'success'."
+  },
+  {
+    "id": 277,
+    "text": "Which collocation means 'to deal with a problem'?",
+    "options": [
+      "Address a problem",
+      "Tackle a problem",
+      "Handle a problem",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to deal with a problem'."
+  },
+  {
+    "id": 278,
+    "text": "Choose the correct word: 'He ____ a significant contribution.'",
+    "options": [
+      "made",
+      "did",
+      "gave",
+      "Both A and C"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a contribution' or 'give a contribution'."
+  },
+  {
+    "id": 279,
+    "text": "Which word means 'to agree with'?",
+    "options": [
+      "Concur",
+      "Dissent",
+      "Oppose",
+      "Disagree"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Concur' – fikrga qo'shilmoq."
+  },
+  {
+    "id": 280,
+    "text": "Choose the correct collocation: 'The price ____ from $10 to $20.'",
+    "options": [
+      "increased",
+      "rose",
+      "went up",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to become higher'."
+  },
+  {
+    "id": 281,
+    "text": "Which idiom means 'to be very excited'?",
+    "options": [
+      "Buzzing",
+      "Thrilled to bits",
+      "On top of the world",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to be very excited'."
+  },
+  {
+    "id": 282,
+    "text": "Choose the correct word: 'She ____ a logical conclusion.'",
+    "options": [
+      "reached",
+      "drew",
+      "came to",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'conclusion'."
+  },
+  {
+    "id": 283,
+    "text": "Which word means 'to make something easier'?",
+    "options": [
+      "Facilitate",
+      "Hinder",
+      "Obstruct",
+      "Complicate"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Facilitate' – osonlashtirmoq."
+  },
+  {
+    "id": 284,
+    "text": "Choose the correct collocation: 'He ____ a strong opinion.'",
+    "options": [
+      "holds",
+      "has",
+      "maintains",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'opinion'."
+  },
+  {
+    "id": 285,
+    "text": "Which word is an antonym of 'ancient'?",
+    "options": [
+      "Modern",
+      "Old",
+      "Aged",
+      "Elderly"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Modern' – zamonaviy."
+  },
+  {
+    "id": 286,
+    "text": "Choose the correct word: 'The evidence is ____.'",
+    "options": [
+      "inconclusive",
+      "ambiguous",
+      "uncertain",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'not clear'."
+  },
+  {
+    "id": 287,
+    "text": "Which collocation means 'to start a business'?",
+    "options": [
+      "Set up a business",
+      "Start a business",
+      "Establish a business",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 288,
+    "text": "Choose the correct word: 'She ____ her anger.'",
+    "options": [
+      "controlled",
+      "suppressed",
+      "managed",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'anger'."
+  },
+  {
+    "id": 289,
+    "text": "Which word means 'to follow someone secretly'?",
+    "options": [
+      "Stalk",
+      "Follow",
+      "Pursue",
+      "Chase"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Stalk' – yashirincha kuzatmoq (salbiy ma'no)."
+  },
+  {
+    "id": 290,
+    "text": "Choose the correct collocation: 'He ____ a promise.'",
+    "options": [
+      "made",
+      "gave",
+      "kept",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: 'Make a promise', 'give a promise', 'keep a promise'."
+  },
+  {
+    "id": 291,
+    "text": "Which idiom means 'to be very successful'?",
+    "options": [
+      "Take off",
+      "Blossom",
+      "Flourish",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to be very successful'."
+  },
+  {
+    "id": 292,
+    "text": "Choose the correct word: 'The plan ____ into action.'",
+    "options": [
+      "was put",
+      "was set",
+      "was put into motion",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 293,
+    "text": "Which word means 'to make a mistake'?",
+    "options": [
+      "Err",
+      "Correct",
+      "Perfect",
+      "Succeed"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Err' – xato qilmoq."
+  },
+  {
+    "id": 294,
+    "text": "Choose the correct collocation: 'She ____ a high price.'",
+    "options": [
+      "paid",
+      "charged",
+      "demanded",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'price'."
+  },
+  {
+    "id": 295,
+    "text": "Which word is a synonym for 'famous'?",
+    "options": [
+      "Renowned",
+      "Unknown",
+      "Obscure",
+      "Anonymous"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Renowned' – mashhur."
+  },
+  {
+    "id": 296,
+    "text": "Choose the correct word: 'The situation is ____.'",
+    "options": [
+      "critical",
+      "urgent",
+      "serious",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible."
+  },
+  {
+    "id": 297,
+    "text": "Which collocation means 'to test something'?",
+    "options": [
+      "Try out",
+      "Test out",
+      "Pilot",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All mean 'to test something'."
+  },
+  {
+    "id": 298,
+    "text": "Choose the correct word: 'He ____ a new theory.'",
+    "options": [
+      "proposed",
+      "suggested",
+      "put forward",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'theory'."
+  },
+  {
+    "id": 299,
+    "text": "Which word means 'to make something stronger'?",
+    "options": [
+      "Reinforce",
+      "Weaken",
+      "Undermine",
+      "Reduce"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Reinforce' – kuchaytirmoq."
+  },
+  {
+    "id": 300,
+    "text": "Choose the correct collocation: 'She ____ a difficult time.'",
+    "options": [
+      "went through",
+      "experienced",
+      "endured",
+      "All of the above"
+    ],
+    "correct": 3,
+    "hint": "C1: All are possible with 'difficult time'."
+  }
+]
