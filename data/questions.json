@@ -1,18 +1,1206 @@
 {
   "ingliz_tili": [
-    {
-      "id": 1,
-      "text": "Which sentence uses 'in case' correctly?",
-      "options": [
-        "I'll take an umbrella in case it rains.",
-        "I'll take an umbrella in case it will rain.",
-        "I took an umbrella in case it rained yesterday.",
-        "I take an umbrella in case it rained."
-      ],
-      "correct": 0,
-      "hint": "⚠️ 'in case' dan keyin present simple ishlatiladi (future ma'nosida)."
-    }
-  ],
+  {
+    "id": 1,
+    "text": "In which context is 'shall' used in modern formal English to express obligation?",
+    "options": [
+      "The tenant shall maintain the property in good condition.",
+      "Shall we begin the meeting?",
+      "I shall never forget this day.",
+      "You shall go to the ball!"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Shall' huquqiy matnlarda majburiyat ifodalaydi."
+  },
+  {
+    "id": 2,
+    "text": "Which sentence demonstrates the correct distinction between 'used to' and 'would' for past habits?",
+    "options": [
+      "When I was a child, I would live in the countryside.",
+      "When I was a child, I used to live in the countryside.",
+      "When I was a child, I would have lived in the countryside.",
+      "When I was a child, I used to living in the countryside."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Used to' state va habit uchun, 'would' faqat action habit uchun."
+  },
+  {
+    "id": 3,
+    "text": "Which sentence correctly uses 'will' for a future prediction based on a personal opinion rather than evidence?",
+    "options": [
+      "Look at those clouds – it will rain.",
+      "I think it will rain tomorrow.",
+      "The forecast says it will rain.",
+      "It will rain by the time we arrive."
+    ],
+    "correct": 1,
+    "hint": "C1: 'I think + will' – shaxsiy fikr, dalilsiz bashorat."
+  },
+  {
+    "id": 4,
+    "text": "Which sentence shows correct subject-verb agreement with a collective noun in British English?",
+    "options": [
+      "The government have announced their decision.",
+      "The government has announced their decision.",
+      "The government have announced its decision.",
+      "The government has announced its decision."
+    ],
+    "correct": 0,
+    "hint": "C1: Britaniya ingliz tilida kollektiv ot ko'plik (individual a'zolar)."
+  },
+  {
+    "id": 5,
+    "text": "Choose the sentence where 'in case' is used correctly with a past reference.",
+    "options": [
+      "I took an umbrella in case it rains.",
+      "I took an umbrella in case it rained.",
+      "I took an umbrella in case it will rain.",
+      "I took an umbrella in case it would rain."
+    ],
+    "correct": 1,
+    "hint": "C1: Pastda 'in case' + past simple."
+  },
+  {
+    "id": 6,
+    "text": "Which sentence correctly distinguishes 'despite' and 'although' with a clause?",
+    "options": [
+      "Despite he was tired, he finished the work.",
+      "Despite being tired, he finished the work.",
+      "Although being tired, he finished the work.",
+      "Despite of being tired, he finished the work."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Despite + gerund', 'although + clause'."
+  },
+  {
+    "id": 7,
+    "text": "Which sentence uses 'neither...nor' correctly with three elements?",
+    "options": [
+      "Neither John, Mary, nor Peter came.",
+      "Neither John nor Mary nor Peter came.",
+      "Neither John, nor Mary, nor Peter came.",
+      "Neither John or Mary or Peter came."
+    ],
+    "correct": 1,
+    "hint": "C2: 'Neither A nor B nor C' – takrorlanuvchi 'nor'."
+  },
+  {
+    "id": 8,
+    "text": "Which sentence correctly uses 'so' and 'such' with a countable noun?",
+    "options": [
+      "It was so beautiful day that we stayed outside.",
+      "It was such beautiful day that we stayed outside.",
+      "It was so a beautiful day that we stayed outside.",
+      "It was such a beautiful day that we stayed outside."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Such a/an + adjective + singular countable noun'."
+  },
+  {
+    "id": 9,
+    "text": "Choose the correct reported speech transformation of 'I will help you tomorrow.'",
+    "options": [
+      "He said he will help me tomorrow.",
+      "He said he would help me the next day.",
+      "He said he would help me tomorrow.",
+      "He said he will help me the next day."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Will → would', 'tomorrow → the next day'."
+  },
+  {
+    "id": 10,
+    "text": "Which sentence uses 'may' appropriately in a formal written request?",
+    "options": [
+      "May I leave early today?",
+      "You may leave if you want.",
+      "Students may use the library after 6 PM.",
+      "May you help me with this?"
+    ],
+    "correct": 2,
+    "hint": "C1: 'May' ruxsat uchun – rasmiy yozma qoidalarda."
+  },
+  {
+    "id": 11,
+    "text": "Which sentence correctly uses 'can' to express a general possibility?",
+    "options": [
+      "Can you pass the salt?",
+      "It can get very cold here in winter.",
+      "You can leave now if you wish.",
+      "I can speak three languages."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Can' umumiy ehtimollik (general possibility)."
+  },
+  {
+    "id": 12,
+    "text": "Choose the sentence where 'need' is used as a modal verb in a negative question.",
+    "options": [
+      "Need you make so much noise?",
+      "Do you need to make so much noise?",
+      "Needn't you make so much noise?",
+      "Don't you need to make so much noise?"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Need you?' – modal 'need' (without 'to') in questions."
+  },
+  {
+    "id": 13,
+    "text": "Which sentence correctly uses 'dare' as a semi-modal in a negative statement?",
+    "options": [
+      "I dare not speak the truth.",
+      "I don't dare speak the truth.",
+      "I dare not to speak the truth.",
+      "I don't dare to speak the truth."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Dare not + infinitive without to' – semi-modal usage."
+  },
+  {
+    "id": 14,
+    "text": "Which sentence demonstrates the correct use of 'used to' to contrast past and present?",
+    "options": [
+      "I used to smoke, but I don't anymore.",
+      "I used to smoke, but I wouldn't anymore.",
+      "I used to smoke, but I'm not anymore.",
+      "I used to smoke, but I didn't anymore."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Used to' past habit vs present contrast."
+  },
+  {
+    "id": 15,
+    "text": "Choose the sentence where 'would' expresses a typical past behavior with irritation.",
+    "options": [
+      "He would always forget his keys.",
+      "He used to always forget his keys.",
+      "He would have forgotten his keys.",
+      "He would be forgetting his keys."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Would + always' – typical past behavior (sometimes irritation)."
+  },
+  {
+    "id": 16,
+    "text": "Which sentence correctly uses 'be to' for a formal future arrangement?",
+    "options": [
+      "The president is to visit France next week.",
+      "The president will visit France next week.",
+      "The president is going to visit France next week.",
+      "The president visits France next week."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Be to + infinitive' – rasmiy kelishuv, reja."
+  },
+  {
+    "id": 17,
+    "text": "Which sentence uses 'be about to' correctly for an immediate future?",
+    "options": [
+      "I am about to leave when the phone rang.",
+      "I was about to leave when the phone rang.",
+      "I am about to have left when the phone rang.",
+      "I was about to have left when the phone rang."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Was about to' + past event interruption."
+  },
+  {
+    "id": 18,
+    "text": "Choose the sentence where 'will have + past participle' is used correctly for a future perfect prediction.",
+    "options": [
+      "By next year, I will have finished my degree.",
+      "By next year, I will finish my degree.",
+      "By next year, I have finished my degree.",
+      "By next year, I will be finishing my degree."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Will have + V3' – future perfect."
+  },
+  {
+    "id": 19,
+    "text": "Which sentence correctly uses 'would have + past participle' for a past unreal conditional?",
+    "options": [
+      "If I knew, I would have helped.",
+      "If I had known, I would have helped.",
+      "If I would have known, I helped.",
+      "If I knew, I would help."
+    ],
+    "correct": 1,
+    "hint": "C1: 'If + had + V3, would have + V3' – past unreal."
+  },
+  {
+    "id": 20,
+    "text": "Which sentence demonstrates correct use of 'could have + past participle' for a past possibility that didn't happen?",
+    "options": [
+      "You could have told me earlier.",
+      "You could tell me earlier.",
+      "You could be telling me earlier.",
+      "You could have been telling me earlier."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Could have + V3' – past possibility (regret/criticism)."
+  },
+  {
+    "id": 21,
+    "text": "Which sentence correctly uses 'might have + past participle' to express uncertainty about the past?",
+    "options": [
+      "He might have left already.",
+      "He might leave already.",
+      "He might be leaving already.",
+      "He might have been leaving already."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Might have + V3' – past uncertainty."
+  },
+  {
+    "id": 22,
+    "text": "Choose the sentence where 'must have + past participle' expresses a logical conclusion about the past.",
+    "options": [
+      "He must have finished by now.",
+      "He must finish by now.",
+      "He must be finishing by now.",
+      "He must have been finishing by now."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Must have + V3' – logical deduction about past."
+  },
+  {
+    "id": 23,
+    "text": "Which sentence uses 'can't have + past participle' correctly for negative deduction?",
+    "options": [
+      "He can't have seen us – it was too dark.",
+      "He can't see us – it was too dark.",
+      "He couldn't have seen us – it was too dark.",
+      "He couldn't see us – it was too dark."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Can't have + V3' – negative deduction about past."
+  },
+  {
+    "id": 24,
+    "text": "Which sentence demonstrates the correct use of 'needn't have + past participle'?",
+    "options": [
+      "You needn't have bought any bread – we had plenty.",
+      "You needn't buy any bread – we had plenty.",
+      "You didn't need to buy bread – we had plenty.",
+      "You needn't have bought any bread – we have plenty."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Needn't have + V3' – unnecessary past action (already done)."
+  },
+  {
+    "id": 25,
+    "text": "Which sentence correctly uses 'didn't need to' to mean the action was not necessary and was not done?",
+    "options": [
+      "I didn't need to cook because we ate out.",
+      "I needn't have cooked because we ate out.",
+      "I didn't need to cook but I did.",
+      "I needn't cook because we ate out."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Didn't need to' – action not necessary and not done."
+  },
+  {
+    "id": 26,
+    "text": "Choose the sentence where 'had better' expresses a strong warning rather than advice.",
+    "options": [
+      "You had better finish your homework.",
+      "You had better not be late again.",
+      "You had better see a doctor.",
+      "You had better take an umbrella."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Had better not' – strong warning (threat)."
+  },
+  {
+    "id": 27,
+    "text": "Which sentence correctly uses 'would rather' with a past reference?",
+    "options": [
+      "I would rather you had not told him.",
+      "I would rather you didn't tell him.",
+      "I would rather you not tell him.",
+      "I would rather you haven't told him."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Would rather + subject + had + V3' – past regret."
+  },
+  {
+    "id": 28,
+    "text": "Which sentence correctly distinguishes 'like' and 'as' in a comparison?",
+    "options": [
+      "He speaks like a native speaker does.",
+      "He speaks as a native speaker.",
+      "He speaks like a native speaker.",
+      "He speaks as like a native speaker."
+    ],
+    "correct": 2,
+    "hint": "C1: 'Like' + noun (comparison), 'as' + clause."
+  },
+  {
+    "id": 29,
+    "text": "Which sentence correctly uses 'as if' for an unreal situation in the present?",
+    "options": [
+      "He talks as if he knows everything.",
+      "He talks as if he knew everything.",
+      "He talks as if he has known everything.",
+      "He talks as if he is knowing everything."
+    ],
+    "correct": 1,
+    "hint": "C1: 'As if + past subjunctive' – unreal present."
+  },
+  {
+    "id": 30,
+    "text": "Choose the sentence where 'even if' introduces a hypothetical concession.",
+    "options": [
+      "Even if it rains, we will go.",
+      "Even if it rained, we would go.",
+      "Even if it had rained, we would have gone.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Even if' – hypothetical concession in all time frames."
+  },
+  {
+    "id": 31,
+    "text": "Which sentence correctly uses 'only if' for a strong condition?",
+    "options": [
+      "Only if you apologize will I forgive you.",
+      "Only if you apologize I will forgive you.",
+      "Only if you apologize, I will forgive you.",
+      "Only if you apologize will I forgive you?"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Only if + clause + auxiliary + subject' – inversion."
+  },
+  {
+    "id": 32,
+    "text": "Which sentence correctly uses 'provided that' with a future reference?",
+    "options": [
+      "Provided that you will come, I'll stay.",
+      "Provided that you come, I'll stay.",
+      "Provided that you came, I'll stay.",
+      "Provided that you have come, I'll stay."
+    ],
+    "correct": 1,
+    "hint": "C1: 'Provided that + present simple' for future condition."
+  },
+  {
+    "id": 33,
+    "text": "Choose the sentence where 'suppose' introduces a hypothetical situation.",
+    "options": [
+      "Suppose you won the lottery, what would you do?",
+      "Suppose you win the lottery, what will you do?",
+      "Suppose you have won the lottery, what will you do?",
+      "Suppose you are winning the lottery, what will you do?"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Suppose + past tense' for hypothetical."
+  },
+  {
+    "id": 34,
+    "text": "Which sentence correctly uses 'what if' for a worrying possibility?",
+    "options": [
+      "What if he doesn't come?",
+      "What if he didn't come?",
+      "What if he hadn't come?",
+      "What if he won't come?"
+    ],
+    "correct": 0,
+    "hint": "C1: 'What if + present simple' – real worry."
+  },
+  {
+    "id": 35,
+    "text": "Which sentence correctly uses 'as long as' for a condition?",
+    "options": [
+      "You can stay as long as you are quiet.",
+      "You can stay as long as you will be quiet.",
+      "You can stay as long as you were quiet.",
+      "You can stay as long as you have been quiet."
+    ],
+    "correct": 0,
+    "hint": "C1: 'As long as + present simple' – condition."
+  },
+  {
+    "id": 36,
+    "text": "Which sentence demonstrates the correct use of 'on condition that' with a negative?",
+    "options": [
+      "I'll lend you the money on condition that you not waste it.",
+      "I'll lend you the money on condition that you don't waste it.",
+      "I'll lend you the money on condition that you won't waste it.",
+      "I'll lend you the money on condition that you didn't waste it."
+    ],
+    "correct": 1,
+    "hint": "C2: 'On condition that + don't' for negative condition."
+  },
+  {
+    "id": 37,
+    "text": "Which sentence correctly uses 'but for' in a past conditional?",
+    "options": [
+      "But for your help, I would have failed.",
+      "But for your help, I would fail.",
+      "But for your help, I failed.",
+      "But for your help, I have failed."
+    ],
+    "correct": 0,
+    "hint": "C2: 'But for + noun, would have + V3' – past conditional."
+  },
+  {
+    "id": 38,
+    "text": "Which sentence correctly uses 'if it were not for' in a present context?",
+    "options": [
+      "If it were not for your help, I would be lost.",
+      "If it were not for your help, I would have been lost.",
+      "If it had not been for your help, I would be lost.",
+      "If it was not for your help, I would be lost."
+    ],
+    "correct": 0,
+    "hint": "C2: 'If it were not for' + would – present unreal."
+  },
+  {
+    "id": 39,
+    "text": "Which sentence correctly uses 'if only' to express a past wish?",
+    "options": [
+      "If only I had studied harder.",
+      "If only I studied harder.",
+      "If only I study harder.",
+      "If only I will study harder."
+    ],
+    "correct": 0,
+    "hint": "C1: 'If only + had + V3' – past regret."
+  },
+  {
+    "id": 40,
+    "text": "Which sentence correctly uses 'it's time' with a past subjunctive?",
+    "options": [
+      "It's time we went home.",
+      "It's time we go home.",
+      "It's time we will go home.",
+      "It's time we have gone home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'It's time + past subjunctive' – suggestion for now."
+  },
+  {
+    "id": 41,
+    "text": "Which sentence correctly uses 'it's high time' for criticism?",
+    "options": [
+      "It's high time you started working harder.",
+      "It's high time you start working harder.",
+      "It's high time you will start working harder.",
+      "It's high time you have started working harder."
+    ],
+    "correct": 0,
+    "hint": "C1: 'It's high time + past subjunctive' – criticism."
+  },
+  {
+    "id": 42,
+    "text": "Which sentence correctly uses 'for fear that' with 'might'?",
+    "options": [
+      "He left early for fear that he might miss the train.",
+      "He left early for fear that he will miss the train.",
+      "He left early for fear that he misses the train.",
+      "He left early for fear that he missed the train."
+    ],
+    "correct": 0,
+    "hint": "C1: 'For fear that + might' – past concern."
+  },
+  {
+    "id": 43,
+    "text": "Which sentence correctly uses 'lest' with the subjunctive?",
+    "options": [
+      "He ran lest he be late.",
+      "He ran lest he is late.",
+      "He ran lest he was late.",
+      "He ran lest he will be late."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Lest + subjunctive (be)' – formal negative purpose."
+  },
+  {
+    "id": 44,
+    "text": "Which sentence correctly uses 'in case of' with a noun phrase?",
+    "options": [
+      "In case of fire, leave the building.",
+      "In case of fire, you will leave the building.",
+      "In case of fire, leaving the building.",
+      "In case of fire, to leave the building."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In case of + noun' – emergency instructions."
+  },
+  {
+    "id": 45,
+    "text": "Which sentence correctly uses 'in the event of' formally?",
+    "options": [
+      "In the event of an emergency, call 911.",
+      "In the event of an emergency, you will call 911.",
+      "In the event of an emergency, calling 911.",
+      "In the event of an emergency, called 911."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In the event of + noun' – formal contingency."
+  },
+  {
+    "id": 46,
+    "text": "Which sentence correctly uses 'with a view to' with a gerund?",
+    "options": [
+      "He bought the land with a view to building a house.",
+      "He bought the land with a view to build a house.",
+      "He bought the land with a view to built a house.",
+      "He bought the land with a view to will build a house."
+    ],
+    "correct": 0,
+    "hint": "C1: 'With a view to + V-ing' – purpose."
+  },
+  {
+    "id": 47,
+    "text": "Which sentence correctly uses 'so as to' with a negative infinitive?",
+    "options": [
+      "He left early so as not to miss the train.",
+      "He left early so as to not miss the train.",
+      "He left early so as to don't miss the train.",
+      "He left early so as to won't miss the train."
+    ],
+    "correct": 0,
+    "hint": "C1: 'So as not to + infinitive' – negative purpose."
+  },
+  {
+    "id": 48,
+    "text": "Which sentence correctly uses 'in order that' with 'might'?",
+    "options": [
+      "He spoke slowly in order that everyone might understand.",
+      "He spoke slowly in order that everyone will understand.",
+      "He spoke slowly in order that everyone understands.",
+      "He spoke slowly in order that everyone understood."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In order that + might' – formal purpose."
+  },
+  {
+    "id": 49,
+    "text": "Which sentence correctly uses 'seeing that' for an obvious reason?",
+    "options": [
+      "Seeing that it's raining, we should stay home.",
+      "Seeing that it rains, we should stay home.",
+      "Seeing that it rained, we should stay home.",
+      "Seeing that it will rain, we should stay home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Seeing that + present' – obvious reason."
+  },
+  {
+    "id": 50,
+    "text": "Which sentence correctly uses 'given that' for a known fact?",
+    "options": [
+      "Given that he is an expert, his opinion matters.",
+      "Given that he was an expert, his opinion mattered.",
+      "Given that he will be an expert, his opinion will matter.",
+      "Given that he has been an expert, his opinion has mattered."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Given that + present' – known fact."
+  },
+  {
+    "id": 51,
+    "text": "Which sentence correctly uses 'in that' for a specific reason in academic writing?",
+    "options": [
+      "The theory is flawed in that it ignores historical context.",
+      "The theory is flawed in that, it ignores historical context.",
+      "The theory is flawed in that which ignores historical context.",
+      "The theory is flawed in that where it ignores historical context."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In that + clause' – specific reason (academic)."
+  },
+  {
+    "id": 52,
+    "text": "Which sentence correctly uses 'now that' for a new situation?",
+    "options": [
+      "Now that you are here, we can start.",
+      "Now that you were here, we could start.",
+      "Now that you will be here, we will start.",
+      "Now that you have been here, we started."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Now that + present' – new situation."
+  },
+  {
+    "id": 53,
+    "text": "Which sentence correctly uses 'insofar as' to limit a claim?",
+    "options": [
+      "He is correct insofar as I can judge.",
+      "He is correct insofar as I can judge?",
+      "He is correct insofar as I can judge!",
+      "He is correct insofar as I can judge;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Insofar as' – to the extent that (formal)."
+  },
+  {
+    "id": 54,
+    "text": "Which sentence correctly uses 'for all' to mean 'despite'?",
+    "options": [
+      "For all his wealth, he is unhappy.",
+      "For all his wealth he is unhappy.",
+      "For all his wealth, but he is unhappy.",
+      "For all his wealth, so he is unhappy."
+    ],
+    "correct": 0,
+    "hint": "C2: 'For all + noun' = despite."
+  },
+  {
+    "id": 55,
+    "text": "Which sentence correctly uses 'much as' for concession?",
+    "options": [
+      "Much as I admire him, I cannot agree.",
+      "Much as I admire him I cannot agree.",
+      "Much as I admire him, but I cannot agree.",
+      "Much as I admire him, so I cannot agree."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Much as + clause' = although."
+  },
+  {
+    "id": 56,
+    "text": "Which sentence correctly uses 'be that as it may' for concession?",
+    "options": [
+      "Be that as it may, we must continue.",
+      "Be that as it may we must continue.",
+      "Be that as it may, but we must continue.",
+      "Be that as it may, so we must continue."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Be that as it may' – formal concession."
+  },
+  {
+    "id": 57,
+    "text": "Which sentence correctly uses 'nevertheless' with a semicolon?",
+    "options": [
+      "It was raining; nevertheless, we went out.",
+      "It was raining nevertheless, we went out.",
+      "It was raining, nevertheless we went out.",
+      "It was raining nevertheless we went out."
+    ],
+    "correct": 0,
+    "hint": "C1: '; nevertheless,' – formal contrast."
+  },
+  {
+    "id": 58,
+    "text": "Which sentence correctly uses 'nonetheless' for contrast?",
+    "options": [
+      "It was difficult; nonetheless, we succeeded.",
+      "It was difficult nonetheless, we succeeded.",
+      "It was difficult, nonetheless we succeeded.",
+      "It was difficult nonetheless we succeeded."
+    ],
+    "correct": 0,
+    "hint": "C1: '; nonetheless,' – formal contrast."
+  },
+  {
+    "id": 59,
+    "text": "Which sentence correctly uses 'notwithstanding' in postpositive position?",
+    "options": [
+      "The difficulties notwithstanding, we succeeded.",
+      "Notwithstanding the difficulties, we succeeded.",
+      "We succeeded, the difficulties notwithstanding.",
+      "We succeeded notwithstanding the difficulties."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Noun + notwithstanding' – most formal."
+  },
+  {
+    "id": 60,
+    "text": "Which sentence correctly uses 'regardless of' with a gerund?",
+    "options": [
+      "Regardless of being tired, he finished.",
+      "Regardless of he was tired, he finished.",
+      "Regardless of his tiredness, he finished.",
+      "Regardless of tired, he finished."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Regardless of + gerund' – despite."
+  },
+  {
+    "id": 61,
+    "text": "Which sentence correctly uses 'irrespective of' with a noun?",
+    "options": [
+      "Irrespective of age, everyone can apply.",
+      "Irrespective of age everyone can apply.",
+      "Irrespective of age, everyone can apply",
+      "Irrespective of age everyone can apply."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Irrespective of + noun' – regardless of."
+  },
+  {
+    "id": 62,
+    "text": "Which sentence correctly uses 'in light of' with a past event?",
+    "options": [
+      "In light of recent events, we changed our plans.",
+      "In light of recent events we changed our plans.",
+      "In light of recent events, we change our plans.",
+      "In light of recent events we change our plans."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In light of + noun' – because of (past result)."
+  },
+  {
+    "id": 63,
+    "text": "Which sentence correctly uses 'owing to' in formal writing?",
+    "options": [
+      "Owing to the rain, the match was cancelled.",
+      "Owing to the rain the match was cancelled.",
+      "Owing to the rain, the match is cancelled.",
+      "Owing to the rain the match is cancelled."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Owing to + noun' – because of (formal)."
+  },
+  {
+    "id": 64,
+    "text": "Which sentence correctly uses 'thanks to' for a positive reason?",
+    "options": [
+      "Thanks to your help, we succeeded.",
+      "Thanks to your help we succeeded.",
+      "Thanks to your help, we succeed.",
+      "Thanks to your help we succeed."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Thanks to + noun' – positive cause."
+  },
+  {
+    "id": 65,
+    "text": "Which sentence correctly uses 'by virtue of' in a legal context?",
+    "options": [
+      "He holds power by virtue of his position.",
+      "He holds power by virtue of his position?",
+      "He holds power by virtue of his position!",
+      "He holds power by virtue of his position;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'By virtue of + noun' – because of (legal/formal)."
+  },
+  {
+    "id": 66,
+    "text": "Which sentence correctly uses 'in view of' with a future plan?",
+    "options": [
+      "In view of the weather, we will stay home.",
+      "In view of the weather we will stay home.",
+      "In view of the weather, we stay home.",
+      "In view of the weather we stay home."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In view of + noun' – considering."
+  },
+  {
+    "id": 67,
+    "text": "Which sentence correctly uses 'on account of' with a gerund?",
+    "options": [
+      "He was late on account of missing the bus.",
+      "He was late on account of he missed the bus.",
+      "He was late on account of his missing the bus.",
+      "He was late on account of missed the bus."
+    ],
+    "correct": 0,
+    "hint": "C1: 'On account of + gerund' – because of."
+  },
+  {
+    "id": 68,
+    "text": "Which sentence correctly uses 'in consequence of' formally?",
+    "options": [
+      "In consequence of his actions, he was fired.",
+      "In consequence of his actions he was fired.",
+      "In consequence of his actions, he is fired.",
+      "In consequence of his actions he is fired."
+    ],
+    "correct": 0,
+    "hint": "C2: 'In consequence of + noun' – as a result of."
+  },
+  {
+    "id": 69,
+    "text": "Which sentence correctly uses 'as a result of' with a noun phrase?",
+    "options": [
+      "As a result of the storm, many trees fell.",
+      "As a result of the storm many trees fell.",
+      "As a result of the storm, many trees fall.",
+      "As a result of the storm many trees fall."
+    ],
+    "correct": 0,
+    "hint": "C1: 'As a result of + noun' – cause-effect."
+  },
+  {
+    "id": 70,
+    "text": "Which sentence correctly uses 'due to' after a form of 'to be'?",
+    "options": [
+      "The cancellation was due to the rain.",
+      "Due to the rain, the game was cancelled.",
+      "The game was cancelled due to the rain.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Due to' – all positions acceptable now."
+  },
+  {
+    "id": 71,
+    "text": "Which sentence correctly uses 'the same...as' with an inverted clause?",
+    "options": [
+      "He has the same car as does his brother.",
+      "He has the same car as his brother does.",
+      "He has the same car as his brother.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C2: 'The same...as' – inversion possible."
+  },
+  {
+    "id": 72,
+    "text": "Which sentence correctly uses 'different from' with a pronoun?",
+    "options": [
+      "His opinion is different from mine.",
+      "His opinion is different than mine.",
+      "His opinion is different to mine.",
+      "His opinion is different of mine."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Different from' – standard English."
+  },
+  {
+    "id": 73,
+    "text": "Which sentence correctly uses 'similar to' with a clause?",
+    "options": [
+      "His approach is similar to that of his predecessor.",
+      "His approach is similar to his predecessor.",
+      "His approach is similar like his predecessor.",
+      "His approach is similar as his predecessor."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Similar to that of' – precise comparison."
+  },
+  {
+    "id": 74,
+    "text": "Which sentence correctly uses 'such as' with a list?",
+    "options": [
+      "He likes sports such as football, tennis, and basketball.",
+      "He likes sports such as football, tennis and basketball.",
+      "He likes sports such as: football, tennis, basketball.",
+      "He likes sports such as football tennis basketball."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Such as' – comma before list, 'and' before last."
+  },
+  {
+    "id": 75,
+    "text": "Which sentence correctly uses 'rather than' with parallel structure?",
+    "options": [
+      "He chose to quit rather than to continue.",
+      "He chose to quit rather than continue.",
+      "He chose quitting rather than continuing.",
+      "All of the above."
+    ],
+    "correct": 3,
+    "hint": "C1: 'Rather than' – parallel structures."
+  },
+  {
+    "id": 76,
+    "text": "Which sentence correctly uses 'no less than' for emphasis?",
+    "options": [
+      "He gave no less than $1000.",
+      "He gave no less than $1000?",
+      "He gave no less than $1000!",
+      "He gave no less than $1000;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'No less than' – emphatic quantity."
+  },
+  {
+    "id": 77,
+    "text": "Which sentence correctly uses 'nothing less than' for strong emotion?",
+    "options": [
+      "His behavior was nothing less than outrageous.",
+      "His behavior was nothing less than outrageous?",
+      "His behavior was nothing less than outrageous!",
+      "His behavior was nothing less than outrageous;"
+    ],
+    "correct": 0,
+    "hint": "C2: 'Nothing less than' – completely (strong)."
+  },
+  {
+    "id": 78,
+    "text": "Which sentence correctly uses 'all but' to mean 'almost'?",
+    "options": [
+      "He was all but dead when they found him.",
+      "He was all but dead when they found him?",
+      "He was all but dead when they found him!",
+      "He was all but dead when they found him;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'All but + adjective' = almost."
+  },
+  {
+    "id": 79,
+    "text": "Which sentence correctly uses 'anything but' for negation?",
+    "options": [
+      "He was anything but happy.",
+      "He was anything but happy?",
+      "He was anything but happy!",
+      "He was anything but happy;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Anything but + adjective' = not at all."
+  },
+  {
+    "id": 80,
+    "text": "Which sentence correctly uses 'nothing but' for restriction?",
+    "options": [
+      "He wanted nothing but success.",
+      "He wanted nothing but success?",
+      "He wanted nothing but success!",
+      "He wanted nothing but success;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'Nothing but + noun' = only."
+  },
+  {
+    "id": 81,
+    "text": "Which sentence correctly uses 'more than' with an adjective for emphasis?",
+    "options": [
+      "He is more than happy to help.",
+      "He is more than happy to help?",
+      "He is more than happy to help!",
+      "He is more than happy to help;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'More than + adjective' = very."
+  },
+  {
+    "id": 82,
+    "text": "Which sentence correctly uses 'sooner or later' for inevitability?",
+    "options": [
+      "Sooner or later, everyone makes mistakes.",
+      "Sooner or later everyone makes mistakes.",
+      "Sooner or later, everyone makes mistakes",
+      "Sooner or later everyone makes mistakes."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Sooner or later' – inevitable future."
+  },
+  {
+    "id": 83,
+    "text": "Which sentence correctly uses 'as it were' as a hedging device?",
+    "options": [
+      "He is, as it were, a walking encyclopedia.",
+      "He is as it were a walking encyclopedia.",
+      "He is, as it were a walking encyclopedia.",
+      "He is as it were, a walking encyclopedia."
+    ],
+    "correct": 0,
+    "hint": "C2: 'As it were' – hedging (formal)."
+  },
+  {
+    "id": 84,
+    "text": "Which sentence correctly uses 'so to speak' for figurative language?",
+    "options": [
+      "He is, so to speak, a lone wolf.",
+      "He is so to speak a lone wolf.",
+      "He is, so to speak a lone wolf.",
+      "He is so to speak, a lone wolf."
+    ],
+    "correct": 0,
+    "hint": "C2: 'So to speak' – figurative marker."
+  },
+  {
+    "id": 85,
+    "text": "Which sentence correctly uses 'in a manner of speaking'?",
+    "options": [
+      "He is, in a manner of speaking, the leader.",
+      "He is in a manner of speaking the leader.",
+      "He is, in a manner of speaking the leader.",
+      "He is in a manner of speaking, the leader."
+    ],
+    "correct": 0,
+    "hint": "C2: 'In a manner of speaking' – loosely speaking."
+  },
+  {
+    "id": 86,
+    "text": "Which sentence correctly uses 'to say the least' for understatement?",
+    "options": [
+      "His behavior was inappropriate, to say the least.",
+      "His behavior was inappropriate to say the least.",
+      "His behavior was inappropriate, to say the least",
+      "His behavior was inappropriate to say the least."
+    ],
+    "correct": 0,
+    "hint": "C2: 'To say the least' – understatement."
+  },
+  {
+    "id": 87,
+    "text": "Which sentence correctly uses 'needless to say'?",
+    "options": [
+      "Needless to say, he was late again.",
+      "Needless to say he was late again.",
+      "Needless to say, he was late again",
+      "Needless to say he was late again."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Needless to say' – obvious statement."
+  },
+  {
+    "id": 88,
+    "text": "Which sentence correctly uses 'strange as it may seem'?",
+    "options": [
+      "Strange as it may seem, he passed the test.",
+      "Strange as it may seem he passed the test.",
+      "Strange as it may seem, he passed the test",
+      "Strange as it may seem he passed the test."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Strange as it may seem' – concession."
+  },
+  {
+    "id": 89,
+    "text": "Which sentence correctly uses 'believe it or not'?",
+    "options": [
+      "Believe it or not, I have never seen snow.",
+      "Believe it or not I have never seen snow.",
+      "Believe it or not, I have never seen snow",
+      "Believe it or not I have never seen snow."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Believe it or not' – surprising truth."
+  },
+  {
+    "id": 90,
+    "text": "Which sentence correctly uses 'if you ask me' for opinion?",
+    "options": [
+      "If you ask me, he is making a mistake.",
+      "If you ask me he is making a mistake.",
+      "If you ask me, he is making a mistake",
+      "If you ask me he is making a mistake."
+    ],
+    "correct": 0,
+    "hint": "C1: 'If you ask me' – personal opinion."
+  },
+  {
+    "id": 91,
+    "text": "Which sentence correctly uses 'mind you' to add a contrasting point?",
+    "options": [
+      "He is very smart. Mind you, he can be lazy.",
+      "He is very smart. Mind you he can be lazy.",
+      "He is very smart mind you, he can be lazy.",
+      "He is very smart mind you he can be lazy."
+    ],
+    "correct": 0,
+    "hint": "C2: 'Mind you' – contrast marker."
+  },
+  {
+    "id": 92,
+    "text": "Which sentence correctly uses 'still' as a discourse marker for contrast?",
+    "options": [
+      "He is rich. Still, he is unhappy.",
+      "He is rich still, he is unhappy.",
+      "He is rich still he is unhappy.",
+      "He is rich, still he is unhappy."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Still' – contrast marker (nonetheless)."
+  },
+  {
+    "id": 93,
+    "text": "Which sentence correctly uses 'though' at the end of a sentence for contrast?",
+    "options": [
+      "He is rich. He is unhappy, though.",
+      "He is rich. He is unhappy though.",
+      "He is rich. Though, he is unhappy.",
+      "He is rich though, he is unhappy."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Though' at end – informal contrast."
+  },
+  {
+    "id": 94,
+    "text": "Which sentence correctly uses 'whereas' to contrast two clauses?",
+    "options": [
+      "He likes coffee, whereas she prefers tea.",
+      "He likes coffee whereas she prefers tea.",
+      "He likes coffee whereas, she prefers tea.",
+      "He likes coffee, whereas she prefers tea."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Whereas' – direct contrast."
+  },
+  {
+    "id": 95,
+    "text": "Which sentence correctly uses 'while' for contrast (not time)?",
+    "options": [
+      "While he is rich, she is poor.",
+      "While he is rich she is poor.",
+      "While he is rich, she is poor",
+      "While he is rich she is poor."
+    ],
+    "correct": 0,
+    "hint": "C1: 'While' for contrast – comma."
+  },
+  {
+    "id": 96,
+    "text": "Which sentence correctly uses 'on the contrary' after a negative?",
+    "options": [
+      "He is not lazy. On the contrary, he works very hard.",
+      "He is not lazy. On the contrary he works very hard.",
+      "He is not lazy on the contrary, he works very hard.",
+      "He is not lazy on the contrary he works very hard."
+    ],
+    "correct": 0,
+    "hint": "C1: 'On the contrary' – after negative."
+  },
+  {
+    "id": 97,
+    "text": "Which sentence correctly uses 'in contrast' with 'to'?",
+    "options": [
+      "In contrast to his brother, he is tall.",
+      "In contrast with his brother, he is tall.",
+      "In contrast of his brother, he is tall.",
+      "In contrast for his brother, he is tall."
+    ],
+    "correct": 0,
+    "hint": "C1: 'In contrast to + noun' – standard."
+  },
+  {
+    "id": 98,
+    "text": "Which sentence correctly uses 'by contrast' without 'to'?",
+    "options": [
+      "He is tall. By contrast, his brother is short.",
+      "He is tall. By contrast his brother is short.",
+      "He is tall by contrast, his brother is short.",
+      "He is tall by contrast his brother is short."
+    ],
+    "correct": 0,
+    "hint": "C1: 'By contrast' – no 'to'."
+  },
+  {
+    "id": 99,
+    "text": "Which sentence correctly uses 'conversely' for opposite relationship?",
+    "options": [
+      "Increasing price reduces demand. Conversely, lowering price increases demand.",
+      "Increasing price reduces demand. Conversely lowering price increases demand.",
+      "Increasing price reduces demand conversely, lowering price increases demand.",
+      "Increasing price reduces demand conversely lowering price increases demand."
+    ],
+    "correct": 0,
+    "hint": "C1: 'Conversely' – opposite logical relationship."
+  },
+  {
+    "id": 100,
+    "text": "Which sentence correctly uses 'as opposed to' for clear distinction?",
+    "options": [
+      "He prefers coffee as opposed to tea.",
+      "He prefers coffee as opposed to tea?",
+      "He prefers coffee as opposed to tea!",
+      "He prefers coffee as opposed to tea;"
+    ],
+    "correct": 0,
+    "hint": "C1: 'As opposed to' – explicit contrast."
+  }
+],
   "kasbiy_standart": [],
   "ped_mahorat": []
 }
