@@ -21,14 +21,7 @@ from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.types import (
-    CallbackQuery,
-    InlineKeyboardButton,
-    InlineKeyboardMarkup,
-    KeyboardButton,
-    Message,
-    ReplyKeyboardMarkup,
-)
+from aiogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 if not BOT_TOKEN:
@@ -232,13 +225,28 @@ def get_display_name_from_saved(data: dict) -> str:
     return "Foydalanuvchi"
 
 
-def get_persistent_reply_keyboard() -> ReplyKeyboardMarkup:
-    return ReplyKeyboardMarkup(
-        keyboard=[[KeyboardButton(text="/start")]],
-        resize_keyboard=True,
-        is_persistent=True,
-        input_field_placeholder="Buyruq tanlang..."
+def upsert_user_profile(user) -> None:
+    if not user:
+        return
+
+    users = load_users()
+    user_id = str(user.id)
+
+    users.setdefault(
+        user_id,
+        {
+            "username": "",
+            "full_name": "",
+            "first_name": "",
+            "tests": [],
+        }
     )
+
+    users[user_id]["username"] = getattr(user, "username", None) or users[user_id].get("username", "")
+    users[user_id]["full_name"] = getattr(user, "full_name", None) or users[user_id].get("full_name", "")
+    users[user_id]["first_name"] = getattr(user, "first_name", None) or users[user_id].get("first_name", "")
+
+    save_users(users)
 
 
 def get_main_menu_keyboard() -> InlineKeyboardMarkup:
@@ -247,6 +255,14 @@ def get_main_menu_keyboard() -> InlineKeyboardMarkup:
             [InlineKeyboardButton(text="📝 Testni boshlash", callback_data="start_test")],
             [InlineKeyboardButton(text="📊 Natijalarim", callback_data="my_results")],
             [InlineKeyboardButton(text="🏆 Reyting", callback_data="rating")],
+        ]
+    )
+
+
+def get_home_inline_keyboard() -> InlineKeyboardMarkup:
+    return InlineKeyboardMarkup(
+        inline_keyboard=[
+            [InlineKeyboardButton(text="🏠 Bosh sahifa", callback_data="main_menu")]
         ]
     )
 
@@ -342,12 +358,50 @@ def get_question_keyboard(
     return InlineKeyboardMarkup(inline_keyboard=inline_keyboard)
 
 
-def get_results_keyboard() -> InlineKeyboardMarkup:
-    return InlineKeyboardMarkup(
-        inline_keyboard=[
-            [InlineKeyboardButton(text="🏠 Bosh menyu", callback_data="main_menu")]
-        ]
-    )
+def get_result_grid_keyboard(test: dict) -> InlineKeyboardMarkup:
+    answers = test.get("answers", [])
+    total = len(answers)
+
+    rows: list[list[InlineKeyboardButton]] = []
+    current_row: list[InlineKeyboardButton] = []
+
+    for i, ans in enumerate(answers):
+        is_correct = bool(ans.get("correct"))
+        prefix = "🟩" if is_correct else "🟥"
+
+        current_row.append(
+            InlineKeyboardButton(
+                text=f"{prefix}{i + 1}",
+                callback_data=f"result_q_{i}"
+            )
+        )
+
+        if len(current_row) == 5:
+            rows.append(current_row)
+            current_row = []
+
+    if current_row:
+        rows.append(current_row)
+
+    rows.append([InlineKeyboardButton(text="🏠 Bosh sahifa", callback_data="main_menu")])
+    return InlineKeyboardMarkup(inline_keyboard=rows)
+
+
+def get_result_question_keyboard(total_questions: int, index: int) -> InlineKeyboardMarkup:
+    buttons: list[list[InlineKeyboardButton]] = []
+
+    nav_row = []
+    if index > 0:
+        nav_row.append(InlineKeyboardButton(text="◀️ Oldingi", callback_data=f"result_q_{index - 1}"))
+    nav_row.append(InlineKeyboardButton(text=f"{index + 1}/{total_questions}", callback_data="noop"))
+    if index < total_questions - 1:
+        nav_row.append(InlineKeyboardButton(text="Keyingi ▶️", callback_data=f"result_q_{index + 1}"))
+
+    buttons.append(nav_row)
+    buttons.append([InlineKeyboardButton(text="📋 Yakuniy natijaga qaytish", callback_data="result_summary")])
+    buttons.append([InlineKeyboardButton(text="🏠 Bosh sahifa", callback_data="main_menu")])
+
+    return InlineKeyboardMarkup(inline_keyboard=buttons)
 
 
 def build_question_text(
@@ -366,6 +420,96 @@ def build_question_text(
         f"{text}\n\n"
         f"👇 <i>Javob variantini tanlang:</i>"
     )
+
+
+def get_category_text(score_points: int) -> str:
+    if score_points > 86:
+        return 'tabriklaymiz siz <b>"70% ustamani qo‘lga kiritdingiz"</b>'
+    if score_points > 80:
+        return 'tabriklaymiz siz <b>"Oliy toifa"</b> oldingiz!'
+    if 70 <= score_points <= 79:
+        return 'tabriklaymiz siz <b>"I toifa"</b> oldingiz!'
+    if 60 <= score_points <= 69:
+        return 'tabriklaymiz siz <b>"II toifa"</b> oldingiz!'
+    return 'siz hali toifa olmadingiz.'
+
+
+def build_result_summary_text(test: dict, display_name: str) -> str:
+    score_points = int(test.get("score", 0))
+    total = int(test.get("total", TOTAL_SCORE_POINTS))
+    correct_answers = int(test.get("correct_answers", 0))
+    questions_total = int(test.get("questions_total", 50))
+    header = ""
+
+    if test.get("time_over"):
+        header = "⛔ <b>VAQT TUGADI!</b>\n\n"
+    elif test.get("finished_early"):
+        header = "✅ <b>TEST FOYDALANUVCHI TOMONIDAN TUGATILDI!</b>\n\n"
+
+    category_text = get_category_text(score_points)
+
+    return (
+        f"{header}"
+        f"🏁 <b>Test yakunlandi!</b>\n\n"
+        f"👤 <b>Foydalanuvchi:</b> {escape(display_name)}\n"
+        f"📊 <b>To‘plangan ball:</b> {score_points} / {total}\n"
+        f"✅ <b>To‘g‘ri javoblar:</b> {correct_answers} / {questions_total}\n\n"
+        f"🎉 {category_text}\n\n"
+        f"Pastdagi 50 ta tugmadan birini bossangiz, o‘sha savolning tahlili chiqadi."
+    )
+
+
+def build_result_question_text(test: dict, display_name: str, index: int) -> str:
+    answers = test.get("answers", [])
+    total_questions = len(answers)
+
+    if not (0 <= index < total_questions):
+        return "Savol topilmadi."
+
+    ans = answers[index]
+    question = ans.get("question", {})
+    options = question.get("options", [])
+    selected = ans.get("selected")
+    correct_index = None
+
+    correct_answer_text = ans.get("correct_answer_text")
+    for i, option in enumerate(options):
+        if option == correct_answer_text:
+            correct_index = i
+            break
+
+    lines = [
+        f"👤 <b>Foydalanuvchi:</b> {escape(display_name)}",
+        f"📚 <b>Savol {index + 1} / {total_questions}</b>",
+        "",
+        escape(str(question.get("text", ""))),
+        "",
+    ]
+
+    for i, option in enumerate(options):
+        prefix = "▫️"
+        if selected is not None and i == selected:
+            prefix = "👉"
+        if correct_index is not None and i == correct_index:
+            prefix = "✅"
+        if selected is not None and i == selected and correct_index == selected:
+            prefix = "✅"
+
+        lines.append(f"{prefix} <b>{chr(65 + i)})</b> {escape(str(option))}")
+
+    lines.append("")
+
+    if ans.get("unanswered"):
+        lines.append("❌ <b>Sizning javobingiz:</b> Javob berilmagan")
+    elif selected is not None and 0 <= selected < len(options):
+        lines.append(f"📝 <b>Siz tanlagan variant:</b> {escape(str(options[selected]))}")
+    else:
+        lines.append("📝 <b>Siz tanlagan variant:</b> Noma'lum")
+
+    lines.append(f"✅ <b>To‘g‘ri javob:</b> {escape(str(correct_answer_text))}")
+    lines.append(f"💡 <b>HINT:</b> {escape(str(question.get('hint', 'Izoh mavjud emas.')))}")
+
+    return "\n".join(lines)
 
 
 async def is_time_over(state: FSMContext) -> bool:
@@ -523,30 +667,6 @@ async def timer_updater(target_message: Message, state: FSMContext, user_id: str
             TIMER_TASKS.pop(user_id, None)
 
 
-async def send_result_as_new_message(
-    target_message: Message,
-    state: FSMContext,
-    result_text: str,
-) -> None:
-    data = await state.get_data()
-    old_message_id = data.get("message_id")
-
-    if old_message_id:
-        try:
-            await target_message.bot.delete_message(
-                chat_id=target_message.chat.id,
-                message_id=old_message_id,
-            )
-        except Exception:
-            pass
-
-    msg = await target_message.answer(
-        result_text,
-        reply_markup=get_results_keyboard()
-    )
-    await state.update_data(message_id=msg.message_id)
-
-
 async def finish_test(
     target_message: Message,
     state: FSMContext,
@@ -567,18 +687,12 @@ async def finish_test(
 
     user = target_message.from_user
     user_id = str(user.id) if user else str(target_message.chat.id)
-    username = getattr(user, "username", None) if user else None
-    full_name = getattr(user, "full_name", None) if user else None
-    first_name = getattr(user, "first_name", None) if user else None
-    display_name = get_display_name_from_user_obj(user)
 
     await cancel_timer_task(user_id)
+    upsert_user_profile(user)
 
     users = load_users()
-    users.setdefault(user_id, {"username": "", "full_name": "", "first_name": "", "tests": []})
-    users[user_id]["username"] = username or users[user_id].get("username", "")
-    users[user_id]["full_name"] = full_name or users[user_id].get("full_name", "")
-    users[user_id]["first_name"] = first_name or users[user_id].get("first_name", "")
+    display_name = get_display_name_from_saved(users.get(user_id, {}))
 
     serialized_answers = []
     for i, question in enumerate(questions):
@@ -597,6 +711,7 @@ async def finish_test(
                 }
             )
 
+    users.setdefault(user_id, {"username": "", "full_name": "", "first_name": "", "tests": []})
     users[user_id]["tests"].append(
         {
             "date": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
@@ -612,60 +727,11 @@ async def finish_test(
     )
     save_users(users)
 
-    header = ""
-    if time_over:
-        header = "⛔ <b>VAQT TUGADI!</b>\n\n"
-    elif finished_early:
-        header = "✅ <b>TEST FOYDALANUVCHI TOMONIDAN TUGATILDI!</b>\n\n"
+    latest_test = users[user_id]["tests"][-1]
+    result_text = build_result_summary_text(latest_test, display_name)
+    result_keyboard = get_result_grid_keyboard(latest_test)
 
-    result_text = (
-        f"{header}"
-        f"🏁 <b>TEST YAKUNLANDI!</b> 🏁\n\n"
-        f"👤 <b>Foydalanuvchi:</b> {escape(display_name)}\n"
-        f"📊 <b>Sizning ballingiz:</b> {score_points} / 100\n"
-        f"✅ <b>To'g'ri javoblar:</b> {correct_count} / {total_questions}\n"
-        f"📈 <b>Foiz:</b> {score_percent}%\n"
-        f"━━━━━━━━━━━━━━━━━━━━━━\n"
-        f"📋 <b>SAVOL TAHLILI:</b>\n"
-        f"━━━━━━━━━━━━━━━━━━━━━━\n\n"
-    )
-
-    for i, ans in enumerate(serialized_answers, start=1):
-        question = ans.get("question", {})
-        is_correct = ans.get("correct", False)
-        unanswered = ans.get("unanswered", False)
-
-        status = "✅" if is_correct else "❌"
-        question_text_short = escape(short_text(question.get("text", ""), 50))
-        result_text += f"{status} <b>{i}. {question_text_short}</b>\n"
-
-        if unanswered:
-            correct_ans_short = escape(short_text(ans.get("correct_answer_text", ""), 40))
-            hint = escape(question.get("hint", "Izoh mavjud emas."))
-            result_text += "   Siz: Javob berilmagan\n"
-            result_text += f"   ✓ To'g'ri: {correct_ans_short}\n"
-            result_text += f"   💡 <b>Hint:</b> {hint}\n\n"
-        elif not is_correct:
-            user_ans_short = escape(short_text(ans.get("user_answer_text", ""), 40))
-            correct_ans_short = escape(short_text(ans.get("correct_answer_text", ""), 40))
-            hint = escape(question.get("hint", "Izoh mavjud emas."))
-            result_text += f"   Siz: {user_ans_short}\n"
-            result_text += f"   ✓ To'g'ri: {correct_ans_short}\n"
-            result_text += f"   💡 <b>Hint:</b> {hint}\n\n"
-        else:
-            result_text += "   ✓ To'g'ri\n\n"
-
-        if len(result_text) > 3800:
-            result_text += "\n... va boshqa savollar. Batafsil natijalarni /natijalarim orqali ko'ring.\n"
-            break
-
-    result_text += (
-        "\n━━━━━━━━━━━━━━━━━━━━━━\n"
-        "📌 /natijalarim - barcha natijalaringiz\n"
-        "🏆 /reyting - umumiy reyting\n"
-    )
-
-    await send_result_as_new_message(target_message, state, result_text)
+    await safe_edit_message(target_message, state, result_text, reply_markup=result_keyboard)
     await state.clear()
 
 
@@ -674,6 +740,7 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
     await state.clear()
     user_id = str(message.from_user.id)
     await cancel_timer_task(user_id)
+    upsert_user_profile(message.from_user)
 
     welcome_text = (
         "🏁 <b>Assalomu alaykum!</b>\n\n"
@@ -691,14 +758,7 @@ async def cmd_start(message: Message, state: FSMContext) -> None:
         "🎯 Quyidagi tugmalardan birini tanlang:"
     )
 
-    await message.answer(
-        welcome_text,
-        reply_markup=get_main_menu_keyboard()
-    )
-    await message.answer(
-        "Asosiy buyruq pastda doim turadi.",
-        reply_markup=get_persistent_reply_keyboard()
-    )
+    await message.answer(welcome_text, reply_markup=get_main_menu_keyboard())
 
 
 @dp.callback_query(F.data == "main_menu")
@@ -706,22 +766,20 @@ async def back_to_main_menu(callback: CallbackQuery, state: FSMContext) -> None:
     await state.clear()
     user_id = str(callback.from_user.id)
     await cancel_timer_task(user_id)
+    upsert_user_profile(callback.from_user)
 
-    text = "🏠 <b>Asosiy menyu</b>\n\nKerakli bo'limni tanlang:"
+    text = "🏠 <b>Bosh sahifa</b>\n\nKerakli bo'limni tanlang:"
     try:
         await callback.message.edit_text(text, reply_markup=get_main_menu_keyboard())
     except Exception:
         await callback.message.answer(text, reply_markup=get_main_menu_keyboard())
 
-    await callback.message.answer(
-        "Asosiy buyruq pastda doim turadi.",
-        reply_markup=get_persistent_reply_keyboard()
-    )
     await callback.answer()
 
 
 @dp.callback_query(F.data == "start_test")
 async def start_test(callback: CallbackQuery, state: FSMContext) -> None:
+    upsert_user_profile(callback.from_user)
     questions = get_all_questions()
 
     if len(questions) < 50:
@@ -910,15 +968,69 @@ async def finish_test_early(callback: CallbackQuery, state: FSMContext) -> None:
     await callback.answer("Test yakunlandi.")
 
 
+@dp.callback_query(F.data == "result_summary")
+async def result_summary(callback: CallbackQuery) -> None:
+    upsert_user_profile(callback.from_user)
+    users = load_users()
+    user_id = str(callback.from_user.id)
+
+    if user_id not in users or not users[user_id].get("tests"):
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    latest_test = users[user_id]["tests"][-1]
+    display_name = get_display_name_from_saved(users[user_id])
+    text = build_result_summary_text(latest_test, display_name)
+    keyboard = get_result_grid_keyboard(latest_test)
+
+    try:
+        await callback.message.edit_text(text, reply_markup=keyboard)
+    except Exception:
+        pass
+
+    await callback.answer()
+
+
+@dp.callback_query(F.data.startswith("result_q_"))
+async def result_question(callback: CallbackQuery) -> None:
+    upsert_user_profile(callback.from_user)
+    users = load_users()
+    user_id = str(callback.from_user.id)
+
+    if user_id not in users or not users[user_id].get("tests"):
+        await callback.answer("Natija topilmadi.", show_alert=True)
+        return
+
+    try:
+        index = int(callback.data.split("_")[2])
+    except Exception:
+        await callback.answer()
+        return
+
+    latest_test = users[user_id]["tests"][-1]
+    display_name = get_display_name_from_saved(users[user_id])
+
+    text = build_result_question_text(latest_test, display_name, index)
+    keyboard = get_result_question_keyboard(len(latest_test.get("answers", [])), index)
+
+    try:
+        await callback.message.edit_text(text, reply_markup=keyboard)
+    except Exception:
+        pass
+
+    await callback.answer()
+
+
 @dp.message(Command("natijalarim"))
 async def my_results(message: Message) -> None:
+    upsert_user_profile(message.from_user)
     users = load_users()
     user_id = str(message.from_user.id)
 
     if user_id not in users or not users[user_id].get("tests"):
         await message.answer(
             "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
-            reply_markup=get_persistent_reply_keyboard()
+            reply_markup=get_home_inline_keyboard()
         )
         return
 
@@ -933,36 +1045,30 @@ async def my_results(message: Message) -> None:
         total = int(test.get("total", TOTAL_SCORE_POINTS))
         correct_answers = int(test.get("correct_answers", 0))
         questions_total = int(test.get("questions_total", 50))
-        percent = int(test.get("percent", 0))
         date_text = escape(str(test.get("date", "-")))
 
-        status_note = ""
-        if test.get("time_over"):
-            status_note = " | vaqt tugagan"
-        elif test.get("finished_early"):
-            status_note = " | ertaroq tugatilgan"
-
         text += (
-            f"{i}. {date_text}{status_note}\n"
+            f"{i}. {date_text}\n"
             f"   Ball: {score} / {total}\n"
-            f"   To'g'ri javob: {correct_answers} / {questions_total} ({percent}%)\n\n"
+            f"   To‘g‘ri javoblar: {correct_answers} / {questions_total}\n\n"
         )
 
         if len(text) > 3500:
-            text += "...\nYana eski natijalar ham saqlangan.\n"
+            text += "...\n"
             break
 
-    await message.answer(text, reply_markup=get_persistent_reply_keyboard())
+    await message.answer(text, reply_markup=get_home_inline_keyboard())
 
 
 @dp.message(Command("reyting"))
 async def rating(message: Message) -> None:
+    upsert_user_profile(message.from_user)
     users = load_users()
 
     if not users:
         await message.answer(
             "📭 Hali hech kim test topshirmagan.",
-            reply_markup=get_persistent_reply_keyboard()
+            reply_markup=get_home_inline_keyboard()
         )
         return
 
@@ -977,7 +1083,6 @@ async def rating(message: Message) -> None:
             key=lambda t: (
                 int(t.get("score", 0)),
                 int(t.get("correct_answers", 0)),
-                int(t.get("percent", 0)),
             )
         )
 
@@ -985,45 +1090,41 @@ async def rating(message: Message) -> None:
         total = int(best_test.get("total", TOTAL_SCORE_POINTS))
         correct_answers = int(best_test.get("correct_answers", 0))
         questions_total = int(best_test.get("questions_total", 50))
-        percent = int(best_test.get("percent", 0))
         name = get_display_name_from_saved(data)
 
-        rating_list.append((name, score, total, correct_answers, questions_total, percent))
+        rating_list.append((name, score, total, correct_answers, questions_total))
 
-    if not rating_list:
-        await message.answer(
-            "📭 Reyting uchun ma'lumot yo'q.",
-            reply_markup=get_persistent_reply_keyboard()
-        )
-        return
-
-    rating_list.sort(key=lambda x: (x[1], x[3], x[5]), reverse=True)
+    rating_list.sort(key=lambda x: (x[1], x[3]), reverse=True)
 
     text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
-    for i, (name, score, total, correct_answers, questions_total, percent) in enumerate(rating_list, start=1):
+    for i, (name, score, total, correct_answers, questions_total) in enumerate(rating_list, start=1):
         text += (
             f"{i}. {escape(name)}: {score}/{total} | "
-            f"{correct_answers}/{questions_total} ({percent}%)\n"
+            f"{correct_answers}/{questions_total}\n"
         )
 
         if len(text) > 3500:
-            text += "...\nQolgan foydalanuvchilar ham bazada saqlangan.\n"
+            text += "...\n"
             break
 
-    await message.answer(text, reply_markup=get_persistent_reply_keyboard())
+    await message.answer(text, reply_markup=get_home_inline_keyboard())
 
 
 @dp.callback_query(F.data == "my_results")
 async def callback_my_results(callback: CallbackQuery) -> None:
+    upsert_user_profile(callback.from_user)
     users = load_users()
     user_id = str(callback.from_user.id)
 
     if user_id not in users or not users[user_id].get("tests"):
-        await callback.message.answer(
-            "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
-            reply_markup=get_persistent_reply_keyboard()
-        )
+        try:
+            await callback.message.edit_text(
+                "📭 Siz hali test topshirmagansiz. /start orqali testni boshlang.",
+                reply_markup=get_home_inline_keyboard()
+            )
+        except Exception:
+            pass
         await callback.answer()
         return
 
@@ -1038,38 +1139,39 @@ async def callback_my_results(callback: CallbackQuery) -> None:
         total = int(test.get("total", TOTAL_SCORE_POINTS))
         correct_answers = int(test.get("correct_answers", 0))
         questions_total = int(test.get("questions_total", 50))
-        percent = int(test.get("percent", 0))
         date_text = escape(str(test.get("date", "-")))
 
-        status_note = ""
-        if test.get("time_over"):
-            status_note = " | vaqt tugagan"
-        elif test.get("finished_early"):
-            status_note = " | ertaroq tugatilgan"
-
         text += (
-            f"{i}. {date_text}{status_note}\n"
+            f"{i}. {date_text}\n"
             f"   Ball: {score} / {total}\n"
-            f"   To'g'ri javob: {correct_answers} / {questions_total} ({percent}%)\n\n"
+            f"   To‘g‘ri javoblar: {correct_answers} / {questions_total}\n\n"
         )
 
         if len(text) > 3500:
-            text += "...\nYana eski natijalar ham saqlangan.\n"
+            text += "...\n"
             break
 
-    await callback.message.answer(text, reply_markup=get_persistent_reply_keyboard())
+    try:
+        await callback.message.edit_text(text, reply_markup=get_home_inline_keyboard())
+    except Exception:
+        pass
+
     await callback.answer()
 
 
 @dp.callback_query(F.data == "rating")
 async def callback_rating(callback: CallbackQuery) -> None:
+    upsert_user_profile(callback.from_user)
     users = load_users()
 
     if not users:
-        await callback.message.answer(
-            "📭 Hali hech kim test topshirmagan.",
-            reply_markup=get_persistent_reply_keyboard()
-        )
+        try:
+            await callback.message.edit_text(
+                "📭 Hali hech kim test topshirmagan.",
+                reply_markup=get_home_inline_keyboard()
+            )
+        except Exception:
+            pass
         await callback.answer()
         return
 
@@ -1084,7 +1186,6 @@ async def callback_rating(callback: CallbackQuery) -> None:
             key=lambda t: (
                 int(t.get("score", 0)),
                 int(t.get("correct_answers", 0)),
-                int(t.get("percent", 0)),
             )
         )
 
@@ -1092,26 +1193,29 @@ async def callback_rating(callback: CallbackQuery) -> None:
         total = int(best_test.get("total", TOTAL_SCORE_POINTS))
         correct_answers = int(best_test.get("correct_answers", 0))
         questions_total = int(best_test.get("questions_total", 50))
-        percent = int(best_test.get("percent", 0))
         name = get_display_name_from_saved(data)
 
-        rating_list.append((name, score, total, correct_answers, questions_total, percent))
+        rating_list.append((name, score, total, correct_answers, questions_total))
 
-    rating_list.sort(key=lambda x: (x[1], x[3], x[5]), reverse=True)
+    rating_list.sort(key=lambda x: (x[1], x[3]), reverse=True)
 
     text = "🏆 <b>REYTING</b> (har bir foydalanuvchining tarixdagi eng yaxshi natijasi)\n━━━━━━━━━━━━━━━━━━━━━━\n\n"
 
-    for i, (name, score, total, correct_answers, questions_total, percent) in enumerate(rating_list, start=1):
+    for i, (name, score, total, correct_answers, questions_total) in enumerate(rating_list, start=1):
         text += (
             f"{i}. {escape(name)}: {score}/{total} | "
-            f"{correct_answers}/{questions_total} ({percent}%)\n"
+            f"{correct_answers}/{questions_total}\n"
         )
 
         if len(text) > 3500:
-            text += "...\nQolgan foydalanuvchilar ham bazada saqlangan.\n"
+            text += "...\n"
             break
 
-    await callback.message.answer(text, reply_markup=get_persistent_reply_keyboard())
+    try:
+        await callback.message.edit_text(text, reply_markup=get_home_inline_keyboard())
+    except Exception:
+        pass
+
     await callback.answer()
 
 
